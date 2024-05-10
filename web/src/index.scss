@@ -1,14 +1,24 @@
+@font-face {
+	font-family: "RDRLino";
+	src: local('RDRLino'), url(./customAssets/fonts/RDRLino-Regular.ttf) format('truetype')
+}
+
+@font-face {
+	font-family: "Hapna Slab Serif DemiBold";
+	src: local('HapnaSlabSerif-DemiBold'), url(./customAssets/fonts/HapnaSlabSerif-DemiBold.ttf) format('truetype')
+}
+
 $mainColor: #22232c;
 $textColor: #c1c2c5;
-$mainFont: Roboto;
+$mainFont: Hapna Slab Serif DemiBold;
 
-$secondaryColor: rgba(12, 12, 12, 0.4);
+$secondaryColor: rgba(27, 27, 27, 0.639);
 $secondaryColorHighlight: #33343F;
 $secondaryColorLight: rgba(0, 0, 0, 0.5);
 $secondaryColorDark: rgba(12, 12, 12, 0.8);
 
 $gridCols: 5;
-$gridRows: 5;
+$gridRows: 6;
 $gridSize: 10.2vh;
 $gridGap: 2px;
 $containerSize: calc(#{$gridRows} * #{$gridSize + 0.22vh} + #{$gridRows} * #{$gridGap});
@@ -261,6 +271,9 @@ button:active {
   display: flex;
   flex-direction: column;
   gap: calc($gridGap * 2);
+  padding: 4vh;
+  background-image: url('BG_INV.png');;
+  background-repeat: round;
 }
 .inventory-grid-header-wrapper {
   display: flex;
