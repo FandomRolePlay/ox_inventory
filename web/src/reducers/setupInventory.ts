@@ -3,6 +3,8 @@ import { getItemData, itemDurability } from '../helpers';
 import { Items } from '../store/items';
 import { Inventory, State } from '../typings';
 import { bodyData } from '../typings/body';
+import { getBodyData } from '../helpers';
+import { body } from '../store/body';
 
 export const setupInventoryReducer: CaseReducer<
   State,
@@ -55,8 +57,17 @@ export const setupInventoryReducer: CaseReducer<
 
   if (playerBody) 
     state.playerBody = {
-      ...playerBody
-    }
+      ...playerBody,
+      bodyPart: Object.entries(playerBody.bodyPart).map(([bodyName, value]) => {
+        if (typeof body[bodyName]?.health === 'undefined') {
+          getBodyData(bodyName);
+        }
+
+        console.log(value)
+
+        return value;
+      }),
+    };
 
   state.shiftPressed = false;
   state.isBusy = false;

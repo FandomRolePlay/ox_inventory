@@ -25,8 +25,7 @@ const initialState: State = {
     items: [],
   },
   playerBody: {
-    bodyPart: '',
-    bodyHealthState: ''
+    bodyPart: []
   },
   additionalMetadata: new Array(),
   itemAmount: 0,
