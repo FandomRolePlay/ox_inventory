@@ -1,11 +1,9 @@
-import { bodyData } from './body';
 import { Inventory } from './inventory';
 import { Slot } from './slot';
 
 export type State = {
   leftInventory: Inventory;
   rightInventory: Inventory;
-  playerBody: bodyData;
   itemAmount: number;
   shiftPressed: boolean;
   isBusy: boolean;

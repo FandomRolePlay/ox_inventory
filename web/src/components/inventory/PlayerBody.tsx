@@ -1,9 +1,8 @@
 import { useAppSelector } from "../../store";
-import { selectPlayerBody } from "../../store/inventory";
 import HumanBody from "./HumanBody";
 
 const PlayerBody: React.FC = () => {
-    const playerBody = useAppSelector(selectPlayerBody);
+    const playerBody = useAppSelector(state => state.bodyPart);
 
     return <HumanBody playerBody = {playerBody}/>
 }

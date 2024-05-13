@@ -2,19 +2,15 @@ import { CaseReducer, PayloadAction } from '@reduxjs/toolkit';
 import { getItemData, itemDurability } from '../helpers';
 import { Items } from '../store/items';
 import { Inventory, State } from '../typings';
-import { bodyData } from '../typings/body';
-import { getBodyData } from '../helpers';
-import { body } from '../store/body';
 
 export const setupInventoryReducer: CaseReducer<
   State,
   PayloadAction<{
     leftInventory?: Inventory;
     rightInventory?: Inventory;
-    playerBody?: bodyData;
   }>
 > = (state, action) => {
-  const { leftInventory, rightInventory, playerBody } = action.payload;
+  const { leftInventory, rightInventory } = action.payload;
   const curTime = Math.floor(Date.now() / 1000);
 
   if (leftInventory)
@@ -52,20 +48,6 @@ export const setupInventoryReducer: CaseReducer<
 
         item.durability = itemDurability(item.metadata, curTime);
         return item;
-      }),
-    };
-
-  if (playerBody) 
-    state.playerBody = {
-      ...playerBody,
-      bodyPart: Object.entries(playerBody.bodyPart).map(([bodyName, value]) => {
-        if (typeof body[bodyName]?.health === 'undefined') {
-          getBodyData(bodyName);
-        }
-
-        console.log(value)
-
-        return value;
       }),
     };
 

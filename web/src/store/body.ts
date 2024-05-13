@@ -1,7 +1,8 @@
+import { bodyData } from "../typings/body";
 import { bodyPart } from "../typings/bodyPart";
 
 export const body: {
-  [key: string]: bodyPart | undefined;
+  [key: string]: bodyPart;
 } = {
   head: {
     damageType: 'damaged',
@@ -11,61 +12,61 @@ export const body: {
   },
   leftShoulder: {
     damageType: 'damaged',
-    health: 100,
+    health: 90,
     isBroken: false,
     isBleeding: false,
   },
   rightShoulder: {
     damageType: 'damaged',
-    health: 100,
+    health: 80,
     isBroken: false,
     isBleeding: false,
   },
   leftArm: {
     damageType: 'damaged',
-    health: 100,
+    health: 70,
     isBroken: false,
     isBleeding: false,
   },
   rightArm: {
     damageType: 'damaged',
-    health: 100,
+    health: 60,
     isBroken: false,
     isBleeding: false,
   },
   chest: {
     damageType: 'damaged',
-    health: 100,
+    health: 50,
     isBroken: false,
     isBleeding: false,
   },
   stomach: {
     damageType: 'damaged',
-    health: 100,
+    health: 40,
     isBroken: false,
     isBleeding: false,
   },
   leftLeg: {
     damageType: 'damaged',
-    health: 100,
+    health: 30,
     isBroken: false,
     isBleeding: false,
   },
   rightLeg: {
     damageType: 'damaged',
-    health: 100,
+    health: 20,
     isBroken: false,
     isBleeding: false,
   },
   leftHand: {
     damageType: 'damaged',
-    health: 100,
+    health: 10,
     isBroken: false,
     isBleeding: false,
   },
   rightHand: {
     damageType: 'damaged',
-    health: 100,
+    health: 0,
     isBroken: false,
     isBleeding: false,
   },
@@ -77,8 +78,28 @@ export const body: {
   },
   rightFoot: {
     damageType: 'damaged',
-    health: 100,
+    health: 90,
     isBroken: false,
     isBleeding: false,
  }
 }
+
+import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+
+const initialState: bodyData = {
+  bodyPart: body, // Change 'body' to '[body]'
+};
+
+const damageSlice = createSlice({
+  name: 'bodyPart',
+  initialState,
+  reducers: {
+    setDamages(state, action: PayloadAction<{ [key: string]: bodyPart; }>) { // Change 'bodyPart[]' to '{ [key: string]: bodyPart | undefined; }'
+      state.bodyPart = action.payload;
+    },
+  },
+});
+
+export const { setDamages } = damageSlice.actions;
+
+export default damageSlice.reducer;

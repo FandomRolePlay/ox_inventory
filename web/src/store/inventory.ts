@@ -24,9 +24,6 @@ const initialState: State = {
     maxWeight: 0,
     items: [],
   },
-  playerBody: {
-    bodyPart: []
-  },
   additionalMetadata: new Array(),
   itemAmount: 0,
   shiftPressed: false,
@@ -101,7 +98,6 @@ export const {
 } = inventorySlice.actions;
 export const selectLeftInventory = (state: RootState) => state.inventory.leftInventory;
 export const selectRightInventory = (state: RootState) => state.inventory.rightInventory;
-export const selectPlayerBody = (state: RootState) => state.inventory.playerBody;
 export const selectItemAmount = (state: RootState) => state.inventory.itemAmount;
 export const selectIsBusy = (state: RootState) => state.inventory.isBusy;
 
