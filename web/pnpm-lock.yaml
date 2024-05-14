@@ -35,6 +35,9 @@ dependencies:
   react-dnd:
     specifier: ^16.0.1
     version: 16.0.1(@types/node@18.19.33)(@types/react@18.3.1)(react@18.3.1)
+  react-dnd-mouse-backend:
+    specifier: 1.0.0-rc.2
+    version: 1.0.0-rc.2
   react-dnd-touch-backend:
     specifier: ^16.0.1
     version: 16.0.1
@@ -1292,6 +1295,10 @@ packages:
 
   /property-information@6.5.0:
     resolution: {integrity: sha512-PgTgs/BlvHxOu8QuEN7wi5A0OmXaBcHpmCSTehcs6Uuu9IkDIEo13Hy7n898RHfrQ49vKCoGeWZSaAK01nwVig==}
+    dev: false
+
+  /react-dnd-mouse-backend@1.0.0-rc.2:
+    resolution: {integrity: sha512-mmbyXvg6YGKxdi7gx+ICFD0pFEMMiG1x7FBSu8ZYXBCqxVPkm8pkhrHfzd8AY89YmcWoUeqL3/DSU0u9lkwbsQ==}
     dev: false
 
   /react-dnd-touch-backend@16.0.1:

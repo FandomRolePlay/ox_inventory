@@ -100,6 +100,10 @@ const bodyPartDimensions = {
 
 }
 
+import { useDrop } from 'react-dnd';
+import { useMergeRefs } from '@floating-ui/react';
+import MouseBackend from 'react-dnd-mouse-backend'
+
 const HumanBody: React.FC<{playerBody : bodyData}> = ({ playerBody }) => {
     const [tooltipContent, setTooltipContent] = useState<bodyPart | null>(null);
     const [cursorPosition, setCursorPosition] = useState<{ x: number, y: number } | null>(null);
@@ -119,8 +123,26 @@ const HumanBody: React.FC<{playerBody : bodyData}> = ({ playerBody }) => {
         clientPoint
     ]);
 
+    const [{ isOver }, drop] = useDrop(() => ({
+        accept: 'SLOT', // This should match the type you set when calling useDrag in InventorySlot.tsx
+        drop: (item, monitor) => {
+          // Call your function here with the item
+          console.log(item)
+          console.log(drop);
+          console.log(refs)
+        },
+        collect: (monitor) => ({
+          isOver: !!monitor.isOver(),
+        }),
+    }));
+
+    const connectRef = (element: HTMLDivElement) => drop(element);
+
+    const refsy = useMergeRefs([connectRef, refs.reference]);
+
     return (
         <div className="human-body">
+            <h1>{playerBody.name}</h1>
             {Object.entries(playerBody.bodyPart).map(([bodyName, value]) => {
                 
                 let newClass: string = 'clear';
@@ -133,7 +155,7 @@ const HumanBody: React.FC<{playerBody : bodyData}> = ({ playerBody }) => {
 
                 return (
                     <svg
-                        ref={refs.setReference}
+                        ref={drop}
                         {...getReferenceProps()}
                         key={bodyName}
                         id={bodyPartDimensions[bodyName as keyof typeof bodyPartDimensions].class}
@@ -166,14 +188,16 @@ const HumanBody: React.FC<{playerBody : bodyData}> = ({ playerBody }) => {
                         {...getFloatingProps()}
                         >
                         <table className='border'>
-                            <tr>
-                                <td>Body Part:</td>
-                                <td>{tooltipContent.damageType}</td>
-                            </tr>
-                            <tr>
-                                <td>Health:</td>
-                                <td>{tooltipContent.health}</td>
-                            </tr>
+                            <tbody>
+                                <tr>
+                                    <td>Typ obrażenia:</td>
+                                    <td>{tooltipContent.damageType}</td>
+                                </tr>
+                                <tr>
+                                    <td>Zdrowie:</td>
+                                    <td>{tooltipContent.health}</td>
+                                </tr>
+                            </tbody>
                         </table>
                     </div>
                 </FloatingPortal>    

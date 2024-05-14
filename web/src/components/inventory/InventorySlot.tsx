@@ -64,6 +64,7 @@ const InventorySlot: React.ForwardRefRenderFunction<HTMLDivElement, SlotProps> =
         isOver: monitor.isOver(),
       }),
       drop: (source) => {
+        console.log('dropped', source, { inventory: inventoryType, item: { slot: item.slot } })
         dispatch(closeTooltip());
         switch (source.inventory) {
           case InventoryType.SHOP:
@@ -77,10 +78,12 @@ const InventorySlot: React.ForwardRefRenderFunction<HTMLDivElement, SlotProps> =
             break;
         }
       },
-      canDrop: (source) =>
-        (source.item.slot !== item.slot || source.inventory !== inventoryType) &&
-        inventoryType !== InventoryType.SHOP &&
-        inventoryType !== InventoryType.CRAFTING,
+      canDrop: (source) => {
+        console.log('canDrop', source, { inventory: inventoryType, item: { slot: item.slot } });
+        return (source.item.slot !== item.slot || source.inventory !== inventoryType) &&
+          inventoryType !== InventoryType.SHOP &&
+          inventoryType !== InventoryType.CRAFTING;
+      },
     }),
     [inventoryType, item]
   );

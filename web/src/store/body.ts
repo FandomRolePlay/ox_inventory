@@ -87,7 +87,8 @@ export const body: {
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 const initialState: bodyData = {
-  bodyPart: body, // Change 'body' to '[body]'
+  name: 'Player',
+  bodyPart: body,
 };
 
 const damageSlice = createSlice({
