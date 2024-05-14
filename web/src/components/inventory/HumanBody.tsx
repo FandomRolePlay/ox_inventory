@@ -1,5 +1,9 @@
 import React from 'react';
 import { bodyData } from '../../typings/body';
+import { bodyPart } from '../../typings/bodyPart';
+import { useFloating, FloatingPortal, offset, useInteractions, useClientPoint } from '@floating-ui/react';
+import { useState } from 'react';
+
 
 const bodyPartDimensions = {
     'head': {
@@ -97,6 +101,23 @@ const bodyPartDimensions = {
 }
 
 const HumanBody: React.FC<{playerBody : bodyData}> = ({ playerBody }) => {
+    const [tooltipContent, setTooltipContent] = useState<bodyPart | null>(null);
+    const [cursorPosition, setCursorPosition] = useState<{ x: number, y: number } | null>(null);
+
+    const { refs, context, floatingStyles } = useFloating({
+        open: tooltipContent !== null,
+        placement: 'top-start',
+        middleware: [offset({ mainAxis: 1, crossAxis: 1 })],
+    });
+
+    const clientPoint = useClientPoint(context, {
+        x: cursorPosition?.x,
+        y: cursorPosition?.y,
+    });
+
+    const {getReferenceProps, getFloatingProps} = useInteractions([
+        clientPoint
+    ]);
 
     return (
         <div className="human-body">
@@ -112,6 +133,8 @@ const HumanBody: React.FC<{playerBody : bodyData}> = ({ playerBody }) => {
 
                 return (
                     <svg
+                        ref={refs.setReference}
+                        {...getReferenceProps()}
                         key={bodyName}
                         id={bodyPartDimensions[bodyName as keyof typeof bodyPartDimensions].class}
                         className={newClass}
@@ -119,11 +142,42 @@ const HumanBody: React.FC<{playerBody : bodyData}> = ({ playerBody }) => {
                         width={bodyPartDimensions[bodyName as keyof typeof bodyPartDimensions].width}
                         height={bodyPartDimensions[bodyName as keyof typeof bodyPartDimensions].height}
                         viewBox={bodyPartDimensions[bodyName as keyof typeof bodyPartDimensions].viewBox}
+                        onMouseMove={(e) => setCursorPosition({ x: e.clientX, y: e.clientY })}
+                        onMouseEnter={() => {
+                            setTooltipContent(value)
+                        }}
+                        onMouseLeave={() => {
+                            setTooltipContent(null);
+                            setCursorPosition(null);
+                        }}
+
                     >
                         <path d={bodyPartDimensions[bodyName as keyof typeof bodyPartDimensions].path} />
                     </svg>
                 );
             })}
+
+            {tooltipContent && (
+                <FloatingPortal>
+                    <div 
+                        ref={refs.setFloating}
+                        style={floatingStyles}
+                        className="tooltipBody"
+                        {...getFloatingProps()}
+                        >
+                        <table className='border'>
+                            <tr>
+                                <td>Body Part:</td>
+                                <td>{tooltipContent.damageType}</td>
+                            </tr>
+                            <tr>
+                                <td>Health:</td>
+                                <td>{tooltipContent.health}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </FloatingPortal>    
+            )}
         </div>
     );
 };

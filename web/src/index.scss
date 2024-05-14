@@ -600,7 +600,6 @@ button:active {
 .human-body svg#right-arm {
   margin-left: 38px;
   top: 112px;
-  z-index: 10001;
 }
 
 .human-body svg#chest {
@@ -616,13 +615,11 @@ button:active {
 .human-body svg#left-leg {
   margin-left: -46.5px;
   top: 205px;
-  z-index: 9999;
 }
 
 .human-body svg#right-leg {
   margin-left: 1.5px;
   top: 205px;
-  z-index: 9999;
 }
 
 .human-body svg#left-hand {
@@ -633,7 +630,6 @@ button:active {
 .human-body svg#right-hand {
   margin-left: 66.5px;
   top: 224px;
-  z-index: 10000;
 }
 
 .human-body svg#left-foot {
@@ -671,4 +667,20 @@ button:active {
 
 #area #data {
   color: black;
+}
+
+.tooltipBody {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 200px;
+  z-index: 2;
+}
+
+.tooltipBody .border td {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  border: red 1px solid;
 }
