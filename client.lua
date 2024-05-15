@@ -112,6 +112,7 @@ end
 local CraftingBenches = require 'modules.crafting.client'
 local Vehicles = lib.load('data.vehicles')
 local Inventory = require 'modules.inventory.client'
+local bodyDamage = require 'modules.damages.client'
 
 ---@param inv string?
 ---@param data any?
@@ -264,6 +265,8 @@ function client.openInventory(inv, data)
 					rightInventory = currentInventory
 				}
 			})
+
+			bodyDamage.SetupBodyDamage()
 
 			if not currentInventory.coords and not inv == 'container' then
 				currentInventory.coords = GetEntityCoords(playerPed)

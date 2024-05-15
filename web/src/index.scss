@@ -684,6 +684,13 @@ button:active {
   z-index: 2;
 }
 
+.tooltipBody h4 {
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
 .tooltipBody .border td {
   padding-right: 0.5rem;
   padding-left: 0.5rem;

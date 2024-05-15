@@ -1,8 +1,7 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { bodyData } from '../../typings/body';
 import { bodyPart } from '../../typings/bodyPart';
 import { useFloating, FloatingPortal, offset, useInteractions, useClientPoint } from '@floating-ui/react';
-import { useState } from 'react';
 
 
 const bodyPartDimensions = {
@@ -101,12 +100,13 @@ const bodyPartDimensions = {
 }
 
 import { useDrop } from 'react-dnd';
-import { useMergeRefs } from '@floating-ui/react';
-import MouseBackend from 'react-dnd-mouse-backend'
+import useNuiEvent from '../../hooks/useNuiEvent';
+import { fetchNui } from '../../utils/fetchNui';
 
 const HumanBody: React.FC<{playerBody : bodyData}> = ({ playerBody }) => {
     const [tooltipContent, setTooltipContent] = useState<bodyPart | null>(null);
     const [cursorPosition, setCursorPosition] = useState<{ x: number, y: number } | null>(null);
+    const [hoveredElement, setHoveredElement] = useState<String | null>(null);
 
     const { refs, context, floatingStyles } = useFloating({
         open: tooltipContent !== null,
@@ -126,58 +126,54 @@ const HumanBody: React.FC<{playerBody : bodyData}> = ({ playerBody }) => {
     const [{ isOver }, drop] = useDrop(() => ({
         accept: 'SLOT', // This should match the type you set when calling useDrag in InventorySlot.tsx
         drop: (item, monitor) => {
-          // Call your function here with the item
-          console.log(item)
-          console.log(drop);
-          console.log(refs)
+            fetchNui('useItemOnBody', item);
         },
         collect: (monitor) => ({
           isOver: !!monitor.isOver(),
         }),
     }));
 
-    const connectRef = (element: HTMLDivElement) => drop(element);
-
-    const refsy = useMergeRefs([connectRef, refs.reference]);
+    
 
     return (
-        <div className="human-body">
-            <h1>{playerBody.name}</h1>
-            {Object.entries(playerBody.bodyPart).map(([bodyName, value]) => {
-                
-                let newClass: string = 'clear';
+        <div className="human-body" ref={drop}>
+            <div ref={refs.setReference} {...getReferenceProps()} hovered-element={hoveredElement}>
+                {Object.entries(playerBody.bodyPart).map(([bodyName, value]) => {
+                    
+                    let newClass: string = 'clear';
 
-                if (value.health < 30 ) {
-                    newClass = 'critical'
-                } else if (value.health < 70) {
-                    newClass = 'damaged'
-                }
+                    if (value.health < 30 ) {
+                        newClass = 'critical'
+                    } else if (value.health < 70) {
+                        newClass = 'damaged'
+                    }
 
-                return (
-                    <svg
-                        ref={drop}
-                        {...getReferenceProps()}
-                        key={bodyName}
-                        id={bodyPartDimensions[bodyName as keyof typeof bodyPartDimensions].class}
-                        className={newClass}
-                        xmlns='http://www.w3.org/2000/svg'
-                        width={bodyPartDimensions[bodyName as keyof typeof bodyPartDimensions].width}
-                        height={bodyPartDimensions[bodyName as keyof typeof bodyPartDimensions].height}
-                        viewBox={bodyPartDimensions[bodyName as keyof typeof bodyPartDimensions].viewBox}
-                        onMouseMove={(e) => setCursorPosition({ x: e.clientX, y: e.clientY })}
-                        onMouseEnter={() => {
-                            setTooltipContent(value)
-                        }}
-                        onMouseLeave={() => {
-                            setTooltipContent(null);
-                            setCursorPosition(null);
-                        }}
+                    return (
+                        <svg
+                            key={bodyName}
+                            id={bodyPartDimensions[bodyName as keyof typeof bodyPartDimensions].class}
+                            className={newClass}
+                            xmlns='http://www.w3.org/2000/svg'
+                            width={bodyPartDimensions[bodyName as keyof typeof bodyPartDimensions].width}
+                            height={bodyPartDimensions[bodyName as keyof typeof bodyPartDimensions].height}
+                            viewBox={bodyPartDimensions[bodyName as keyof typeof bodyPartDimensions].viewBox}
+                            onMouseMove={(e) => setCursorPosition({ x: e.clientX, y: e.clientY })}
+                            onMouseEnter={() => {
+                                setTooltipContent(value)
+                                setHoveredElement(bodyName);
+                            }}
+                            onMouseLeave={() => {
+                                setTooltipContent(null);
+                                setCursorPosition(null);
+                                setHoveredElement(null);
+                            }}
 
-                    >
-                        <path d={bodyPartDimensions[bodyName as keyof typeof bodyPartDimensions].path} />
-                    </svg>
-                );
-            })}
+                        >
+                            <path d={bodyPartDimensions[bodyName as keyof typeof bodyPartDimensions].path} />
+                        </svg>
+                    );
+                })}
+            </div>
 
             {tooltipContent && (
                 <FloatingPortal>
@@ -187,6 +183,7 @@ const HumanBody: React.FC<{playerBody : bodyData}> = ({ playerBody }) => {
                         className="tooltipBody"
                         {...getFloatingProps()}
                         >
+                        <h4>{hoveredElement}</h4>
                         <table className='border'>
                             <tbody>
                                 <tr>
@@ -196,6 +193,14 @@ const HumanBody: React.FC<{playerBody : bodyData}> = ({ playerBody }) => {
                                 <tr>
                                     <td>Zdrowie:</td>
                                     <td>{tooltipContent.health}</td>
+                                </tr>
+                                <tr>
+                                    <td>Złamanie:</td>
+                                    <td>{tooltipContent.isBroken ? 'Tak' : 'Nie'}</td>
+                                </tr>
+                                <tr>
+                                    <td>Krwawienie:</td>
+                                    <td>{tooltipContent.isBleeding ? 'Tak' : 'Nie'}</td>
                                 </tr>
                             </tbody>
                         </table>

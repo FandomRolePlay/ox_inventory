@@ -14,6 +14,7 @@ import InventoryContext from './InventoryContext';
 import { closeContextMenu } from '../../store/contextMenu';
 import Fade from '../utils/transitions/Fade';
 import PlayerBody from './PlayerBody';
+import { setBodyData, setDamages } from '../../store/body';
 
 const Inventory: React.FC = () => {
   const [inventoryVisible, setInventoryVisible] = useState(false);
@@ -40,6 +41,14 @@ const Inventory: React.FC = () => {
   useNuiEvent('displayMetadata', (data: Array<{ metadata: string; value: string }>) => {
     dispatch(setAdditionalMetadata(data));
   });
+
+  useNuiEvent('getBodyData', (data) => {
+    dispatch(setBodyData(data));
+  })
+
+  useNuiEvent('setDamage', (data) => {
+    dispatch(setDamages(data));
+  })
 
   return (
     <>
