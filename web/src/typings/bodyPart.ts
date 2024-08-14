@@ -1,6 +1,9 @@
+type damages = {
+    count: number
+    severity: String
+    damageType: String
+}
+
 export type bodyPart = {
-    damageType: string;
-    health: number;
-    isBroken: boolean;
-    isBleeding: boolean;
+    damages: damages[]
 }

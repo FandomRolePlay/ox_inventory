@@ -54,9 +54,9 @@ local function canOpenInventory()
         return shared.info('cannot open inventory', '(is busy)')
     end
 
-    if PlayerData.dead or IsPedFatallyInjured(playerPed) then
+    --[[if PlayerData.dead or IsPedFatallyInjured(playerPed) then
         return shared.info('cannot open inventory', '(fatal injury)')
-    end
+    end]]--
 
     if PlayerData.cuffed or IsPedCuffed(playerPed) then
         return shared.info('cannot open inventory', '(cuffed)')
@@ -284,7 +284,9 @@ function client.openInventory(inv, data)
         }
     })
 
-	bodyDamage.SetupBodyDamage()
+	local injuriesState = LocalPlayer.state.injuries
+	local id = cache.serverId
+	bodyDamage.SetupBodyDamage(id, injuriesState)
 
     if not currentInventory.coords and not inv == 'container' then
         currentInventory.coords = GetEntityCoords(playerPed)

@@ -1,4 +1,3 @@
-import useNuiEvent from "../hooks/useNuiEvent";
 import { bodyData } from "../typings/body";
 import { bodyPart } from "../typings/bodyPart";
 
@@ -6,82 +5,126 @@ export const body: {
   [key: string]: bodyPart;
 } = {
   head: {
-    damageType: 'damaged',
-    health: 0,
-    isBroken: false,
-    isBleeding: false,
+    damages: [
+      {
+        count: 0,
+        severity: "low",
+        damageType: "shot"
+      }
+    ],
   },
-  leftShoulder: {
-    damageType: 'damaged',
-    health: 0,
-    isBroken: true,
-    isBleeding: true,
+  lshld: {
+    damages: [
+      {
+        count: 0,
+        severity: "low",
+        damageType: "shot"
+      }
+    ],
   },
-  rightShoulder: {
-    damageType: 'damaged',
-    health: 0,
-    isBroken: true,
-    isBleeding: true,
+  rshld: {
+    damages: [
+      {
+        count: 0,
+        severity: "low",
+        damageType: "shot"
+      }
+    ],
   },
-  leftArm: {
-    damageType: 'damaged',
-    health: 0,
-    isBroken: true,
-    isBleeding: true,
+  larm: {
+    damages: [
+      {
+        count: 0,
+        severity: "low",
+        damageType: "shot"
+      }
+    ],
   },
-  rightArm: {
-    damageType: 'damaged',
-    health: 0,
-    isBroken: true,
-    isBleeding: true,
+  rarm: {
+    damages: [
+      {
+        count: 0,
+        severity: "low",
+        damageType: "shot"
+      }
+    ],
   },
-  chest: {
-    damageType: 'damaged',
-    health: 0,
-    isBroken: true,
-    isBleeding: true,
+  chst: {
+    damages: [
+      {
+        count: 0,
+        severity: "low",
+        damageType: "shot"
+      }
+    ],
   },
-  stomach: {
-    damageType: 'damaged',
-    health: 0,
-    isBroken: true,
-    isBleeding: true,
+  stmch: {
+    damages: [
+      {
+        count: 0,
+        severity: "low",
+        damageType: "shot"
+      }
+    ],
   },
-  leftLeg: {
-    damageType: 'damaged',
-    health: 0,
-    isBroken: true,
-    isBleeding: true,
+  lleg: {
+    damages: [
+      {
+        count: 0,
+        severity: "low",
+        damageType: "shot"
+      }
+    ],
   },
-  rightLeg: {
-    damageType: 'damaged',
-    health: 0,
-    isBroken: true,
-    isBleeding: true,
+  rleg: {
+    damages: [
+      {
+        count: 0,
+        severity: "low",
+        damageType: "shot"
+      }
+    ],
   },
-  leftHand: {
-    damageType: 'damaged',
-    health: 0,
-    isBroken: true,
-    isBleeding: true,
+  lhand: {
+    damages: [
+      {
+        count: 0,
+        severity: "low",
+        damageType: "shot"
+      }
+    ],
   },
-  rightHand: {
-    damageType: 'damaged',
-    health: 0,
-    isBroken: true,
-    isBleeding: true,
+  rhand: {
+    damages: [
+      {
+        count: 0,
+        severity: "low",
+        damageType: "shot"
+      }
+    ],
   },
-  leftFoot: {
-    damageType: 'damaged',
-    health: 0,
-    isBroken: true,
-    isBleeding: true,
+  lfoot: {
+    damages: [
+      {
+        count: 0,
+        severity: "low",
+        damageType: "shot"
+      }
+    ],
   },
-  rightFoot: {
-    damageType: 'damaged',
-    health: 0,
-    isBroken: true,
-    isBleeding: true,
+  rfoot: {
+    damages: [
+      {
+        count: 0,
+        severity: "low",
+        damageType: "shot"
+      },
+      {
+        count: 0,
+        severity: "medium",
+        damageType: "shot"
+      }
+    ],
  }
 }
 
@@ -92,24 +135,13 @@ const initialState: bodyData = {
   bodyPart: body,
 };
 
-const getBodyData = (): bodyData => {
-  let bodyData = initialState;
-
-  useNuiEvent('getBodyData', (data: bodyData) => {
-    if (data) {
-      bodyData = data;
-    }
-  });
-
-  return bodyData;
-}
-
 const damageSlice = createSlice({
   name: 'bodyPart',
   initialState,
   reducers: {
     setBodyData(state, action: PayloadAction<bodyData>) {
-      state = action.payload;
+      state.name = action.payload.name
+      state.bodyPart = action.payload.bodyPart;
     },
     
     setDamages(state, action: PayloadAction<{ [key: string]: bodyPart; }>) { // Change 'bodyPart[]' to '{ [key: string]: bodyPart | undefined; }'
@@ -118,9 +150,13 @@ const damageSlice = createSlice({
   },
 });
 
+import type { RootState } from '.';
+
 export const { 
   setDamages,
   setBodyData
 } = damageSlice.actions;
+
+export const selectBodyData = (state: RootState) => state.bodyPart;
 
 export default damageSlice.reducer;

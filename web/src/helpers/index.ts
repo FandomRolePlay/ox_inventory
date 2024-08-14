@@ -142,7 +142,7 @@ export const getItemData = async (itemName: string) => {
 export const getBodyData = async (bodyPart: string) => {
   const resp: bodyPart | null = await fetchNui('getBodyData', bodyPart);
 
-  if (resp?.health !== undefined) {
+  if (resp?.damages !== undefined) {
     body[bodyPart] = resp;
     return resp;
   }

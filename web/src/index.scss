@@ -648,15 +648,19 @@ button:active {
 }
 
 .human-body .clear {
-  fill: #15de40;
+  fill: #0c0c0c66;
+}
+
+.human-body .mild {
+  fill: #c6ec1c66;
 }
 
 .human-body .damaged {
-  fill: #f3d405;
+  fill: #f57c0b66;
 }
 
 .human-body .critical {
-  fill: #f03506;
+  fill: #f2070766;
 }
 
 #area {
