@@ -225,9 +225,9 @@ return {
 	},
 --USMS
 	{
-		coords = vec3(-822.42, -717.46, 22.96),
+		coords = vec3(-815.02, -714.25, 22.96),
 		target = {
-			loc = vec3(-822.42, -717.46, 22.96),
+			loc = vec3(-815.02, -714.25, 22.96),
 			length = 1.8,
 			width = 0.4,
 			heading = 0,
