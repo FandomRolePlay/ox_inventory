@@ -1278,7 +1278,7 @@ return {
 			usetime = 2500,
 			cancel = true,
 			export = 'FandomRP.useStatusItem',
-			statusCap = 500000,
+			statusCap = 300000,
 			thirst = 100000,
 		}
 	},

@@ -216,7 +216,7 @@ return {
 		}
 	}, ]]
 	YouTool = {
-		name = 'Sklep Techniczny',
+		name = 'Mega Mall',
 		blip = {
 			id = 402, colour = 69, scale = 0.9
 		},
@@ -260,6 +260,7 @@ return {
 			{ name = 'weapon_hatchet',  price = 570,  count = 3 },
 			{ name = 'trowel',          price = 20,   metadata = { durability = 100 } },
 			{ name = 'tools',           price = 20,   count = 20 },
+			{ name = 'basketball',      price = 25},
 			{ name = 'crafting_table',  price = 400 },
 			{ name = 'cooker_table',    price = 750 },
 			{ name = 'shot_glass',      price = 1 },
@@ -603,7 +604,7 @@ return {
 	VendingMachineDrinks3 = {
 		name = 'Automat z wodą',
 		inventory = {
-			{ name = 'kubekwoda', price = 0, count = 30 },
+			{ name = 'kubekwoda', price = 0, count = 250 },
 		},
 		model = {
 			`prop_watercooler_dark`, `prop_watercooler`
@@ -780,6 +781,7 @@ return {
 			{ name = 'juice',              price = 2 },
 			{ name = 'curaco',             price = 5 },
 			{ name = 'larios',             price = 5 },
+			{ name = 'syrup',              price = 2 },
 		},
 		locations = {
 			vec3(-1223.07, -1484.14, 4.35)
