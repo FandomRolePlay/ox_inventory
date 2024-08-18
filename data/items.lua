@@ -52,11 +52,11 @@ return {
 		consume = 0.3
 	},
 
-	['pdm10'] = {
+--[[ 	['pdm10'] = {
 		label = 'Zniżka PDM',
 		description = "Kupon upoważniający do 10% zniżki w salonie PDM do dnia: ",
 		weight = 15,
-	},
+	}, ]]
 
 	['weaponrepairkit'] = {
 		label = 'Zestaw naprawczy do Broni',
@@ -242,14 +242,14 @@ return {
 		label = 'Zapalniczka',
 		weight = 20,
 		description = "Legendarna zapalniczka Pippo braci Stritzel",
-		buttons = {
+	--[[ 		buttons = {
 			{
 				label = 'Podpal obszar przed sobą',
 				action = function(slot)
 					TriggerEvent('devcore_smokev2:StartScriptFire')
 				end
 			}
-		}
+		} ]]
 	},
 
 	['redw'] = {
@@ -1279,7 +1279,7 @@ return {
 			cancel = true,
 			export = 'FandomRP.useStatusItem',
 			statusCap = 500000,
-			thirst = 150000,
+			thirst = 100000,
 		}
 	},
 	["junko"] = {
@@ -5308,7 +5308,7 @@ return {
 	['camera'] = {
 		label = 'Kamera CCTV',
 		weight = 350,
-		stack = false,
+		stack = true,
 		close = true,
 		description = ""
 	},
