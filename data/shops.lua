@@ -326,14 +326,14 @@ return {
 		blip = {
 			id = 559, colour = 18, scale = 0.8 },
 		inventory = {
-			{ name = 'cruiser',    price = 200,  count = 10 },
-			{ name = 'bmx',        price = 400,  count = 10 },
-			{ name = 'fixter',     price = 700,  count = 10 },
-			{ name = 'scorcher',   price = 850,  count = 10 },
-			{ name = 'tribike',    price = 1000, count = 10 },
-			{ name = 'tribike3',   price = 1000, count = 10 },
-			{ name = 'tribike2',   price = 1100, count = 10 },
-			{ name = 'skateboard', price = 200,  count = 10 },
+			{ name = 'cruiser',    price = 200,  count = 7 },
+			{ name = 'bmx',        price = 400,  count = 0 },
+			{ name = 'fixter',     price = 700,  count = 0 },
+			{ name = 'scorcher',   price = 850,  count = 0 },
+			{ name = 'tribike',    price = 1000, count = 0 },
+			{ name = 'tribike3',   price = 1000, count = 0 },
+			{ name = 'tribike2',   price = 1100, count = 0 },
+			{ name = 'skateboard', price = 200,  count = 11 },
 		},
 		locations = {
 			vec3(-1228.06, -1437.67, 4.37)
@@ -514,7 +514,7 @@ return {
 			{ name = 'e_bracelet',          price = 150,   grade = 1 },
 			{ name = 'WEAPON_FLAREGUN',     price = 450,   metadata = { registered = true, serial = 'MS' }, grade = 1 },
 			{ name = 'WEAPON_FLARE',        price = 150,   grade = 1 },
-			{ name = 'shield',              price = 2500,  grade = 10 },
+			{ name = 'shield',              price = 2500,  grade = 4 },
 			{ name = 'at_flashlight',       price = 250,   license = 'weapon',                              grade = 4 },
 			{ name = 'evidence-bag',        price = 10,    grade = 1 },
 			{ name = 'ammo-flare',          price = 4,     grade = 1 },
@@ -603,7 +603,7 @@ return {
 	VendingMachineDrinks3 = {
 		name = 'Automat z wodą',
 		inventory = {
-			{ name = 'kubekwoda', price = 0, count = 25 },
+			{ name = 'kubekwoda', price = 0, count = 30 },
 		},
 		model = {
 			`prop_watercooler_dark`, `prop_watercooler`
@@ -1048,11 +1048,10 @@ return {
 	},
 	Hurtownia11 = {
 		name = 'Hurtownia CRIME',
-		--blip = {
-		--	id = 50, colour = 24, scale = 0.8
-		--[[groups = {
+		groups = {
 			['administracja'] = 1
-		},]] inventory = {
+		},
+		inventory = {
 		{ name = 'WEAPON_BAT',              price = 0, count = 100 },
 		{ name = 'WEAPON_BATTLEAXE',        price = 0, count = 100 },
 		{ name = 'WEAPON_BOTTLE',           price = 0, count = 100 },
@@ -1118,10 +1117,10 @@ return {
 		{ name = 'syphoningkit',            price = 0, count = 1,  metadata = { cdn_fuel = 0 } },
 	},
 		locations = {
-			vec3(2328.29, 2568.72, 46.72)
+			vec3(-1379.2985, -471.3574, 78.2001)
 		},
 		targets = {
-			{ loc = vec3(2328.29, 2568.72, 46.72), length = 1.4, width = 1.0, heading = 0, minZ = 45.72, maxZ = 47.52, distance = 1.5 },
+			{ loc = vec3(-1379.2985, -471.3574, 78.2001), length = 2.4, width = 2.0, heading = 0, minZ = 77.72, maxZ = 79.52, distance = 1.5 },
 		}
 	},
 	Hurtownia12 = {
@@ -1161,7 +1160,7 @@ return {
 			{ name = 'radio2',            price = 450,     grade = 6 },
 			{ name = 'cuffs',             price = 25,      grade = 6 },
 			{ name = 'handcuffkey',       price = 1,       grade = 6 },
-			{ name = 'WEAPON_STUNGUN',    price = 250,     grade = 1, metadata = { registered = true, serial = 'G6' }, license = 'weapon',  },
+			{ name = 'WEAPON_STUNGUN',    price = 250,     grade = 1, metadata = { registered = true, serial = 'G6' }, },
 			{ name = 'ammo-cart',         price = 3,       grade = 6 },
 			{ name = 'camera',            price = 500,     grade = 6 },
 			{ name = 'cctvtablet',        price = 800,     grade = 6 },
