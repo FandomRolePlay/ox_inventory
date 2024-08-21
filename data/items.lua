@@ -538,37 +538,37 @@ return {
 	['og_kush_weed'] = {
 		label = 'Og Kush Weed',
 		description = "Wysuszony top marihuany",
-		weight = 2,
+		weight = 1,
 	},
 
 	['blue_dream_weed'] = {
 		label = 'Blue Dream Weed',
 		description = "Wysuszony top marihuany",
-		weight = 2,
+		weight = 1,
 	},
 
 	['banana_kush_weed'] = {
 		label = 'Banana Kush Weed',
 		description = "Wysuszony top marihuany",
-		weight = 2,
+		weight = 1,
 	},
 
 	['purple_haze_weed'] = {
 		label = 'Purple Haze Weed',
 		description = "Wysuszony top marihuany",
-		weight = 2,
+		weight = 1,
 	},
 
 	['red_jack_weed'] = {
 		label = 'Red Jack Weed',
 		description = "Wysuszony top marihuany",
-		weight = 2,
+		weight = 1,
 	},
 
 	['chem_sister_weed'] = {
 		label = 'Chem Sister Weed',
 		description = "Wysuszony top marihuany",
-		weight = 2,
+		weight = 1,
 	},
 
 	['og_kush_bud'] = {
@@ -609,37 +609,87 @@ return {
 
 	['purple_haze_bag'] = {
 		label = 'Purple Haze',
-		weight = 2,
+		weight = 1,
 	},
 
 	['banana_kush_bag'] = {
 		label = 'Banana Kush',
-		weight = 2,
+		weight = 1,
 	},
 
 	['blue_dream_bag'] = {
 		label = 'Blue Dream',
-		weight = 2,
+		weight = 1,
 	},
 
 	['og_kush_bag'] = {
 		label = 'Og Kush',
-		weight = 2,
+		weight = 1,
 	},
 
 	['red_jack_bag'] = {
 		label = 'Red Jack',
-		weight = 2,
+		weight = 1,
 	},
 
 	['chem_sister_bag'] = {
 		label = 'Chem Sister',
-		weight = 2,
+		weight = 1,
 	},
 
 	['binoculars'] = {
 		label = 'Lornetka',
 		weight = 700,
+	},
+
+	--Grilling
+	['sausage'] = {
+		label = 'Kiełbasa',
+		weight = 200,
+		client = {
+			anim = 'eating',
+			prop = 'prop_cs_hotdog_02',
+			usetime = 3500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 200000,
+			hunger = 50000,
+		},
+	},
+	['sausage_grill'] = {
+		label = 'Upieczona kiełbasa',
+		weight = 200,
+		client = {
+			anim = 'eating',
+			prop = 'prop_cs_hotdog_02',
+			usetime = 3500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 300000,
+			hunger = 150000,
+		},
+	},
+	['bread_slice'] = {
+		label = 'Kromka',
+		weight = 100,
+		client = {
+			anim = 'eating',
+			prop = 'v_res_fa_bread03',
+			usetime = 3500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 100000,
+			hunger = 10000,
+		},
+	},
+	['sausage_bread'] = {
+		label = 'Kiełbo-chlebek',
+		weight = 400,
+		client = {
+			anim = 'eating',
+			prop = 'prop_cs_hotdog_01',
+			usetime = 3500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 600000,
+			hunger = 300000,
+		},
 	},
 
 	--ALKOHOLE
@@ -2087,6 +2137,13 @@ return {
 		} ]]
 	},
 
+	['house_lockpick'] = {
+		label = 'Ulepszony wytrych',
+		description = "Idealny do otwierania drzwi antywłamaniowych",
+		weight = 200,
+		stack = false,
+	},
+
 	-- documents
 	--[[ ["id_card"] = {
 		label = "Dowód Tożsamości",
@@ -2137,19 +2194,18 @@ return {
 		stack = false,
 	},
 
-	['phone'] = {
-		label = 'Phone 15 Classic',
-		weight = 150,
+	["phone"] = {
+		label = "Phone",
+		weight = 190,
 		stack = false,
 		consume = 0,
 		client = {
-			export = "qs-smartphone-pro.UsePhoneItem",
-			add = function(total)
-				TriggerServerEvent('phone:itemAdd')
+			export = "lb-phone.UsePhoneItem",
+			remove = function()
+				TriggerEvent("lb-phone:itemRemoved")
 			end,
-
-			remove = function(total)
-				TriggerServerEvent('phone:itemDelete')
+			add = function()
+				TriggerEvent("lb-phone:itemAdded")
 			end
 		}
 	},
@@ -4383,6 +4439,34 @@ return {
 	},
 
 	-- pickle_crafting
+	["grill1_table"] = {
+		label = 'Grill',
+		weight = 6000,
+		stack = false,
+		description = "Duży grill gazowy"
+	},
+
+	["grill2_table"] = {
+		label = 'Grill',
+		weight = 1000,
+		stack = false,
+		description = "Mały grill"
+	},
+
+	["grill4_table"] = {
+		label = 'Grill',
+		weight = 3000,
+		stack = false,
+		description = "Średni grill"
+	},
+
+	["grill5_table"] = {
+		label = 'Grill',
+		weight = 5000,
+		stack = false,
+		description = "Duży grill gazowy"
+	},
+
 	["still1_table"] = {
 		label = 'Licha aparatura',
 		weight = 1000,
@@ -6080,12 +6164,6 @@ return {
 	["chickenmeat"] = {
 		label = "Drób",
 		weight = 120,
-		stack = true,
-		close = true,
-	},
-	["sausage"] = {
-		label = "Kiełbasa",
-		weight = 80,
 		stack = true,
 		close = true,
 	},

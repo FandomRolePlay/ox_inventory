@@ -4,8 +4,9 @@ if not lib then return end
 --require 'modules.interface.client'
 
 local Damages = {}
+local bodyDamage = {}
 
-function Damages.SetupBodyDamage(id, state)
+function Damages.SetupBodyDamage(id, state, showInstant)
     local bodyParts = {
         head = {
             damages = {
@@ -129,28 +130,38 @@ function Damages.SetupBodyDamage(id, state)
     --print(json.encode(state, {indent = true}))
 
     if state ~= nil then
-        for k,v in pairs(state) do
-            if v.damageDesc then
-                if bodyParts[k] then
-                    for i=1, #v.damageDesc do
-                        print(k, v.damageDesc[i].severity, v.damageDesc[i].cause, i)
-                        --local dmgType = v.damageDesc[i].severity .. " " .. v.damageDesc[i].cause
-                        bodyParts[k].damages[i] = {
-                            count = v.damageDesc[i].count,
-                            severity = v.damageDesc[i].severity,
-                            damageType = v.damageDesc[i].cause
-                        }
+        if state ~= false then
+            for k,v in pairs(state) do
+                if v.damageDesc then
+                    if bodyParts[k] then
+                        for i=1, #v.damageDesc do
+                            bodyParts[k].damages[i] = {
+                                count = v.damageDesc[i].count,
+                                severity = v.damageDesc[i].severity,
+                                damageType = v.damageDesc[i].cause
+                            }
+                        end
                     end
                 end
             end
         end
     end
 
-    local bodyDamage = {
+    bodyDamage = {
         name = id,
         bodyPart = bodyParts
     }
     
+    --[[if showInstant then
+        SendNUIMessage({
+            action = "getBodyData",
+            data = bodyDamage
+        })
+    end]]--
+
+end
+
+function Damages.DisplayBodyDamage()
     SendNUIMessage({
         action = "getBodyData",
         data = bodyDamage
@@ -158,10 +169,11 @@ function Damages.SetupBodyDamage(id, state)
 end
 
 exports("SetupBodyDamage", Damages.SetupBodyDamage)
+exports("DisplayBodyDamage", Damages.DisplayBodyDamage)
 
 RegisterNUICallback('useItemOnBody', function (body, cb)
     if body.bone then
-        print(body.id)
+        print(body.id, body.item.name, body.item.slot, body.bone)
         --exports.ars_ambulancejob:checkInjuryCause(body.item.name, body.item.slot, body.bone)
         TriggerServerEvent("ars_ambulancejob:healBodyDamage", body.id, body.item.name, body.item.slot, body.bone)
     end

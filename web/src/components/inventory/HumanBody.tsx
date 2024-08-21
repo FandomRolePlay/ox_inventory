@@ -114,8 +114,6 @@ const bodyPartDimensions = {
 
 import { useDrop } from 'react-dnd';
 import { fetchNui } from '../../utils/fetchNui';
-import { setDamages } from '../../store/body';
-import { validateHeaderName } from 'http';
 
 const HumanBody: React.FC<{playerBody : bodyData}> = ({ playerBody }) => {
     const [tooltipContent, setTooltipContent] = useState<bodyPart | null>(null);
@@ -141,6 +139,8 @@ const HumanBody: React.FC<{playerBody : bodyData}> = ({ playerBody }) => {
     const [{ isOver }, drop] = useDrop(() => ({
         accept: 'SLOT', // This should match the type you set when calling useDrag in InventorySlot.tsx
         drop: (item: any, monitor) => {
+            console.log(item.id)
+            console.log(playerBody.name)
             //console.log(refs.domReference.current?.attributes.getNamedItem("hovered-element"))
             item.id = playerBody.name
             item.bone = refs.domReference.current?.attributes.getNamedItem("hovered-element")?.value
@@ -219,19 +219,24 @@ const HumanBody: React.FC<{playerBody : bodyData}> = ({ playerBody }) => {
                         <table className='border'>
                             <tbody>
                                 <tr>
-                                    <td>Typ obrażenia:</td>
-                                    <td>
-                                        {tooltipContent.damages.map((damage, id) => {
+                                    {tooltipContent.damages.map((damage, id) => {
 
-                                        let description = `${damage.severity} ${damage.damageType}`
-                                        if (damage.count > 1) {
-                                            description = `${damage.count}x ${damage.severity} ${damage.damageType}`
-                                        } 
+                                    let description = `${damage.severity}`
+                                    if (damage.count > 1) {
+                                        description = `${damage.count}x ${damage.severity}`
+                                    } 
 
-                                        return (
-                                            <span key={id}>{description}{<br/>}</span>
-                                        )})}
-                                    </td>
+                                    return (
+                                        <div style={{width:"250px"}}>
+                                            <td width={"100px"}>
+                                                <span key={id}>{description}{<br/>}</span>
+                                            </td>
+                                            <td width={"100px"}>
+                                                <span key={id}>{damage.damageType}</span>
+                                            </td>
+                                        </div>
+                                        
+                                    )})}
                                 </tr>
                             </tbody>
                         </table>

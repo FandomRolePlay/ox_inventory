@@ -283,10 +283,14 @@ function client.openInventory(inv, data)
             rightInventory = currentInventory
         }
     })
-
-	local injuriesState = LocalPlayer.state.injuries
+	
 	local id = cache.serverId
-	bodyDamage.SetupBodyDamage(id, injuriesState)
+	if (data == nil) or (id == data) then
+		local injuriesState = LocalPlayer.state.injuries
+		bodyDamage.SetupBodyDamage(id, injuriesState, true)
+	end
+
+	bodyDamage.DisplayBodyDamage()
 
     if not currentInventory.coords and not inv == 'container' then
         currentInventory.coords = GetEntityCoords(playerPed)
