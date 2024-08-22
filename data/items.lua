@@ -2194,7 +2194,7 @@ return {
 		stack = false,
 	},
 
-	["phone"] = {
+	--[[["phone"] = {
 		label = "Phone",
 		weight = 190,
 		stack = false,
@@ -2206,6 +2206,23 @@ return {
 			end,
 			add = function()
 				TriggerEvent("lb-phone:itemAdded")
+			end
+		}
+	},]]--
+
+	['phone'] = {
+		label = 'Phone 15 Classic',
+		weight = 150,
+		stack = false,
+		consume = 0,
+		client = {
+			export = "qs-smartphone-pro.UsePhoneItem",
+			add = function(total)
+				TriggerServerEvent('phone:itemAdd')
+			end,
+
+			remove = function(total)
+				TriggerServerEvent('phone:itemDelete')
 			end
 		}
 	},
