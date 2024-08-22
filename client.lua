@@ -284,13 +284,17 @@ function client.openInventory(inv, data)
         }
     })
 	
+	--CUSTOM CHANGES FOR FANDOMRP 
+	--START
 	local id = cache.serverId
-	if (data == nil) or (id == data) then
+	--print(json.encode(inv, { indent = true }), json.encode(data, { indent = true }))
+	if (inv == nil) or (inv ~= "player") or (id == data) then
 		local injuriesState = LocalPlayer.state.injuries
 		bodyDamage.SetupBodyDamage(id, injuriesState, true)
 	end
 
 	bodyDamage.DisplayBodyDamage()
+	--END
 
     if not currentInventory.coords and not inv == 'container' then
         currentInventory.coords = GetEntityCoords(playerPed)
