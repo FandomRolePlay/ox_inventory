@@ -267,6 +267,10 @@ return {
 			{ name = 'flute_glass',     price = 2 },
 			{ name = 'wine_glass',      price = 2 },
 			{ name = 'whiskey_glass',   price = 2 },
+			{ name = 'grill1_table',	price = 350,   count = 2 },
+			{ name = 'grill2_table',	price = 100,   count = 10 },
+			{ name = 'grill4_table',	price = 150,   count = 5 },
+			{ name = 'grill5_table',	price = 300,   count = 2 },
 		},
 		locations = {
 			vec3(2748.0, 3473.0, 55.67),
@@ -955,6 +959,7 @@ return {
 			{ name = 'zapalniczka',      price = 4 },
 			{ name = 'weedvodka',        price = 5 },
 			{ name = 'weedjunk',         price = 3 },
+			{ name = 'weed_dryer',              price = 150, count = 3 },
 		},
 		locations = {
 			vec3(476.78, -1397.71, 31.04)
@@ -1032,7 +1037,7 @@ return {
 			id = 50, colour = 24, scale = 0.8
 		},
 		groups = {
-			['sandgym'] = 0
+			['sandgym'] = 6
 		},
 		inventory = {
 			{ name = 'proteinshake',  price = 3 },
@@ -1117,6 +1122,12 @@ return {
 		{ name = 'WEAPON_FLAREGUN',         price = 0, count = 100 },
 		{ name = 'ammo-flare',              price = 0, count = 100 },
 		{ name = 'syphoningkit',            price = 0, count = 1,  metadata = { cdn_fuel = 0 } },
+		{ name = 'drug_table',              price = 0, count = 100 },
+		{ name = 'coca_barrel',              price = 0, count = 100 },
+		{ name = 'coca_stove',              price = 0, count = 100 },
+		{ name = 'chem_table',              price = 0, count = 100 },
+		{ name = 'crack_table',              price = 0, count = 100 },
+		{ name = 'weed_dryer',              price = 0, count = 100 },
 	},
 		locations = {
 			vec3(-1379.2985, -471.3574, 78.2001)
