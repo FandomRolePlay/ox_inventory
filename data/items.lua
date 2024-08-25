@@ -2194,8 +2194,8 @@ return {
 		stack = false,
 	},
 
-	--[[["phone"] = {
-		label = "Phone",
+	["lbphone"] = {
+		label = "Telefon",
 		weight = 190,
 		stack = false,
 		consume = 0,
@@ -2208,13 +2208,13 @@ return {
 				TriggerEvent("lb-phone:itemAdded")
 			end
 		}
-	},]]--
+	},
 
 	['phone'] = {
 		label = 'Phone 15 Classic',
 		weight = 150,
 		stack = false,
-		consume = 0,
+		--[[ consume = 0,
 		client = {
 			export = "qs-smartphone-pro.UsePhoneItem",
 			add = function(total)
@@ -2224,14 +2224,14 @@ return {
 			remove = function(total)
 				TriggerServerEvent('phone:itemDelete')
 			end
-		}
+		} ]]
 	},
 
 	['black_phone'] = {
 		label = 'Phone 15 Black',
 		weight = 150,
 		stack = false,
-		consume = 0,
+		--[[ consume = 0,
 		client = {
 			export = "qs-smartphone-pro.UsePhoneItem",
 			add = function(total)
@@ -2241,14 +2241,14 @@ return {
 			remove = function(total)
 				TriggerServerEvent('phone:itemDelete')
 			end
-		}
+		} ]]
 	},
 
 	['yellow_phone'] = {
 		label = 'Phone 15 Yellow',
 		weight = 150,
 		stack = false,
-		consume = 0,
+		--[[ consume = 0,
 		client = {
 			export = "qs-smartphone-pro.UsePhoneItem",
 			add = function(total)
@@ -2258,14 +2258,14 @@ return {
 			remove = function(total)
 				TriggerServerEvent('phone:itemDelete')
 			end
-		}
+		} ]]
 	},
 
 	['red_phone'] = {
 		label = 'Phone 15 Red',
 		weight = 150,
 		stack = false,
-		consume = 0,
+		--[[ consume = 0,
 		client = {
 			export = "qs-smartphone-pro.UsePhoneItem",
 			add = function(total)
@@ -2275,14 +2275,14 @@ return {
 			remove = function(total)
 				TriggerServerEvent('phone:itemDelete')
 			end
-		}
+		} ]]
 	},
 
 	['green_phone'] = {
 		label = 'Phone 15 Green',
 		weight = 150,
 		stack = false,
-		consume = 0,
+		--[[ consume = 0,
 		client = {
 			export = "qs-smartphone-pro.UsePhoneItem",
 			add = function(total)
@@ -2292,14 +2292,14 @@ return {
 			remove = function(total)
 				TriggerServerEvent('phone:itemDelete')
 			end
-		}
+		} ]]
 	},
 
 	['white_phone'] = {
 		label = 'Phone 15 White',
 		weight = 150,
 		stack = false,
-		consume = 0,
+		--[[ consume = 0,
 		client = {
 			export = "qs-smartphone-pro.UsePhoneItem",
 			add = function(total)
@@ -2309,47 +2309,47 @@ return {
 			remove = function(total)
 				TriggerServerEvent('phone:itemDelete')
 			end
-		}
+		} ]]
 	},
 
 	["phone_box"] = {
-		label = "Phone 15 Classic",
-		description = "Phone 15 PRO Max Classic",
+		label = "Pudełko z telefonem",
+		description = "Telefon jest w środku",
 		weight = 200,
 		stack = false,
 	},
 
 	["black_phone_box"] = {
-		label = "Phone 15 Black",
-		description = "Phone 15 PRO Max Black",
+		label = "Pudełko z telefonem",
+		description = "Telefon jest w środku",
 		weight = 200,
 		stack = false,
 	},
 
 	["yellow_phone_box"] = {
-		label = "Phone 15 Yellow",
-		description = "Phone 15 PRO Max Yellow",
+		label = "Pudełko z telefonem",
+		description = "Telefon jest w środku",
 		weight = 200,
 		stack = false,
 	},
 
 	["red_phone_box"] = {
-		label = "Phone 15 Red",
-		description = "Phone 15 PRO Max Red",
+		label = "Pudełko z telefonem",
+		description = "Telefon jest w środku",
 		weight = 200,
 		stack = false,
 	},
 
 	["green_phone_box"] = {
-		label = "Phone 15 Green",
-		description = "Phone 15 PRO Max Green",
+		label = "Pudełko z telefonem",
+		description = "Telefon jest w środku",
 		weight = 200,
 		stack = false,
 	},
 
 	["white_phone_box"] = {
-		label = "Phone 15 White",
-		description = "Phone 15 PRO Max White",
+		label = "Pudełko z telefonem",
+		description = "Telefon jest w środku",
 		weight = 200,
 		stack = false,
 	},

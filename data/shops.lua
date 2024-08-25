@@ -73,13 +73,13 @@ return {
 			{ name = 'red_phone', price = 1350 },
 			{ name = 'green_phone', price = 1300 },
 			{ name = 'yellow_phone', price = 1250 },]]
-			{ name = 'phone_box',        price = 1100, count = 10 },
-			{ name = 'black_phone_box',  price = 1200, count = 10 },
+			{ name = 'phone_box',        price = 1000, count = 43 },
+			--[[ { name = 'black_phone_box',  price = 1200, count = 10 },
 			{ name = 'white_phone_box',  price = 1000, count = 8 },
 			{ name = 'red_phone_box',    price = 1350, count = 5 },
 			{ name = 'green_phone_box',  price = 1300, count = 5 },
 			{ name = 'yellow_phone_box', price = 1250, count = 5 },
-			{ name = 'powerbank',        price = 100,  count = 10 },
+			{ name = 'powerbank',        price = 100,  count = 10 }, ]]
 			{ name = 'tvpilot',          price = 30,   count = 30 },
 			{ name = 'boombox',          price = 300,  count = 20 },
 			{ name = 'radio2',           price = 450,  count = 20 },
@@ -267,6 +267,10 @@ return {
 			{ name = 'flute_glass',     price = 2 },
 			{ name = 'wine_glass',      price = 2 },
 			{ name = 'whiskey_glass',   price = 2 },
+			{ name = 'grill1_table',	price = 350,   count = 2 },
+			{ name = 'grill2_table',	price = 100,   count = 10 },
+			{ name = 'grill4_table',	price = 150,   count = 5 },
+			{ name = 'grill5_table',	price = 300,   count = 2 },
 		},
 		locations = {
 			vec3(2748.0, 3473.0, 55.67),
@@ -955,6 +959,7 @@ return {
 			{ name = 'zapalniczka',      price = 4 },
 			{ name = 'weedvodka',        price = 5 },
 			{ name = 'weedjunk',         price = 3 },
+			{ name = 'weed_dryer',              price = 150, count = 3 },
 		},
 		locations = {
 			vec3(476.78, -1397.71, 31.04)
@@ -1032,7 +1037,7 @@ return {
 			id = 50, colour = 24, scale = 0.8
 		},
 		groups = {
-			['sandgym'] = 0
+			['sandgym'] = 6
 		},
 		inventory = {
 			{ name = 'proteinshake',  price = 3 },
@@ -1117,6 +1122,12 @@ return {
 		{ name = 'WEAPON_FLAREGUN',         price = 0, count = 100 },
 		{ name = 'ammo-flare',              price = 0, count = 100 },
 		{ name = 'syphoningkit',            price = 0, count = 1,  metadata = { cdn_fuel = 0 } },
+		{ name = 'drug_table',              price = 0, count = 100 },
+		{ name = 'coca_barrel',              price = 0, count = 100 },
+		{ name = 'coca_stove',              price = 0, count = 100 },
+		{ name = 'chem_table',              price = 0, count = 100 },
+		{ name = 'crack_table',              price = 0, count = 100 },
+		{ name = 'weed_dryer',              price = 0, count = 100 },
 	},
 		locations = {
 			vec3(-1379.2985, -471.3574, 78.2001)
@@ -1134,15 +1145,15 @@ return {
 			{ name = 'redw',   		 	 price = 30, count = 20 },
 			{ name = 'magicmushroom',    price = 50, count = 10 },
 			{ name = 'peyote',           price = 50, count = 10 },
-			{ name = 'banana_kush_seed', price = 70, count = 5 },
-			{ name = 'red_jack_seed',    price = 100, count = 5 },
-			{ name = 'chem_sister_seed', price = 100, count = 5 },
+			{ name = 'banana_kush_seed', price = 70, count = 1 },
+			{ name = 'red_jack_seed',    price = 100, count = 1 },
+			{ name = 'chem_sister_seed', price = 100, count = 1 },
 		},
 		locations = {
 			vec3(2194.6409, 5582.1021, 53.3583) -- 2194.7009, 5581.5796, 53.3583, 182.0232
 		},
 		targets = {
-			{ loc = vec3(2194.70, 5581.57, 52.35), length = 1.5, width = 1.5, heading = 183, minZ = 182.02, maxZ = 184.02, distance = 2 },
+			{ loc = vec3(2194.70, 5581.57, 52.35), length = 1.5, width = 1.5, heading = 183, minZ = 182.02, maxZ = 184.02, distance = 2.5 },
 		}
 	},
 	Hurtownia13 = {
