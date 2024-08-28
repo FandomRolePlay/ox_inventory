@@ -73,6 +73,7 @@ return {
 			{ name = 'candybar',    price = 5 },
 			{ name = 'water',       price = 8 },
 			{ name = 'water2',      price = 20 },
+			{name = "water3", price = 15},
 			{ name = 'cola',        price = 8 },
 			{ name = 'logger',      price = 8 },
 			{ name = 'barracho',    price = 10 },
@@ -105,7 +106,6 @@ return {
             {name = "farming_tomato", price = 6},
             {name = "ground-weed", price = 5},
 
-			--{name = "water3", price = 4},
             {name = "potato", price = 4},
             {name = "beef", price = 15},
 
