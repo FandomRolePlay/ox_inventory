@@ -105,7 +105,7 @@ return {
             {name = "farming_tomato", price = 6},
             {name = "ground-weed", price = 5},
 
-			{name = "water3", price = 4},
+			--{name = "water3", price = 4},
             {name = "potato", price = 4},
             {name = "beef", price = 15},
 
@@ -1213,9 +1213,10 @@ return {
 			{ name = 'redw',   		 	 price = 30, count = 20 },
 			{ name = 'magicmushroom',    price = 50, count = 10 },
 			{ name = 'peyote',           price = 50, count = 10 },
-			{ name = 'banana_kush_seed', price = 70, count = 1 },
-			{ name = 'red_jack_seed',    price = 100, count = 1 },
-			{ name = 'chem_sister_seed', price = 100, count = 1 },
+			{ name = 'banana_kush_seed', price = 70, count = 2 },
+			{ name = 'red_jack_seed',    price = 100, count = 2 },
+			{ name = 'chem_sister_seed', price = 100, count = 2 },
+			{ name = 'water3', price = 10, count = 20 },
 		},
 		locations = {
 			vec3(2194.6409, 5582.1021, 53.3583) -- 2194.7009, 5581.5796, 53.3583, 182.0232
