@@ -133,7 +133,7 @@ return {
 			{ name = 'red_phone', price = 1350 },
 			{ name = 'green_phone', price = 1300 },
 			{ name = 'yellow_phone', price = 1250 },]]
-			{ name = 'phone_box',        price = 1000, count = 43 },
+			{ name = 'phone_box',        price = 1000, count = 200 },
 			--[[ { name = 'black_phone_box',  price = 1200, count = 10 },
 			{ name = 'white_phone_box',  price = 1000, count = 8 },
 			{ name = 'red_phone_box',    price = 1350, count = 5 },
