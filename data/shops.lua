@@ -100,14 +100,16 @@ return {
 			{name = "farming_egg", price = 5},
             {name = "bacon", price = 10},
 
-			{name = "pasta", amount = 10},
-            {name = "corn_on_cob", amount = 9},
-            {name = "farming_tomato", amount = 6},
-            {name = "ground-weed", amount = 5},
+			{name = "pasta", price = 10},
+            {name = "corn_on_cob", price = 9},
+            {name = "farming_tomato", price = 6},
+            {name = "ground-weed", price = 5},
 
-			{name = "water3", amount = 4},
-            {name = "potato", amount = 4},
-            {name = "beef", amount = 15},
+			{name = "water3", price = 4},
+            {name = "potato", price = 4},
+            {name = "beef", price = 15},
+
+			{ name = 'sugar', price = 5 },
 
 
 		},
