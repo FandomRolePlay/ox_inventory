@@ -43,7 +43,7 @@ return {
 			vec3(2557.94, 382.05, 108.62),
 			vec3(373.55, 325.56, 103.56),
 			vec3(1736.2543, 6413.1440, 35.0372), --PALETO
-			vec3(-1225.4, -1484.1, 4.37), --PLAŻA
+			--vec3(-1225.4, -1484.1, 4.37), --PLAŻA
 		},
 		targets = {
 			{ loc = vec3(25.06, -1347.32, 29.5),   length = 0.7, width = 0.5, heading = 0.0,   minZ = 29.5,   maxZ = 29.9,   distance = 1.5 },
@@ -57,6 +57,64 @@ return {
 			{ loc = vec3(2557.19, 381.4, 108.62),  length = 0.6, width = 0.5, heading = 0.0,   minZ = 108.62, maxZ = 109.02, distance = 1.5 },
 			{ loc = vec3(373.13, 326.29, 103.57),  length = 0.6, width = 0.5, heading = 345.0, minZ = 103.57, maxZ = 103.97, distance = 1.5 },
 			{ loc = vec3(1728.39, 6414.99, 35.04), length = 0.6, width = 0.5, heading = 332.0, minZ = 34.94,  maxZ = 35.54,  distance = 1.5 }, --PALETO
+			--{ loc = vec3(-1225.4, -1484.1, 4.37),  length = 0.4, width = 0.6, heading = 35.0,  minZ = 4.32,   maxZ = 4.72,   distance = 1.5 }, --PLAŻA
+		}
+	},
+
+	General2 = {
+		name = '24/7',
+		blip = {
+			id = 52, colour = 2, scale = 0.8
+		},
+		inventory = {
+			{ name = 'burger',      price = 25 },
+			{ name = 'hotdog',      price = 15 },
+			{ name = 'chipssalt',   price = 7 },
+			{ name = 'candybar',    price = 5 },
+			{ name = 'water',       price = 8 },
+			{ name = 'water2',      price = 20 },
+			{ name = 'cola',        price = 8 },
+			{ name = 'logger',      price = 8 },
+			{ name = 'barracho',    price = 10 },
+			--{ name = 'scratchplus', price = 1500 },
+			--{ name = 'scratch', price = 550 },
+			{ name = 'phone_box',   price = 1600 },
+			{ name = 'zapalniczka', price = 15 },
+			{ name = 'redw',        price = 25,  count = 20 },
+			{ name = 'debr',        price = 30,  count = 20 },
+			{ name = 'baking_soda', price = 5 },
+			{ name = 'watercan',    price = 30 },
+			{ name = 'pet_water',   price = 11 },
+			{ name = 'pet_food',    price = 43 },
+			{ name = 'paperbag',    price = 5 },
+			{ name = 'wallet',      price = 25 },
+			{ name = 'keyhanging',  price = 12 },
+
+			{ name = 'sausage',  price = 10 },
+			{ name = 'bread',  price = 8 },
+			{ name = 'lettuce',  price = 4 },
+			{ name = 'farming_tomato',  price = 6 },
+			{ name = 'farming_cheese',  price = 10 },
+			{name = "burgerbun", price = 5},
+			{name = "sauce", price = 6},
+			{name = "farming_egg", price = 5},
+            {name = "bacon", price = 10},
+
+			{name = "pasta", amount = 10},
+            {name = "corn_on_cob", amount = 9},
+            {name = "farming_tomato", amount = 6},
+            {name = "ground-weed", amount = 5},
+
+			{name = "water3", amount = 4},
+            {name = "potato", amount = 4},
+            {name = "beef", amount = 15},
+
+
+		},
+		locations = {
+			vec3(-1225.4, -1484.1, 4.37), --PLAŻA
+		},
+		targets = {
 			{ loc = vec3(-1225.4, -1484.1, 4.37),  length = 0.4, width = 0.6, heading = 35.0,  minZ = 4.32,   maxZ = 4.72,   distance = 1.5 }, --PLAŻA
 		}
 	},
@@ -720,6 +778,14 @@ return {
 		name = 'Hurtownia Spożywcza',
 		blip = {
 			id = 50, colour = 24, scale = 0.8 },
+			groups = {
+				['foodtruck'] = 0,
+				["coolbeans"] = 0,
+				["tequilala"] = 0,
+				["weedshop"] = 0,
+				["pizza"] = 0,
+				["bahama"] = 0,
+			},
 		inventory = {
 			{ name = 'water3',             price = 1 },
 			{ name = 'farming_egg',        price = 1 },

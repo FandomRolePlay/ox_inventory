@@ -664,7 +664,7 @@ return {
 			usetime = 3500,
 			export = 'FandomRP.useStatusItem',
 			statusCap = 300000,
-			hunger = 150000,
+			hunger = 100000,
 		},
 	},
 	['bread_slice'] = {
@@ -676,7 +676,7 @@ return {
 			usetime = 3500,
 			export = 'FandomRP.useStatusItem',
 			statusCap = 100000,
-			hunger = 10000,
+			hunger = 5000,
 		},
 	},
 	['sausage_bread'] = {
@@ -687,8 +687,8 @@ return {
 			prop = 'prop_cs_hotdog_01',
 			usetime = 3500,
 			export = 'FandomRP.useStatusItem',
-			statusCap = 600000,
-			hunger = 300000,
+			statusCap = 500000,
+			hunger = 150000,
 		},
 	},
 
@@ -1097,7 +1097,7 @@ return {
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
 			statusCap = 400000,
-			hunger = 350000,
+			hunger = 120000,
 		},
 	},
 
@@ -1136,7 +1136,7 @@ return {
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
 			statusCap = 500000,
-			hunger = 300000,
+			hunger = 120000,
 		},
 	},
 
@@ -4625,7 +4625,7 @@ return {
 	},
 
 	["zamek"] = {
-		label = 'Zamek', --do znalezienia w metaldetector
+		label = 'Zamek', 
 		weight = 120,
 		stack = true,
 		description = ""
@@ -4639,7 +4639,7 @@ return {
 	},
 
 	["spust"] = {
-		label = 'Spust',
+		label = 'Spust',--do znalezienia w metaldetector
 		weight = 80,
 		stack = true,
 		description = ""
@@ -5748,8 +5748,8 @@ return {
 			prop = 'prop_taco_01',
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
-			statusCap = 750000,
-			hunger = 350000,
+			statusCap = 400000,
+			hunger = 160000,
 		},
 	},
 	["beef_soup"] = {
@@ -5762,7 +5762,7 @@ return {
 			prop = 'prop_taco_01',
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
-			statusCap = 750000,
+			statusCap = 500000,
 			hunger = 500000,
 		},
 	},
@@ -5776,8 +5776,8 @@ return {
 			prop = 'prop_taco_01',
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 400000,
+			statusCap = 500000,
+			hunger = 260000,
 		},
 	},
 	["croissant2"] = {
