@@ -6866,6 +6866,27 @@ return {
 		stack = false,
 		close = true,
 	},
+	["keyg11"] = {
+		label = "Klucz G11", -- PDS
+		description = "F4N-D03",
+		weight = 5,
+		stack = false,
+		close = true,
+	},
+	["keyg12"] = {
+		label = "Klucz G12", -- 12 Connection
+		description = "F4N-D03",
+		weight = 5,
+		stack = false,
+		close = true,
+	},
+	["keyg13"] = {
+		label = "Klucz G13", -- Ballas
+		description = "F4N-D03",
+		weight = 5,
+		stack = false,
+		close = true,
+	},
 
 	--frp_id
 	['weapon'] = {
