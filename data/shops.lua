@@ -631,6 +631,7 @@ return {
 			{ name = 'ammo-cart',               price = 3,    grade = 1 },
 			{ name = 'lornetka',                price = 150,  grade = 1 },
 			{ name = 'parachute',               price = 1500, grade = 12 },
+			{ name = 'defibrillator',    		price = 200, grade = 12 },
 			{ name = 'medbag',                  price = 20,   grade = 1 }
 
 		},
