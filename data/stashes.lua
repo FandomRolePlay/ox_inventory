@@ -560,6 +560,25 @@ return {
 		weight = 500000,
 		groups = {['browary'] = 1}
 	},
+	{
+		coords = vec3(-1235.0, -1443.0, 4.3),
+		target = {
+			loc = vec3(-1235.0, -1443.0, 4.3),
+			length = 1.0,
+			width = 2.5,
+			heading = 35,
+			minZ = 5.3,
+			maxZ = 3.3,
+			label = 'Otwórz Magazyn VBM'
+		},
+		name = 'browarmagazyn2',
+		label = 'Magazyn',
+		owner = false,
+		slots = 200,
+		weight = 1000000,
+		groups = {['browary'] = 1}
+	},
+
 
 -- PIZZERIA
 {
@@ -931,8 +950,25 @@ return {
 		label = 'Magazyn',
 		owner = false,
 		slots = 200,
-		weight = 500000,
+		weight = 1000000,
 		groups = {['weedshop'] = 1}
+	},
+	{
+		coords = vec3(-1219.68, -1488.06, 4.33),
+		target = {
+			loc = vec3(-1219.68, -1488.06, 4.33),
+			length = 0.75,
+			width = 0.8,
+			heading = 35,
+			minZ = 4.27,
+			maxZ = 4.57,
+			label = 'Lada'
+		},
+		name = 'weedshoptacka',
+		label = 'Lada',
+		owner = false,
+		slots = 8,
+		weight = 10000,
 	},
 
 	-- WEAZEL
