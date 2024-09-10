@@ -6297,6 +6297,14 @@ return {
 		weight = 200,
 		stack = true,
 		close = true,
+		client = {
+			anim = 'eating',
+			prop = 'prop_taco_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 450000,
+		},
 	},
 	["gelatine"] = {
 		label = "Żelatyna",
@@ -7931,6 +7939,27 @@ return {
 		stack = true,
 		close = true,
 	},
+
+	--- Pickle_arcade
+	['arcade_pigeonascent'] = {
+		label = 'Arcade (Pigeon Ascent)',
+		weight = 1,
+		stack = true,
+		description = ""
+	},
+	['arcade_tinycrate'] = {
+		label = 'Arcade (Tiny Crate)',
+		weight = 1,
+		stack = true,
+		description = ""
+	},
+	['arcade_littlespy'] = {
+		label = 'Arcade (Little Spy)',
+		weight = 1,
+		stack = true,
+		description = ""
+	},
+	
 	
 
 	["head_bag"] = {
@@ -7939,5 +7968,8 @@ return {
 		stack = true,
 		close = false,
 	},
+
+
+
 
 }
