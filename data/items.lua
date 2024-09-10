@@ -6294,7 +6294,7 @@ return {
 	},
 	["pannacotta"] = {
 		label = "Panna cotta",
-		weight = 200,
+		weight = 210,
 		stack = true,
 		close = true,
 		client = {
