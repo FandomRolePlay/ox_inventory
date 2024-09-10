@@ -73,7 +73,7 @@ return {
 			{ name = 'candybar',    price = 5 },
 			{ name = 'water',       price = 8 },
 			{ name = 'water2',      price = 20 },
-			{name = "water3", price = 15},
+			{name = 'water3', price = 15},
 			{ name = 'cola',        price = 8 },
 			{ name = 'logger',      price = 8 },
 			{ name = 'barracho',    price = 10 },
@@ -367,16 +367,16 @@ return {
 	Cluckinbell = {
 		name = 'Cluckin Bell',
 		inventory = {
-			{ name = 'cb-chickenwrap',   price = 10, count = 10 },
-			{ name = 'cb-vegewrap',      price = 15, count = 10 },
-			{ name = 'cb-chickenburger', price = 12, count = 10 },
-			{ name = 'cb-shotrings',     price = 15, count = 10 },
-			{ name = 'cb-fries',         price = 5,  count = 10 },
-			{ name = 'cb-chips',         price = 5,  count = 10 },
-			{ name = 'cb-popdonut',      price = 7,  count = 10 },
-			{ name = 'sprunk',           price = 3,  count = 10 },
-			{ name = 'water3',           price = 1,  count = 10 },
-			{ name = 'cluckin_box_1',    price = 15, count = 10 },
+			{ name = 'cb-chickenwrap',   price = 18, count = 10 },
+			{ name = 'cb-vegewrap',      price = 25, count = 10 },
+			{ name = 'cb-chickenburger', price = 22, count = 10 },
+			{ name = 'cb-shotrings',     price = 25, count = 10 },
+			{ name = 'cb-fries',         price = 18,  count = 10 },
+			{ name = 'cb-chips',         price = 15,  count = 10 },
+			{ name = 'cb-popdonut',      price = 12,  count = 10 },
+			{ name = 'sprunk',           price = 18,  count = 10 },
+			{ name = 'water',           price = 15,  count = 10 },
+			{ name = 'cluckin_box_1',    price = 40, count = 10 },
 		},
 		locations = {
 			vec3(-184.11, -1428.6, 31.47)
@@ -681,7 +681,7 @@ return {
 		inventory = {
 			{ name = 'water',  price = 7,  count = 40 },
 			{ name = 'water2', price = 15, count = 40 },
-			{ name = 'water3', price = 5,  count = 40 },
+			--[[ { name = 'water3', price = 5,  count = 40 }, ]]
 		},
 		model = {
 			`prop_vend_water_01`
