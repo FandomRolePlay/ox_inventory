@@ -569,6 +569,7 @@ return {
 			{ name = 'WEAPON_STUNGUN',      price = 250,   metadata = { registered = true, serial = 'MS' }, license = 'weapon', grade = 1 },
 			{ name = 'WEAPON_BBSHOTGUN',    price = 1500,  metadata = { registered = true, serial = 'MS' }, license = 'weapon', grade = 1 },
 			{ name = 'WEAPON_NIGHTSTICK',   price = 100,   grade = 1 },
+			{ name = 'bodycam',             price = 100,   grade = 1 },
 			{ name = 'cuffs',               price = 25,    grade = 1 },
 			{ name = 'handcuffkey',         price = 1,     grade = 1 },
 			{ name = 'zipties',             price = 15,    grade = 1 },
@@ -643,6 +644,125 @@ return {
 		},
 	},
 
+	--BCSO Paleto
+
+	Sheriff1Armoury = {
+		name = 'Zbrojownia BCSO',
+		groups = {
+			['sheriff'] = 0 },
+		inventory = {
+			{ name = 'WEAPON_COMBATPISTOL', price = 900,   metadata = { registered = true, serial = 'BCS' }, license = 'weapon', grade = 1 },
+			{ name = 'WEAPON_PISTOL_MK2',   price = 1300,  metadata = { registered = true, serial = 'BCS' }, license = 'weapon', grade = 1 },
+			{ name = 'WEAPON_HEAVYPISTOL',  price = 1400,  metadata = { registered = true, serial = 'BCS' }, license = 'weapon', grade = 8 },
+			{ name = 'WEAPON_SMG',          price = 3750,  metadata = { registered = true, serial = 'BCS' }, license = 'weapon', grade = 8 },
+			{ name = 'WEAPON_COMBATPDW',    price = 4250,  metadata = { registered = true, serial = 'BCS' }, license = 'weapon', grade = 8 },
+			{ name = 'WEAPON_PUMPSHOTGUN',  price = 3000,  metadata = { registered = true, serial = 'BCS' }, license = 'weapon', grade = 8 },
+			{ name = 'WEAPON_SNIPERRIFLE',  price = 15000, metadata = { registered = true, serial = 'BCS' }, license = 'weapon', grade = 8 },
+			{ name = 'WEAPON_CARBINERIFLE', price = 6750,  metadata = { registered = true, serial = 'BCS' }, license = 'weapon', grade = 8 },
+			{ name = 'WEAPON_STUNGUN',      price = 250,   metadata = { registered = true, serial = 'BCS' }, license = 'weapon', grade = 1 },
+			{ name = 'WEAPON_BBSHOTGUN',    price = 1500,  metadata = { registered = true, serial = 'BCS' }, license = 'weapon', grade = 1 },
+			{ name = 'WEAPON_NIGHTSTICK',   price = 100,   grade = 1 },
+			{ name = 'cuffs',               price = 25,    grade = 1 },
+			{ name = 'handcuffkey',         price = 1,     grade = 1 },
+			{ name = 'zipties',             price = 15,    grade = 1 },
+			{ name = 'WEAPON_FLASHLIGHT',   price = 35,    grade = 1 },
+			{ name = 'WEAPON_KNIFE',        price = 30,    grade = 1 },
+			{ name = 'radio',               price = 250,   grade = 1 },
+			{ name = 'gps',                 price = 150,   grade = 1 },
+			{ name = 'bodycam',             price = 100,   grade = 1 },
+			{ name = 'e_bracelet',          price = 150,   grade = 1 },
+			{ name = 'WEAPON_FLAREGUN',     price = 450,   metadata = { registered = true, serial = 'BCS' }, grade = 1 },
+			{ name = 'WEAPON_FLARE',        price = 150,   grade = 1 },
+			{ name = 'shield',              price = 2500,  grade = 8 },
+			{ name = 'at_flashlight',       price = 250,   license = 'weapon', grade = 8 },
+			{ name = 'evidence-bag',        price = 10,    grade = 1 },
+			{ name = 'ammo-flare',          price = 4,     grade = 1 },
+			{ name = 'ammo-9-box',          price = 19,    grade = 1 },
+			{ name = 'ammo-rifle-box',      price = 50,    grade = 8 },
+			{ name = 'ammo-shotgun-box',    price = 10,    grade = 8 },
+			{ name = 'ammo-45-box',         price = 25,    grade = 8 },
+			{ name = 'ammo-sniper-box',     price = 105,   grade = 8 },
+			{ name = 'ammo-bb-box',         price = 12,    grade = 1 },
+			{ name = 'ammo-cart',           price = 3,     grade = 1 },
+			{ name = 'armour25',            price = 400,   grade = 8 },
+			{ name = 'armour50',            price = 800,   grade = 8 },
+			{ name = 'armour100',           price = 1600,  grade = 8 },
+			{ name = 'WEAPON_FLASHBANG',    price = 375,   grade = 8 },
+			{ name = 'spikestrip',          price = 2500,  grade = 8 },
+			{ name = 'roadcone',            price = 10,    grade = 1 },
+			{ name = 'medbag',              price = 20,    grade = 1 },
+			{ name = 'trafficlight',        price = 30,    grade = 1 },
+			{ name = 'worklight',           price = 50,    grade = 1 },
+			{ name = 'worklight2',          price = 50,    grade = 1 },
+			{ name = 'worklight3',          price = 50,    grade = 1 }
+		},
+		locations = {
+			vec3(-440.08, 6003.81, 32.15)
+		},
+		targets = {
+			{ loc = vec3(-440.08, 6003.81, 32.15), length = 3.5, width = 0.2, heading = 225.5, minZ = 31.00, maxZ = 33.85, distance = 4 }
+		},
+	},
+	--BCSO Sandy
+
+	Sheriff2Armoury = {
+		name = 'Zbrojownia BCSO',
+		groups = {
+			['sheriff'] = 0 },
+		inventory = {
+			{ name = 'WEAPON_COMBATPISTOL', price = 900,   metadata = { registered = true, serial = 'BCS' }, license = 'weapon', grade = 1 },
+			{ name = 'WEAPON_PISTOL_MK2',   price = 1300,  metadata = { registered = true, serial = 'BCS' }, license = 'weapon', grade = 1 },
+			{ name = 'WEAPON_HEAVYPISTOL',  price = 1400,  metadata = { registered = true, serial = 'BCS' }, license = 'weapon', grade = 8 },
+			{ name = 'WEAPON_SMG',          price = 3750,  metadata = { registered = true, serial = 'BCS' }, license = 'weapon', grade = 8 },
+			{ name = 'WEAPON_COMBATPDW',    price = 4250,  metadata = { registered = true, serial = 'BCS' }, license = 'weapon', grade = 8 },
+			{ name = 'WEAPON_PUMPSHOTGUN',  price = 3000,  metadata = { registered = true, serial = 'BCS' }, license = 'weapon', grade = 8 },
+			{ name = 'WEAPON_SNIPERRIFLE',  price = 15000, metadata = { registered = true, serial = 'BCS' }, license = 'weapon', grade = 8 },
+			{ name = 'WEAPON_CARBINERIFLE', price = 6750,  metadata = { registered = true, serial = 'BCS' }, license = 'weapon', grade = 8 },
+			{ name = 'WEAPON_STUNGUN',      price = 250,   metadata = { registered = true, serial = 'BCS' }, license = 'weapon', grade = 1 },
+			{ name = 'WEAPON_BBSHOTGUN',    price = 1500,  metadata = { registered = true, serial = 'BCS' }, license = 'weapon', grade = 1 },
+			{ name = 'WEAPON_NIGHTSTICK',   price = 100,   grade = 1 },
+			{ name = 'cuffs',               price = 25,    grade = 1 },
+			{ name = 'handcuffkey',         price = 1,     grade = 1 },
+			{ name = 'zipties',             price = 15,    grade = 1 },
+			{ name = 'WEAPON_FLASHLIGHT',   price = 35,    grade = 1 },
+			{ name = 'WEAPON_KNIFE',        price = 30,    grade = 1 },
+			{ name = 'radio',               price = 250,   grade = 1 },
+			{ name = 'gps',                 price = 150,   grade = 1 },
+			{ name = 'bodycam',             price = 100,   grade = 1 },
+			{ name = 'e_bracelet',          price = 150,   grade = 1 },
+			{ name = 'WEAPON_FLAREGUN',     price = 450,   metadata = { registered = true, serial = 'BCS' }, grade = 1 },
+			{ name = 'WEAPON_FLARE',        price = 150,   grade = 1 },
+			{ name = 'shield',              price = 2500,  grade = 8 },
+			{ name = 'at_flashlight',       price = 250,   license = 'weapon', grade = 8 },
+			{ name = 'evidence-bag',        price = 10,    grade = 1 },
+			{ name = 'ammo-flare',          price = 4,     grade = 1 },
+			{ name = 'ammo-9-box',          price = 19,    grade = 1 },
+			{ name = 'ammo-rifle-box',      price = 50,    grade = 8 },
+			{ name = 'ammo-shotgun-box',    price = 10,    grade = 8 },
+			{ name = 'ammo-45-box',         price = 25,    grade = 8 },
+			{ name = 'ammo-sniper-box',     price = 105,   grade = 8 },
+			{ name = 'ammo-bb-box',         price = 12,    grade = 1 },
+			{ name = 'ammo-cart',           price = 3,     grade = 1 },
+			{ name = 'armour25',            price = 400,   grade = 8 },
+			{ name = 'armour50',            price = 800,   grade = 8 },
+			{ name = 'armour100',           price = 1600,  grade = 8 },
+			{ name = 'WEAPON_FLASHBANG',    price = 375,   grade = 8 },
+			{ name = 'spikestrip',          price = 2500,  grade = 8 },
+			{ name = 'roadcone',            price = 10,    grade = 1 },
+			{ name = 'medbag',              price = 20,    grade = 1 },
+			{ name = 'trafficlight',        price = 30,    grade = 1 },
+			{ name = 'worklight',           price = 50,    grade = 1 },
+			{ name = 'worklight2',          price = 50,    grade = 1 },
+			{ name = 'worklight3',          price = 50,    grade = 1 }
+		},
+		locations = {
+			vec3(1861.26, 3687.69, 34.4)
+		},
+		targets = {
+			{ loc = vec3(1861.26, 3687.69, 34.4), length = 0.4, width = 1.6, heading = 300.0, minZ = 33.4, maxZ = 35.8, distance = 4 }
+		},
+	},
+	
 
 
 	--AUTOMATY VENDINGOWE

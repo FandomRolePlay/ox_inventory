@@ -1276,5 +1276,171 @@ return {
 			weight = 500000,
 			groups = {['bahama'] = 1}
 		},		
-			
+	
+		-- BCSO
+
+	{
+		coords = vec3(-444.79, 6008.58, 31.7),
+		target = {
+			loc = vec3(-444.79, 6008.58, 31.7),
+			length = 3.25,
+			width = 0.2,
+			heading = 225.5,
+			minZ = 30.7,
+			maxZ = 32.7,
+			label = 'Otwórz szafke'
+		},
+		name = 'sheriff1locker', -- paleto 
+		label = 'Szafka prywatna',
+		owner = true,
+		slots = 10,
+		weight = 15000,
+		groups = {['sheriff'] = 0}
+	},
+	{
+		coords = vec3(1854.44, 3687.3, 29.85),
+		target = {
+			loc = vec3(1854.44, 3687.3, 29.85),
+			length = 2.1,
+			width = 1.0,
+			heading = 30.0,
+			minZ = 28.85,
+			maxZ = 30.85,
+			label = 'Otwórz szafke'
+		},
+		name = 'sheriff2locker', -- sandy 
+		label = 'Szafka prywatna',
+		owner = true,
+		slots = 10,
+		weight = 15000,
+		groups = {['sheriff'] = 0}
+	},
+
+	{
+		coords = vec3(-450.18, 6015.08, 31.75),
+		target = {
+			loc = vec3(-450.18, 6015.08, 31.75),
+			length = 1.2,
+			width = 0.3,
+			heading = 315,
+			minZ = 30.75,
+			maxZ = 32.75,
+			label = 'Otwórz Magazyn' -- Paleto szafka na niedozwolone wewnątrz biura rzeczy gości, gdzie wkładamy rzeczy na czas ich wejścia, np. adwokat lub obywatel na przesłuchanie
+		},
+		name = 'sheriff1magazyn',
+		label = 'Magazyn',
+		owner = false,
+		slots = 50,
+		weight = 100000,
+		groups = {['sheriff'] = 1}
+	},
+	{
+		coords = vec3(-454.64, 6017.08, 31.7),
+		target = {
+			loc = vec3(-454.64, 6017.08, 31.7),
+			length = 1.75,
+			width = 0.5,
+			heading = 45.5,
+			minZ = 30.7,
+			maxZ = 32.7,
+			label = 'Otwórz Magazyn' -- Paleto duża szafka na dowody policyjne 
+		},
+		name = 'sheriff2magazyn',
+		label = 'Magazyn',
+		owner = false,
+		slots = 100,
+		weight = 500000,
+		groups = {['sheriff'] = 1}
+	},
+	{
+		coords = vec3(-439.0, 6005.82, 31.65),
+		target = {
+			loc = vec3(-439.0, 6005.82, 31.65),
+			length = 1.0,
+			width = 0.2,
+			heading = 315,
+			minZ = 30.65,
+			maxZ = 32.65,
+			label = 'Otwórz Magazyn' -- Paleto szafka na zwróconą przez oficerów broń, skąd pobierają ją na służbę
+		},
+		name = 'sheriff3magazyn',
+		label = 'Magazyn',
+		owner = false,
+		slots = 100,
+		weight = 500000,
+		groups = {['sheriff'] = 1}
+	},
+	{
+		coords = vec3(-436.95, 5988.5, 31.6),
+		target = {
+			loc = vec3(-436.95, 5988.5, 31.6),
+			length = 0.1,
+			width = 0.7,
+			heading = 315,
+			minZ = 30.6,
+			maxZ = 32.6,
+			label = 'Otwórz Magazyn' -- szafka na rzeczy zatrzymanego do czasu przeniesienia do dowodów
+		},
+		name = 'sheriff4magazyn',
+		label = 'Magazyn',
+		owner = false,
+		slots = 75,
+		weight = 200000,
+		groups = {['sheriff'] = 1}
+	},
+	{
+		coords = vec3(-437.0, 6006.14, 36.35),
+		target = {
+			loc = vec3(-437.0, 6006.14, 36.35),
+			length = 0.3,
+			width = 1.55,
+			heading = 315,
+			minZ = 30.35,
+			maxZ = 32.35,
+			label = 'Otwórz Magazyn' -- paleto szafka na rzeczy administracyjnie, dokumenty, itd.
+		},
+		name = 'sheriff5magazyn',
+		label = 'Magazyn',
+		owner = false,
+		slots = 100,
+		weight = 100000,
+		groups = {['sheriff'] = 1}
+	},
+	{
+		coords = vec3(1858.94, 3692.03, 29.9),
+		target = {
+			loc = vec3(1858.94, 3692.03, 29.9),
+			length = 1.0,
+			width = 1.5,
+			heading = 30,
+			minZ = 28.8,
+			maxZ = 30.8,
+			label = 'Otwórz Magazyn' -- Sandy duża szafka na dowody policyjne 
+		},
+		name = 'sheriff6magazyn',
+		label = 'Magazyn',
+		owner = false,
+		slots = 100,
+		weight = 500000,
+		groups = {['sheriff'] = 1}
+	},
+	{
+		coords = vec3(1859.22, 3688.72, 33.7),
+		target = {
+			loc = vec3(1859.22, 3688.72, 33.7),
+			length = 0.5,
+			width = 1.6,
+			heading = 30,
+			minZ = 32.7,
+			maxZ = 34.7,
+			label = 'Otwórz Magazyn' -- Sandy szafka na zwróconą przez oficerów broń, skąd pobierają ją na służbę
+		},
+		name = 'sheriff7magazyn',
+		label = 'Magazyn',
+		owner = false,
+		slots = 100,
+		weight = 500000,
+		groups = {['sheriff'] = 1}
+	},
+
 }
