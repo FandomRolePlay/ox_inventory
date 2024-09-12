@@ -7009,6 +7009,16 @@ return {
 			export = 'frp_badge.badge_usmarshals'
 		}
 	},
+	['badge_sheriff'] = {
+		label = 'Odznaka BCSO',
+		stack = false,
+		weight = 50,
+		close = true,
+		consume = 0,
+		server = {
+			export = 'frp_badge.badge_sheriff'
+		}
+	},
 
 	--- Aparat
 	["tripolar_camera"] = {
@@ -7968,8 +7978,18 @@ return {
 		stack = true,
 		close = false,
 	},
+	-- ps-realtor
 
-
-
+	["rea_tablet"] = {
+		label = "Tablet agenta nieruchomości",
+		weight = 1000,
+		stack = false,
+		close = true,
+		decay = true,
+		degrade = 1 * 24 * 60, -- day * hour * minute
+		client = {
+			event = "bl-realtor:client:toggleUI"
+		}
+	},
 
 }
