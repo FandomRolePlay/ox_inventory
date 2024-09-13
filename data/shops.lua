@@ -110,6 +110,7 @@ return {
             {name = "beef", price = 15},
 
 			{ name = 'sugar', price = 5 },
+			{ name = 'yeast',      price = 4, },
 
 
 		},
