@@ -880,9 +880,9 @@ return {
 
 	-- AUTOKOMIS
 	{
-		coords = vec3(800.6, -830.42, 26.34),
+		coords = vec3(-194.80, -1164.69, 23.96),
 		target = {
-			loc = vec3(800.6, -830.42, 26.34),
+			loc = vec3(-194.80, -1164.69, 23.96),
 			length = 1.0,
 			width = 0.6,
 			heading = 0,
@@ -898,9 +898,9 @@ return {
 		groups = {['autohouse'] = 0}
 	},
 	{
-		coords = vec3(803.46, -830.84, 26.34),
+		coords = vec3(-185.46, -1162.11, 23.89),
 		target = {
-			loc = vec3(803.46, -830.84, 26.34),
+			loc = vec3(-185.46, -1162.11, 23.89),
 			length = 0.4,
 			width = 1.0,
 			heading = 0,
@@ -1241,9 +1241,9 @@ return {
 		-- Bahama
 
 		{
-			coords = vec3(-1377.3096, -634.3604, 30.3199),
+			coords = vec3(-1375.99, -633.94, 30.62),
 			target = {
-				loc = vec3(-1377.3096, -634.3604, 30.3199),
+				loc = vec3(-1375.99, -633.94, 30.62),
 				length = 1.8,
 				width = 1.0,
 				heading = 305,
@@ -1259,9 +1259,9 @@ return {
 			groups = {['bahama'] = 0}
 		},
 		{
-			coords = vec3(-1403.7717, -599.1593, 30.3200),
+			coords = vec3(-1402.07, -597.26, 30.40),
 			target = {
-				loc = vec3(-1403.7717, -599.1593, 30.3200),
+				loc = vec3(-1402.07, -597.26, 30.40),
 				length = 2.0,
 				width = 1.0,
 				heading = 300,
