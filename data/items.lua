@@ -6560,6 +6560,18 @@ return {
 	},
 
 	--CRAFT BRONIE
+	["microsmgset"] = {
+		label = "Zestaw Micro SMG",
+		weight = 550,
+		stack = false,
+		close = false,
+	},
+	["machinepistolset"] = {
+		label = "Zestaw MP-9A1",
+		weight = 500,
+		stack = false,
+		close = false,
+	},
 	["pistol50set"] = {
 		label = "Zestaw HL BEAGLE .50",
 		weight = 300,
@@ -7247,6 +7259,60 @@ return {
 		label = 'BB Ammo Box',
 		description = "Paczka 24 sztuk amunicji BB",
 		weight = 320,
+		stack = false,
+		client = {
+		}
+	},
+
+	['crate-9'] = {
+		label = 'Skrzynia 9mm',
+		description = "Skrzynia z 30 paczkami 9mm",
+		weight = 12500,
+		stack = false,
+		client = {
+		}
+	},
+
+	['crate-50'] = {
+		label = 'Skrzynia .50 AE',
+		description = "Skrzynia z 20 paczkami .50 AE",
+		weight = 13200,
+		stack = false,
+		client = {
+		}
+	},
+
+	['crate-45'] = {
+		label = 'Skrzynia .45 ACP',
+		description = "Skrzynia z 20 paczkami .45 ACP",
+		weight = 9000,
+		stack = false,
+		client = {
+		}
+	},
+
+	['crate-44'] = {
+		label = 'Skrzynia .44 Magnum',
+		description = "Skrzynia z 20 paczkami .44 Magnum",
+		weight = 8400,
+		stack = false,
+		client = {
+		}
+	},
+
+	['crate-12gauge'] = {
+		label = 'Skrzynia 12 Gauge',
+		description = "Skrzynia z 20 paczkami 12 Gauge",
+		weight = 11600,
+		stack = false,
+		client = {
+		}
+	},
+
+	['crate-300s'] = {
+		label = 'Skrzynia .300 Savage',
+		description = "Skrzynia z 20 paczkami .300 Savage",
+		weight = 9000,
 		stack = false,
 		client = {
 		}
