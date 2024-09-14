@@ -1267,14 +1267,50 @@ return {
 				heading = 300,
 				minZ = 27.82,
 				maxZ = 31.82,
-				label = 'Otwórz Magazyn'
+				label = 'Otwórz Magazyn Składników'
 			},
 			name = 'bahamamagazyn',
-			label = 'Magazyn',
+			label = 'Magazyn Składników',
 			owner = false,
 			slots = 200,
 			weight = 500000,
 			groups = {['bahama'] = 1}
+		},		
+		{
+			coords = vec3(-1400.67, -597.42, 29.88),
+			target = {
+				loc = vec3(-1400.67, -597.42, 29.88),
+				length = 2.0,
+				width = 1.0,
+				heading = 300,
+				minZ = 27.82,
+				maxZ = 31.82,
+				label = 'Otwórz Magazyn Alkoholi'
+			},
+			name = 'bahamamagazyn2',
+			label = 'Magazyn Alkoholi',
+			owner = false,
+			slots = 200,
+			weight = 500000,
+			groups = {['bahama'] = 1}
+		},		
+		{
+			coords = vec3(-1372.47, -629.36, 30.57),
+			target = {
+				loc = vec3(-1372.47, -629.36, 30.57),
+				length = 2.0,
+				width = 1.0,
+				heading = 300,
+				minZ = 27.82,
+				maxZ = 31.82,
+				label = 'Otwórz Sejf'
+			},
+			name = 'bahamasejf',
+			label = 'Sejf',
+			owner = false,
+			slots = 30,
+			weight = 150000,
+			groups = {['bahama'] = 5}
 		},		
 	
 		-- BCSO
