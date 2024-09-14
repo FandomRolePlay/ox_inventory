@@ -4568,6 +4568,20 @@ return {
 		description = ""
 	},
 
+	["weapon1_table"] = {
+		label = 'Stacja Rusznikarska',
+		weight = 15000,
+		stack = false,
+		description = ""
+	},
+
+	["weapon_manual1"] = {
+		label = 'Podręcznik Rusznikarski',
+		weight = 150,
+		stack = false,
+		description = "Podręcznik Rusznikarski część I"
+	},
+
 	["blueprint_pistol"] = {
 		label = 'Plan Techniczny',
 		weight = 10,
