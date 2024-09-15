@@ -695,98 +695,98 @@ return {
 	--ALKOHOLE
 	['pisswasser'] = {
 		label = 'Pisswasser',
-		stack = false,
+		stack = true,
 		weight = 500,
 		close = true,
 	},
 
 	['logger'] = {
 		label = 'Logger',
-		stack = false,
+		stack = true,
 		weight = 500,
 		close = true,
 	},
 
 	['barracho'] = {
 		label = 'Cerveza Barracho',
-		stack = false,
+		stack = true,
 		weight = 500,
 		close = true,
 	},
 
 	['vodka'] = {
 		label = 'Nogo Vodka',
-		stack = false,
+		stack = true,
 		weight = 700,
 		close = true,
 	},
 
 	['tequila'] = {
 		label = 'Tequilya',
-		stack = false,
+		stack = true,
 		weight = 700,
 		close = true,
 	},
 
 	['whisky'] = {
 		label = 'Mount Whisky',
-		stack = false,
+		stack = true,
 		weight = 700,
 		close = true,
 	},
 
 	['rockford_hill'] = {
 		label = 'Rockford Hill Wine',
-		stack = false,
+		stack = true,
 		weight = 500,
 		close = true,
 	},
 
 	['marlowe'] = {
 		label = 'Marlowe Wine',
-		stack = false,
+		stack = true,
 		weight = 500,
 		close = true,
 	},
 
 	['costa_del_perro'] = {
 		label = 'Costa Del Perro',
-		stack = false,
+		stack = true,
 		weight = 500,
 		close = true,
 	},
 
 	['vinewood_red'] = {
 		label = 'Vinewood Red Zinfadel',
-		stack = false,
+		stack = true,
 		weight = 500,
 		close = true,
 	},
 
 	['vinewood_blanc'] = {
 		label = 'Vinewood Sauvignon Blanc',
-		stack = false,
+		stack = true,
 		weight = 500,
 		close = true,
 	},
 
 	['rum'] = {
 		label = 'Ragga Rum',
-		stack = false,
+		stack = true,
 		weight = 700,
 		close = true,
 	},
 
 	['cognac'] = {
 		label = 'Bourgeoix Cognac',
-		stack = false,
+		stack = true,
 		weight = 700,
 		close = true,
 	},
 
 	['bleuterd'] = {
 		label = 'Bleuterd Champagne',
-		stack = false,
+		stack = true,
 		weight = 700,
 		close = true,
 	},
