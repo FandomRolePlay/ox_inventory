@@ -103,7 +103,7 @@ setContainerProperties('vanbag', {
 setContainerProperties('keyhanging', {
 	slots = 7,
 	maxWeight = 1000,
-	whitelist = { 'carkeys', 'handcuffkey', 'keya1', 'keya2', 'keya3', 'keya4', 'keyb1', 'keyb2', 'keyb3', 'keyb4','keyc1', 'keyc2', 'keyc3', 'keyc4','keyd1', 'keyd2', 'keyd3', 'keyd4','keye1', 'keye2', 'keye3', 'keye4','keyf1', 'keyf2', 'keyf3', 'keyf4', 'keyg1', 'keyg2', 'keyg3', 'keyg4', 'keyg5', 'keyg6', 'keyg7', 'keyg8', 'keyg9', 'keyg10', 'keyg11', 'keyg12', 'keyg13'}
+	whitelist = { 'carkeys', 'handcuffkey', 'keya1', 'keya2', 'keya3', 'keya4', 'keyb1', 'keyb2', 'keyb3', 'keyb4','keyc1', 'keyc2', 'keyc3', 'keyc4','keyd1', 'keyd2', 'keyd3', 'keyd4','keye1', 'keye2', 'keye3', 'keye4','keyf1', 'keyf2', 'keyf3', 'keyf4', 'keyg1', 'keyg2', 'keyg3', 'keyg4', 'keyg5', 'keyg6', 'keyg7', 'keyg8', 'keyg9', 'keyg10', 'keyg11', 'keyg12', 'keyg13', 'keyg14', 'keyg15', 'keyg16', 'keyg17', 'keyg18', 'keyg19', 'keyg20'}
 })
 
 setContainerProperties('wallet', {
