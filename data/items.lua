@@ -7332,6 +7332,20 @@ return {
 		}
 	},
 
+	['weaponcase'] = {
+		label = 'Futerał do broni',
+		description = "Dedykowany futerał do przechowywania broni palnej",
+		weight = 500,
+		stack = false,
+	},
+
+	['longweaponcase'] = {
+		label = 'Futerał do broni',
+		description = "Dedykowany futerał do przechowywania broni palnej",
+		weight = 700,
+		stack = false,
+	},
+
 	['ammocrate'] = {
 		label = 'Skrzynia z amunicją',
 		description = "Skrzynia dedykowana do przechowywania amunicji",
