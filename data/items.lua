@@ -6845,7 +6845,7 @@ return {
 		close = true,
 	},
 	["keyg3"] = {
-		label = "Klucz G3", -- Los Zetas
+		label = "Klucz G3", -- Cartel de Barranquilla
 		description = "F4N-D03",
 		weight = 5,
 		stack = false,
@@ -6916,6 +6916,55 @@ return {
 	},
 	["keyg13"] = {
 		label = "Klucz G13", -- Ballas
+		description = "F4N-D03",
+		weight = 5,
+		stack = false,
+		close = true,
+	},
+	["keyg14"] = {
+		label = "Klucz G14", -- AoD MC
+		description = "F4N-D03",
+		weight = 5,
+		stack = false,
+		close = true,
+	},
+	["keyg15"] = {
+		label = "Klucz G15", -- Lost MC
+		description = "F4N-D03",
+		weight = 5,
+		stack = false,
+		close = true,
+	},
+	["keyg16"] = {
+		label = "Klucz G16", -- 
+		description = "F4N-D03",
+		weight = 5,
+		stack = false,
+		close = true,
+	},
+	["keyg17"] = {
+		label = "Klucz G17", -- 
+		description = "F4N-D03",
+		weight = 5,
+		stack = false,
+		close = true,
+	},
+	["keyg18"] = {
+		label = "Klucz G18", -- 
+		description = "F4N-D03",
+		weight = 5,
+		stack = false,
+		close = true,
+	},
+	["keyg19"] = {
+		label = "Klucz G19", -- 
+		description = "F4N-D03",
+		weight = 5,
+		stack = false,
+		close = true,
+	},
+	["keyg20"] = {
+		label = "Klucz G20", -- 
 		description = "F4N-D03",
 		weight = 5,
 		stack = false,
