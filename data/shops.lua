@@ -1027,6 +1027,8 @@ return {
 			{ name = 'weapon-parts',      price = 50 },
 			{ name = 'weapon-cleaning',   price = 50 },
 			{ name = 'blueprint_an',      price = 500 },
+			{ name = 'weaponcase',        price = 50 },
+			{ name = 'longweaponcase',    price = 100 },
 			{ name = 'at_flashlight',     price = 180 },
 			{ name = 'snspistolset',      price = 800 },
 			{ name = 'pistolset',         price = 950 },
