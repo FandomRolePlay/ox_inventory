@@ -1046,11 +1046,11 @@ return {
 			{ name = 'ammo-9-box',        price = 25 },
 			{ name = 'ammo-44-box',       price = 40 },
 			{ name = 'ammo-shotgun-box',  price = 10 },
-			{ name = 'crate-45',       price = 900 },
-			{ name = 'crate-50',       price = 1400 },
-			{ name = 'crate-9',        price = 750 },
-			{ name = 'crate-44',       price = 800 },
-			{ name = 'crate-12gauge',  price = 200 },
+			{ name = 'crate_45',       price = 900 },
+			{ name = 'crate_50',       price = 1400 },
+			{ name = 'crate_9',        price = 750 },
+			{ name = 'crate_44',       price = 800 },
+			{ name = 'crate_12gauge',  price = 200 },
 		},
 		locations = {
 			vec3(798.1658, -2136.1316, 29.5148)

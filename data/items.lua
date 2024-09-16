@@ -7278,7 +7278,7 @@ return {
 		}
 	},
 
-	['crate-9'] = {
+	['crate_9'] = {
 		label = 'Skrzynia 9mm',
 		description = "Skrzynia z 30 paczkami 9mm",
 		weight = 12500,
@@ -7287,7 +7287,7 @@ return {
 		}
 	},
 
-	['crate-50'] = {
+	['crate_50'] = {
 		label = 'Skrzynia .50 AE',
 		description = "Skrzynia z 20 paczkami .50 AE",
 		weight = 13200,
@@ -7296,7 +7296,7 @@ return {
 		}
 	},
 
-	['crate-45'] = {
+	['crate_45'] = {
 		label = 'Skrzynia .45 ACP',
 		description = "Skrzynia z 20 paczkami .45 ACP",
 		weight = 9000,
@@ -7305,7 +7305,7 @@ return {
 		}
 	},
 
-	['crate-44'] = {
+	['crate_44'] = {
 		label = 'Skrzynia .44 Magnum',
 		description = "Skrzynia z 20 paczkami .44 Magnum",
 		weight = 8400,
@@ -7314,7 +7314,7 @@ return {
 		}
 	},
 
-	['crate-12gauge'] = {
+	['crate_12gauge'] = {
 		label = 'Skrzynia 12 Gauge',
 		description = "Skrzynia z 20 paczkami 12 Gauge",
 		weight = 11600,
@@ -7323,7 +7323,7 @@ return {
 		}
 	},
 
-	['crate-300s'] = {
+	['crate_300s'] = {
 		label = 'Skrzynia .300 Savage',
 		description = "Skrzynia z 20 paczkami .300 Savage",
 		weight = 9000,
