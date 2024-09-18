@@ -1138,7 +1138,7 @@ return {
 			id = 50, colour = 24, scale = 0.8
 		},
 		groups = {
-			['weedshop'] = 0
+			['weedshop'] = 3
 		},
 		inventory = {
 			{ name = 'pot',              price = 5 },
