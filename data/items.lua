@@ -6574,6 +6574,12 @@ return {
 	},
 
 	--CRAFT BRONIE
+	["weapon-parts_spec"] = {
+		label = "Części specjalistyczne",
+		weight = 50,
+		stack = true,
+		close = false,
+	},
 	["microsmgset"] = {
 		label = "Zestaw Micro SMG",
 		weight = 550,
