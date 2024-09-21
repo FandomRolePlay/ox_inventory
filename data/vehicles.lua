@@ -92,6 +92,7 @@ return {
 		models = {
 			[`xa21`] = {5, 10000},
 			[`nspeedo`] = {100, 300000},
+			[`polnspeedo`] = {100, 300000},
 			[`mtlengine2`] = {100, 300000},
 			[`mtlengine`] = {100, 300000},
 			[`fdlcladder`] = {100, 300000},		

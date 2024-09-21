@@ -804,14 +804,14 @@ return {
 
 	-- DOSBROS
 	{
-		coords = vec3(-1425.84, -457.11, 35.91),
+		coords = vec3(961.91, -1568.05, 30.74),
 		target = {
-			loc = vec3(-1425.84, -457.11, 35.91),
-			length = 1.0,
-			width = 0.4,
+			loc = vec3(961.91, -1568.05, 30.74),
+			length = 2.8,
+			width = 0.6,
 			heading = 0,
-			minZ = 34.91,
-			maxZ = 36.71,
+			minZ = 30.14,
+			maxZ = 32.34,
 			label = 'Otwórz szafke'
 		},
 		name = 'dosbroslocker',
@@ -822,14 +822,14 @@ return {
 		groups = {['mechanic2'] = 0}
 	},
 	{
-		coords = vec3(-1418.56, -454.66, 35.91),
+		coords = vec3(928.2, -1571.52, 30.74),
 		target = {
-			loc = vec3(-1418.56, -454.66, 35.91),
-			length = 0.6,
-			width = 2.8,
+			loc = vec3(928.2, -1571.52, 30.74),
+			length = 1.4,
+			width = 4.0,
 			heading = 32,
-			minZ = 34.91,
-			maxZ = 37.11,
+			minZ = 30.59,
+			maxZ = 31.59,
 			label = 'Otwórz Magazyn'
 		},
 		name = 'dosbrosmagazyn',

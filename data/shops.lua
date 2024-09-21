@@ -453,6 +453,7 @@ return {
 			{ name = 'armour100',           price = 1600,  grade = 10 },
 			{ name = 'WEAPON_FLASHBANG',    price = 375,   grade = 10 },
 			{ name = 'spikestrip',          price = 2500,  grade = 10 },
+			{ name = 'alcotester',    		price = 500,   grade = 10 },
 			{ name = 'roadcone',            price = 10,    grade = 1 },
 			{ name = 'medbag',              price = 20,    grade = 1 },
 			{ name = 'trafficlight',        price = 30,    grade = 1 },
