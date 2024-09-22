@@ -3619,11 +3619,11 @@ return {
 	},
 
 	["printer4"] = {
-		label = "Drukarka",
-		weight = 5000,
+		label = "Drukarka Sister",
+		weight = 1000,
 		stack = false,
 		close = true,
-		description = "Drukuje, czasem się zatnie papier",
+		description = "Lekka i niezawodna, Siostra zrobi to najlepiej!",
 		client = {
 			image = "printer4.png",
 		}
