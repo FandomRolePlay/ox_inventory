@@ -4109,6 +4109,14 @@ return {
 		close = true,
 	},
 
+	["ryza2"] = {
+		label = "Ryza papieru MasterPaper",
+		weight = 500,
+		stack = false,
+		close = true,
+		description = "Siostra go zawsze wypluwa bez zacięcia"
+	},
+
 	["scale"] = {
 		label = "Scale",
 		weight = 1,
