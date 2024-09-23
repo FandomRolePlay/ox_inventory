@@ -3619,7 +3619,7 @@ return {
 	},
 
 	["printer4"] = {
-		label = "Drukarka Sister",
+		label = "Drukarka Sister", -- item do prania kasy CRIME
 		weight = 1000,
 		stack = false,
 		close = true,
@@ -4110,7 +4110,7 @@ return {
 	},
 
 	["ryza2"] = {
-		label = "Ryza papieru MasterPaper",
+		label = "Ryza papieru MasterPaper", -- item do prania kasy CRIME
 		weight = 500,
 		stack = false,
 		close = true,
@@ -8064,6 +8064,11 @@ return {
 		weight = 1,
 		stack = true,
 		close = true,
+	},
+
+	['steel_rope'] = { -- do wyrywania bankomatów
+		label = 'Wzmocniona, stalowa lina',
+		weight = 160,
 	},
 
 	--frp_nitro
