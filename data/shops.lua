@@ -116,9 +116,11 @@ return {
 		},
 		locations = {
 			vec3(-1225.4, -1484.1, 4.37), --PLAŻA
+			vec3(-58.08, 6522.84, 31.49), --PALETO
 		},
 		targets = {
 			{ loc = vec3(-1225.4, -1484.1, 4.37),  length = 0.4, width = 0.6, heading = 35.0,  minZ = 4.32,   maxZ = 4.72,   distance = 1.5 }, --PLAŻA
+			{ loc = vec3(-58.08, 6522.84, 31.49),  length = 1.9, width = 1.8, heading = 233.265, minZ = 29.50, maxZ = 29.99, distance = 3.0 }, --PALETO
 		}
 	},
 
@@ -334,11 +336,12 @@ return {
 			{ name = 'grill5_table',	price = 300,   count = 2 },
 		},
 		locations = {
-			vec3(2748.0, 3473.0, 55.67),
-			vec3(342.99, -1298.26, 32.51)
+			vec3(2748.0, 3473.0, 55.67), --SANDY
+			vec3(55.3032, -1739.5057, 29.5901), --LS
 		},
 		targets = {
-			{ loc = vec3(55.3032, -1739.5057, 29.5901), length = 1.9, width = 1.8, heading = 233.265, minZ = 29.50, maxZ = 29.99, distance = 3.0 }
+			{ loc = vec3(55.3032, -1739.5057, 29.5901), length = 1.9, width = 1.8, heading = 233.265, minZ = 29.50, maxZ = 29.99, distance = 3.0 }, --LS
+			{ loc = vec3(2748.0, 3473.0, 55.67), length = 1.9, width = 1.8, heading = 233.265, minZ = 29.50, maxZ = 29.99, distance = 3.0 }, --SANDY
 		}
 	},
 
@@ -1352,6 +1355,8 @@ return {
 	Hurtownia12 = {
 		name = 'Marty Brązowe Oko',
 		inventory = {
+			{ name = 'hotdog', 			 price = 20, count = 20 },
+			{ name = 'water3', 			 price = 10, count = 20 },
 			{ name = 'cola',             price = 8, count = 50 },
 			{ name = 'logger',           price = 8, count = 30 },
 			{ name = 'whisky',           price = 100, count = 15 },
@@ -1361,10 +1366,10 @@ return {
 			{ name = 'banana_kush_seed', price = 70, count = 2 },
 			{ name = 'red_jack_seed',    price = 100, count = 2 },
 			{ name = 'chem_sister_seed', price = 100, count = 2 },
-			{ name = 'water3', price = 10, count = 20 },
+			{ name = 'steel_rope',       price = 400, count = 2 },
 		},
 		locations = {
-			vec3(2194.6409, 5582.1021, 53.3583) -- 2194.7009, 5581.5796, 53.3583, 182.0232
+			vec3(2194.6409, 5582.1021, 53.3583)
 		},
 		targets = {
 			{ loc = vec3(2194.70, 5581.57, 52.35), length = 1.5, width = 1.5, heading = 183, minZ = 182.02, maxZ = 184.02, distance = 2.5 },
