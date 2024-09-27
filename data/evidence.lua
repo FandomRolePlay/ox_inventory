@@ -22,5 +22,18 @@ return {
 			minZ = 28.90,
 			maxZ = 30.90
 		}
+	},
+	{
+		coords = vec3(-811.21, -705.41, 28.06),
+		target = { -- qtarget support
+			name = 'usms_evidence', -- name of zone must be uniuqe
+			loc = vec3(-811.21, -705.41, 28.06),
+			length = 0.2,
+			width = 1.8,
+			heading = 0.0,
+			minZ = 27.46,
+			maxZ = 29.06
+		}
 	}
+	
 }
