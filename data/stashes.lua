@@ -1478,5 +1478,79 @@ return {
 		weight = 500000,
 		groups = {['sheriff'] = 1}
 	},
+	{
+		coords = vec3(-810.56, -715.43, 28.06),
+		target = {
+			loc = vec3(-810.56, -715.43, 28.06),
+			length = 1,
+			width = 1,
+			heading = 0,
+			minZ = 26.86,
+			maxZ = 29.06,
+			label = 'Otwórz Lodówkę'
+		},
+		name = 'usmslodowka',
+		label = 'Lodówka',
+		owner = false,
+		slots = 200,
+		weight = 50000,
+		groups = {['usmarshals'] = 0}
+	},
+	{
+		coords = vec3(-446.99, 6020.98, 36.12),
+		target = {
+			loc = vec3(-446.99, 6020.98, 36.12),
+			length = 0.8,
+			width = 0.8,
+			heading = 45,
+			minZ = 35.12,
+			maxZ = 37.12,
+			label = 'Otwórz Lodówkę'
+		},
+		name = 'bcsolodowka',
+		label = 'Lodówka',
+		owner = false,
+		slots = 200,
+		weight = 50000,
+		groups = {['sheriff'] = 0}
+	},
+	{
+		coords = vec3(-373.68, -350.28, 43.1),
+		target = {
+			loc = vec3(-373.68, -350.28, 43.1),
+			length = 1,
+			width = 1,
+			heading = 0,
+			minZ = 42.6,
+			maxZ = 43.6,
+			label = 'Otwórz Lodówkę'
+		},
+		name = 'lspdlodowka',
+		label = 'Lodówka',
+		owner = false,
+		slots = 200,
+		weight = 50000,
+		groups = {['police'] = 0}
+	},
+	{
+		coords = vec3(-2294.28, 3238.38, 36.51),
+		target = {
+			loc = vec3(-2294.28, 3238.38, 36.51),
+			length = 1,
+			width = 1.4,
+			heading = 330,
+			minZ = 32.91,
+			maxZ = 36.91,
+			label = 'Otwórz Lodówkę'
+		},
+		name = 'armylodowka',
+		label = 'Lodówka',
+		owner = false,
+		slots = 200,
+		weight = 50000,
+		groups = {['army'] = 0}
+	},
+
+
 
 }
