@@ -42,6 +42,7 @@ return {
 			vec3(2679.25, 3280.12, 55.24),
 			vec3(2557.94, 382.05, 108.62),
 			vec3(373.55, 325.56, 103.56),
+			vec3(-706.63, -913.68, 19.32),
 			vec3(1736.2543, 6413.1440, 35.0372), --PALETO
 			--vec3(-1225.4, -1484.1, 4.37), --PLAŻA
 		},
@@ -56,6 +57,7 @@ return {
 			{ loc = vec3(2678.29, 3279.94, 55.24), length = 0.6, width = 0.5, heading = 330.0, minZ = 55.24,  maxZ = 55.64,  distance = 1.5 },
 			{ loc = vec3(2557.19, 381.4, 108.62),  length = 0.6, width = 0.5, heading = 0.0,   minZ = 108.62, maxZ = 109.02, distance = 1.5 },
 			{ loc = vec3(373.13, 326.29, 103.57),  length = 0.6, width = 0.5, heading = 345.0, minZ = 103.57, maxZ = 103.97, distance = 1.5 },
+			{ loc = vec3(-706.63, -913.68, 19.32), length = 0.6, width = 0.5, heading = 345.0, minZ = 103.57, maxZ = 103.97, distance = 1.5 },
 			{ loc = vec3(1728.39, 6414.99, 35.04), length = 0.6, width = 0.5, heading = 332.0, minZ = 34.94,  maxZ = 35.54,  distance = 1.5 }, --PALETO
 			--{ loc = vec3(-1225.4, -1484.1, 4.37),  length = 0.4, width = 0.6, heading = 35.0,  minZ = 4.32,   maxZ = 4.72,   distance = 1.5 }, --PLAŻA
 		}
@@ -978,6 +980,12 @@ return {
 			{ name = 'curaco',             price = 5 },
 			{ name = 'larios',             price = 5 },
 			{ name = 'syrup',              price = 2 },
+			{ name = 'tealeaf',            price = 1 },
+			{ name = 'shrims',             price = 3 },
+			{ name = 'tofu',               price = 2 },
+			{ name = 'nori',               price = 2 },
+			{ name = 'rice',               price = 2 },
+			{ name = 'fishs',              price = 3 },
 		},
 		locations = {
 			vec3(-1223.07, -1484.14, 4.35)
