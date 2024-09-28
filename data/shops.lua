@@ -980,6 +980,12 @@ return {
 			{ name = 'curaco',             price = 5 },
 			{ name = 'larios',             price = 5 },
 			{ name = 'syrup',              price = 2 },
+			{ name = 'tealeaf',            price = 1 },
+			{ name = 'shrims',             price = 3 },
+			{ name = 'tofu',               price = 2 },
+			{ name = 'nori',               price = 2 },
+			{ name = 'rice',               price = 2 },
+			{ name = 'fishs',              price = 3 },
 		},
 		locations = {
 			vec3(-1223.07, -1484.14, 4.35)

@@ -1311,7 +1311,45 @@ return {
 			slots = 30,
 			weight = 150000,
 			groups = {['bahama'] = 5}
-		},		
+		},	
+		
+		-- Ramen
+		{
+			coords = vec3(-667.44, -883.43, 28.89),
+			target = {
+				loc = vec3(-667.44, -883.43, 28.89),
+				length = 1.4,
+				width = 0.6,
+				heading = 0,
+				minZ = 27.89,
+				maxZ = 30.09,
+				label = 'Otwórz szafke'
+			},
+			name = 'ramenlocker',
+			label = 'Szafka Prywatna',
+			owner = true,
+			slots = 10,
+			weight = 15000,
+			groups = {['ramen'] = 0}
+		},
+		{
+			coords = vec3(-673.32, -882.88, 24.64),
+			target = {
+				loc = vec3(-673.32, -882.88, 24.64),
+				length = 1.6,
+				width = 0.8,
+				heading = 0,
+				minZ = 23.64,
+				maxZ = 26.04,
+				label = 'Otwórz Magazyn Składników'
+			},
+			name = 'ramenmagazyn',
+			label = 'Magazyn Składników',
+			owner = false,
+			slots = 200,
+			weight = 500000,
+			groups = {['ramen'] = 1}
+		},	
 	
 		-- BCSO
 
