@@ -7319,50 +7319,29 @@ return {
 		},
 	},
 
-	["bmx"] = {
-		label = "BMX Bike",
+	["bmx3"] = {
+		label = "BMX",
 		weight = 5500,
 		stack = false,
 		close = true,
 	},
 
-	["fixter"] = {
-		label = "Fixter Bike",
-		weight = 3000,
-		stack = false,
-		close = true,
-	},
-
-	["cruiser"] = {
-		label = "Cruiser Bike",
+	["cruiser2"] = {
+		label = "Cruiser",
 		weight = 6000,
 		stack = false,
 		close = true,
 	},
 
-	["scorcher"] = {
-		label = "Scorcher Bike",
+	["scorcher2"] = {
+		label = "Scorcher",
 		weight = 4000,
 		stack = false,
 		close = true,
 	},
 
-	["tribike"] = {
-		label = "Yellow TriBike",
-		weight = 3000,
-		stack = false,
-		close = true,
-	},
-
-	["tribike2"] = {
-		label = "Red TriBike",
-		weight = 3000,
-		stack = false,
-		close = true,
-	},
-
-	["tribike3"] = {
-		label = "Blue TriBike",
+	["tribike4"] = {
+		label = "TriBike",
 		weight = 3000,
 		stack = false,
 		close = true,
@@ -8305,4 +8284,14 @@ return {
 		}
 	},
 
+	--rahe_speakers
+	['speaker'] = {
+		label = 'Głośnik',
+		weight = 0,
+		description = '',
+		consume = 0,
+		server = {
+			export = 'rahe-speakers.speaker'
+		}
+	},
 }

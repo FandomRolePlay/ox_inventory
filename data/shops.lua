@@ -397,13 +397,10 @@ return {
 		blip = {
 			id = 559, colour = 18, scale = 0.8 },
 		inventory = {
-			{ name = 'cruiser',    price = 200,  count = 7 },
-			{ name = 'bmx',        price = 400,  count = 0 },
-			{ name = 'fixter',     price = 700,  count = 0 },
-			{ name = 'scorcher',   price = 850,  count = 0 },
-			{ name = 'tribike',    price = 1000, count = 0 },
-			{ name = 'tribike3',   price = 1000, count = 0 },
-			{ name = 'tribike2',   price = 1100, count = 0 },
+			{ name = 'cruiser2',    price = 200,  count = 7 },
+			{ name = 'bmx3',        price = 400,  count = 7 },
+			{ name = 'scorcher2',   price = 850,  count = 7 },
+			{ name = 'tribike4',    price = 1000, count = 7 },
 			{ name = 'skateboard', price = 200,  count = 11 },
 		},
 		locations = {
