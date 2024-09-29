@@ -146,7 +146,7 @@ return {
 			{ name = 'yellow_phone_box', price = 1250, count = 5 },
 			{ name = 'powerbank',        price = 100,  count = 10 }, ]]
 			{ name = 'tvpilot',          price = 30,   count = 30 },
-			{ name = 'boombox',          price = 300,  count = 20 },
+			--{ name = 'boombox',          price = 300,  count = 20 },
 			{ name = 'radio2',           price = 450,  count = 20 },
 			{ name = 'lornetka',         price = 150,  count = 15 },
 			{ name = 'ryza',             price = 150,  metadata = { countLeft = 100, description = 'Pozostało 100szt. papieru do drukarki' } },
@@ -911,6 +911,7 @@ return {
 				["weedshop"] = 0,
 				["pizza"] = 0,
 				["bahama"] = 0,
+				["ramen"] = 0,
 			},
 		inventory = {
 			{ name = 'water',             price = 1 },
@@ -1007,7 +1008,7 @@ return {
 			{ name = 'tvpilot',          price = 10 },
 			{ name = 'radio2',           price = 200 },
 			{ name = 'lornetka',         price = 70 },
-			{ name = 'boombox',          price = 120 },
+			--{ name = 'boombox',          price = 120 },
 			{ name = 'powerbank',        price = 40 },
 			{ name = 'phone_box',        price = 450 },
 			{ name = 'black_phone_box',  price = 550 },
