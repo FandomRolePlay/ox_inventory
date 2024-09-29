@@ -8287,7 +8287,7 @@ return {
 	--rahe_speakers
 	['speaker'] = {
 		label = 'Głośnik',
-		weight = 0,
+		weight = 1000,
 		description = '',
 		consume = 0,
 		server = {
