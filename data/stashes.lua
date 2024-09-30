@@ -15,8 +15,8 @@ return {
 		name = 'policelocker',
 		label = 'Szafka prywatna',
 		owner = true,
-		slots = 10,
-		weight = 15000,
+		slots = 15,
+		weight = 20000,
 		groups = shared.police
 	},
 	{
@@ -33,8 +33,8 @@ return {
 		name = 'policelockerswat',
 		label = 'Szafka prywatna',
 		owner = true,
-		slots = 10,
-		weight = 15000,
+		slots = 15,
+		weight = 20000,
 		groups = shared.police
 	},
 
@@ -109,8 +109,8 @@ return {
 		name = 'firelocker',
 		label = 'Szafka prywatna',
 		owner = true,
-		slots = 10,
-		weight = 15000,
+		slots = 15,
+		weight = 20000,
 		groups = {['fire'] = 0}
 	},
 	{
@@ -183,8 +183,8 @@ return {
 		name = 'emslocker',
 		label = 'Szafka Prywatna',
 		owner = true,
-		slots = 10,
-		weight = 15000,
+		slots = 15,
+		weight = 20000,
 		groups = {['ambulance'] = 0}
 	},
 	{
@@ -238,8 +238,8 @@ return {
 		name = 'usmslocker',
 		label = 'Szafka prywatna',
 		owner = true,
-		slots = 10,
-		weight = 15000,
+		slots = 15,
+		weight = 20000,
 		groups = {['usmarshals'] = 0}
 	},
 	{
@@ -294,8 +294,8 @@ return {
 		name = 'armylocker',
 		label = 'Szafka prywatna',
 		owner = true,
-		slots = 10,
-		weight = 15000,
+		slots = 15,
+		weight = 20000,
 		groups = {['army'] = 0}
 	},
 	{
@@ -1367,8 +1367,8 @@ return {
 		name = 'sheriff1locker', -- paleto 
 		label = 'Szafka prywatna',
 		owner = true,
-		slots = 10,
-		weight = 15000,
+		slots = 15,
+		weight = 20000,
 		groups = {['sheriff'] = 0}
 	},
 	{
@@ -1385,8 +1385,8 @@ return {
 		name = 'sheriff2locker', -- sandy 
 		label = 'Szafka prywatna',
 		owner = true,
-		slots = 10,
-		weight = 15000,
+		slots = 15,
+		weight = 20000,
 		groups = {['sheriff'] = 0}
 	},
 
