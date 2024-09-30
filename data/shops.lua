@@ -156,6 +156,7 @@ return {
 			{ name = 'speaker',          price = 400, metadata = {typeId = 1, label = 'Boombox Retro', description = 'Niska głośność, zasięg i jakość.', imageurl = 'https://media.rahe.dev/img/boombox.png'} },
 			{ name = 'speaker',          price = 1500, metadata = {typeId = 2, label = 'Głośnik z radiem', description = 'Dobra głośność, zasięg i jakość.', imageurl = 'https://media.rahe.dev/img/speaker1.png'} },
 			{ name = 'speaker',          price = 650, metadata = {typeId = 7, label = 'Boombox', description = 'Nowoczesny boombox, idealny na imprezy!', imageurl = 'https://r2.fivemanage.com/pub/ue292lurwzs8.png'} },
+			{ name = 'speaker',          price = 800, metadata = {typeId = 8, label = 'Radio samochodowe', description = 'Standardowe radio samochodowe.', imageurl = 'https://r2.fivemanage.com/pub/xbfubmnfmqsu.png'} },
 
 		},
 		locations = {
