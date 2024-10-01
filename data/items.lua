@@ -7101,21 +7101,21 @@ return {
 		close = true,
 	},
 	["keyg16"] = {
-		label = "Klucz G16", -- 
+		label = "Klucz G16", -- 22 Los Bandidos
 		description = "F4N-D03",
 		weight = 5,
 		stack = false,
 		close = true,
 	},
 	["keyg17"] = {
-		label = "Klucz G17", -- 
+		label = "Klucz G17", -- Kemerovskaya Brigada
 		description = "F4N-D03",
 		weight = 5,
 		stack = false,
 		close = true,
 	},
 	["keyg18"] = {
-		label = "Klucz G18", -- 
+		label = "Klucz G18", -- HHDX3
 		description = "F4N-D03",
 		weight = 5,
 		stack = false,
@@ -8164,6 +8164,8 @@ return {
 		stack = true,
 		close = true,
 	},
+
+	--lation_chopshop
 	['auto_parts'] = {
     	label = 'Części samochodowe',
     	weight = 400,
@@ -8183,6 +8185,10 @@ return {
 		label = 'Klucz do kół',
 		weight = 225,
 	},
+
+	--rm_vangelicoheist
+	
+
 	['rc-bandito'] = {
 		label = 'RC Bandito',
 		weight = 2000,
