@@ -445,6 +445,7 @@ return {
 			{ name = 'WEAPON_FLAREGUN',     price = 450,   metadata = { registered = true, serial = 'POL' }, grade = 1 },
 			{ name = 'WEAPON_FLARE',        price = 150,   grade = 1 },
 			{ name = 'shield',              price = 2500,  grade = 10 },
+			{ name = 'shield2',             price = 500,  grade = 10 },
 			{ name = 'at_flashlight',       price = 250,   license = 'weapon', grade = 10 },
 			{ name = 'evidence-bag',        price = 10,    grade = 1 },
 			{ name = 'ammo-flare',          price = 4,     grade = 1 },
