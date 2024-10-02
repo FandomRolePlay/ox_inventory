@@ -970,6 +970,24 @@ return {
 		slots = 8,
 		weight = 10000,
 	},
+	{
+		coords = vec3(-1218.2548, -1489.1263, 5.3080),
+		target = {
+			loc = vec3(-1218.2548, -1489.1263, 5.3080),
+			length = 2.0,
+			width = 1.0,
+			heading = 300,
+			minZ = 27.82,
+			maxZ = 31.82,
+			label = 'Otwórz Sejf'
+		},
+		name = 'weedshopsejf',
+		label = 'Sejf',
+		owner = false,
+		slots = 30,
+		weight = 500000,
+		groups = {['weedshop'] = 5}
+	},	
 
 	-- WEAZEL
 	{
