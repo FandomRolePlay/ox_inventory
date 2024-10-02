@@ -2695,6 +2695,12 @@ return {
 			end
 		}
 	},
+	["shield2"] = {
+		label = "Tarcza RIOT",
+		weight = 2000,
+		stack = true,
+		close = true,
+	},
 	["spikestrip"] = {
 		label = "Kolczatki",
 		weight = 500,
