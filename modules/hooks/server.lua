@@ -69,7 +69,13 @@ local function TriggerEventHooks(event, payload)
 				if type(response) == 'table' then
 					payload.metadata = response
 				end
-			elseif response == false then
+			elseif event == 'buyItem' then
+				if type(response) == 'table' then
+					payload = response
+				end
+			end
+
+			if response == false then
                 return false
             end
 
@@ -79,6 +85,8 @@ local function TriggerEventHooks(event, payload)
 
 	if event == 'createItem' then
 		return payload.metadata
+	elseif event == 'buyItem' then
+		return payload
 	end
 
     return true
