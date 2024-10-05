@@ -891,6 +891,175 @@ return {
 		close = true,
 	},
 
+	--Pops Diner
+	['popsbekon'] = {
+		label = 'Pop`s Bekon',
+		description = "Smażone jajka ze słonym bekonem.",
+		weight = 400,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 450000,
+		},
+	},
+
+	['popsryba'] = {
+		label = 'Pop`s Fish',
+		description = "Świeża ryba z chrupiącymi frytkami.",
+		weight = 500,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 550000,
+		},
+	},
+
+	['popskielbasa'] = {
+		label = 'Pop`s Sausage',
+		description = "Smażone jajka z kiełbaską.",
+		weight = 400,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 450000,
+		},
+	},
+
+	['popsnuggetsy'] = {
+		label = 'Pop`s Nuggets',
+		description = "Kawałki kurczaka ze złocistymi frytkami.",
+		weight = 400,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 400000,
+		},
+	},
+
+	['popsser'] = {
+		label = 'Pop`s Cheese',
+		description = "Ser w panierce i frytki.",
+		weight = 400,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 350000,
+		},
+	},
+
+	['popskurczak'] = {
+		label = 'Pop`s Chicken',
+		description = "Kanapka z grillowanym kurczakiem, jajkiem i bekonem.",
+		weight = 400,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 350000,
+		},
+	},
+
+	['popswołowina'] = {
+		label = 'Pop`s Beef',
+		description = "Kanapka z szarpaną wołowiną.",
+		weight = 400,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 350000,
+		},
+	},
+
+	['popswege'] = {
+		label = 'Pop`s Beef',
+		description = "Kanapka wegetariańska.",
+		weight = 400,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 350000,
+		},
+	},
+
+	['popslemoniada'] = {
+		label = 'Pop`s Lemonade',
+		description = "Orzeźwiająca klasyczna lemoniada.",
+		weight = 300,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_bs_cup`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 500000,
+		}
+	},
+
+	['popsherbata'] = {
+		label = 'Pop`s Tea',
+		description = "Herbata czarna.",
+		weight = 300,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_bs_cup`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 500000,
+		}
+	},
+
+	['popskawa'] = {
+		label = 'Pop`s Coffee',
+		description = "Klasyczna, mocna, czarna kawa.",
+		weight = 300,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_bs_cup`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 500000,
+		}
+	},
+
+	['popsslushie'] = {
+		label = 'Pop`s Slushie',
+		description = "Zimne truskawkowe slushie.",
+		weight = 300,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_bs_cup`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 500000,
+		}
+	},
+
 	--Blazing Truck
 	['blazeburger'] = {
 		label = 'Blaze Burger',
@@ -903,6 +1072,8 @@ return {
 			statusCap = 1000000,
 			hunger = 500000,
 		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
+
 	},
 
 	['blazevege'] = {
@@ -1099,6 +1270,7 @@ return {
 			statusCap = 400000,
 			hunger = 120000,
 		},
+		degrade = 1 * 24 * 60, -- day * hour * minute		
 	},
 
 	['bar'] = {
@@ -7258,6 +7430,16 @@ return {
 		consume = 0,
 		server = {
 			export = 'frp_badge.badge_usmarshals'
+		}
+	},
+	['badge_cityhall'] = {
+		label = 'Legitymacja CH',
+		stack = false,
+		weight = 50,
+		close = true,
+		consume = 0,
+		server = {
+			export = 'frp_badge.badge_cityhall'
 		}
 	},
 	['badge_sheriff'] = {
