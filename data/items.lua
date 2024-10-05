@@ -4766,7 +4766,7 @@ return {
 		description = ""
 	},
 
-	["weapon_manual1"] = {
+	["weapon1_manual"] = {
 		label = 'Podręcznik Rusznikarski',
 		weight = 150,
 		stack = false,

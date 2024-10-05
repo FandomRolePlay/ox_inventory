@@ -167,7 +167,6 @@ local function removeCurrency(inv, currency, price)
 		return Inventory.RemoveItem(inv, currency, price)
 	end
 	
-	print(currency, price)
 	if server.removeFromBankAccount then server.removeFromBankAccount(inv.id, price) end
 end
 
@@ -242,12 +241,6 @@ lib.callback.register('ox_inventory:buyItem', function(source, data)
 					return false, false, { type = 'error', description = locale('cannot_carry') }
 				end
 
-				local canAfford = canAffordItem(playerInv, currency, price)
-
-				if canAfford ~= true then
-					return false, false, canAfford
-				end
-
 				--[[if not TriggerEventHooks('buyItem', {
 					source = source,
 					shopType = shopType,
@@ -282,6 +275,15 @@ lib.callback.register('ox_inventory:buyItem', function(source, data)
 
 				if type(response) == 'table' then
 					currency = response.currency
+				end
+
+				--TODO: Check for other currency types
+				if currency == 'money' then
+					local canAfford = canAffordItem(playerInv, currency, price)
+
+					if canAfford ~= true then
+						return false, false, canAfford
+					end
 				end
 
 				Inventory.SetSlot(playerInv, fromItem, count, metadata, data.toSlot)
