@@ -915,6 +915,8 @@ return {
 				["pizza"] = 0,
 				["bahama"] = 0,
 				["ramen"] = 0,
+				["pops"] = 0,
+				["vanilla"] = 0,
 			},
 		inventory = {
 			{ name = 'water',             price = 1 },
@@ -1229,7 +1231,7 @@ return {
 			id = 50, colour = 24, scale = 0.8
 		},
 		groups = {
-			["tequilala"] = 0, ["browary"] = 0, ["bahama"] = 0, ["foodtruck"] = 0
+			["tequilala"] = 0, ["browary"] = 0, ["bahama"] = 0, ["foodtruck"] = 0, ["vanilla"] = 0
 		},
 		inventory = {
 			{ name = 'pisswasser',      price = 5 },

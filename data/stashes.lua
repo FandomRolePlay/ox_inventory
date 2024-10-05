@@ -1534,6 +1534,8 @@ return {
 		weight = 500000,
 		groups = {['sheriff'] = 1}
 	},
+
+	-- Lodówki frakcje
 	{
 		coords = vec3(-810.56, -715.43, 28.06),
 		target = {
@@ -1606,7 +1608,136 @@ return {
 		weight = 50000,
 		groups = {['army'] = 0}
 	},
+	-- POPS
+	{
+		coords = vec3(1595.34, 6453.02, 26.01),
+		target = {
+			loc = vec3(1595.34, 6453.02, 26.01),
+			length = 0.6,
+			width = 1.0,
+			heading = 335,
+			minZ = 25.01,
+			maxZ = 26.21,
+			label = 'Otwórz szafke'
+		},
+		name = 'popslocker',
+		label = 'Szafka Prywatna',
+		owner = true,
+		slots = 10,
+		weight = 15000,
+		groups = {['pops'] = 0}
+	},
+	{
+		coords = vec3(1585.95, 6459.79, 26.01),
+		target = {
+			loc = vec3(1585.95, 6459.79, 26.01),
+			length = 0.8,
+			width = 1.8,
+			heading = 335,
+			minZ = 25.01,
+			maxZ = 26.01,
+			label = 'Otwórz Magazyn'
+		},
+		name = 'popsmagazyn',
+		label = 'Magazyn',
+		owner = false,
+		slots = 200,
+		weight = 500000,
+		groups = {['pops'] = 1}
+	},
+	-- VANILLA
+	{
+		coords = vec3(106.14, -1298.83, 28.79),
+		target = {
+			loc = vec3(106.14, -1298.83, 28.79),
+			length = 0.8,
+			width = 2.4,
+			heading = 30,
+			minZ = 27.79,
+			maxZ = 30.19,
+			label = 'Otwórz szafke'
+		},
+		name = 'vanillalocker',
+		label = 'Szafka Prywatna',
+		owner = true,
+		slots = 10,
+		weight = 15000,
+		groups = {['vanilla'] = 0}
+	},
+	{
+		coords = vec3(129.36, -1279.51, 29.27),
+		target = {
+			loc = vec3(129.36, -1279.51, 29.27),
+			length = 1.2,
+			width = 0.8,
+			heading = 30,
+			minZ = 28.27,
+			maxZ = 29.47,
+			label = 'Otwórz Magazyn'
+		},
+		name = 'vanillamagazyn',
+		label = 'Magazyn',
+		owner = false,
+		slots = 200,
+		weight = 500000,
+		groups = {['vanilla'] = 1}
+	},
 
-
+		--City Hall
+	
+		{
+			coords = vec3(-535.43, -194.33, 38.23),
+			target = {
+				loc = vec3(-535.43, -194.33, 38.23),
+				length = 0.40,
+				width = 3.0,
+				heading = 300,
+				minZ = 37.63,
+				maxZ = 38.63,
+				label = 'Otwórz szafke'
+			},
+			name = 'cityhalllocker',
+			label = 'Szafka prywatna',
+			owner = true,
+			slots = 10,
+			weight = 15000,
+			groups = {['cityhall'] = 0}
+		},
+		{
+			coords = vec3(-538.83, -196.88, 38.23),
+			target = {
+				loc = vec3(-538.83, -196.88, 38.23),
+				length = 0.6,
+				width = 2.0,
+				heading = 300,
+				minZ = 37.43,
+				maxZ = 38.83,
+				label = 'Otwórz Magazyn'
+			},
+			name = 'cityhallmagazyn1',
+			label = 'Magazyn nr 1',
+			owner = false,
+			slots = 500,
+			weight = 500000,
+			groups = {['cityhall'] = 1}
+		},
+		{
+			coords = vec3(-541.25, -196.05, 38.23),
+			target = {
+				loc = vec3(-541.25, -196.05, 38.23),
+				length = 0.6,
+				width = 2.6,
+				heading = 300,
+				minZ = 37.63,
+				maxZ = 38.83,
+				label = 'Otwórz Magazyn'
+			},
+			name = 'cityhallmagazyn1',
+			label = 'Magazyn nr 2',
+			owner = false,
+			slots = 500,
+			weight = 500000,
+			groups = {['cityhall'] = 0}
+		},		
 
 }
