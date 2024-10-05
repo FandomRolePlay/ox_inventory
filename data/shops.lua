@@ -859,7 +859,7 @@ return {
 			{ name = 'debg',     price = 25, count = 20 },
 			{ name = 'debr',     price = 35, count = 20 },
 			{ name = 'estancia', price = 30, count = 20 },
-			{ name = 'cardir',   price = 38, count = 20 },
+			--[[ { name = 'cardir',   price = 38, count = 20 }, ]]
 			--{ name = 'redwg2', price = 50, count = 20 },
 			--{ name = 'cubancigar', price = 150, count = 20 },
 			--{ name = 'davidoffcigar', price = 70, count = 20 },
