@@ -842,14 +842,14 @@ return {
 
 	-- AMMUNATION
 	{
-		coords = vec3(4.07, -1105.25, 29.8),
+		coords = vec3(25.22, -1084.69, 27.72),
 		target = {
-			loc = vec3(4.07, -1105.25, 29.8),
-			length = 1.6,
+			loc = vec3(25.22, -1084.69, 27.72),
+			length = 5.0,
 			width = 0.4,
 			heading = 340,
-			minZ = 28.8,
-			maxZ = 31.2,
+			minZ = 26.87,
+			maxZ = 29.27,
 			label = 'Otwórz szafke'
 		},
 		name = 'anlocker',
@@ -860,14 +860,14 @@ return {
 		groups = {['ammunation'] = 0}
 	},
 	{
-		coords = vec3(20.47, -1105.41, 29.8),
+		coords = vec3(30.16, -1078.0, 27.72),
 		target = {
-			loc = vec3(20.47, -1105.41, 29.3),
-			length = 0.8,
-			width = 2.0,
+			loc = vec3(30.16, -1078.0, 27.72),
+			length = 1.4,
+			width = 4.0,
 			heading = 340,
-			minZ = 28.8,
-			maxZ = 30.15,
+			minZ = 27.32,
+			maxZ = 29.12,
 			label = 'Otwórz Magazyn'
 		},
 		name = 'anmagazyn',
