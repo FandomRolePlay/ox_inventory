@@ -654,6 +654,7 @@ return {
 			statusCap = 200000,
 			hunger = 50000,
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	['sausage_grill'] = {
 		label = 'Upieczona kiełbasa',
@@ -666,6 +667,7 @@ return {
 			statusCap = 300000,
 			hunger = 100000,
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	['bread_slice'] = {
 		label = 'Kromka',
@@ -678,6 +680,7 @@ return {
 			statusCap = 100000,
 			hunger = 5000,
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	['sausage_bread'] = {
 		label = 'Kiełbo-chlebek',
@@ -690,6 +693,7 @@ return {
 			statusCap = 500000,
 			hunger = 150000,
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	--ALKOHOLE
@@ -803,6 +807,7 @@ return {
 			statusCap = 500000,
 			hunger = 300000,
 		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['cb-vegewrap'] = {
@@ -816,6 +821,7 @@ return {
 			statusCap = 500000,
 			hunger = 250000,
 		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['cb-fries'] = {
@@ -829,6 +835,7 @@ return {
 			statusCap = 500000,
 			hunger = 150000,
 		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['cb-shotrings'] = {
@@ -842,6 +849,7 @@ return {
 			statusCap = 500000,
 			hunger = 150000,
 		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['cb-chips'] = {
@@ -855,6 +863,7 @@ return {
 			statusCap = 500000,
 			hunger = 150000,
 		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['cb-popdonut'] = {
@@ -868,6 +877,7 @@ return {
 			statusCap = 500000,
 			hunger = 200000,
 		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['cb-chickenburger'] = {
@@ -881,6 +891,7 @@ return {
 			statusCap = 500000,
 			hunger = 350000,
 		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['cluckin_box_1'] = {
@@ -904,6 +915,7 @@ return {
 			statusCap = 1000000,
 			hunger = 450000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 
 	['popsryba'] = {
@@ -918,6 +930,7 @@ return {
 			statusCap = 1000000,
 			hunger = 550000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 
 	['popskielbasa'] = {
@@ -932,6 +945,7 @@ return {
 			statusCap = 1000000,
 			hunger = 450000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 
 	['popsnuggetsy'] = {
@@ -946,6 +960,7 @@ return {
 			statusCap = 1000000,
 			hunger = 400000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 
 	['popsser'] = {
@@ -960,6 +975,7 @@ return {
 			statusCap = 1000000,
 			hunger = 350000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 
 	['popskurczak'] = {
@@ -974,6 +990,7 @@ return {
 			statusCap = 1000000,
 			hunger = 350000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 
 	['popswołowina'] = {
@@ -988,10 +1005,11 @@ return {
 			statusCap = 1000000,
 			hunger = 350000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 
 	['popswege'] = {
-		label = 'Pop`s Beef',
+		label = 'Pop`s Wege',
 		description = "Kanapka wegetariańska.",
 		weight = 400,
 		client = {
@@ -1002,6 +1020,7 @@ return {
 			statusCap = 1000000,
 			hunger = 350000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 
 	['popslemoniada'] = {
@@ -1072,7 +1091,7 @@ return {
 			statusCap = 1000000,
 			hunger = 500000,
 		},
-		degrade = 1 * 24 * 60, -- day * hour * minute
+		degrade = 3 * 24 * 60, -- day * hour * minute
 
 	},
 
@@ -1087,6 +1106,7 @@ return {
 			statusCap = 1000000,
 			hunger = 350000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 
 	['blazeinferno'] = {
@@ -1100,6 +1120,7 @@ return {
 			statusCap = 1000000,
 			hunger = 400000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 
 	['blazepopper'] = {
@@ -1113,6 +1134,7 @@ return {
 			statusCap = 1000000,
 			hunger = 550000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 
 	['blazegoldflame'] = {
@@ -1126,6 +1148,7 @@ return {
 			statusCap = 1000000,
 			hunger = 500000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 
 	['blazefries'] = {
@@ -1139,6 +1162,7 @@ return {
 			statusCap = 1000000,
 			hunger = 300000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 
 	--BURGERSHOT
@@ -1179,6 +1203,7 @@ return {
 			statusCap = 600000,
 			hunger = 300000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 
 	['nuts'] = {
@@ -1192,6 +1217,7 @@ return {
 			statusCap = 600000,
 			hunger = 200000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 
 	['chickenburger'] = {
@@ -1205,6 +1231,7 @@ return {
 			statusCap = 600000,
 			hunger = 400000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 
 	['cheeseburger'] = {
@@ -1218,6 +1245,7 @@ return {
 			statusCap = 600000,
 			hunger = 400000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 
 	['bswrap'] = {
@@ -1231,6 +1259,7 @@ return {
 			statusCap = 600000,
 			hunger = 300000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 
 	['bsnuggets'] = {
@@ -1244,6 +1273,7 @@ return {
 			statusCap = 600000,
 			hunger = 300000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 
 	['burger'] = {
@@ -1257,6 +1287,7 @@ return {
 			statusCap = 400000,
 			hunger = 300000,
 		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['hotdog'] = {
@@ -1310,6 +1341,7 @@ return {
 			statusCap = 500000,
 			hunger = 120000,
 		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['chipsribs'] = {
@@ -3874,13 +3906,6 @@ return {
 		description = "Konsoleta na stojaku",
 	},
 
-	["djtable"] = {
-		label = "Stół DJ",
-		weight = 1000,
-		stack = true,
-		close = true,
-		description = "Konsoleta na stojaku",
-	},
 	-- Propy biura
 	["krzeslo1"] = {
 		label = "Krzesło biurowe",
@@ -4372,12 +4397,12 @@ return {
 	},
 
 	--wasabi_boombox
-	["boombox"] = {
+--[[ 	["boombox"] = {
 		label = "Boombox",
 		weight = 150,
 		stack = true,
 		close = true,
-	},
+	}, ]]
 	--wasabi_backpack
 	['backpack'] = {
 		label = 'Plecak',
@@ -5714,6 +5739,7 @@ return {
 			statusCap = 1000000,
 			hunger = 500000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 	['sushi'] = {
 		label = 'Sushi',
@@ -5726,6 +5752,7 @@ return {
 			statusCap = 1000000,
 			hunger = 200000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 	['gyoza'] = {
 		label = 'Pierożki Gyoza',
@@ -5738,6 +5765,7 @@ return {
 			statusCap = 1000000,
 			hunger = 200000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 	['sukiyaki'] = {
 		label = 'Sukiyaki',
@@ -5750,6 +5778,7 @@ return {
 			statusCap = 1000000,
 			hunger = 600000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 	['krewetki'] = {
 		label = 'Krewetki w cieście',
@@ -5762,6 +5791,7 @@ return {
 			statusCap = 1000000,
 			hunger = 400000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 	['kitsune_soba'] = {
 		label = 'Kitsune Soba',
@@ -5774,6 +5804,7 @@ return {
 			statusCap = 1000000,
 			hunger = 600000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 	["ramune"] = {
 		label = "Ramune",
@@ -5929,6 +5960,7 @@ return {
 			hunger = 350000,
 			stress = -100000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 	["weedchoc"] = {
 		label = "Czekolada",
@@ -6023,6 +6055,7 @@ return {
 			statusCap = 1000000,
 			hunger = 350000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 	["mufchocolate"] = {
 		label = "Muffinka Czekoladowa",
@@ -6037,6 +6070,7 @@ return {
 			statusCap = 1000000,
 			hunger = 250000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 	["panutela"] = {
 		label = "Naleśnik",
@@ -6051,6 +6085,7 @@ return {
 			statusCap = 1000000,
 			hunger = 250000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 	["cake"] = {
 		label = "Ciasto Truskawkowe",
@@ -6065,6 +6100,7 @@ return {
 			statusCap = 1000000,
 			hunger = 450000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 	["blueberry_pie"] = {
 		label = "Ciasto z borówkami",
@@ -6079,6 +6115,7 @@ return {
 			statusCap = 1000000,
 			hunger = 350000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 	["croissant"] = {
 		label = "Croissant z czekoladą",
@@ -6093,6 +6130,7 @@ return {
 			statusCap = 1000000,
 			hunger = 250000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 	["baconeggs"] = {
 		label = "Jajecznica z bekonem",
@@ -6107,6 +6145,7 @@ return {
 			statusCap = 400000,
 			hunger = 160000,
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["beef_soup"] = {
 		label = "Beef Enchilada Soup",
@@ -6121,6 +6160,7 @@ return {
 			statusCap = 500000,
 			hunger = 500000,
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["spaghetti"] = {
 		label = "Spaghetti",
@@ -6135,6 +6175,7 @@ return {
 			statusCap = 500000,
 			hunger = 260000,
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["croissant2"] = {
 		label = "Croissant pistacjowy",
@@ -6149,6 +6190,7 @@ return {
 			statusCap = 1000000,
 			hunger = 250000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 	["coretto"] = {
 		label = "Caffe Coretto",
@@ -6219,6 +6261,7 @@ return {
 			statusCap = 1000000,
 			hunger = 450000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 	["wanillaice"] = {
 		label = "Puchar lodowy",
@@ -6661,6 +6704,7 @@ return {
 			statusCap = 1000000,
 			hunger = 450000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 	["gelatine"] = {
 		label = "Żelatyna",
@@ -6687,6 +6731,7 @@ return {
 			statusCap = 1000000,
 			hunger = 550000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 	["fusilli"] = {
 		label = "Fusilli",
@@ -6701,6 +6746,7 @@ return {
 			statusCap = 1000000,
 			hunger = 550000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 	["pizzacapricciosa"] = {
 		label = "Pizza Capricciosa",
@@ -6715,6 +6761,7 @@ return {
 			statusCap = 1000000,
 			hunger = 300000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 	["pizzadiavolo"] = {
 		label = "Pizza Diavolo",
@@ -6729,6 +6776,7 @@ return {
 			statusCap = 1000000,
 			hunger = 300000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 	["pizzamargherita"] = {
 		label = "Pizza Margherita",
@@ -6743,6 +6791,7 @@ return {
 			statusCap = 1000000,
 			hunger = 300000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 	["pizzapepperoni"] = {
 		label = "Pizza Pepperoni",
@@ -6757,6 +6806,7 @@ return {
 			statusCap = 1000000,
 			hunger = 300000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 	["dough"] = {
 		label = "Surowe ciasto",
