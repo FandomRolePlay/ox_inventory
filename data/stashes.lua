@@ -877,6 +877,24 @@ return {
 		weight = 500000,
 		groups = {['ammunation'] = 1}
 	},
+	{
+		coords = vec3(13.71, -1105.61, 29.1),
+		target = {
+			loc = vec3(13.71, -1105.61, 29.1),
+			length = 0.8,
+			width = 4.6,
+			heading = 340,
+			minZ = 28.5,
+			maxZ = 29.7,
+			label = 'Otwórz Magazyn'
+		},
+		name = 'anmagazyn2',
+		label = 'Magazyn',
+		owner = false,
+		slots = 100,
+		weight = 250000,
+		groups = {['ammunation'] = 1}
+	},
 
 	-- AUTOKOMIS
 	{
