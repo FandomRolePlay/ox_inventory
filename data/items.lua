@@ -654,7 +654,6 @@ return {
 			statusCap = 200000,
 			hunger = 50000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	['sausage_grill'] = {
 		label = 'Upieczona kiełbasa',
