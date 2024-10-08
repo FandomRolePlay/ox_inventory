@@ -992,7 +992,7 @@ return {
 		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 
-	['popswołowina'] = {
+	['popswolowina'] = {
 		label = 'Pop`s Beef',
 		description = "Kanapka z szarpaną wołowiną.",
 		weight = 400,
@@ -1018,6 +1018,21 @@ return {
 			export = 'FandomRP.useStatusItem',
 			statusCap = 1000000,
 			hunger = 350000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+
+	['popsstek'] = {
+		label = 'Pop`s Wege',
+		description = "Soczysy stek z dodatkami.",
+		weight = 400,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 650000,
 		},
 		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
@@ -2292,7 +2307,7 @@ return {
 	['paperbag'] = {
 		label = 'Torba papierowa',
 		weight = 25,
-		stack = false,
+		stack = true,
 		close = false,
 		consume = 0
 	},
@@ -2309,7 +2324,7 @@ return {
 		label = 'Pizza',
 		description = "Opakowanie do pizzy",
 		weight = 25,
-		stack = false,
+		stack = true,
 		close = false,
 		consume = 0
 	},
@@ -6275,6 +6290,7 @@ return {
 			statusCap = 1000000,
 			hunger = 350000,
 		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 	["farming_pistachio"] = {
 		label = "Pistacje",
