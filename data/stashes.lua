@@ -2,14 +2,14 @@ return {
 	
 	-- LSPD
 	{
-		coords = vec3(-395.51, -366.19, 25.04),
+		coords = vec3(607.82, 12.06, 87.8),
 		target = {
-			loc = vec3(-395.51, -366.19, 25.04),
+			loc = vec3(607.82, 12.06, 87.8),
 			length = 1.2,
-			width = 5.6,
-			heading = 0,
-			minZ = 23.49,
-			maxZ = 27.09,
+			width = 1.2,
+			heading = 340,
+			minZ = 87.2,
+			maxZ = 88.8,
 			label = 'Otwórz szafke'
 		},
 		name = 'policelocker',
@@ -20,14 +20,14 @@ return {
 		groups = shared.police
 	},
 	{
-		coords = vec3(-352.18, -392.62, 20.23),
+		coords = vec3(606.19, 7.96, 87.8),
 		target = {
-			loc = vec3(-352.18, -392.62, 20.23),
-			length = 1.2,
-			width = 5.6,
-			heading = 0,
-			minZ = 19.49,
-			maxZ = 21.09,
+			loc = vec3(606.19, 7.96, 87.8),
+			length = 0.6,
+			width = 1.6,
+			heading = 340,
+			minZ = 87.6,
+			maxZ = 89.0,
 			label = 'Otwórz szafke'
 		},
 		name = 'policelockerswat',
@@ -39,14 +39,14 @@ return {
 	},
 
 	{
-		coords = vec3(-407.5, -382.77, 25.1),
+		coords = vec3(603.46, 6.97, 87.8),
 		target = {
-			loc = vec3(-407.5, -382.77, 25.1),
-			length = 1.2,
-			width = 5.6,
-			heading = 350,
-			minZ = 24.65,
-			maxZ = 26.65,
+			loc = vec3(603.46, 6.97, 87.8),
+			length = 1.8,
+			width = 0.6,
+			heading = 340,
+			minZ = 87.4,
+			maxZ = 89.2,
 			label = 'Otwórz Magazyn z Bronią'
 		},
 		name = 'policezbrojownia',
@@ -58,14 +58,14 @@ return {
 	},
 
 	{
-		coords = vec3(-403.56, -383.31, 25.1),
+		coords = vec3(602.34, 4.19, 87.8),
 		target = {
-			loc = vec3(-403.56, -383.31, 25.1),
-			length = 1.2,
-			width = 5.6,
-			heading = 351,
-			minZ = 24.3,
-			maxZ = 26.65,
+			loc = vec3(602.34, 4.19, 87.8),
+			length = 0.6,
+			width = 1.6,
+			heading = 70,
+			minZ = 87.45,
+			maxZ = 89.05,
 			label = 'Otwórz Magazyn'
 		},
 		name = 'policemagazyn',
@@ -76,14 +76,14 @@ return {
 		groups = {['police'] = 1}
 	},
 	{
-		coords = vec3(-387.81, -362.87, 48.53),
+		coords = vec3(633.03, -11.88, 87.8),
 		target = {
-			loc = vec3(-387.81, -362.87, 48.53),
-			length = 0.6,
-			width = 1.2,
-			heading = 350,
-			minZ = 47.73,
-			maxZ = 49.53,
+			loc = vec3(633.03, -11.88, 87.8),
+			length = 0.8,
+			width = 1.6,
+			heading = 340,
+			minZ = 87.6,
+			maxZ = 88.8,
 			label = 'Otwórz Magazyn'
 		},
 		name = 'policemagazyncm',
@@ -91,7 +91,7 @@ return {
 		owner = false,
 		slots = 50,
 		weight = 50000,
-		groups = {['police'] = 10}
+		groups = {['police'] = 11}
 	},
 
 	--LSFD
@@ -1591,14 +1591,14 @@ return {
 		groups = {['sheriff'] = 0}
 	},
 	{
-		coords = vec3(-373.68, -350.28, 43.1),
+		coords = vec3(611.89, -19.52, 87.8),
 		target = {
-			loc = vec3(-373.68, -350.28, 43.1),
-			length = 1,
-			width = 1,
-			heading = 0,
-			minZ = 42.6,
-			maxZ = 43.6,
+			loc = vec3(611.89, -19.52, 87.8),
+			length = 1.0,
+			width = 0.8,
+			heading = 340,
+			minZ = 87.2,
+			maxZ = 88.8,
 			label = 'Otwórz Lodówkę'
 		},
 		name = 'lspdlodowka',

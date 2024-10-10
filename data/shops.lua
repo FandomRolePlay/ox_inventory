@@ -470,10 +470,10 @@ return {
 			{ name = 'worklight3',          price = 50,    grade = 1 }
 		},
 		locations = {
-			vec3(-403.1, -377.95, 25.0)
+			vec3(608.65, 1.56, 87.8)
 		},
 		targets = {
-			{ loc = vec3(-403.1, -377.95, 25.0), length = 2.85, width = 0.35, heading = 350.0, minZ = 23.5, maxZ = 25.0, distance = 6 }
+			{ loc = vec3(608.65, 1.56, 87.8), length = 1.0, width = 1.0, heading = 340.0, minZ = 87.4, maxZ = 88.6, distance = 6 }
 		},
 	},
 
