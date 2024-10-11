@@ -1483,6 +1483,27 @@ return {
 		}
 	},
 
+	KomponentyBron = {
+		name = 'Handlarz',
+		-- blip = {
+		--	id = 50, colour = 24, scale = 0.0
+		--}, groups = {
+		--	['ammunation'] = 0, ["ammunation2"] = 0
+		--},
+		inventory = {
+			{ name = 'weapon-parts',      price = 500,  count = 50 },
+			{ name = 'weapon-cleaning',   price = 200, count = 50 },
+			{ name = 'pistolset',         price = 50, count = 5 },
+			{ name = 'snspistolset',      price = 100, count = 8 },
+		},
+		locations = {
+			vec3(943.61, -1699.87, 30.08)
+		},
+		targets = {
+			{ loc = vec3(943.61, -1699.87, 30.08), length = 2.1, width = 2.3, heading = 296.8476, minZ = 29.78, maxZ = 30.28, distance = 1.5 },
+		}
+	},
+
 	--[[ 	PropShop = {
 		name = 'Sklep z różnościami',
 		blip = {
