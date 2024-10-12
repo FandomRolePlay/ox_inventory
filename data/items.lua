@@ -1023,7 +1023,7 @@ return {
 	},
 
 	['popsstek'] = {
-		label = 'Pop`s Wege',
+		label = 'Pop`s Steak',
 		description = "Soczysy stek z dodatkami.",
 		weight = 400,
 		client = {
@@ -1877,6 +1877,63 @@ return {
 		stack = true
 	},
 
+	-- heroina crafting
+	['poppy_milk'] = {
+		label = 'Mleko makowe',
+		weight = 50,
+		stack = true
+	},
+
+	['calcium'] = {
+		label = 'Wodorotlenek wapnia',
+		weight = 50,
+		stack = true
+	},
+	
+	['brown_mass'] = {
+		label = 'Brązowa masa',
+		weight = 100,
+		stack = true
+	},
+
+	['morphine_base'] = {
+		label = 'Morfina zasadowa',
+		weight = 100,
+		stack = true
+	},
+
+	['anhydride'] = {
+		label = 'Bezwodnik octowy',
+		weight = 200,
+		stack = true
+	},
+
+	['brown_sugar'] = { 
+		label = 'Brown sugar', -- polprodukt heroiny, da sie handlowac
+		weight = 1,
+		stack = true,
+		description = "Brudna heroina"
+	},
+
+	['eter'] = {
+		label = 'Eter dietylowy',
+		weight = 200,
+		stack = true
+	},
+
+	['hydrochloric_acid'] = {
+		label = 'Kwas solny',
+		weight = 200,
+		stack = true
+	},
+
+	['heroin'] = {
+		label = 'Heroina',
+		weight = 200,
+		stack = true
+	},
+	--koniec craft heroiny
+
 	['meth_amoniak'] = {
 		label = 'Amoniak',
 		weight = 1000,
@@ -2227,10 +2284,11 @@ return {
 		stack = true
 	},
 
-	['heroin'] = {
+	['heroin_bag'] = {
 		label = 'Heroina',
 		weight = 1,
-		stack = true
+		stack = true,
+		description = "Heroina w najczystszej formie"
 	},
 	['crack'] = {
 		label = 'Crack',
@@ -4750,6 +4808,13 @@ return {
 	},
 
 	["crack_table"] = {
+		label = 'Stół laboratoryjny',
+		weight = 1000,
+		stack = false,
+		description = ""
+	},
+
+	["heroin_table"] = {
 		label = 'Stół laboratoryjny',
 		weight = 1000,
 		stack = false,
