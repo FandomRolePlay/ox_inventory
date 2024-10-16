@@ -1909,7 +1909,7 @@ return {
 	},
 
 	['brown_sugar'] = { 
-		label = 'Brown sugar', -- polprodukt heroiny, da sie handlowac
+		label = 'Brown sugar', -- polprodukt heroiny, uzytkowy i do handlu
 		weight = 1,
 		stack = true,
 		description = "Brudna heroina"
@@ -1932,7 +1932,74 @@ return {
 		weight = 200,
 		stack = true
 	},
-	--koniec craft heroiny
+	--koniec heroina
+
+	-- percocet craft
+	['paracetamol'] = {
+		label = 'Paracetamol',
+		weight = 200,
+		stack = true
+	},
+
+	['oksykodon'] = {
+		label = 'Oksykodon',
+		weight = 200,
+		stack = true
+	},
+
+	['white_powder'] = {
+		label = 'Biały proszek',
+		weight = 100,
+		stack = true
+	},
+
+	['empty_blister'] = {
+		label = 'Pusty blister',
+		weight = 100,
+		stack = true
+	},
+
+	['percocet'] = {
+		label = 'Percocet',
+		weight = 1,
+		stack = true
+	},
+	-- koniec percocet
+
+	-- lean
+	['cup'] = {
+		label = 'Kubek',
+		weight = 50,
+		stack = true
+	},
+
+	['syrup2'] = {
+		label = 'Syrop na kaszel',
+		weight = 50,
+		stack = true,
+		description = "Mocny syrop marki Licker"
+	},
+
+	['sprunk_cup'] = {
+		label = 'Sprunk w kubku',
+		weight = 250,
+		stack = false,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_plastic_cup_02`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 400000,
+			thirst = 200000,
+		}
+	},
+
+	['lean'] = {
+		label = 'Lean',
+		weight = 300,
+		stack = false,
+	},
+	-- koniec lean
 
 	['meth_amoniak'] = {
 		label = 'Amoniak',
@@ -4821,6 +4888,13 @@ return {
 		description = ""
 	},
 
+	["percocet_table"] = {
+		label = 'Stół z tłoczarką piguł',
+		weight = 1000,
+		stack = false,
+		description = ""
+	},
+
 	["cooker_table"] = {
 		label = 'Kuchenka',
 		weight = 5000,
@@ -4917,6 +4991,13 @@ return {
 		weight = 10,
 		stack = false,
 		description = "Szczegółowa receptura produkcji heroiny"
+	},
+
+	["blueprint_percocet"] = {
+		label = 'Receptura Percocet',
+		weight = 10,
+		stack = false,
+		description = "Szczegółowa receptura produkcji percocetu"
 	},
 
 	["blueprint_molotov"] = {
@@ -5715,7 +5796,7 @@ return {
 	},
 
 	--UNIQ-CAMERAS
-	['camera'] = {
+--[[ 	['camera'] = {
 		label = 'Kamera CCTV',
 		weight = 350,
 		stack = true,
@@ -5737,7 +5818,7 @@ return {
 		stack = false,
 		close = true,
 		description = ""
-	},
+	}, ]]
 
 	-- Pets system
 	["pet_water"] = {
@@ -8622,5 +8703,82 @@ return {
 		server = {
 			export = 'rahe-speakers.speaker'
 		}
+	},
+
+	--bcso_evidence
+
+	['camera'] = {
+		label = 'Aparat',
+		weight = 500,
+		stack = false,
+		close = true,
+		allowArmed = false,
+		consume = 0,
+		client = {
+			export = 'bcso_evidence.camera',
+		},
+	},
+	
+	['photo'] = {
+		label = 'Zdjęcie',
+		weight = 5,
+		stack = false,
+		close = true,
+		allowArmed = false,
+		consume = 0,
+		client = {
+			export = 'bcso_evidence.photo',
+		},
+	},
+	
+	['criminal_kit'] = {
+		label = 'Criminal kit',
+		weight = 850,
+		stack = false,
+	},
+	
+	['gsr_kit'] = {
+		label = 'GSR Test kit',
+		weight = 350,
+		stack = false,
+	},
+	
+	['evidence'] = {
+		label = 'Materiał dowodowy',
+		weight = 150,
+		stack = false,
+		close = true,
+		allowArmed = false,
+		client = {
+			export = 'bcso_evidence.researchEvidence',
+		},
+	},
+	
+	['evidence_report'] = {
+		label = 'Raport dowodowy',
+		weight = 25,
+		stack = false,
+		close = true,
+		allowArmed = false,
+		consume = 0,
+		client = {
+			export = 'bcso_evidence.researchEvidence',
+		},
+	},
+
+	--17 mov
+	['gruppesechstablet'] = {
+		label = 'Tablet G6',
+		weight = 500,
+		stack = false,
+		close = true,
+		degrade = 1 * 24 * 60, -- day * hour * minute
+	},
+	['gruppesechspaper'] = {
+		label = 'Zlecenie konwoju',
+		weight = 50,
+		stack = false,
+		close = true,
+		degrade = 120,
 	},
 }

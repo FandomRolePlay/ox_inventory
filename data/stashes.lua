@@ -802,7 +802,7 @@ return {
 		groups = {['mechanic'] = 1}
 	},
 
-	-- DOSBROS
+	-- PITSTOP
 	{
 		coords = vec3(961.91, -1568.05, 30.74),
 		target = {
@@ -1660,7 +1660,7 @@ return {
 		label = 'Magazyn',
 		owner = false,
 		slots = 200,
-		weight = 500000,
+		weight = 1000000,
 		groups = {['pops'] = 1}
 	},
 	-- VANILLA

@@ -75,7 +75,7 @@ return {
 			{ name = 'candybar',    price = 5 },
 			{ name = 'water',       price = 8 },
 			{ name = 'water2',      price = 20 },
-			{name = 'water3', price = 15},
+			{name = 'water3',       price = 15},
 			{ name = 'cola',        price = 8 },
 			{ name = 'logger',      price = 8 },
 			{ name = 'barracho',    price = 10 },
@@ -310,6 +310,7 @@ return {
 			{ name = 'foil',            price = 5 },
 			{ name = 'butan',           price = 4,    count = 70 },
 			{ name = 'meth_amoniak',    price = 8,   count = 70 },
+			{ name = 'calcium',         price = 4,   count = 70 }, -- do heroiny
 			{ name = 'etanol',          price = 5,    count = 70 },
 			{ name = 'metanol',         price = 8,    count = 70 },
 			{ name = 'aceton',          price = 10,   count = 70 },
@@ -364,6 +365,9 @@ return {
 			{ name = 'meth_amoniak', price = 15,  count = 70 },
 			{ name = 'etanol',       price = 5,   count = 70 },
 			{ name = 'metanol',      price = 8,   count = 70 },
+			{ name = 'anhydride',    price = 8,   count = 70 }, -- heroina
+			{ name = 'eter',  	     price = 5,   count = 70 }, -- heroina
+			{ name = 'hydrochloric_acid', price = 2,   count = 70 }, -- heroina
 			{ name = 'chem',         price = 15,  count = 70 },
 			{ name = 'chem_manual',  price = 28,  count = 5 },
 		},
@@ -640,6 +644,9 @@ return {
 			{ name = 'ammo-9-box',              price = 19,   grade = 1 },
 			{ name = 'ammo-rifle-box',          price = 50,   grade = 12 },
 			{ name = 'ammo-cart',               price = 3,    grade = 1 },
+			{ name = 'armour25',            	price = 400,   grade = 12 },
+			{ name = 'armour50',            	price = 800,   grade = 12 },
+			{ name = 'armour100',           	price = 1600,  grade = 12 },
 			{ name = 'lornetka',                price = 150,  grade = 1 },
 			{ name = 'parachute',               price = 1500, grade = 12 },
 			{ name = 'defibrillator',    		price = 200, grade = 12 },
@@ -695,6 +702,7 @@ return {
 			{ name = 'ammo-cart',           price = 3,     grade = 1 },
 			{ name = 'armour25',            price = 400,   grade = 2 },
 			{ name = 'armour50',            price = 800,   license = 'bcso_sert', grade = 2 },
+			{ name = 'armour100',           price = 1600,  license = 'bcso_sert', grade = 2 },
 			{ name = 'WEAPON_FLASHBANG',    price = 375,   license = 'bcso_sert', grade = 2 },
 			{ name = 'spikestrip',          price = 2500,  grade = 2 },
 			{ name = 'roadcone',            price = 10,    grade = 1 },
@@ -752,6 +760,7 @@ return {
 			{ name = 'ammo-cart',           price = 3,     grade = 1 },
 			{ name = 'armour25',            price = 400,   grade = 2 },
 			{ name = 'armour50',            price = 800,   license = 'bcso_sert', grade = 2 },
+			{ name = 'armour100',           price = 1600,  license = 'bcso_sert', grade = 2 },
 			{ name = 'WEAPON_FLASHBANG',    price = 375,   license = 'bcso_sert', grade = 2 },
 			{ name = 'spikestrip',          price = 2500,  grade = 2 },
 			{ name = 'roadcone',            price = 10,    grade = 1 },
@@ -1030,7 +1039,7 @@ return {
 		}
 	},
 	Hurtownia4 = {
-		name = 'Hurtownia AmmuNation',
+		name = 'Hurtownia AmmuNation', --NIŻEJ JEST OSOBNY HUNTING STORE
 		blip = {
 			id = 50, colour = 24, scale = 0.8
 		},
@@ -1043,6 +1052,51 @@ return {
 			{ name = 'blueprint_an',      price = 500 },
 			{ name = 'weaponcase',        price = 50 },
 			{ name = 'longweaponcase',    price = 100 },
+			{ name = 'armour25',          price = 750 },
+			{ name = 'at_flashlight',     price = 180 },
+			{ name = 'snspistolset',      price = 800 },
+			{ name = 'pistolset',         price = 950 },
+			{ name = 'pistolxm3set',      price = 1200 },
+			{ name = 'pistol50set',       price = 1600 },
+			{ name = 'revolverset',       price = 1750 },
+			{ name = 'pumpshotgunset',    price = 4550 },
+			{ name = 'smgset',            price = 5900 },
+			{ name = 'weapon_machete',    price = 150 },
+			{ name = 'weapon_switchblade',price = 100 },
+			{ name = 'weapon_knife',      price = 65 },
+			{ name = 'weapon_bat',        price = 35 },
+			{ name = 'weapon_flashlight', price = 20 },
+			{ name = 'weapon_flare',      price = 25 },
+			{ name = 'ammo-45-box',       price = 45 },
+			{ name = 'ammo-50-box',       price = 70 },
+			{ name = 'ammo-9-box',        price = 25 },
+			{ name = 'ammo-44-box',       price = 40 },
+			{ name = 'ammo-shotgun-box',  price = 10 },
+			{ name = 'crate_45',       price = 900 },
+			{ name = 'crate_50',       price = 1400 },
+			{ name = 'crate_9',        price = 750 },
+			{ name = 'crate_44',       price = 800 },
+			{ name = 'crate_12gauge',  price = 200 },
+		},
+		locations = {
+			vec3(798.1658, -2136.1316, 29.5148)
+		},
+		targets = {
+			{ loc = vec3(798.1658, -2136.1316, 29.5148), length = 2.1, width = 2.3, heading = 126.6940, minZ = 29.2148, maxZ = 29.9148, distance = 1.5 },
+		}
+	},
+	Hurtownia8 = {
+		name = 'Hurtownia Hunting Store',
+		blip = {
+			id = 50, colour = 24, scale = 0.8
+		},
+		groups = {
+			["hunting"] = 0
+		},
+		inventory = {
+			{ name = 'weapon-parts',      price = 50 },
+			{ name = 'weapon-cleaning',   price = 50 },
+			{ name = 'blueprint_an',      price = 500 },
 			{ name = 'at_flashlight',     price = 180 },
 			{ name = 'snspistolset',      price = 800 },
 			{ name = 'pistolset',         price = 950 },
@@ -1060,11 +1114,13 @@ return {
 			{ name = 'ammo-9-box',        price = 25 },
 			{ name = 'ammo-44-box',       price = 40 },
 			{ name = 'ammo-shotgun-box',  price = 10 },
+			{ name = 'ammo-300-box',      price = 20 },
 			{ name = 'crate_45',       price = 900 },
 			{ name = 'crate_50',       price = 1400 },
 			{ name = 'crate_9',        price = 750 },
 			{ name = 'crate_44',       price = 800 },
 			{ name = 'crate_12gauge',  price = 200 },
+			{ name = 'crate_300s',  price = 400 },
 		},
 		locations = {
 			vec3(798.1658, -2136.1316, 29.5148)
@@ -1179,50 +1235,6 @@ return {
 		},
 		targets = {
 			{ loc = vec3(476.78, -1397.71, 31.04), length = 1.4, width = 1.0, heading = 0, minZ = 30.34, maxZ = 31.74, distance = 1.5 },
-		}
-	},
-	Hurtownia8 = {
-		name = 'Hurtownia Hunting Store',
-		blip = {
-			id = 50, colour = 24, scale = 0.8
-		},
-		groups = {
-			["hunting"] = 0
-		},
-		inventory = {
-			{ name = 'weapon-parts',      price = 50 },
-			{ name = 'weapon-cleaning',   price = 50 },
-			{ name = 'blueprint_an',      price = 500 },
-			{ name = 'at_flashlight',     price = 180 },
-			{ name = 'snspistolset',      price = 800 },
-			{ name = 'pistolset',         price = 950 },
-			{ name = 'pistolxm3set',      price = 1200 },
-			{ name = 'pistol50set',       price = 1600 },
-			{ name = 'revolverset',       price = 1750 },
-			{ name = 'pumpshotgunset',    price = 4550 },
-			{ name = 'smgset',            price = 5900 },
-			{ name = 'weapon_knife',      price = 65 },
-			{ name = 'weapon_bat',        price = 35 },
-			{ name = 'weapon_flashlight', price = 20 },
-			{ name = 'weapon_flare',      price = 25 },
-			{ name = 'ammo-45-box',       price = 45 },
-			{ name = 'ammo-50-box',       price = 70 },
-			{ name = 'ammo-9-box',        price = 25 },
-			{ name = 'ammo-44-box',       price = 40 },
-			{ name = 'ammo-shotgun-box',  price = 10 },
-			{ name = 'ammo-300-box',      price = 20 },
-			{ name = 'crate_45',       price = 900 },
-			{ name = 'crate_50',       price = 1400 },
-			{ name = 'crate_9',        price = 750 },
-			{ name = 'crate_44',       price = 800 },
-			{ name = 'crate_12gauge',  price = 200 },
-			{ name = 'crate_300s',  price = 400 },
-		},
-		locations = {
-			vec3(798.1658, -2136.1316, 29.5148)
-		},
-		targets = {
-			{ loc = vec3(798.1658, -2136.1316, 29.5148), length = 2.1, width = 2.3, heading = 126.6940, minZ = 29.2148, maxZ = 29.9148, distance = 1.5 },
 		}
 	},
 	Hurtownia9 = {
@@ -1482,7 +1494,7 @@ return {
 			{ loc = vec3(-1375.61, -336.372, 38.8921), length = 2.1, width = 2.3, heading = 126.6940, minZ = 29.2148, maxZ = 29.9148, distance = 1.5 },
 		}
 	},
-
+	
 	KomponentyBron = {
 		name = 'Handlarz',
 		-- blip = {
@@ -1501,6 +1513,27 @@ return {
 		},
 		targets = {
 			{ loc = vec3(943.61, -1699.87, 30.08), length = 2.1, width = 2.3, heading = 296.8476, minZ = 29.78, maxZ = 30.28, distance = 1.5 },
+		}
+	},
+
+	DrugMerchant = {
+		name = 'Handlarz prochami',
+		-- blip = {
+		--	id = 50, colour = 24, scale = 0.0
+		--}, groups = {
+		--	['ammunation'] = 0, ["ammunation2"] = 0
+		--}, 
+		inventory = {
+			{ name = 'syrup2',            price = 500,  count = 50 },
+			{ name = 'paracetamol',   		  price = 200, count = 50 },
+			{ name = 'oksykodon',         price = 50, count = 5 },
+			{ name = 'empty_blister',      price = 100, count = 8 },
+		},
+		locations = {
+			vec3(1528.59, 3794.5691, 3794.56)
+		},
+		targets = {
+			{ loc = vec3(1528.9728, 3794.6091, 34.4683), length = 2.1, width = 2.3, heading = 297.9298, minZ = 29.78, maxZ = 30.28, distance = 1.5 },
 		}
 	},
 
