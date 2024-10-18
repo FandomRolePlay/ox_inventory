@@ -1962,7 +1962,8 @@ return {
 	['percocet'] = {
 		label = 'Percocet',
 		weight = 1,
-		stack = true
+		stack = true,
+		close = true,
 	},
 	-- koniec percocet
 
@@ -1995,10 +1996,13 @@ return {
 	},
 
 	['lean'] = {
-		label = 'Lean',
-		weight = 300,
-		stack = false,
-	},
+        label = 'Lean',
+        degrade = 4320,-- 72 stunden
+        weight = 300,
+        stack = false,
+        close = true,
+        description = "Lean w kubku",
+    },
 	-- koniec lean
 
 	['meth_amoniak'] = {
@@ -4889,7 +4893,7 @@ return {
 	},
 
 	["percocet_table"] = {
-		label = 'Stół z tłoczarką piguł',
+		label = 'Prasa',
 		weight = 1000,
 		stack = false,
 		description = ""

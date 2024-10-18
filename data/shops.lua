@@ -368,6 +368,7 @@ return {
 			{ name = 'anhydride',    price = 8,   count = 70 }, -- heroina
 			{ name = 'eter',  	     price = 5,   count = 70 }, -- heroina
 			{ name = 'hydrochloric_acid', price = 2,   count = 70 }, -- heroina
+			{ name = 'paracetamol',  price = 80, count = 50 }, -- lean
 			{ name = 'chem',         price = 15,  count = 70 },
 			{ name = 'chem_manual',  price = 28,  count = 5 },
 		},
@@ -1517,23 +1518,17 @@ return {
 	},
 
 	DrugMerchant = {
-		name = 'Handlarz prochami',
-		-- blip = {
-		--	id = 50, colour = 24, scale = 0.0
-		--}, groups = {
-		--	['ammunation'] = 0, ["ammunation2"] = 0
-		--}, 
+		name = 'Sklep z prochami',
 		inventory = {
-			{ name = 'syrup2',            price = 500,  count = 50 },
-			{ name = 'paracetamol',   		  price = 200, count = 50 },
-			{ name = 'oksykodon',         price = 50, count = 5 },
-			{ name = 'empty_blister',      price = 100, count = 8 },
+			{ name = 'syrup2',            price = 25,  count = 50 },
+			{ name = 'oksykodon',         price = 150, count = 50 },
+			{ name = 'empty_blister',      price = 50, count = 50 },
 		},
 		locations = {
-			vec3(1528.59, 3794.5691, 3794.56)
+			vec3(1528.59, 3794.5691, 3794.56) 
 		},
 		targets = {
-			{ loc = vec3(1528.9728, 3794.6091, 34.4683), length = 2.1, width = 2.3, heading = 297.9298, minZ = 29.78, maxZ = 30.28, distance = 1.5 },
+			{ loc = vec3(1528.64, 3794.55, 34.66), length = 2.1, width = 2.3, heading = 34.66, minZ = 29.78, maxZ = 30.28, distance = 1.5 }, -- 1528.64208984375, 3794.553466796875, 34.66408538818359
 		}
 	},
 
