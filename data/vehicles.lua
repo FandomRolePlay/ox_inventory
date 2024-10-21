@@ -91,7 +91,7 @@ return {
 		[20] = {60, 80000},	-- Commercial
 		models = {
 			[`xa21`] = {5, 10000},
-			[`nspeedo`] = {100, 300000},
+			[`nspeedo`] = {100, 80000},
 			[`polnspeedo`] = {100, 300000},
 			[`mtlengine2`] = {100, 300000},
 			[`mtlengine`] = {100, 300000},
