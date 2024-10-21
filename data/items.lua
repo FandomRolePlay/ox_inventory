@@ -8785,4 +8785,11 @@ return {
 		close = true,
 		degrade = 120,
 	},
+
+	["filecabinet"] = {
+		label = "Segregator na dokumenty",
+		weight = 250,
+		stack = false,
+		close = false,
+	},
 }

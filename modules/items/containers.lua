@@ -114,4 +114,10 @@ setContainerProperties('wallet', {
 	whitelist = { 'fake_id', 'id', 'drivers', 'hunting', 'fly', 'weapon', 'money', 'black_money', 'creditcard', }
 })
 
+setContainerProperties('filecabinet', {
+	slots = 100,
+	maxWeight = 1000,
+	whitelist = {'printerdocument'}
+})
+
 return containers

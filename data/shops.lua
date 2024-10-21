@@ -153,6 +153,7 @@ return {
 			{ name = 'printer',        	 price = 850,  count = 10 },
 			{ name = 'printer2',         price = 850,  count = 10 },
 			{ name = 'printer3',         price = 850,  count = 10 },
+			{ name = "filecabinet", 	 price = 75,   count = 10 },
 			{ name = 'speaker',          price = 400, metadata = {typeId = 1, label = 'Boombox Retro', description = 'Niska głośność, zasięg i jakość.', imageurl = 'https://media.rahe.dev/img/boombox.png'} },
 			{ name = 'speaker',          price = 1500, metadata = {typeId = 2, label = 'Głośnik z radiem', description = 'Dobra głośność, zasięg i jakość.', imageurl = 'https://media.rahe.dev/img/speaker1.png'} },
 			{ name = 'speaker',          price = 650, metadata = {typeId = 7, label = 'Boombox', description = 'Nowoczesny boombox, idealny na imprezy!', imageurl = 'https://r2.fivemanage.com/pub/ue292lurwzs8.png'} },
