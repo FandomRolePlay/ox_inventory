@@ -7596,6 +7596,17 @@ return {
 		}
 	},
 
+	--rahe_racing
+	['racingtablet'] = {
+		label = 'Racing tablet',
+		weight = 500,
+		description = 'Seems like something to do with cars.',
+		stack = false,
+		client = {
+			export = 'rahe-racing.racingtablet',
+		}
+	},
+
 	--frp_badge
 	['badge_lspd'] = {
 		label = 'Odznaka LSPD',
@@ -8270,21 +8281,21 @@ return {
 
 
 	['carcass_boar1'] = {
-		label = 'Skóra dzika ★',
+		label = '★ Skóra dzika',
 		weight = 1200,
 		stack = false,
 		degrade = 3 * 24 * 60,
 
 	},
 	['carcass_boar2'] = {
-		label = 'Skóra dzika ★★',
+		label = '★★ Skóra dzika',
 		weight = 1200,
 		stack = false,
 		degrade = 3 * 24 * 60,
 
 	},
 	['carcass_boar3'] = {
-		label = 'Skóra dzika ★★★',
+		label = '★★★ Skóra dzika',
 		weight = 1200,
 		stack = false,
 		degrade = 3 * 24 * 60,
@@ -8292,21 +8303,21 @@ return {
 	},
 
 	['carcass_coyote1'] = {
-		label = 'Skóra kojota ★★',
+		label = '★ Skóra kojota',
 		weight = 800,
 		stack = false,
 		degrade = 3 * 24 * 60,
 
 	},
 	['carcass_coyote2'] = {
-		label = 'Skóra kojota ★★',
+		label = '★★ Skóra kojota',
 		weight = 800,
 		stack = false,
 		degrade = 3 * 24 * 60,
 
 	},
 	['carcass_coyote3'] = {
-		label = 'Skóra kojota ★★★',
+		label = '★★★ Skóra kojota',
 		weight = 800,
 		stack = false,
 		degrade = 3 * 24 * 60,
@@ -8315,21 +8326,21 @@ return {
 
 
 	['carcass_deer1'] = {
-		label = 'Skóra jelenia ★',
+		label = '★ Skóra jelenia',
 		weight = 1100,
 		stack = false,
 		degrade = 3 * 24 * 60,
 
 	},
 	['carcass_deer2'] = {
-		label = 'Skóra jelenia ★★',
+		label = '★★ Skóra jelenia',
 		weight = 1100,
 		stack = false,
 		degrade = 3 * 24 * 60,
 
 	},
 	['carcass_deer3'] = {
-		label = 'Skóra jelenia ★★★',
+		label = '★★★ Skóra jelenia',
 		weight = 1100,
 		stack = false,
 		degrade = 3 * 24 * 60,
@@ -8338,21 +8349,21 @@ return {
 
 
 	['carcass_mtlion1'] = {
-		label = 'Skóra pantery górskiej ★',
+		label = '★ Skóra pantery górskiej',
 		weight = 1000,
 		stack = false,
 		degrade = 3 * 24 * 60,
 
 	},
 	['carcass_mtlion2'] = {
-		label = 'Skóra pantery górskiej ★★',
+		label = '★★ Skóra pantery górskiej',
 		weight = 1000,
 		stack = false,
 		degrade = 3 * 24 * 60,
 
 	},
 	['carcass_mtlion3'] = {
-		label = 'Skóra pantery górskiej ★★★',
+		label = '★★★ Skóra pantery górskiej',
 		weight = 1000,
 		stack = false,
 		degrade = 3 * 24 * 60,
@@ -8360,21 +8371,21 @@ return {
 	},
 
 	['carcass_rabbit1'] = {
-		label = 'Skóra królika ★',
+		label = '★ Skóra królika',
 		weight = 300,
 		stack = false,
 		degrade = 3 * 24 * 60,
 
 	},
 	['carcass_rabbit2'] = {
-		label = 'Skóra królika ★★',
+		label = '★★ Skóra królika',
 		weight = 300,
 		stack = false,
 		degrade = 3 * 24 * 60,
 
 	},
 	['carcass_rabbit3'] = {
-		label = 'Skóra królika ★★★',
+		label = '★★★ Skóra królika',
 		weight = 300,
 		stack = false,
 		degrade = 3 * 24 * 60,
@@ -8382,78 +8393,78 @@ return {
 	},
 
 	['carcass_wolf1'] = {
-		label = 'Skóra wilka ★',
+		label = '★ Skóra wilka',
 		weight = 1000,
 		stack = false,
 		degrade = 3 * 24 * 60,
 	},
 	['carcass_wolf2'] = {
-		label = 'Skóra wilka ★★',
+		label = '★★ Skóra wilka',
 		weight = 1000,
 		stack = false,
 		degrade = 3 * 24 * 60,
 	},
 	['carcass_wolf3'] = {
-		label = 'Skóra wilka ★★★',
+		label = '★★★ Skóra wilka',
 		weight = 1000,
 		stack = false,
 		degrade = 3 * 24 * 60,
 	},
 
 	['carcass_redpanda1'] = {
-		label = 'Skóra rudej pandy ★',
+		label = '★ Skóra rudej pandy',
 		weight = 300,
 		stack = false,
 		degrade = 3 * 24 * 60,
 	},
 	['carcass_redpanda2'] = {
-		label = 'Skóra rudej pandy ★★',
+		label = '★★ Skóra rudej pandy',
 		weight = 300,
 		stack = false,
 		degrade = 3 * 24 * 60,
 	},
 	['carcass_redpanda3'] = {
-		label = 'Skóra rudej pandy ★★★',
+		label = '★★★ Skóra rudej pandy',
 		weight = 300,
 		stack = false,
 		degrade = 3 * 24 * 60,
 	},
 
 	['carcass_bear1'] = {
-		label = 'Skóra niedźwiedzia ★',
+		label = '★ Skóra niedźwiedzia',
 		weight = 1800,
 		stack = false,
 		degrade = 3 * 24 * 60,
 	},
 	['carcass_bear2'] = {
-		label = 'Skóra niedźwiedzia ★★',
+		label = '★★ Skóra niedźwiedzia',
 		weight = 1800,
 		stack = false,
 		degrade = 3 * 24 * 60,
 	},
 	['carcass_bear3'] = {
-		label = 'Skóra niedźwiedzia ★★★',
+		label = '★★★ Skóra niedźwiedzia',
 		weight = 1800,
 		stack = false,
 		degrade = 3 * 24 * 60,
 	},
 
 	['carcass_bocat1'] = {
-		label = 'Skóra rysia ★',
+		label = '★ Skóra rysia',
 		weight = 800,
 		stack = false,
 		degrade = 3 * 24 * 60,
 
 	},
 	['carcass_bocat2'] = {
-		label = 'Skóra rysia ★★',
+		label = '★★ Skóra rysia',
 		weight = 800,
 		stack = false,
 		degrade = 3 * 24 * 60,
 
 	},
 	['carcass_bocat3'] = {
-		label = 'Skóra rysia ★★★',
+		label = '★★★ Skóra rysia',
 		weight = 800,
 		stack = false,
 		degrade = 3 * 24 * 60,
@@ -8461,21 +8472,21 @@ return {
 	},
 
 	['carcass_skunk1'] = {
-		label = 'Skóra skunksa ★',
+		label = '★ Skóra skunksa',
 		weight = 350,
 		stack = false,
 		degrade = 3 * 24 * 60,
 
 	},
 	['carcass_skunk2'] = {
-		label = 'Skóra skunksa ★★',
+		label = '★★ Skóra skunksa',
 		weight = 350,
 		stack = false,
 		degrade = 3 * 24 * 60,
 
 	},
 	['carcass_skunk3'] = {
-		label = 'Skóra skunksa ★★★',
+		label = '★★★ Skóra skunksa',
 		weight = 350,
 		stack = false,
 		degrade = 3 * 24 * 60,
