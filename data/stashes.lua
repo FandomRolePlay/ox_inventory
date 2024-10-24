@@ -1120,7 +1120,24 @@ return {
 		weight = 500000,
 		groups = {['zirconium'] = 1}
 	},
-	
+	{
+		coords = vec3(-382.4066, -1943.1086, 20.2794),
+		target = {
+			loc = vec3(-382.4066, -1943.1086, 20.2794),
+			length = 2.0,
+			width = 2.0,
+			heading = 334,
+			minZ = 19.2794,
+			maxZ = 21.2794,
+			label = 'Otwórz Magazyn'
+		},
+		name = 'zrmagazyn2',
+		label = 'Magazyn',
+		owner = false,
+		slots = 200,
+		weight = 500000,
+		groups = {['zirconium'] = 6}
+	},
 	--DOJ
 	
 	{
