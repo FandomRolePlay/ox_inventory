@@ -154,6 +154,7 @@ return {
 			{ name = 'printer2',         price = 850,  count = 10 },
 			{ name = 'printer3',         price = 850,  count = 10 },
 			{ name = "filecabinet", 	 price = 75,   count = 10 },
+			{ name = "camera", 	 		price = 750,   count = 10 },
 			{ name = 'speaker',          price = 400, metadata = {typeId = 1, label = 'Boombox Retro', description = 'Niska głośność, zasięg i jakość.', imageurl = 'https://media.rahe.dev/img/boombox.png'} },
 			{ name = 'speaker',          price = 1500, metadata = {typeId = 2, label = 'Głośnik z radiem', description = 'Dobra głośność, zasięg i jakość.', imageurl = 'https://media.rahe.dev/img/speaker1.png'} },
 			{ name = 'speaker',          price = 650, metadata = {typeId = 7, label = 'Boombox', description = 'Nowoczesny boombox, idealny na imprezy!', imageurl = 'https://r2.fivemanage.com/pub/ue292lurwzs8.png'} },
@@ -310,7 +311,7 @@ return {
 			{ name = 'tape',            price = 5 },
 			{ name = 'foil',            price = 5 },
 			{ name = 'butan',           price = 4,    count = 70 },
-			{ name = 'meth_amoniak',    price = 8,   count = 70 },
+			{ name = 'meth_amoniak',    price = 15,   count = 70 },
 			{ name = 'calcium',         price = 4,   count = 70 }, -- do heroiny
 			{ name = 'etanol',          price = 5,    count = 70 },
 			{ name = 'metanol',         price = 8,    count = 70 },
@@ -366,9 +367,9 @@ return {
 			{ name = 'meth_amoniak', price = 15,  count = 70 },
 			{ name = 'etanol',       price = 5,   count = 70 },
 			{ name = 'metanol',      price = 8,   count = 70 },
-			{ name = 'anhydride',    price = 8,   count = 70 }, -- heroina
+			{ name = 'anhydride',    price = 8,   count = 70 }, -- heroina bezwodnik octowy
 			{ name = 'eter',  	     price = 5,   count = 70 }, -- heroina
-			{ name = 'hydrochloric_acid', price = 2,   count = 70 }, -- heroina
+			{ name = 'hydrochloric_acid', price = 2,   count = 70 }, -- heroina kwas octowy
 			{ name = 'paracetamol',  price = 80, count = 50 }, -- lean
 			{ name = 'chem',         price = 15,  count = 70 },
 			{ name = 'chem_manual',  price = 28,  count = 5 },
@@ -473,7 +474,10 @@ return {
 			{ name = 'trafficlight',        price = 30,    grade = 1 },
 			{ name = 'worklight',           price = 50,    grade = 1 },
 			{ name = 'worklight2',          price = 50,    grade = 1 },
-			{ name = 'worklight3',          price = 50,    grade = 1 }
+			{ name = 'worklight3',          price = 50,    grade = 1 },
+			{ name = 'camera',           	price = 500,    grade = 10 },
+			{ name = 'criminal_kit',        price = 200,    grade = 10 },
+			{ name = 'gsr_kit',          	price = 50,    grade = 10 }
 		},
 		locations = {
 			vec3(608.65, 1.56, 87.8)
@@ -617,7 +621,10 @@ return {
 			{ name = 'trafficlight',        price = 30,    grade = 1 },
 			{ name = 'worklight',           price = 50,    grade = 1 },
 			{ name = 'worklight2',          price = 50,    grade = 1 },
-			{ name = 'worklight3',          price = 50,    grade = 1 }
+			{ name = 'worklight3',          price = 50,    grade = 1 },
+			{ name = 'camera',           	price = 500,    grade = 10 },
+			{ name = 'criminal_kit',        price = 200,    grade = 10 },
+			{ name = 'gsr_kit',          	price = 50,    grade = 10 }
 		},
 		locations = {
 			vec3(-817.04, -726.92, 23.38)
@@ -712,7 +719,10 @@ return {
 			{ name = 'trafficlight',        price = 30,    grade = 1 },
 			{ name = 'worklight',           price = 50,    grade = 1 },
 			{ name = 'worklight2',          price = 50,    grade = 1 },
-			{ name = 'worklight3',          price = 50,    grade = 1 }
+			{ name = 'worklight3',          price = 50,    grade = 1 },
+			{ name = 'camera',           	price = 500,    grade = 8 },
+			{ name = 'criminal_kit',        price = 200,    grade = 8 },
+			{ name = 'gsr_kit',          	price = 50,    grade = 8 }
 		},
 		locations = {
 			vec3(-440.08, 6003.81, 32.15)
@@ -770,7 +780,10 @@ return {
 			{ name = 'trafficlight',        price = 30,    grade = 1 },
 			{ name = 'worklight',           price = 50,    grade = 1 },
 			{ name = 'worklight2',          price = 50,    grade = 1 },
-			{ name = 'worklight3',          price = 50,    grade = 1 }
+			{ name = 'worklight3',          price = 50,    grade = 1 },
+			{ name = 'camera',           	price = 500,    grade = 10 },
+			{ name = 'criminal_kit',        price = 200,    grade = 10 },
+			{ name = 'gsr_kit',          	price = 50,    grade = 10 }
 		},
 		locations = {
 			vec3(1861.26, 3687.69, 34.4)
@@ -1032,7 +1045,7 @@ return {
 			{ name = 'yellow_phone_box', price = 500 },
 			{ name = 'red_phone_box',    price = 520 },
 			{ name = 'green_phone_box',  price = 510 },
-		},
+	},
 		locations = {
 			vec3(-676.53, -2458.08, 13.94)
 		},
@@ -1074,6 +1087,7 @@ return {
 			{ name = 'ammo-9-box',        price = 25 },
 			{ name = 'ammo-44-box',       price = 40 },
 			{ name = 'ammo-shotgun-box',  price = 10 },
+			{ name = 'ammo-rifle-box',    price = 110, },
 			{ name = 'crate_45',       price = 900 },
 			{ name = 'crate_50',       price = 1400 },
 			{ name = 'crate_9',        price = 750 },
@@ -1245,7 +1259,7 @@ return {
 			id = 50, colour = 24, scale = 0.8
 		},
 		groups = {
-			["tequilala"] = 0, ["browary"] = 0, ["bahama"] = 0, ["foodtruck"] = 0, ["vanilla"] = 0
+			["tequilala"] = 0, ["browary"] = 0, ["bahama"] = 0, ["foodtruck"] = 0, ["vanilla"] = 0, ["pops"] = 0,
 		},
 		inventory = {
 			{ name = 'pisswasser',      price = 5 },
@@ -1389,12 +1403,12 @@ return {
 			{ name = 'logger',           price = 8, count = 30 },
 			{ name = 'whisky',           price = 100, count = 15 },
 			{ name = 'redw',   		 	 price = 30, count = 20 },
-			{ name = 'magicmushroom',    price = 50, count = 10 },
-			{ name = 'peyote',           price = 50, count = 10 },
-			{ name = 'banana_kush_seed', price = 70, count = 2 },
-			{ name = 'red_jack_seed',    price = 100, count = 2 },
-			{ name = 'chem_sister_seed', price = 100, count = 2 },
-			{ name = 'steel_rope',       price = 400, count = 2 },
+			{ name = 'magicmushroom',    price = 100, count = 10 },
+			{ name = 'peyote',           price = 100, count = 10 },
+			{ name = 'banana_kush_seed', price = 200, count = 2 },
+			{ name = 'red_jack_seed',    price = 200, count = 2 },
+			{ name = 'chem_sister_seed', price = 200, count = 2 },
+			{ name = 'steel_rope',       price = 500, count = 2 },
 		},
 		locations = {
 			vec3(2194.6409, 5582.1021, 53.3583)
@@ -1422,8 +1436,8 @@ return {
 			{ name = 'handcuffkey',       price = 1,       grade = 6 },
 			{ name = 'WEAPON_STUNGUN',    price = 250,     grade = 1, metadata = { registered = true, serial = 'G6' }, },
 			{ name = 'ammo-cart',         price = 3,       grade = 6 },
-			{ name = 'camera',            price = 500,     grade = 6 },
-			{ name = 'cctvtablet',        price = 800,     grade = 6 },
+--			{ name = 'camera',            price = 500,     grade = 6 },
+--			{ name = 'cctvtablet',        price = 800,     grade = 6 },
 		},
 		locations = {
 			vec3(-7.06, -653.58, 33.45)
@@ -1460,9 +1474,6 @@ return {
 	},
 	ChopShopTools = {
 		name = 'Sklep specjalistyczny',
-		-- groups = {
-		--	['ammunation'] = 0, ["ammunation2"] = 0
-		--},
 		inventory = {
 			{ name = 'chop_lockpick',  price = 100, count = 5 },
 			{ name = 'chop_torch',     price = 150, count = 5 },
@@ -1477,11 +1488,6 @@ return {
 	},
 	HouseRobberyShop = {
 		name = 'Sprzedawczyk',
-		-- blip = {
-		--	id = 50, colour = 24, scale = 0.0
-		--}, groups = {
-		--	['ammunation'] = 0, ["ammunation2"] = 0
-		--},
 		inventory = {
 			{ name = 'powder',        price = 300,  count = 10 },
 			{ name = 'hack_laptop',   price = 200, count = 10 },
@@ -1494,27 +1500,6 @@ return {
 		},
 		targets = {
 			{ loc = vec3(-1375.61, -336.372, 38.8921), length = 2.1, width = 2.3, heading = 126.6940, minZ = 29.2148, maxZ = 29.9148, distance = 1.5 },
-		}
-	},
-	
-	KomponentyBron = {
-		name = 'Handlarz',
-		-- blip = {
-		--	id = 50, colour = 24, scale = 0.0
-		--}, groups = {
-		--	['ammunation'] = 0, ["ammunation2"] = 0
-		--},
-		inventory = {
-			{ name = 'weapon-parts',      price = 500,  count = 50 },
-			{ name = 'weapon-cleaning',   price = 200, count = 50 },
-			{ name = 'pistolset',         price = 50, count = 5 },
-			{ name = 'snspistolset',      price = 100, count = 8 },
-		},
-		locations = {
-			vec3(943.61, -1699.87, 30.08)
-		},
-		targets = {
-			{ loc = vec3(943.61, -1699.87, 30.08), length = 2.1, width = 2.3, heading = 296.8476, minZ = 29.78, maxZ = 30.28, distance = 1.5 },
 		}
 	},
 
@@ -1530,6 +1515,60 @@ return {
 		},
 		targets = {
 			{ loc = vec3(1528.64, 3794.55, 34.66), length = 2.1, width = 2.3, heading = 34.66, minZ = 29.78, maxZ = 30.28, distance = 1.5 }, -- 1528.64208984375, 3794.553466796875, 34.66408538818359
+		}
+	},
+
+	SupplierShop1 = {
+		name = 'Darkweb',
+		inventory = {
+			{ name = 'peyote',                    price = 55,  count = 35 },
+			{ name = 'magicmushroom',             price = 55,  count = 35 },
+			{ name = 'banana_kush_seed',          price = 84,  count = 35 },
+			{ name = 'red_jack_seed',             price = 105, count = 35 },
+			{ name = 'chem_sister_seed',          price = 105, count = 35 },
+			{ name = 'coke_seed',                 price = 161,  count = 35 },
+			{ name = 'poppy_seed',                price = 126, count = 35 },
+			{ name = 'meth_amoniak',              price = 10, count = 35 },
+			{ name = 'calcium',             	  price = 4,  count = 35 },
+			{ name = 'anhydride',                 price = 6, count = 35 },
+			{ name = 'eter',                      price = 5, count = 35 },
+			{ name = 'hydrochloric_acid',         price = 2,  count = 35 },
+			{ name = 'oksykodon',                 price = 105, count = 35 },
+			{ name = 'syrup2',                    price = 17, count = 35 },
+			{ name = 'paracetamol',               price = 56,  count = 35 },
+			{ name = 'steel_rope',                price = 280,  count = 35 },
+			{ name = 'lockpick',                  price = 30,  count = 10 },
+			{ name = 'empty_blister',             price = 30, count = 35 },
+			{ name = 'pbag_pack',                 price = 7, count = 35 },
+			{ name = 'vanbag',                 	  price = 100, count = 5 },
+		},
+		locations = {
+			vec3(-233.64, 6264.99, 32.12)
+		},
+		targets = {
+			{ loc = vec3(-233.64, 6264.99, 32.12), length = 2.1, width = 2.3, heading = 159.38, minZ = 29.78, maxZ = 30.28, distance = 1.0 },
+		}
+	},
+
+	SupplierShop2 = {
+		name = 'Darkweb',
+		inventory = {
+			{ name = 'steel_rope',        price = 280,  count = 5 },
+			{ name = 'lockpick',          price = 40,  count = 10 },
+			{ name = 'ammo-9-box',        price = 525, count = 10 },
+			{ name = 'ammo-45-box',       price = 630, count = 10 },
+			{ name = 'weapon-parts',      price = 250,  count = 20 },
+			{ name = 'weapon-cleaning',   price = 100, count = 20 },
+			{ name = 'pistolset',         price = 2310, count = 5 },
+			{ name = 'snspistolset',      price = 1260, count = 5 },
+			{ name = 'pistolxm3set',      price = 2660, count = 5 },
+			{ name = 'vanbag',            price = 100, count = 5 },
+		},
+		locations = {
+			vec3(2918.52, 4630.11, 49.24)
+		}, 
+		targets = {
+			{ loc = vec3(2918.52, 4630.11, 49.24), length = 2.1, width = 2.3, heading = 245.88, minZ = 29.78, maxZ = 30.28, distance = 1.0 },
 		}
 	},
 
