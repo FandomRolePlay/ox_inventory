@@ -474,9 +474,9 @@ return {
 			{ name = 'worklight',           price = 50,    grade = 1 },
 			{ name = 'worklight2',          price = 50,    grade = 1 },
 			{ name = 'worklight3',          price = 50,    grade = 1 },
-			{ name = 'camera',           	price = 500,    grade = 10 },
-			{ name = 'criminal_kit',        price = 200,    grade = 10 },
-			{ name = 'gsr_kit',          	price = 50,    grade = 10 }
+			{ name = 'camera',           	price = 500,    grade = 5 },
+			{ name = 'criminal_kit',        price = 200,    grade = 5 },
+			{ name = 'gsr_kit',          	price = 50,    grade = 5 }
 		},
 		locations = {
 			vec3(608.65, 1.56, 87.8)
