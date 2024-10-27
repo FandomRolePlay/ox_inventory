@@ -236,6 +236,12 @@ return {
 		weight = 250,
 		close = true,
 	},
+	['beer_glass'] = {
+		label = 'Kufel',
+		stack = false,
+		weight = 250,
+		close = true,
+	},
 
 	--devcore_smokev2
 	['zapalniczka'] = {
