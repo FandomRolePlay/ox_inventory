@@ -1108,14 +1108,68 @@ return {
 			heading = 347,
 			minZ = 32.75,
 			maxZ = 34.35,
-			label = 'Otwórz Magazyn'
+			label = 'Otwórz Magazyn 1'
 		},
 		name = 'hsmagazyn',
-		label = 'Magazyn',
+		label = 'Magazyn 1',
 		owner = false,
 		slots = 200,
 		weight = 500000,
 		groups = {['hunting'] = 1}
+	},
+	{
+		coords = vec3(-776.86, 5594.82, 33.75),
+		target = {
+			loc = vec3(-776.86, 5594.82, 33.75),
+			length = 0.6,
+			width = 1.8,
+			heading = 347,
+			minZ = 32.75,
+			maxZ = 34.35,
+			label = 'Otwórz Magazyn 2'
+		},
+		name = 'hsmagazy2',
+		label = 'Magazyn 2',
+		owner = false,
+		slots = 200,
+		weight = 250000,
+		groups = {['hunting'] = 2}
+	},
+	{
+		coords = vec3(-776.86, 5594.82, 33.75),
+		target = {
+			loc = vec3(-776.86, 5594.82, 33.75),
+			length = 0.6,
+			width = 1.8,
+			heading = 347,
+			minZ = 32.75,
+			maxZ = 34.35,
+			label = 'Otwórz Magazyn 3'
+		},
+		name = 'hsmagazyn3',
+		label = 'Magazyn 3',
+		owner = false,
+		slots = 200,
+		weight = 250000,
+		groups = {['hunting'] = 4}
+	},
+	{
+		coords = vec3(-776.86, 5594.82, 33.75),
+		target = {
+			loc = vec3(-776.86, 5594.82, 33.75),
+			length = 0.6,
+			width = 1.8,
+			heading = 347,
+			minZ = 32.75,
+			maxZ = 34.35,
+			label = 'Otwórz Magazyn 4'
+		},
+		name = 'hsmagazy4',
+		label = 'Magazyn 4',
+		owner = false,
+		slots = 200,
+		weight = 100000,
+		groups = {['hunting'] = 6}
 	},
 
 	-- ZIRCONIUM
