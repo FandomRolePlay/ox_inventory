@@ -1791,8 +1791,17 @@ return {
 	['radio2'] = {
 		label = 'Radio',
 		weight = 350,
+		degrade = 120,
+		decay = true,
 		stack = false,
 		description = 'Komercyjne radio dalekiego zasięgu'
+	},
+
+	['radio3'] = {
+		label = 'Radio',
+		weight = 350,
+		stack = false,
+		description = 'Komercyjne radio z mocną baterią, dalekiego zasięgu'
 	},
 
 	['radio_jammer'] = {

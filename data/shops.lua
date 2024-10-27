@@ -1429,7 +1429,7 @@ return {
 			{ name = 'at_flashlight',     price = 180,     grade = 6 },
 			{ name = 'WEAPON_FLASHLIGHT', price = 35,      grade = 6 },
 			{ name = 'WEAPON_NIGHTSTICK', price = 100,     grade = 6 },
-			{ name = 'radio2',            price = 450,     grade = 6 },
+			{ name = 'radio3',            price = 450,     grade = 6 },
 			{ name = 'cuffs',             price = 25,      grade = 6 },
 			{ name = 'handcuffkey',       price = 1,       grade = 6 },
 			{ name = 'WEAPON_STUNGUN',    price = 250,     grade = 1, metadata = { registered = true, serial = 'G6' }, },
