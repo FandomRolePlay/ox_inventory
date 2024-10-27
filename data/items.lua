@@ -197,6 +197,65 @@ return {
 		close = true,
 	},
 
+	--vangelicoheist
+
+	-- ['bag'] = {
+	-- 	label = 'Bag',
+	-- 	weight = 160,
+	-- },
+	['cutter'] = {
+		label = 'Drill',
+		weight = 160,
+	},
+	['gasmask'] = {
+		label = 'Gasmask',
+		weight = 160,
+	},
+	['rolex'] = {
+		label = 'Rolex',
+		weight = 160,
+	},
+	['ring'] = {
+		label = 'Ring',
+		weight = 160,
+	},
+	-- ['necklace'] = {
+	-- 	label = 'Necklace',
+	-- 	weight = 160,
+	-- },
+	-- ['vandiamond'] = {
+	-- 	label = 'vandiamond',
+	-- 	weight = 160,
+	-- },
+	-- ['vanpanther'] = {
+	-- 	label = 'vanpanther',
+	-- 	weight = 160,
+	-- },
+	-- ['vannecklace'] = {
+	-- 	label = 'vannecklace',
+	-- 	weight = 160,
+	-- },
+	-- ['vanbottle'] = {
+	-- 	label = 'vanbottle',
+	-- 	weight = 160,
+	-- },
+	['paintingh'] = {
+		label = 'Painting C',
+		weight = 160,
+	},
+	['paintingj'] = {
+		label = 'Painting D',
+		weight = 160,
+	},
+	-- ['paintingf'] = {
+	-- 	label = 'Painting E',
+	-- 	weight = 160,
+	-- },
+	-- ['paintingg'] = {
+	-- 	label = 'Painting F',
+	-- 	weight = 160,
+	-- },
+
 	--frp_banktruck
 	['calling_card'] = {
 		label = 'Karta Telefoniczna',
@@ -1935,8 +1994,22 @@ return {
 
 	['heroin'] = {
 		label = 'Heroina',
-		weight = 200,
+		weight = 1,
 		stack = true
+	},
+
+	['compote_bottle'] = {
+		label = 'Butelka kompotu',
+		weight = 50,
+		stack = true,
+		description = "Nie zachęca do użycia"
+	},
+
+	['compote_syringe'] = {
+		label = 'Strzykawka kompotu',
+		weight = 50,
+		stack = true,
+		description = "Kto z tego skorzysta?"
 	},
 	--koniec heroina
 
@@ -2359,6 +2432,13 @@ return {
 		label = 'Roślinka maku',
 		weight = 200,
 		stack = true
+	},
+
+	['poppyplant_dry'] = {
+		label = 'Roślinka maku',
+		weight = 200,
+		stack = true,
+		description = "Ususzony mak"
 	},
 
 	['heroin_bag'] = {
@@ -7491,7 +7571,7 @@ return {
 		close = true,
 	}, ]]
 	["keyg14"] = {
-		label = "Klucz G14", -- AoD MC
+		label = "Klucz G14", -- Los Calaveras MC
 		description = "F4N-D03",
 		weight = 5,
 		stack = false,
@@ -7505,7 +7585,7 @@ return {
 		close = true,
 	},
 	["keyg16"] = {
-		label = "Klucz G16", -- 22 Los Bandidos
+		label = "Klucz G16", -- Blue flame gang
 		description = "F4N-D03",
 		weight = 5,
 		stack = false,
@@ -8258,6 +8338,15 @@ return {
 		weight = 200,
 		stack = true,
 		description = "Dobry kawałek smażonego mięsa",
+		client = {
+			anim = 'eating',
+			prop = 'prop_cs_hotdog_02',
+			usetime = 3500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 500000,
+			hunger = 200000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['cooked_fish_parts'] = {
@@ -8265,8 +8354,16 @@ return {
 		weight = 200,
 		stack = true,
 		description = "Dobry kawałek smażonego mięsa",
+		client = {
+			anim = 'eating',
+			prop = 'prop_cs_hotdog_02',
+			usetime = 3500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 500000,
+			hunger = 200000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
-
 
 	['raw_meat'] = {
 		label = 'Surowe mięso',
@@ -8284,7 +8381,6 @@ return {
 		label = 'Ząb wilka',
 		weight = 20,
 	},
-
 
 	['carcass_boar1'] = {
 		label = '★ Skóra dzika',
