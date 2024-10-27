@@ -449,14 +449,14 @@ return {
 
 	-- WOLFS
 	{
-		coords = vec3(-1213.61, -1473.68, 4.37),
+		coords = vec3(-715.79, 266.87, 84.31),
 		target = {
-			loc = vec3(-1213.61, -1473.68, 4.37),
-			length = 0.4,
-			width = 0.8,
-			heading = 305,
-			minZ = 3.37,
-			maxZ = 4.37,
+			loc = vec3(-715.79, 266.87, 84.31),
+			length = 1.0,
+			width = 1.0,
+			heading = 300,
+			minZ = 83.31,
+			maxZ = 85.31,
 			label = 'Otwórz szafke'
 		},
 		name = 'realocker',
@@ -467,14 +467,14 @@ return {
 		groups = {['rea'] = 0}
 	},
 	{
-		coords = vec3(-1213.71, -1473.76, 4.37),
+		coords = vec3(-718.41, 260.79, 83.92),
 		target = {
-			loc = vec3(-1213.71, -1473.76, 4.37),
-			length = 0.6,
+			loc = vec3(-718.41, 260.79, 83.92),
+			length = 2.0,
 			width = 1.0,
-			heading = 305,
-			minZ = 4.77,
-			maxZ = 5.77,
+			heading = 115,
+			minZ = 82.92,
+			maxZ = 84.92,
 			label = 'Otwórz Magazyn'
 		},
 		name = 'reamagazyn',
@@ -722,7 +722,7 @@ return {
 		label = 'Magazyn',
 		owner = false,
 		slots = 200,
-		weight = 500000,
+		weight = 1000000,
 		groups = {['coolbeans'] = 1}
 	},
 
@@ -874,7 +874,7 @@ return {
 		label = 'Magazyn',
 		owner = false,
 		slots = 200,
-		weight = 500000,
+		weight = 1000000,
 		groups = {['ammunation'] = 1}
 	},
 	{
@@ -888,14 +888,49 @@ return {
 			maxZ = 29.7,
 			label = 'Otwórz Magazyn'
 		},
-		name = 'anmagazyn2',
-		label = 'Magazyn',
+		name = 'anmagazyn2', --lada nr1
+		label = 'Lada nr 1',
 		owner = false,
 		slots = 100,
 		weight = 250000,
 		groups = {['ammunation'] = 1}
 	},
-
+	{
+		coords = vec3(7.06, -1107.81, 28.9),
+		target = {
+			loc = vec3(7.06, -1107.81, 28.9),
+			length = 3.0,
+			width = 1.0,
+			heading = 160,
+			minZ = 28.2,
+			maxZ = 29.20,
+			label = 'Otwórz Magazyn'
+		},
+		name = 'anmagazyn3', --lada nr2
+		label = 'Lada nr 2',
+		owner = false,
+		slots = 100,
+		weight = 250000,
+		groups = {['ammunation'] = 1}
+	},
+	{
+		coords = vec3(9.1, -1091.97, 32.94),
+		target = {
+			loc = vec3(9.1, -1091.97, 32.94),
+			length = 1.0,
+			width = 1.0,
+			heading = 69,
+			minZ = 33.44,
+			maxZ = 32.44,
+			label = 'Otwórz Szafke'
+		},
+		name = 'anmagazyn4', --szafka biuro
+		label = 'Szafka',
+		owner = false,
+		slots = 100,
+		weight = 25000,
+		groups = {['ammunation'] = 1}
+	},
 	-- AUTOKOMIS
 	{
 		coords = vec3(-194.80, -1164.69, 23.96),
@@ -1643,16 +1678,16 @@ return {
 		weight = 50000,
 		groups = {['army'] = 0}
 	},
-	-- POPS
+	-- MR Tavern
 	{
-		coords = vec3(1595.34, 6453.02, 26.01),
+		coords = vec3(1230.34, -407.62, 67.81),
 		target = {
-			loc = vec3(1595.34, 6453.02, 26.01),
-			length = 0.6,
+			loc = vec3(1230.34, -407.62, 67.81),
+			length = 0.2,
 			width = 1.0,
-			heading = 335,
-			minZ = 25.01,
-			maxZ = 26.21,
+			heading = 345,
+			minZ = 66.76,
+			maxZ = 67.76,
 			label = 'Otwórz szafke'
 		},
 		name = 'popslocker',
@@ -1663,14 +1698,14 @@ return {
 		groups = {['pops'] = 0}
 	},
 	{
-		coords = vec3(1585.95, 6459.79, 26.01),
+		coords = vec3(1229.6, -419.75, 67.78),
 		target = {
-			loc = vec3(1585.95, 6459.79, 26.01),
-			length = 0.8,
-			width = 1.8,
-			heading = 335,
-			minZ = 25.01,
-			maxZ = 26.01,
+			loc = vec3(1229.6, -419.75, 67.78),
+			length = 0.4,
+			width = 0.8,
+			heading = 73,
+			minZ = 66.83,
+			maxZ = 67.83,
 			label = 'Otwórz Magazyn'
 		},
 		name = 'popsmagazyn',
