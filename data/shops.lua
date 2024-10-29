@@ -339,6 +339,7 @@ return {
 			{ name = 'flute_glass',     price = 2 },
 			{ name = 'wine_glass',      price = 2 },
 			{ name = 'whiskey_glass',   price = 2 },
+			{ name = 'beer_glass',      price = 2 },
 			{ name = 'grill1_table',	price = 350,   count = 2 },
 			{ name = 'grill2_table',	price = 100,   count = 10 },
 			{ name = 'grill4_table',	price = 150,   count = 5 },
