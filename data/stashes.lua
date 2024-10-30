@@ -1114,7 +1114,7 @@ return {
 		label = 'Magazyn 1',
 		owner = false,
 		slots = 200,
-		weight = 500000,
+		weight = 250000,
 		groups = {['hunting'] = 1}
 	},
 	{
@@ -1132,7 +1132,7 @@ return {
 		label = 'Magazyn 2',
 		owner = false,
 		slots = 200,
-		weight = 250000,
+		weight = 500000,
 		groups = {['hunting'] = 2}
 	},
 	{
