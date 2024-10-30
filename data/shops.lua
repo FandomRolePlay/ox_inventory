@@ -153,7 +153,7 @@ return {
 			{ name = 'printer2',         price = 850,  count = 10 },
 			{ name = 'printer3',         price = 850,  count = 10 },
 			{ name = "filecabinet", 	 price = 75,   count = 10 },
---			{ name = "camera", 	 		price = 750,   count = 10 },
+			{ name = "camera", 	 		price = 750,   count = 10 },
 			{ name = 'speaker',          price = 400, metadata = {typeId = 1, label = 'Boombox Retro', description = 'Niska głośność, zasięg i jakość.', imageurl = 'https://media.rahe.dev/img/boombox.png'} },
 			{ name = 'speaker',          price = 1500, metadata = {typeId = 2, label = 'Głośnik z radiem', description = 'Dobra głośność, zasięg i jakość.', imageurl = 'https://media.rahe.dev/img/speaker1.png'} },
 			{ name = 'speaker',          price = 650, metadata = {typeId = 7, label = 'Boombox', description = 'Nowoczesny boombox, idealny na imprezy!', imageurl = 'https://r2.fivemanage.com/pub/ue292lurwzs8.png'} },
@@ -720,9 +720,9 @@ return {
 			{ name = 'worklight',           price = 50,    grade = 1 },
 			{ name = 'worklight2',          price = 50,    grade = 1 },
 			{ name = 'worklight3',          price = 50,    grade = 1 },
-			{ name = 'camera',           	price = 500,    grade = 8 },
-			{ name = 'criminal_kit',        price = 200,    grade = 8 },
-			{ name = 'gsr_kit',          	price = 50,    grade = 8 }
+			{ name = 'camera',           	price = 500,    grade = 4 },
+			{ name = 'criminal_kit',        price = 200,    grade = 4 },
+			{ name = 'gsr_kit',          	price = 50,    grade = 4 }
 		},
 		locations = {
 			vec3(-440.08, 6003.81, 32.15)
@@ -781,9 +781,9 @@ return {
 			{ name = 'worklight',           price = 50,    grade = 1 },
 			{ name = 'worklight2',          price = 50,    grade = 1 },
 			{ name = 'worklight3',          price = 50,    grade = 1 },
-			{ name = 'camera',           	price = 500,    grade = 10 },
-			{ name = 'criminal_kit',        price = 200,    grade = 10 },
-			{ name = 'gsr_kit',          	price = 50,    grade = 10 }
+			{ name = 'camera',           	price = 500,    grade = 4 },
+			{ name = 'criminal_kit',        price = 200,    grade = 4 },
+			{ name = 'gsr_kit',          	price = 50,    grade = 4 }
 		},
 		locations = {
 			vec3(1861.26, 3687.69, 34.4)
