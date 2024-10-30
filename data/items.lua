@@ -457,7 +457,7 @@ return {
 	--FARMING
 	['fertilizer'] = {
 		label = 'Nawóz',
-		weight = 500,
+		weight = 200,
 	},
 
 	['pot'] = {
@@ -968,7 +968,7 @@ return {
 
 	--Pops Diner
 	['popsbekon'] = {
-		label = 'Pop`s Bekon',
+		label = 'Taven Bekon',
 		description = "Smażone jajka ze słonym bekonem.",
 		weight = 400,
 		client = {
@@ -983,7 +983,7 @@ return {
 	},
 
 	['popsryba'] = {
-		label = 'Pop`s Fish',
+		label = 'Taven Fish',
 		description = "Świeża ryba z chrupiącymi frytkami.",
 		weight = 500,
 		client = {
@@ -998,7 +998,7 @@ return {
 	},
 
 	['popskielbasa'] = {
-		label = 'Pop`s Sausage',
+		label = 'Taven Sausage',
 		description = "Smażone jajka z kiełbaską.",
 		weight = 400,
 		client = {
@@ -1013,7 +1013,7 @@ return {
 	},
 
 	['popsnuggetsy'] = {
-		label = 'Pop`s Nuggets',
+		label = 'Taven Nuggets',
 		description = "Kawałki kurczaka ze złocistymi frytkami.",
 		weight = 400,
 		client = {
@@ -1028,7 +1028,7 @@ return {
 	},
 
 	['popsser'] = {
-		label = 'Pop`s Cheese',
+		label = 'Taven Cheese',
 		description = "Ser w panierce i frytki.",
 		weight = 400,
 		client = {
@@ -1043,7 +1043,7 @@ return {
 	},
 
 	['popskurczak'] = {
-		label = 'Pop`s Chicken',
+		label = 'Taven Chicken',
 		description = "Kanapka z grillowanym kurczakiem, jajkiem i bekonem.",
 		weight = 400,
 		client = {
@@ -1058,7 +1058,7 @@ return {
 	},
 
 	['popswolowina'] = {
-		label = 'Pop`s Beef',
+		label = 'Taven Beef',
 		description = "Kanapka z szarpaną wołowiną.",
 		weight = 400,
 		client = {
@@ -1073,7 +1073,7 @@ return {
 	},
 
 	['popswege'] = {
-		label = 'Pop`s Wege',
+		label = 'Taven Wege',
 		description = "Kanapka wegetariańska.",
 		weight = 400,
 		client = {
@@ -1088,7 +1088,7 @@ return {
 	},
 
 	['popsstek'] = {
-		label = 'Pop`s Steak',
+		label = 'Taven Steak',
 		description = "Soczysy stek z dodatkami.",
 		weight = 400,
 		client = {
@@ -1103,7 +1103,7 @@ return {
 	},
 
 	['popslemoniada'] = {
-		label = 'Pop`s Lemonade',
+		label = 'Taven Lemonade',
 		description = "Orzeźwiająca klasyczna lemoniada.",
 		weight = 300,
 		client = {
@@ -1117,7 +1117,7 @@ return {
 	},
 
 	['popsherbata'] = {
-		label = 'Pop`s Tea',
+		label = 'Taven Tea',
 		description = "Herbata czarna.",
 		weight = 300,
 		client = {
@@ -1131,7 +1131,7 @@ return {
 	},
 
 	['popskawa'] = {
-		label = 'Pop`s Coffee',
+		label = 'Taven Coffee',
 		description = "Klasyczna, mocna, czarna kawa.",
 		weight = 300,
 		client = {
@@ -1145,7 +1145,7 @@ return {
 	},
 
 	['popsslushie'] = {
-		label = 'Pop`s Slushie',
+		label = 'Taven Slushie',
 		description = "Zimne truskawkowe slushie.",
 		weight = 300,
 		client = {
