@@ -1732,6 +1732,24 @@ return {
 		weight = 50000,
 		groups = {['army'] = 0}
 	},
+	{
+		coords = vec3(613.78, 7.37, 74.95),
+		target = {
+			loc = vec3(613.78, 7.37, 74.95),
+			length = 1.0,
+			width = 1.0,
+			heading = 160,
+			minZ = 74.55,
+			maxZ = 75.55,
+			label = 'Otwórz szafke'
+		},
+		name = 'lspdmugshot',
+		label = 'Mugshot',
+		owner = false,
+		slots = 10,
+		weight = 50000,
+		groups = {['police'] = 1}
+	},
 	-- MR Tavern
 	{
 		coords = vec3(1230.34, -407.62, 67.81),
