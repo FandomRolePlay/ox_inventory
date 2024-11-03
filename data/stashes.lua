@@ -1881,5 +1881,59 @@ return {
 			weight = 500000,
 			groups = {['cityhall'] = 0}
 		},		
-
+	-- Lombard
+	{
+		coords = vec3(454.65, -1462.73, 29.29),
+		target = {
+			loc = vec3(454.65, -1462.73, 29.29),
+			length = 1.0,
+			width = 1.0,
+			heading = 0,
+			minZ = 28.29,
+			maxZ = 32.29,
+			label = 'Otwórz szafke'
+		},
+		name = 'pawnlocker',
+		label = 'Szafka Prywatna',
+		owner = true,
+		slots = 10,
+		weight = 15000,
+		groups = {['pawnshop'] = 0}
+	},
+	{
+		coords = vec3(454.63, -1472.03, 29.29),
+		target = {
+			loc = vec3(454.63, -1472.03, 29.29),
+			length = 2.2,
+			width = 0.4,
+			heading = 20,
+			minZ = 28.29,
+			maxZ = 30.69,
+			label = 'Otwórz Magazyn'
+		},
+		name = 'pawnmagazyn',
+		label = 'Magazyn',
+		owner = false,
+		slots = 200,
+		weight = 1000000,
+		groups = {['pawnshop'] = 1}
+	},
+	{
+		coords = vec3(448.44, -1482.42, 29.29),
+		target = {
+			loc = vec3(448.44, -1482.42, 29.29),
+			length = 1.2,
+			width = 1.0,
+			heading = 290,
+			minZ = 28.49,
+			maxZ = 29.89,
+			label = 'Otwórz Magazyn'
+		},
+		name = 'pawnmagazynukryty',
+		label = 'Magazyn',
+		owner = false,
+		slots = 200,
+		weight = 1000000,
+		groups = {['pawnshop'] = 7}
+	},
 }
