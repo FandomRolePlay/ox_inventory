@@ -7572,13 +7572,13 @@ return {
 		stack = false,
 		close = true,
 	},
---[[ 	["keyg13"] = {
+	["keyg13"] = {
 		label = "Klucz G13", -- Ballas
 		description = "F4N-D03",
 		weight = 5,
 		stack = false,
 		close = true,
-	}, ]]
+	},
 	["keyg14"] = {
 		label = "Klucz G14", -- Los Calaveras MC
 		description = "F4N-D03",
@@ -7615,7 +7615,7 @@ return {
 		close = true,
 	},
 	["keyg19"] = {
-		label = "Klucz G19", -- HEBI
+		label = "Klucz G19", -- 1% Club
 		description = "F4N-D03",
 		weight = 5,
 		stack = false,
