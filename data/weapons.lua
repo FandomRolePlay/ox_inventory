@@ -252,6 +252,7 @@ return {
 			label = 'Nożyce hydrauliczne',
 			weight = 2500,
 		},
+
 		['WEAPON_GLASSMASTER'] = {
 			label = 'Piła do szyb',
 			weight = 500,
@@ -780,7 +781,7 @@ return {
 		},
 		['WEAPON_BBSHOTGUN'] = {
 			label = 'Bean Bag Shotgun',
-			weight = 10,
+			weight = 2300,
 			durability = 0,
 			ammoname = 'ammo-bb'
 		},
