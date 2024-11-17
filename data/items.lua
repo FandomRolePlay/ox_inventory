@@ -7552,7 +7552,7 @@ return {
 		close = true,
 	},
 	["keyg10"] = {
-		label = "Klucz G10", -- Child of Saitan
+		label = "Klucz G10", -- Vagos
 		description = "F4N-D03",
 		weight = 5,
 		stack = false,
