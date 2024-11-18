@@ -31,9 +31,16 @@ function Weapon.Equip(item, data, noWeaponAnim)
 			anim = nil
 		end
 
-		sleep = anim and anim[3] or 1200
+		animTime = 2.0
 
-		Utils.PlayAnimAdvanced(sleep, anim and anim[1] or 'reaction@intimidation@1h', anim and anim[2] or 'intro', coords.x, coords.y, coords.z, 0, 0, GetEntityHeading(playerPed), 8.0, 3.0, sleep*2, 50, 0.1)
+		if PlayerData['groups'] == 'police' then
+			animTime = 1.3
+		end
+
+		sleep = anim and anim[3] or 1200
+		sleep *= animTime
+
+		Utils.PlayAnimAdvanced(sleep, anim and anim[1] or 'reaction@intimidation@1h', anim and anim[2] or 'intro', coords.x, coords.y, coords.z, 0, 0, GetEntityHeading(playerPed), 8.0, 1.0, sleep, 50, 0.1)
 	end
 
 	::skipAnim::

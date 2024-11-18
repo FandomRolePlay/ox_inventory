@@ -88,7 +88,7 @@ local ox_inventory = exports[shared.resource]
 -- Clientside item use functions
 -----------------------------------------------------------------------------------------------
 
-Item('bandage', function(data, slot)
+--[[ Item('bandage', function(data, slot)
 	local maxHealth = GetEntityMaxHealth(cache.ped)
 	local health = GetEntityHealth(cache.ped)
 	ox_inventory:useItem(data, function(data)
@@ -97,9 +97,9 @@ Item('bandage', function(data, slot)
 			lib.notify({ description = 'You feel better already' })
 		end
 	end)
-end)
+end) ]]
 
-Item('armour', function(data, slot)
+--[[ Item('armour', function(data, slot)
 	if GetPedArmour(cache.ped) < 100 then
 		ox_inventory:useItem(data, function(data)
 			if data then
@@ -108,7 +108,16 @@ Item('armour', function(data, slot)
 			end
 		end)
 	end
+end) ]]
+
+Item('rc-bandito', function(data, slot)
+    ox_inventory:useItem(data, function(data)
+        if data then
+            TriggerEvent('mth-rc:client:SpawnRcCar')
+        end
+    end)
 end)
+
 
 client.parachute = false
 Item('parachute', function(data, slot)
@@ -129,7 +138,7 @@ Item('parachute', function(data, slot)
 	end
 end)
 
-Item('phone', function(data, slot)
+--[[ Item('phone', function(data, slot)
 	local success, result = pcall(function()
 		return exports.npwd:isPhoneVisible()
 	end)
@@ -137,8 +146,8 @@ Item('phone', function(data, slot)
 	if success then
 		exports.npwd:setPhoneVisible(not result)
 	end
-end)
-
+end) ]]
+--[[ 
 Item('clothing', function(data, slot)
 	local metadata = slot.metadata
 
@@ -185,7 +194,7 @@ Item('clothing', function(data, slot)
 		end
 	end)
 end)
-
+ ]]
 -----------------------------------------------------------------------------------------------
 
 exports('Items', function(item) return getItem(nil, item) end)

@@ -120,6 +120,13 @@ function server.isPlayerBoss(playerId)
 	return xPlayer.job.grade_name == 'boss'
 end
 
+---@diagnostic disable-next-line: duplicate-set-field
+function server.removeFromBankAccount(playerId, amount)
+	local xPlayer = ESX.GetPlayerFromId(playerId)
+
+	xPlayer.removeAccountMoney('bank', amount)
+end
+
 MySQL.ready(function()
 	MySQL.insert('INSERT IGNORE INTO `licenses` (`type`, `label`) VALUES (?, ?)', { 'weapon', 'Weapon License'})
 end)

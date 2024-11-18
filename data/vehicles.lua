@@ -6,6 +6,7 @@ return {
 	Storage = {
 		[`jester`] = 3,
 		[`adder`] = 3,
+		[`italirsx`] = 3,
 		[`osiris`] = 1,
 		[`pfister811`] = 1,
 		[`penetrator`] = 1,
@@ -37,54 +38,68 @@ return {
 
 	-- slots, maxWeight; default weight is 8000 per slot
 	glovebox = {
-		[0] = {11, 88000},		-- Compact
-		[1] = {11, 88000},		-- Sedan
-		[2] = {11, 88000},		-- SUV
-		[3] = {11, 88000},		-- Coupe
-		[4] = {11, 88000},		-- Muscle
-		[5] = {11, 88000},		-- Sports Classic
-		[6] = {11, 88000},		-- Sports
-		[7] = {11, 88000},		-- Super
-		[8] = {5, 40000},		-- Motorcycle
-		[9] = {11, 88000},		-- Offroad
-		[10] = {11, 88000},		-- Industrial
-		[11] = {11, 88000},		-- Utility
-		[12] = {11, 88000},		-- Van
-		[14] = {31, 248000},	-- Boat
-		[15] = {31, 248000},	-- Helicopter
-		[16] = {51, 408000},	-- Plane
-		[17] = {11, 88000},		-- Service
-		[18] = {11, 88000},		-- Emergency
-		[19] = {11, 88000},		-- Military
-		[20] = {11, 88000},		-- Commercial (trucks)
+		[0] = {4, 5000},		-- Compact
+		[1] = {5, 5000},		-- Sedan
+		[2] = {5, 6000},		-- SUV
+		[3] = {4, 5000},		-- Coupe
+		[4] = {5, 5000},		-- Muscle
+		[5] = {4, 4000},		-- Sports Classic
+		[6] = {5, 5000},		-- Sports
+		[7] = {2, 4000},		-- Super
+		[8] = {3, 4000},		-- Motorcycle
+		[9] = {5, 7000},		-- Offroad
+		[10] = {10, 10000},		-- Industrial
+		[11] = {5, 7000},		-- Utility
+		[12] = {5, 8000},		-- Van
+		[14] = {5, 10000},	-- Boat
+		[15] = {5, 20000},	-- Helicopter
+		[16] = {5, 20000},	-- Plane
+		[17] = {5, 8000},		-- Service
+		[18] = {5, 6000},		-- Emergency
+		[19] = {5, 8000},		-- Military
+		[20] = {10, 11000},		-- Commercial (trucks)
 		models = {
-			[`xa21`] = {11, 88000}
+			[`seashark`] = {3, 2000},
+			[`tropic`] = {8, 44000},
+			[`dinghy`] = {13, 95000},
+
+			[`xa21`] = {11, 88000},
+			[`dloader`] = {60, 200000},
 		}
 	},
 
 	trunk = {
-		[0] = {21, 168000},		-- Compact
-		[1] = {41, 328000},		-- Sedan
-		[2] = {51, 408000},		-- SUV
-		[3] = {31, 248000},		-- Coupe
-		[4] = {41, 328000},		-- Muscle
-		[5] = {31, 248000},		-- Sports Classic
-		[6] = {31, 248000},		-- Sports
-		[7] = {21, 168000},		-- Super
-		[8] = {5, 40000},		-- Motorcycle
-		[9] = {51, 408000},		-- Offroad
-		[10] = {51, 408000},	-- Industrial
-		[11] = {41, 328000},	-- Utility
-		[12] = {61, 488000},	-- Van
+		[0] = {20, 25000},		-- Compact
+		[1] = {30, 45000},		-- Sedan
+		[2] = {40, 60000},		-- SUV
+		[3] = {20, 25000},		-- Coupe
+		[4] = {30, 45000},		-- Muscle
+		[5] = {20, 25000},		-- Sports Classic
+		[6] = {30, 45000},		-- Sports
+		[7] = {10, 10000},		-- Super
+		[8] = {1, 5000},		-- Motorcycle
+		[9] = {40, 60000},		-- Offroad
+		[10] = {50, 80000},	-- Industrial
+		[11] = {40, 60000},	-- Utility
+		[12] = {60, 80000},	-- Van
 		-- [14] -- Boat
 		-- [15] -- Helicopter
 		-- [16] -- Plane
-		[17] = {41, 328000},	-- Service
-		[18] = {41, 328000},	-- Emergency
-		[19] = {41, 328000},	-- Military
-		[20] = {61, 488000},	-- Commercial
+		[17] = {40, 60000},	-- Service
+		[18] = {35, 50000},	-- Emergency
+		[19] = {40, 60000},	-- Military
+		[20] = {60, 80000},	-- Commercial
 		models = {
-			[`xa21`] = {11, 10000}
+			[`xa21`] = {5, 10000},
+			[`nspeedo`] = {100, 80000},
+			[`polnspeedo`] = {100, 300000},
+			[`mtlengine2`] = {100, 300000},
+			[`mtlengine`] = {100, 300000},
+			[`fdlcladder`] = {100, 300000},		
+			[`lcpdtru`] = {100, 300000},
+			[`coroner`] = {60, 200000},
+			[`nsandbrush4`] = {60, 200000},
+			[`taco2`] = {60, 200000}
 		},
 	}
 }

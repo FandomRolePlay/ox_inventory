@@ -4,6 +4,8 @@ import { store } from '../store';
 import { Items } from '../store/items';
 import { imagepath } from '../store/imagepath';
 import { fetchNui } from '../utils/fetchNui';
+import { body } from '../store/body';
+import { bodyPart } from '../typings/bodyPart';
 
 export const canPurchaseItem = (item: Slot, inventory: { type: Inventory['type']; groups: Inventory['groups'] }) => {
   if (inventory.type !== 'shop' || !isSlotWithItem(item)) return true;
@@ -136,6 +138,15 @@ export const getItemData = async (itemName: string) => {
     return resp;
   }
 };
+
+export const getBodyData = async (bodyPart: string) => {
+  const resp: bodyPart | null = await fetchNui('getBodyData', bodyPart);
+
+  if (resp?.damages !== undefined) {
+    body[bodyPart] = resp;
+    return resp;
+  }
+}
 
 export const getItemUrl = (item: string | SlotWithItem) => {
   const isObj = typeof item === 'object';

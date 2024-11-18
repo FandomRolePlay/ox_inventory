@@ -108,7 +108,7 @@ local function createShop(shopType, id)
 	return shop[id]
 end
 
-for shopType, shopDetails in pairs(lib.load('data.shops')) do
+for shopType, shopDetails in pairs(lib.load('data.shops') or {}) do
 	registerShopType(shopType, shopDetails)
 end
 
@@ -163,7 +163,11 @@ local function canAffordItem(inv, currency, price)
 end
 
 local function removeCurrency(inv, currency, price)
-	Inventory.RemoveItem(inv, currency, price)
+	if currency ~= 'bank' then
+		return Inventory.RemoveItem(inv, currency, price)
+	end
+	
+	if server.removeFromBankAccount then server.removeFromBankAccount(inv.id, price) end
 end
 
 local TriggerEventHooks = require 'modules.hooks.server'
@@ -237,13 +241,7 @@ lib.callback.register('ox_inventory:buyItem', function(source, data)
 					return false, false, { type = 'error', description = locale('cannot_carry') }
 				end
 
-				local canAfford = canAffordItem(playerInv, currency, price)
-
-				if canAfford ~= true then
-					return false, false, canAfford
-				end
-
-				if not TriggerEventHooks('buyItem', {
+				--[[if not TriggerEventHooks('buyItem', {
 					source = source,
 					shopType = shopType,
 					shopId = shopId,
@@ -256,7 +254,37 @@ lib.callback.register('ox_inventory:buyItem', function(source, data)
 					price = fromData.price,
 					totalPrice = price,
 					currency = currency,
-				}) then return false end
+				}) then return false end]]--
+				
+				local response = TriggerEventHooks('buyItem', {
+					source = source,
+					shopType = shopType,
+					shopId = shopId,
+					toInventory = playerInv.id,
+					toSlot = data.toSlot,
+					fromSlot = fromData,
+					itemName = fromData.name,
+					metadata = metadata,
+					count = count,
+					price = fromData.price,
+					totalPrice = price,
+					currency = currency,
+				})
+
+				if not response then return false end
+
+				if type(response) == 'table' then
+					currency = response.currency
+				end
+
+				--TODO: Check for other currency types
+				if currency == 'money' then
+					local canAfford = canAffordItem(playerInv, currency, price)
+
+					if canAfford ~= true then
+						return false, false, canAfford
+					end
+				end
 
 				Inventory.SetSlot(playerInv, fromItem, count, metadata, data.toSlot)
 				playerInv.weight = newWeight
@@ -268,7 +296,7 @@ lib.callback.register('ox_inventory:buyItem', function(source, data)
 
 				if server.syncInventory then server.syncInventory(playerInv) end
 
-				local message = locale('purchased_for', count, metadata?.label or fromItem.label, (currency == 'money' and locale('$') or math.groupdigits(price)), (currency == 'money' and math.groupdigits(price) or ' '..Items(currency).label))
+				local message = locale('purchased_for', count, metadata?.label or fromItem.label, ((currency == 'money' or currency == 'bank') and locale('$') or math.groupdigits(price)), ((currency == 'money' or currency == 'bank') and math.groupdigits(price) or ' '..Items(currency).label))
 
 				if server.loglevel > 0 then
 					if server.loglevel > 1 or fromData.price >= 500 then

@@ -13,6 +13,9 @@ import { closeTooltip } from '../../store/tooltip';
 import InventoryContext from './InventoryContext';
 import { closeContextMenu } from '../../store/contextMenu';
 import Fade from '../utils/transitions/Fade';
+import PlayerBody from './PlayerBody';
+import { setBodyData, setDamages } from '../../store/body';
+import { bodyData } from '../../typings/body';
 
 const Inventory: React.FC = () => {
   const [inventoryVisible, setInventoryVisible] = useState(false);
@@ -40,10 +43,20 @@ const Inventory: React.FC = () => {
     dispatch(setAdditionalMetadata(data));
   });
 
+  useNuiEvent('getBodyData', (data: bodyData) => {
+    dispatch(setBodyData(data));
+  })
+
+  useNuiEvent('setDamage', (data) => {
+    console.log(data)
+    dispatch(setDamages(data));
+  })
+
   return (
     <>
       <Fade in={inventoryVisible}>
         <div className="inventory-wrapper">
+          <PlayerBody/>
           <LeftInventory />
           <InventoryControl />
           <RightInventory />

@@ -77,10 +77,11 @@ const InventorySlot: React.ForwardRefRenderFunction<HTMLDivElement, SlotProps> =
             break;
         }
       },
-      canDrop: (source) =>
-        (source.item.slot !== item.slot || source.inventory !== inventoryType) &&
-        inventoryType !== InventoryType.SHOP &&
-        inventoryType !== InventoryType.CRAFTING,
+      canDrop: (source) => {
+        return (source.item.slot !== item.slot || source.inventory !== inventoryType) &&
+          inventoryType !== InventoryType.SHOP &&
+          inventoryType !== InventoryType.CRAFTING;
+      },
     }),
     [inventoryType, item]
   );

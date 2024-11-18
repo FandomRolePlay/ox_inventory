@@ -54,9 +54,9 @@ local function canOpenInventory()
         return shared.info('cannot open inventory', '(is busy)')
     end
 
-    if PlayerData.dead or IsPedFatallyInjured(playerPed) then
+    --[[if PlayerData.dead or IsPedFatallyInjured(playerPed) then
         return shared.info('cannot open inventory', '(fatal injury)')
-    end
+    end]]--
 
     if PlayerData.cuffed or IsPedCuffed(playerPed) then
         return shared.info('cannot open inventory', '(cuffed)')
@@ -112,6 +112,7 @@ end
 local CraftingBenches = require 'modules.crafting.client'
 local Vehicles = lib.load('data.vehicles')
 local Inventory = require 'modules.inventory.client'
+local bodyDamage = require 'modules.damages.client'
 
 ---@param inv string?
 ---@param data any?
@@ -282,6 +283,18 @@ function client.openInventory(inv, data)
             rightInventory = currentInventory
         }
     })
+	
+	--CUSTOM CHANGES FOR FANDOMRP 
+	--START
+	local id = cache.serverId
+	--print(json.encode(inv, { indent = true }), json.encode(data, { indent = true }))
+	if (inv == nil) or (inv ~= "player") or (id == data) then
+		local injuriesState = LocalPlayer.state.injuries
+		bodyDamage.SetupBodyDamage(id, injuriesState, true)
+	end
+
+	bodyDamage.DisplayBodyDamage()
+	--END
 
     if not currentInventory.coords and not inv == 'container' then
         currentInventory.coords = GetEntityCoords(playerPed)
@@ -530,7 +543,7 @@ local function useSlot(slot, noAnim)
             SetCurrentPedWeapon(playerPed, data.hash, false)
 
             if data.hash ~= GetSelectedPedWeapon(playerPed) then
-                lib.print.info(('%s cannot be used in current context (default game behaviour)'):format(item.name))
+                lib.print.info(('failed to equip %s (cause unknown)'):format(item.name))
                 return lib.notify({ type = 'error', description = locale('cannot_use', data.label) })
             end
 
@@ -737,7 +750,7 @@ local invHotkeys = false
 
 ---@type function?
 local function registerCommands()
-	RegisterCommand('steal', openNearbyInventory, false)
+	--RegisterCommand('steal', openNearbyInventory, false)
 
 	local function openGlovebox(vehicle)
 		if not IsPedInAnyVehicle(playerPed, false) or not NetworkGetEntityIsNetworked(vehicle) then return end
@@ -749,7 +762,7 @@ local function registerCommands()
 		-- No storage or no glovebox
 		if (checkVehicle == 0 or checkVehicle == 2) or (not Vehicles.glovebox[vehicleClass] and not Vehicles.glovebox.models[vehicleHash]) then return end
 
-		local isOpen = client.openInventory('glovebox', { id = 'glove'..GetVehicleNumberPlateText(vehicle), netid = NetworkGetNetworkIdFromEntity(vehicle) })
+		local isOpen = client.openInventory('glovebox', { netid = NetworkGetNetworkIdFromEntity(vehicle) })
 
 		if isOpen then
 			currentInventory.entity = vehicle
@@ -1186,6 +1199,7 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
     ---@class PlayerData
     ---@field inventory table<number, SlotWithItem?>
     ---@field weight number
+    ---@field groups table<string, number>
 	PlayerData = player
 	PlayerData.id = cache.playerId
 	PlayerData.source = cache.serverId
@@ -1300,7 +1314,7 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 		end
 	end
 
-	for id, data in pairs(lib.load('data.licenses')) do
+	for id, data in pairs(lib.load('data.licenses') or {}) do
 		lib.points.new({
 			coords = data.coords,
 			distance = 16,
@@ -1400,7 +1414,7 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 				end
 
 				if weaponHash ~= currentWeapon.hash then
-                    lib.print.info(('%s cannot be used in current context (default game behaviour)'):format(currentWeapon.name))
+                    lib.print.info(('%s was forcibly unequipped (caused by game behaviour or another resource)'):format(currentWeapon.name))
 					currentWeapon = Weapon.Disarm(currentWeapon, true)
 				end
 			end

@@ -1,4 +1,4 @@
-$mainColor: #22232c;
+$mainColor: #d61223; //#22232c
 $textColor: #c1c2c5;
 $mainFont: Roboto;
 
@@ -551,4 +551,152 @@ button:active {
 .transition-slide-up-exit-active {
   transform: translateY(200px);
   transition: all 200ms;
+}
+
+.human-body {
+  width: 207px;
+  position: relative;
+  height: 500px;
+  margin-left: -10%;
+  margin-right: 5%;
+}
+
+.human-body h1 {
+  font-size: 20px;
+  text-align:initial;
+  margin-bottom: 20px;
+  color: #a5a5a5;
+}
+
+.human-body svg:hover {
+  cursor: pointer;
+}
+
+.human-body svg:hover path {
+  fill: #ef16ff;
+}
+
+.human-body svg {
+  position: absolute;
+  left: 50%;
+  fill: #57c9d5;
+}
+
+.human-body #head {
+  margin-left: -28.5px;
+  top: -6px;
+}
+
+.human-body #left-shoulder {
+  margin-left: -53.5px;
+  top: 69px;
+}
+
+.human-body #right-shoulder {
+  margin-left: 13.5px;
+  top: 69px;
+}
+
+.human-body #left-arm {
+  margin-left: -78px;
+  top: 112px;
+}
+
+.human-body #right-arm {
+  margin-left: 38px;
+  top: 112px;
+}
+
+.human-body #chest {
+  margin-left: -43.5px;
+  top: 88px;
+}
+
+.human-body #stomach {
+  margin-left: -37.5px;
+  top: 130px;
+}
+
+.human-body #left-leg {
+  margin-left: -46.5px;
+  top: 205px;
+}
+
+.human-body #right-leg {
+  margin-left: 1.5px;
+  top: 205px;
+}
+
+.human-body #left-hand {
+  margin-left: -102.5px;
+  top: 224px;
+}
+
+.human-body #right-hand {
+  margin-left: 66.5px;
+  top: 224px;
+}
+
+.human-body #left-foot {
+  margin-left: -35.5px;
+  top: 455px;
+}
+
+.human-body #right-foot {
+  margin-left: 5.5px;
+  top: 455px;
+}
+
+.human-body .clear {
+  fill: #0c0c0c66;
+}
+
+.human-body .mild {
+  fill: #c6ec1c66;
+}
+
+.human-body .damaged {
+  fill: #f57c0b66;
+}
+
+.human-body .critical {
+  fill: #f2070766;
+}
+
+#area {
+  display: block;
+  width: 100%;
+  clear: both;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-family: Courier New;
+  color: #a5a5a5;
+}
+
+#area #data {
+  color: black;
+}
+
+.tooltipBody {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 250px;
+  z-index: 2;
+}
+
+.tooltipBody h4 {
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.tooltipBody .border td {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  border: red 1px solid;
 }
