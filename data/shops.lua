@@ -1522,7 +1522,7 @@ return {
 		}
 	},
 
-	SupplierShop1 = {
+	SupplierShop1 = { -- Dark Phoenix
 		name = 'Darkweb',
 		inventory = {
 			{ name = 'peyote',                    price = 55,  count = 60 },
@@ -1533,6 +1533,8 @@ return {
 			{ name = 'coke_seed',                 price = 120,  count = 60 },
 			{ name = 'poppy_seed',                price = 100, count = 60 },
 			{ name = 'meth_amoniak',              price = 10, count = 60 },
+			{ name = 'chem',            		  price = 7,   count = 60 },
+			{ name = 'chem2',                     price = 3,    count = 60 },
 			{ name = 'calcium',             	  price = 4,  count = 60 },
 			{ name = 'anhydride',                 price = 6, count = 60 },
 			{ name = 'eter',                      price = 5, count = 60 },
@@ -1544,6 +1546,13 @@ return {
 			{ name = 'lockpick',                  price = 30,  count = 45 },
 			{ name = 'empty_blister',             price = 30, count = 40 },
 			{ name = 'pbag_pack',                 price = 7, count = 35 },
+			{ name = 'ammo-9-box',          	  price = 525, count = 20 },
+			{ name = 'ammo-45-box',               price = 630, count = 20 },
+			{ name = 'weapon-parts',              price = 250,  count = 30 },
+			{ name = 'weapon-cleaning',           price = 100, count = 30 },
+			{ name = 'pistolset',                 price = 2310, count = 10 },
+			{ name = 'snspistolset',              price = 1260, count = 10 },
+			{ name = 'pistolxm3set',              price = 2660, count = 10 },
 			{ name = 'vanbag',                 	  price = 100, count = 5 },
 		},
 		locations = {
@@ -1554,7 +1563,7 @@ return {
 		}
 	},
 
-	SupplierShop2 = {
+	SupplierShop2 = { -- Drill Trailers
 		name = 'Darkweb',
 		inventory = {
 			{ name = 'peyote',                    price = 55,  count = 60 },
@@ -1565,6 +1574,8 @@ return {
 			{ name = 'coke_seed',                 price = 120,  count = 60 },
 			{ name = 'poppy_seed',                price = 100, count = 60 },
 			{ name = 'meth_amoniak',              price = 10, count = 60 },
+			{ name = 'chem',            		  price = 7,   count = 60 },
+			{ name = 'chem2',                     price = 3,    count = 60 },
 			{ name = 'calcium',             	  price = 4,  count = 60 },
 			{ name = 'anhydride',                 price = 6, count = 60 },
 			{ name = 'eter',                      price = 5, count = 60 },
@@ -1574,16 +1585,20 @@ return {
 			{ name = 'paracetamol',               price = 56,  count = 50 },
 			{ name = 'empty_blister',             price = 30, count = 35 },
 			{ name = 'pbag_pack',                 price = 7, count = 35 },
-			{ name = 'steel_rope',        price = 280,  count = 20 },
-			{ name = 'lockpick',          price = 40,  count = 30 },
-			{ name = 'ammo-9-box',        price = 525, count = 20 },
-			{ name = 'ammo-45-box',       price = 630, count = 20 },
-			{ name = 'weapon-parts',      price = 250,  count = 30 },
-			{ name = 'weapon-cleaning',   price = 100, count = 30 },
-			{ name = 'pistolset',         price = 2310, count = 10 },
-			{ name = 'snspistolset',      price = 1260, count = 10 },
-			{ name = 'pistolxm3set',      price = 2660, count = 10 },
-			{ name = 'vanbag',            price = 100, count = 5 },
+			{ name = 'steel_rope',                price = 280,  count = 20 },
+			{ name = 'lockpick',                  price = 40,  count = 30 },
+			{ name = 'ammo-9-box',                price = 525, count = 20 },
+			{ name = 'ammo-45-box',               price = 630, count = 20 },
+			{ name = 'weapon-parts',              price = 250,  count = 30 },
+			{ name = 'weapon-cleaning',           price = 100, count = 30 },
+			{ name = 'pistolset',                 price = 2310, count = 10 },
+			{ name = 'snspistolset',              price = 1260, count = 10 },
+			{ name = 'pistolxm3set',              price = 2660, count = 10 },
+			{ name = 'tecpistolset',              price = 2900, count = 5 },
+			{ name = 'machinepistolset',          price = 2150, count = 5 },
+			{ name = 'microsmgset',               price = 3150, count = 5 },
+			{ name = 'minismgset',                price = 3400, count = 5 },
+			{ name = 'vanbag',                    price = 100, count = 5 },
 		},
 		locations = {
 			vec3(2918.52, 4630.11, 49.24)
