@@ -2822,6 +2822,7 @@ return {
 	--TODO: make it as a custom field which would apply specific armour value
 	['armour100'] = {
 		label = 'Kamizelka kuloodporna',
+		description = "Doskonała kamizelka kuloodporna",
 		weight = 3000,
 		stack = false,
 		consume = 1,
@@ -2837,6 +2838,7 @@ return {
 
 	['armour50'] = {
 		label = 'Kamizelka kuloodporna',
+		description = "Dobra kamizelka kuloodporna",
 		weight = 1500,
 		stack = false,
 		consume = 1,
@@ -2851,6 +2853,7 @@ return {
 
 	['armour25'] = {
 		label = 'Kamizelka kuloodporna',
+		description = "Prosta kamizelka kuloodporna",
 		weight = 750,
 		stack = false,
 		consume = 1,
@@ -2862,6 +2865,43 @@ return {
 			export = "ND_Police.addArmour25"
 		}
 	},
+
+	-- ARMOR CRAFT
+	['armour25set'] = {
+		label = "Zestaw kamizelka kuloodporna 25",
+		weight = 400,
+		stack = false,
+		close = false,
+	},
+
+	['armour50set'] = {
+		label = "Zestaw kamizelka kuloodporna 50",
+		weight = 800,
+		stack = false,
+		close = false,
+	},
+
+	['armour100set'] = {
+		label = "Zestaw kamizelka kuloodporna 100",
+		weight = 1200,
+		stack = false,
+		close = false,
+	},
+
+	['kevlar'] = {
+		label = 'Kevlar',
+		description = "Wkład balistyczny z włókien aramidowych",
+		weight = 25,
+		stack = true
+	},
+
+	['cloth'] = {
+		label = 'Tkanina',
+		description = "Kawałek materiału idealny do produkcji ubrań",
+		weight = 50,
+		stack = true
+	},
+	--	
 
 	['scrapmetal'] = {
 		label = 'Złom',
@@ -5050,6 +5090,20 @@ return {
 		description = "Podręcznik Rusznikarski część I"
 	},
 
+	["weapon2_manual"] = {
+		label = 'Podręcznik Rusznikarski',
+		weight = 150,
+		stack = false,
+		description = "Podręcznik Rusznikarski część II"
+	},
+
+	["weapon3_manual"] = {
+		label = 'Podręcznik Rusznikarski',
+		weight = 150,
+		stack = false,
+		description = "Podręcznik Rusznikarski część III"
+	},
+
 	["blueprint_pistol"] = {
 		label = 'Plan Techniczny',
 		weight = 10,
@@ -7232,6 +7286,13 @@ return {
 		stack = true,
 		close = false,
 	},
+	["molotovset"] = {
+		label = "Zestaw Molotov",
+		description = "Dla wyjątkowo opornych na wiedze",
+		weight = 50,
+		stack = true,
+		close = false,
+	},
 	["microsmgset"] = {
 		label = "Zestaw Micro SMG",
 		weight = 550,
@@ -7282,6 +7343,12 @@ return {
 	},
 	["pumpshotgunset"] = {
 		label = "Zestaw Shrewsbury 590",
+		weight = 900,
+		stack = false,
+		close = false,
+	},
+	["sawnoffshotgun"] = {
+		label = "Zestaw Shrewsbury 500",
 		weight = 900,
 		stack = false,
 		close = false,
@@ -7489,7 +7556,7 @@ return {
 
 	-- klucze CRIME
 	["keyg1"] = {
-		label = "Klucz G1", -- Kazuki Keiei
+		label = "Klucz G1", -- Kazuki
 		description = "F4N-D03",
 		weight = 5,
 		stack = false,
@@ -7608,7 +7675,7 @@ return {
 		close = true,
 	},
 	["keyg18"] = {
-		label = "Klucz G18", -- HHDX3
+		label = "Klucz G18", -- Angels of Death MC
 		description = "F4N-D03",
 		weight = 5,
 		stack = false,
@@ -7867,6 +7934,7 @@ return {
 		stack = false,
 		close = true,
 		degrade = 3 * 24 * 60,
+		decay = true,
 	},
 
 	["weed_seed"] = {
@@ -8776,6 +8844,21 @@ return {
 		weight = 1,
 		stack = true,
 		close = true,
+	},
+
+	-- ND Nitro
+
+	["nos"] = {
+		label = "NOS Bottle",
+		weight = 2000,
+		stack = false,
+		close = true,
+		client = {
+			disable = { move = true, car = true, combat = true },
+			usetime = 3500,
+			cancel = true,
+			export = "ND_Nitro.nos"
+		}
 	},
 
 	--- Pickle_arcade
