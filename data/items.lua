@@ -7562,13 +7562,13 @@ return {
 		stack = false,
 		close = true,
 	},
---[[ 	["keyg2"] = {
+ 	["keyg2"] = {
 		label = "Klucz G2",  -- Santa Mafia
 		description = "F4N-D03",
 		weight = 5,
 		stack = false,
 		close = true,
-	}, ]]
+	},
 	["keyg3"] = {
 		label = "Klucz G3", -- Cartel de Barranquilla
 		description = "F4N-D03",
@@ -7583,13 +7583,13 @@ return {
 		stack = false,
 		close = true,
 	},
---[[ 	["keyg5"] = {
+ 	["keyg5"] = {
 		label = "Klucz G5", -- Bloods
 		description = "F4N-D03",
 		weight = 5,
 		stack = false,
 		close = true,
-	}, ]]
+	},
 	["keyg6"] = {
 		label = "Klucz G6", -- Families
 		description = "F4N-D03",
@@ -7597,20 +7597,20 @@ return {
 		stack = false,
 		close = true,
 	},
---[[ 	["keyg7"] = {
+ 	["keyg7"] = {
 		label = "Klucz G7", -- Bandoleros MC
 		description = "F4N-D03",
 		weight = 5,
 		stack = false,
 		close = true,
-	}, ]]
---[[ 	["keyg8"] = {
+	},
+ 	["keyg8"] = {
 		label = "Klucz G8", -- El Serpiente
 		description = "F4N-D03",
 		weight = 5,
 		stack = false,
 		close = true,
-	}, ]]
+	},
 	["keyg9"] = {
 		label = "Klucz G9", -- Speedhunters
 		description = "F4N-D03",
@@ -7625,13 +7625,13 @@ return {
 		stack = false,
 		close = true,
 	},
---[[ 	["keyg11"] = {
+ 	["keyg11"] = {
 		label = "Klucz G11", -- PDS
 		description = "F4N-D03",
 		weight = 5,
 		stack = false,
 		close = true,
-	}, ]]
+	},
 	["keyg12"] = {
 		label = "Klucz G12", -- 12 Connection
 		description = "F4N-D03",
