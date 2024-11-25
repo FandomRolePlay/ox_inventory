@@ -43,8 +43,8 @@ return {
 			vec3(2557.94, 382.05, 108.62),
 			vec3(373.55, 325.56, 103.56),
 			vec3(-706.63, -913.68, 19.32),
-			vec3(1162.2119, -324.2469, 69.2051),
-			vec3(1290.1274, -1919.7151, 43.272),
+			vec3(1163.72, -322.11, 69.21), --mirror park
+			vec3(1290.1274, -1919.7151, 43.272), --trailer park
 			vec3(1736.2543, 6413.1440, 35.0372), --PALETO
 			--vec3(-1225.4, -1484.1, 4.37), --PLAŻA
 		},
@@ -60,8 +60,9 @@ return {
 			{ loc = vec3(2557.19, 381.4, 108.62),  length = 0.6, width = 0.5, heading = 0.0,   minZ = 108.62, maxZ = 109.02, distance = 1.5 },
 			{ loc = vec3(373.13, 326.29, 103.57),  length = 0.6, width = 0.5, heading = 345.0, minZ = 103.57, maxZ = 103.97, distance = 1.5 },
 			{ loc = vec3(-706.63, -913.68, 19.32), length = 0.6, width = 0.5, heading = 345.0, minZ = 19.3, maxZ = 19.4, distance = 1.5 },
-			{ loc = vec3(1164.121, -323.822, 69.232), length = 0.6, width = 0.5, heading = 230.0, minZ = 69.0, maxZ = 69.7, distance = 1.5 },
-			{ loc = vec3(1291.281, -1924.131, 43.35), length = 0.6, width = 0.5, heading = 210.0, minZ = 43.0, maxZ = 43.7, distance = 1.5 },
+			{ loc = vec3(1163.72, -322.11, 69.0), length = 0.6, width = 0.5, heading = 10.0, minZ = 69.0, maxZ = 69.7, distance = 1.5 }, --mirror park
+			{ loc = vec3(1291.34, -1923.86, 43.0), length = 0.6, width = 0.5, heading = 291.0, minZ = 43.0, maxZ = 43.7, distance = 1.5 }, --trailer park
+			{ loc = vec3(-46.62, -1756.91, 29.2), length = 0.6, width = 0.5, heading = 322.0, minZ = 43.0, maxZ = 43.7, distance = 1.5 }, --grove street 29.427
 			{ loc = vec3(1728.39, 6414.99, 35.04), length = 0.6, width = 0.5, heading = 332.0, minZ = 34.94,  maxZ = 35.54,  distance = 1.5 }, --PALETO
 			--{ loc = vec3(-1225.4, -1484.1, 4.37),  length = 0.4, width = 0.6, heading = 35.0,  minZ = 4.32,   maxZ = 4.72,   distance = 1.5 }, --PLAŻA
 		}
