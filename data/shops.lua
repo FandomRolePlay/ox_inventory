@@ -1493,17 +1493,71 @@ return {
 	HouseRobberyShop = {
 		name = 'Sprzedawczyk',
 		inventory = {
-			{ name = 'powder',        price = 300,  count = 10 },
-			{ name = 'hack_laptop',   price = 200, count = 10 },
-			{ name = 'lockpick',      price = 50, count = 15 },
-			{ name = 'vanbag',        price = 100, count = 20 },
-		--	{ name = 'house_locator', price = 200, count = 50 },
+			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
+			{ name = 'hack_laptop',   price = 200, count = 10, currency = 'black_money' },
+			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money'},
 		},
 		locations = {
 			vec3(-1375.61, -336.372, 38.8921)
 		},
 		targets = {
 			{ loc = vec3(-1375.61, -336.372, 38.8921), length = 2.1, width = 2.3, heading = 126.6940, minZ = 29.2148, maxZ = 29.9148, distance = 1.5 },
+		}
+	},
+	HouseRobberyShop2 = {
+		name = 'Sprzedawczyk',
+		inventory = {
+			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
+			{ name = 'hack_laptop',   price = 200, count = 10, currency = 'black_money' },
+			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money' },
+		},
+		locations = {
+			vec3(-539.40, -1638.21, 20.21)
+		},
+		targets = {
+			{ loc = vec3(-539.40, -1638.21, 20.21), length = 2.1, width = 2.3, heading = 250.8763, minZ = 29.2148, maxZ = 29.9148, distance = 1.5 },
+		}
+	},
+	HouseRobberyShop3 = {
+		name = 'Sprzedawczyk',
+		inventory = {
+			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
+			{ name = 'hack_laptop',   price = 200, count = 10, currency = 'black_money' },
+			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money' },
+		},
+		locations = {
+			vec3(466.13, -709.56, 27.60)
+		},
+		targets = {
+			{ loc = vec3(466.13, -709.56, 27.60), length = 2.1, width = 2.3, heading = 271.99, minZ = 29.2148, maxZ = 29.9148, distance = 1.5 },
+		}
+	},
+	HouseRobberyShop4 = {
+		name = 'Sprzedawczyk',
+		inventory = {
+			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
+			{ name = 'hack_laptop',   price = 200, count = 10, currency = 'black_money' },
+			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money' },
+		},
+		locations = {
+			vec3(1597.70, 3573.28, 38.94)
+		},
+		targets = {
+			{ loc = vec3(1597.70, 3573.28, 38.94), length = 2.1, width = 2.3, heading = 298.78, minZ = 29.2148, maxZ = 29.9148, distance = 1.5 },
+		}
+	},
+	HouseRobberyShop5 = {
+		name = 'Sprzedawczyk',
+		inventory = {
+			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
+			{ name = 'hack_laptop',   price = 200, count = 10, currency = 'black_money' },
+			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money'},
+		},
+		locations = {
+			vec3(281.11, 6789.36, 16.33)
+		},
+		targets = {
+			{ loc = vec3(281.11, 6789.36, 16.33), length = 2.1, width = 2.3, heading = 80.06, minZ = 29.2148, maxZ = 29.9148, distance = 1.5 },
 		}
 	},
 
