@@ -46,8 +46,10 @@ return {
 			vec3(1163.72, -322.11, 69.21), --mirror park
 			vec3(1290.1274, -1919.7151, 43.272), --trailer park
 			vec3(1736.2543, 6413.1440, 35.0372), --PALETO
+			vec3(-1820.5, 793.7, 138.15), -- rockford stacja
 			--vec3(-1225.4, -1484.1, 4.37), --PLAŻA
 		},
+
 		targets = {
 			{ loc = vec3(25.06, -1347.32, 29.5),   length = 0.7, width = 0.5, heading = 0.0,   minZ = 29.5,   maxZ = 29.9,   distance = 1.5 },
 			{ loc = vec3(-3039.18, 585.13, 7.91),  length = 0.6, width = 0.5, heading = 15.0,  minZ = 7.91,   maxZ = 8.31,   distance = 1.5 },
@@ -64,6 +66,7 @@ return {
 			{ loc = vec3(1291.34, -1923.86, 43.0), length = 0.6, width = 0.5, heading = 291.0, minZ = 43.0, maxZ = 43.7, distance = 1.5 }, --trailer park
 			{ loc = vec3(-46.62, -1756.91, 29.2), length = 0.6, width = 0.5, heading = 322.0, minZ = 43.0, maxZ = 43.7, distance = 1.5 }, --grove street 29.427
 			{ loc = vec3(1728.39, 6414.99, 35.04), length = 0.6, width = 0.5, heading = 332.0, minZ = 34.94,  maxZ = 35.54,  distance = 1.5 }, --PALETO
+			{ loc = vec3(-1820.5, 793.7, 138.15), length = 1.55, width = 0.65, heading = 313.0, minZ = 137.15, maxZ = 139.15, distance = 1.5 }, -- rockford stacja
 			--{ loc = vec3(-1225.4, -1484.1, 4.37),  length = 0.4, width = 0.6, heading = 35.0,  minZ = 4.32,   maxZ = 4.72,   distance = 1.5 }, --PLAŻA
 		}
 	},
