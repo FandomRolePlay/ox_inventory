@@ -94,16 +94,16 @@ return {
 		groups = {['police'] = 11}
 	},
 
-	--LSFD
+	--LSCoFD
 	{
-		coords = vec3(-1036.25, -1430.2, 4.97),
+		coords = vec3(1217.25, -1474.87, 34.86),
 		target = {
-			loc = vec3(-1036.25, -1430.2, 4.97),
-			length = 0.4,
-			width = 1.0,
-			heading = 345,
-			minZ = 4.17,
-			maxZ = 6.17,
+			loc = vec3(1217.25, -1474.87, 34.86),
+			length = 3.4,
+			width = 0.6,
+			heading = 0,
+			minZ = 34.06,
+			maxZ = 36.06,
 			label = 'Otwórz szafke'
 		},
 		name = 'firelocker',
@@ -114,14 +114,14 @@ return {
 		groups = {['fire'] = 0}
 	},
 	{
-		coords = vec3(-1031.76, -1363.67, 4.97),
+		coords = vec3(1193.83, -1466.37, 34.86),
 		target = {
-			loc = vec3(-1031.76, -1363.67, 4.97),
-			length = 0.6,
-			width = 2.8,
-			heading = 345,
-			minZ = 4.17,
-			maxZ = 5.77,
+			loc = vec3(1193.83, -1466.37, 34.86),
+			length = 2.0,
+			width = 0.6,
+			heading = 0,
+			minZ = 34.06,
+			maxZ = 36.46,
 			label = 'Otwórz Magazyn'
 		},
 		name = 'firemagazyn',
@@ -132,14 +132,14 @@ return {
 		groups = {['fire'] = 1}
 	},
 	{
-		coords = vec3(-1051.19, -1436.28, 4.97),
+		coords = vec3(1184.4, -1474.02, 34.86),
 		target = {
-			loc = vec3(-1051.19, -1436.28, 4.97),
-			length = 1.0,
-			width = 0.4,
-			heading = 335,
-			minZ = 4.17,
-			maxZ = 5.97,
+			loc = vec3(1184.4, -1474.02, 34.86),
+			length = 1.8,
+			width = 0.6,
+			heading = 0,
+			minZ = 34.26,
+			maxZ = 36.46,
 			label = 'Otwórz Magazyn'
 		},
 		name = 'firemagazyncm',
@@ -150,14 +150,14 @@ return {
 		groups = {['fire'] = 7}
 	},
 	{
-		coords = vec3(-1032.24, -1424.75, 4.97),
+		coords = vec3(1207.74, -1471.88, 34.86),
 		target = {
-			loc = vec3(-1032.24, -1424.75, 4.97),
-			length = 2.2,
-			width = 0.6,
-			heading = 345,
-			minZ = 4.57,
-			maxZ = 5.77,
+			loc = vec3(1207.74, -1471.88, 34.86),
+			length = 1.4,
+			width = 0.4,
+			heading = 0,
+			minZ = 34.06,
+			maxZ = 36.46,
 			label = 'Otwórz Magazyn'
 		},
 		name = 'firemagazynspec',
@@ -166,6 +166,24 @@ return {
 		slots = 50,
 		weight = 50000,
 		groups = {['fire'] = 6}
+	},
+	{
+		coords = vec3(198.66, -1649.83, 29.8),
+		target = {
+			loc = vec3(198.66, -1649.83, 29.8),
+			length = 1.4,
+			width = 0.6,
+			heading = 320,
+			minZ = 29.0,
+			maxZ = 31.6,
+			label = 'Otwórz Magazyn'
+		},
+		name = 'firemagazynD',
+		label = 'Magazyn Davis',
+		owner = false,
+		slots = 200,
+		weight = 500000,
+		groups = {['fire'] = 1}
 	},
 
 	-- SAMS
@@ -223,60 +241,150 @@ return {
 		weight = 50000,
 		groups = {['ambulance'] = 15}
 	},
---USMS
+--FIB 
 	{
-		coords = vec3(-815.02, -714.25, 22.96),
+		coords = vec3(2527.37, -337.01, 94.09),
 		target = {
-			loc = vec3(-815.02, -714.25, 22.96),
-			length = 1.8,
-			width = 0.4,
-			heading = 0,
-			minZ = 22.16,
-			maxZ = 24.16,
+			loc = vec3(2527.37, -337.01, 94.09),
+			length = 0.8,
+			width = 0.6,
+			heading = 315,
+			minZ = 93.29,
+			maxZ = 95.09,
 			label = 'Otwórz szafke'
 		},
-		name = 'usmslocker',
+		name = 'fiblocker',
 		label = 'Szafka prywatna',
 		owner = true,
-		slots = 15,
-		weight = 20000,
-		groups = {['usmarshals'] = 0}
+		slots = 10,
+		weight = 10000,
+		groups = {['fib'] = 0}
 	},
 	{
-		coords = vec3(-812.92, -709.69, 28.06),
+		coords = vec3(2515.56, -339.46, 101.89),
 		target = {
-			loc = vec3(-812.92, -709.69, 28.06),
-			length = 0.4,
-			width = 2.0,
-			heading = 0,
-			minZ = 27.06,
-			maxZ = 29.06,
+			loc = vec3(2515.56, -339.46, 101.89),
+			length = 1.0,
+			width = 0.6,
+			heading = 315,
+			minZ = 101.09,
+			maxZ = 102.89,
+			label = 'Otwórz szafke'
+		},
+		name = 'fib2locker',
+		label = 'Szafka prywatna',
+		owner = true,
+		slots = 10,
+		weight = 10000,
+		groups = {['fib'] = 0}
+	},
+	{
+		coords = vec3(2527.39, -336.92, 94.09),
+		target = {
+			loc = vec3(2527.39, -336.92, 94.09),
+			length = 1.0,
+			width = 0.6,
+			heading = 315,
+			minZ = 93.29,
+			maxZ = 95.09,
+			label = 'Otwórz szafke'
+		},
+		name = 'fib3locker',
+		label = 'Szafka prywatna',
+		owner = true,
+		slots = 10,
+		weight = 10000,
+		groups = {['fib'] = 0}
+	},
+	{
+		coords = vec3(2523.39, -341.21, 101.89),
+		target = {
+			loc = vec3(2523.39, -341.21, 101.89),
+			length = 0.6,
+			width = 1.4,
+			heading = 315,
+			minZ = 101.29,
+			maxZ = 103.09,
 			label = 'Otwórz Magazyn'
 		},
-		name = 'usmsmagazyn',
+		name = 'fibmagazyn',
 		label = 'Magazyn',
 		owner = false,
 		slots = 200,
 		weight = 500000,
-		groups = {['usmarshals'] = 1}
+		groups = {['fib'] = 1}
 	},
 	{
-		coords = vec3(-813.02, -695.02, 28.06),
+		coords = vec3(2528.31, -341.16, 101.89),
 		target = {
-			loc = vec3(-813.02, -695.02, 28.06),
-			length = 0.4,
-			width = 2.0,
-			heading = 0,
-			minZ = 27.26,
-			maxZ = 29.26,
+			loc = vec3(2528.31, -341.16, 101.89),
+			length = 1.2,
+			width = 0.8,
+			heading = 315,
+			minZ = 101.09,
+			maxZ = 103.29,
 			label = 'Otwórz Magazyn'
 		},
-		name = 'usmsmagazyncm',
+		name = 'fib1magazyncm',
 		label = 'Magazyn Commandu',
 		owner = false,
 		slots = 50,
 		weight = 50000,
-		groups = {['usmarshals'] = 4}
+		groups = {['fib'] = 5}
+	},
+	{
+		coords = vec3(2513.96, -447.99, 106.91),
+		target = {
+			loc = vec3(2513.96, -447.99, 106.91),
+			length = 1.0,
+			width = 0.8,
+			heading = 315,
+			minZ = 106.11,
+			maxZ = 108.31,
+			label = 'Otwórz Magazyn'
+		},
+		name = 'fib2magazyncm',
+		label = 'Magazyn Commandu',
+		owner = false,
+		slots = 50,
+		weight = 50000,
+		groups = {['fib'] = 5}
+	},
+	{
+		coords = vec3(2509.26, -422.48, 106.91),
+		target = {
+			loc = vec3(2509.26, -422.48, 106.91),
+			length = 0.8,
+			width = 1.0,
+			heading = 315,
+			minZ = 106.11,
+			maxZ = 108.11,
+			label = 'Otwórz Magazyn'
+		},
+		name = 'fib3magazyncm',
+		label = 'Magazyn Commandu',
+		owner = false,
+		slots = 50,
+		weight = 50000,
+		groups = {['fib'] = 5}
+	},
+	{
+		coords = vec3(2493.97, -426.51, 99.11),
+		target = {
+			loc = vec3(2493.97, -426.51, 99.11),
+			length = 0.4,
+			width = 1.0,
+			heading = 315,
+			minZ = 98.51,
+			maxZ = 100.31,
+			label = 'Otwórz Magazyn'
+		},
+		name = 'fib4magazyncm',
+		label = 'Magazyn Commandu',
+		owner = false,
+		slots = 50,
+		weight = 50000,
+		groups = {['fib'] = 5}
 	},
 	
 	--Army
@@ -351,6 +459,188 @@ return {
 		slots = 50,
 		weight = 50000,
 		groups = {['army'] = 12}
+	},
+
+	--DOC
+	{
+		coords = vec3(1840.69, 2574.89, 45.89),
+		target = {
+			loc = vec3(1840.69, 2574.89, 45.89),
+			length = 0.8,
+			width = 2.4,
+			heading = 0,
+			minZ = 44.89,
+			maxZ = 47.09,
+			label = 'Otwórz szafke prywatną'
+		},
+		name = 'doclockerpriv',
+		label = 'Szafka prywatna',
+		owner = true,
+		slots = 20,
+		weight = 25000,
+		groups = {['doc'] = 1}
+	},
+	{
+		coords = vec3(1788.36, 2546.47, 45.78),
+		target = {
+			loc = vec3(1788.36, 2546.47, 45.78),
+			length = 0.6,
+			width = 2.4,
+			heading = 0,
+			minZ = 44.78,
+			maxZ = 46.98,
+			label = 'Otwórz szafke służbową'
+		},
+		name = 'doclockerduty',
+		label = 'Szafka służbowa',
+		owner = true,
+		slots = 20,
+		weight = 25000,
+		groups = {['doc'] = 1}
+	},
+	{
+		coords = vec3(1748.41, 2598.44, 45.42),
+		target = {
+			loc = vec3(1748.41, 2598.44, 45.42),
+			length = 2.2,
+			width = 0.6,
+			heading = 0,
+			minZ = 44.62,
+			maxZ = 46.42,
+			label = 'Otwórz Magazyn'
+		},
+		name = 'docmaginmate',
+		label = 'Magazyn Ewidencyjny Ogólny',
+		owner = false,
+		slots = 200,
+		weight = 700000,
+		groups = {['doc'] = 1}
+	},
+	{
+		coords = vec3(1778.29, 2558.11, 45.78),
+		target = {
+			loc = vec3(1778.29, 2558.11, 45.78),
+			length = 1.8,
+			width = 0.6,
+			heading = 0,
+			minZ = 44.78,
+			maxZ = 47.38,
+			label = 'Otwórz Magazyn'
+		},
+		name = 'docmagazyn',
+		label = 'Magazyn SADCR',
+		owner = false,
+		slots = 200,
+		weight = 1000000,
+		groups = {['doc'] = 1}
+	},
+	{
+		coords = vec3(1766.53, 2582.91, 46.0),
+		target = {
+			loc = vec3(1766.53, 2582.91, 46.0),
+			length = 0.4,
+			width = 1.8,
+			heading = 0,
+			minZ = 45.4,
+			maxZ = 47.0,
+			label = 'Otwórz Magazyn Broni'
+		},
+		name = 'doczbrojownia',
+		label = 'Magazyn Broni',
+		owner = false,
+		slots = 200,
+		weight = 1000000,
+		groups = {['doc'] = 2}
+	},
+	{
+		coords = vec3(1780.27, 2543.69, 45.78),
+		target = {
+			loc = vec3(1780.27, 2543.69, 45.78),
+			length = 0.6,
+			width = 2.0,
+			heading = 0,
+			minZ = 44.78,
+			maxZ = 46.98,
+			label = 'Otwórz Magazyn'
+		},
+		name = 'docmagazynboss',
+		label = 'Magazyn Commandu',
+		owner = false,
+		slots = 50,
+		weight = 200000,
+		groups = {['doc'] = 7}
+	},
+	{
+		coords = vec3(1762.85, 2573.06, 50.0),
+		target = {
+			loc = vec3(1762.85, 2573.06, 50.0),
+			length = 1.8,
+			width = 0.8,
+			heading = 0,
+			minZ = 49.0,
+			maxZ = 51.0,
+			label = 'Otwórz Magazyn MED'
+		},
+		name = 'docmagazynmed',
+		label = 'Magazyn MED',
+		owner = false,
+		slots = 100,
+		weight = 500000,
+		groups = {['doc'] = 2, ['ambulance'] = 0}
+	},
+	{
+		coords = vec3(1748.41, 2598.44, 45.42),
+		target = {
+			loc = vec3(1748.41, 2598.44, 45.42),
+			length = 2.2,
+			width = 0.6,
+			heading = 0,
+			minZ = 44.62,
+			maxZ = 46.42,
+			label = 'Otwórz Spiżarnie'
+		},
+		name = 'docmagspizarnia',
+		label = 'Spiżarnia SADCR',
+		owner = false,
+		slots = 200,
+		weight = 700000,
+		groups = nil
+	},
+	{
+		coords = vec3(1731.75, 2598.35, 45.42),
+		target = {
+			loc = vec3(1731.75, 2598.35, 45.42),
+			length = 2.2,
+			width = 0.8,
+			heading = 0,
+			minZ = 44.62,
+			maxZ = 46.42,
+			label = 'Otwórz Magazyn'
+		},
+		name = 'docmagkuchnia',
+		label = 'Magazyn Kuchnia',
+		owner = false,
+		slots = 100,
+		weight = 500000,
+		groups = nil
+	},
+	{
+		coords = vec3(1736.64, 2587.9, 45.42),
+		target = {
+			loc = vec3(1736.64, 2587.9, 45.42),
+			length = 1.0,
+			width = 1.8,
+			heading = 0,
+			minZ = 44.62,
+			maxZ = 46.62,
+			label = 'Tacka z posiłkiem'
+		},
+		name = 'doctacka',
+		label = 'Tacka z posiłkiem',
+		owner = false,
+		slots = 10,
+		weight = 25000,
+		groups = nil
 	},
 	
 	-- BURGERSHOT
@@ -1661,22 +1951,22 @@ return {
 
 	-- Lodówki frakcje
 	{
-		coords = vec3(-810.56, -715.43, 28.06),
+		coords = vec3(2514.94, -340.39, 94.09),
 		target = {
-			loc = vec3(-810.56, -715.43, 28.06),
+			loc = vec3(2514.94, -340.39, 94.096),
 			length = 1,
-			width = 1,
-			heading = 0,
-			minZ = 26.86,
-			maxZ = 29.06,
+			width = 0.6,
+			heading = 315,
+			minZ = 93.29,
+			maxZ = 95.29,
 			label = 'Otwórz Lodówkę'
 		},
-		name = 'usmslodowka',
+		name = 'fiblodowka',
 		label = 'Lodówka',
 		owner = false,
 		slots = 200,
 		weight = 50000,
-		groups = {['usmarshals'] = 0}
+		groups = {['fib'] = 0}
 	},
 	{
 		coords = vec3(-446.99, 6020.98, 36.12),

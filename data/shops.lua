@@ -538,10 +538,10 @@ return {
 			{ name = 'manekin6',                price = 50,   grade = 7 }
 		},
 		locations = {
-			vec3(-1037.09, -1431.19, 4.97)
+			vec3(1208.0, -1466.79, 34.36)
 		},
 		targets = {
-			{ loc = vec3(-1037.09, -1431.19, 4.97), length = 0.4, width = 1.0, heading = 345.0, minZ = 4.37, maxZ = 5.97, distance = 4 }
+			{ loc = vec3(1208.0, -1466.79, 34.36), length = 1.8, width = 0.6, heading = 0.0, minZ = 34.06, maxZ = 35.26, distance = 3 }
 		},
 	},
 
@@ -582,20 +582,20 @@ return {
 		},
 	},
 	Marshals = {
-		name = 'Zbrojownia USMS',
+		name = 'Zbrojownia FIB',
 		groups = {
-			['usmarshals'] = 0 },
+			['fib'] = 0 },
 		inventory = {
-			{ name = 'WEAPON_COMBATPISTOL', price = 900,   metadata = { registered = true, serial = 'MS' }, license = 'weapon', grade = 1 },
-			{ name = 'WEAPON_PISTOL_MK2',   price = 1300,  metadata = { registered = true, serial = 'MS' }, license = 'weapon', grade = 1 },
-			{ name = 'WEAPON_HEAVYPISTOL',  price = 1400,  metadata = { registered = true, serial = 'MS' }, license = 'weapon', grade = 4 },
-			{ name = 'WEAPON_SMG',          price = 3750,  metadata = { registered = true, serial = 'MS' }, license = 'weapon', grade = 4 },
-			{ name = 'WEAPON_COMBATPDW',    price = 4250,  metadata = { registered = true, serial = 'MS' }, license = 'weapon', grade = 4 },
-			{ name = 'WEAPON_PUMPSHOTGUN',  price = 3000,  metadata = { registered = true, serial = 'MS' }, license = 'weapon', grade = 4 },
-			{ name = 'WEAPON_SNIPERRIFLE',  price = 15000, metadata = { registered = true, serial = 'MS' }, license = 'weapon', grade = 4 },
-			{ name = 'WEAPON_CARBINERIFLE', price = 6750,  metadata = { registered = true, serial = 'MS' }, license = 'weapon', grade = 4 },
-			{ name = 'WEAPON_STUNGUN',      price = 250,   metadata = { registered = true, serial = 'MS' }, license = 'weapon', grade = 1 },
-			{ name = 'WEAPON_BBSHOTGUN',    price = 1500,  metadata = { registered = true, serial = 'MS' }, license = 'weapon', grade = 1 },
+			{ name = 'WEAPON_COMBATPISTOL', price = 900,   metadata = { registered = true, serial = 'FIB' }, license = 'weapon', grade = 1 },
+			{ name = 'WEAPON_PISTOL_MK2',   price = 1300,  metadata = { registered = true, serial = 'FIB' }, license = 'weapon', grade = 1 },
+			{ name = 'WEAPON_HEAVYPISTOL',  price = 1400,  metadata = { registered = true, serial = 'FIB' }, license = 'weapon', grade = 2 },
+			{ name = 'WEAPON_SMG',          price = 3750,  metadata = { registered = true, serial = 'FIB' }, license = 'weapon', grade = 5 },
+			{ name = 'WEAPON_COMBATPDW',    price = 4250,  metadata = { registered = true, serial = 'FIB' }, license = 'weapon', grade = 5 },
+			{ name = 'WEAPON_PUMPSHOTGUN',  price = 3000,  metadata = { registered = true, serial = 'FIB' }, license = 'weapon', grade = 5 },
+			{ name = 'WEAPON_SNIPERRIFLE',  price = 15000, metadata = { registered = true, serial = 'FIB' }, license = 'weapon', grade = 5 },
+			{ name = 'WEAPON_CARBINERIFLE', price = 6750,  metadata = { registered = true, serial = 'FIB' }, license = 'weapon', grade = 5 },
+			{ name = 'WEAPON_STUNGUN',      price = 250,   metadata = { registered = true, serial = 'FIB' }, license = 'weapon', grade = 1 },
+			{ name = 'WEAPON_BBSHOTGUN',    price = 1500,  metadata = { registered = true, serial = 'FIB' }, license = 'weapon', grade = 1 },
 			{ name = 'WEAPON_NIGHTSTICK',   price = 100,   grade = 1 },
 			{ name = 'bodycam',             price = 100,   grade = 1 },
 			{ name = 'cuffs',               price = 25,    grade = 1 },
@@ -606,39 +606,41 @@ return {
 			{ name = 'radio',               price = 250,   grade = 1 },
 			{ name = 'gps',                 price = 150,   grade = 1 },
 			{ name = 'e_bracelet',          price = 150,   grade = 1 },
-			{ name = 'WEAPON_FLAREGUN',     price = 450,   metadata = { registered = true, serial = 'MS' }, grade = 1 },
+			{ name = 'WEAPON_FLAREGUN',     price = 450,   metadata = { registered = true, serial = 'FIB' }, grade = 1 },
 			{ name = 'WEAPON_FLARE',        price = 150,   grade = 1 },
-			{ name = 'shield',              price = 2500,  grade = 4 },
-			{ name = 'at_flashlight',       price = 250,   license = 'weapon',                              grade = 4 },
+			{ name = 'shield',              price = 2500,  grade = 5 },
+			{ name = 'at_flashlight',       price = 250,   license = 'weapon',  grade = 2 },
 			{ name = 'evidence-bag',        price = 10,    grade = 1 },
 			{ name = 'ammo-flare',          price = 4,     grade = 1 },
 			{ name = 'ammo-9-box',          price = 19,    grade = 1 },
 			{ name = 'ammo-rifle-box',      price = 50,    grade = 4 },
 			{ name = 'ammo-shotgun-box',    price = 10,    grade = 4 },
-			{ name = 'ammo-45-box',         price = 25,    grade = 4 },
+			{ name = 'ammo-45-box',         price = 25,    grade = 2 },
 			{ name = 'ammo-sniper-box',     price = 105,   grade = 4 },
 			{ name = 'ammo-bb-box',         price = 12,    grade = 1 },
 			{ name = 'ammo-cart',           price = 3,     grade = 1 },
-			{ name = 'armour25',            price = 400,   grade = 4 },
-			{ name = 'armour50',            price = 800,   grade = 4 },
-			{ name = 'armour100',           price = 1600,  grade = 4 },
-			{ name = 'WEAPON_FLASHBANG',    price = 375,   grade = 4 },
-			{ name = 'spikestrip',          price = 2500,  grade = 4 },
+			{ name = 'armour25',            price = 400,   grade = 1 },
+			{ name = 'armour50',            price = 800,   grade = 2 },
+			{ name = 'armour100',           price = 1600,  grade = 5 },
+			{ name = 'WEAPON_FLASHBANG',    price = 375,   grade = 5 },
+			{ name = 'spikestrip',          price = 2500,  grade = 5 },
 			{ name = 'roadcone',            price = 10,    grade = 1 },
 			{ name = 'medbag',              price = 20,    grade = 1 },
 			{ name = 'trafficlight',        price = 30,    grade = 1 },
 			{ name = 'worklight',           price = 50,    grade = 1 },
 			{ name = 'worklight2',          price = 50,    grade = 1 },
 			{ name = 'worklight3',          price = 50,    grade = 1 },
-			{ name = 'camera',           	price = 500,    grade = 1 },
-			{ name = 'criminal_kit',        price = 200,    grade = 1 },
+			{ name = 'camera',           	price = 500,   grade = 1 },
+			{ name = 'criminal_kit',        price = 200,   grade = 1 },
 			{ name = 'gsr_kit',          	price = 50,    grade = 1 }
 		},
 		locations = {
-			vec3(-817.04, -726.92, 23.38)
+			vec3(2529.95, -335.86, 101.89),
+			vec3(2490.14, -377.25, 82.69)
 		},
 		targets = {
-			{ loc = vec3(-817.04, -726.92, 23.38), length = 0.6, width = 2.00, heading = 0.0, minZ = 22.38, maxZ = 24.38, distance = 4 }
+			{ loc = vec3(2529.95, -335.86, 101.898), length = 0.6, width = 1.8, heading = 315.0, minZ = 101.29, maxZ = 103.49, distance = 3 },
+			{ loc = vec3(2490.14, -377.25, 82.69), length = 0.8, width = 2.00, heading = 315.0, minZ = 81.69, maxZ = 83.09, distance = 3 }
 		},
 	},
 	Army = {
@@ -801,7 +803,69 @@ return {
 		},
 	},
 	
-
+	DOCArmoury = {
+		name = 'Zbrojownia SADCR',
+		groups = {
+			['doc'] = 0
+		},
+		inventory = {
+			{ name = 'WEAPON_COMBATPISTOL', price = 900,   metadata = { registered = true, serial = 'DOC' }, license = 'weapon', grade = 1 },
+			{ name = 'WEAPON_PISTOL_MK2',   price = 1300,  metadata = { registered = true, serial = 'DOC' }, license = 'weapon', grade = 1 },
+			{ name = 'WEAPON_HEAVYPISTOL',  price = 1400,  metadata = { registered = true, serial = 'DOC' }, license = 'weapon', grade = 10 },
+			{ name = 'WEAPON_SMG',          price = 3750,  metadata = { registered = true, serial = 'DOC' }, license = 'weapon', grade = 10 },
+			{ name = 'WEAPON_COMBATPDW',    price = 4250,  metadata = { registered = true, serial = 'DOC' }, license = 'weapon', grade = 10 },
+			{ name = 'WEAPON_PUMPSHOTGUN',  price = 3000,  metadata = { registered = true, serial = 'DOC' }, license = 'weapon', grade = 10 },
+			{ name = 'WEAPON_SNIPERRIFLE',  price = 15000, metadata = { registered = true, serial = 'DOC' }, license = 'weapon', grade = 10 },
+			{ name = 'WEAPON_CARBINERIFLE', price = 6750,  metadata = { registered = true, serial = 'DOC' }, license = 'weapon', grade = 10 },
+			{ name = 'WEAPON_STUNGUN',      price = 250,   metadata = { registered = true, serial = 'DOC' }, license = 'weapon', grade = 1 },
+			{ name = 'WEAPON_BBSHOTGUN',    price = 1500,  metadata = { registered = true, serial = 'DOC' }, license = 'weapon', grade = 1 },
+			{ name = 'WEAPON_NIGHTSTICK',   price = 100,   grade = 1 },
+			{ name = 'cuffs',               price = 25,    grade = 1 },
+			{ name = 'handcuffkey',         price = 1,     grade = 1 },
+			{ name = 'zipties',             price = 15,    grade = 1 },
+			{ name = 'WEAPON_FLASHLIGHT',   price = 35,    grade = 1 },
+			{ name = 'WEAPON_KNIFE',        price = 30,    grade = 1 },
+			{ name = 'radio',               price = 250,   grade = 1 },
+			{ name = 'gps',                 price = 150,   grade = 1 },
+			{ name = 'bodycam',             price = 100,   grade = 1 },
+			{ name = 'e_bracelet',          price = 150,   grade = 1 },
+			{ name = 'WEAPON_FLAREGUN',     price = 450,   metadata = { registered = true, serial = 'DOC' }, grade = 1 },
+			{ name = 'WEAPON_FLARE',        price = 150,   grade = 1 },
+			{ name = 'shield',              price = 2500,  grade = 10 },
+			{ name = 'shield2',             price = 500,   grade = 10 },
+			{ name = 'at_flashlight',       price = 250,   license = 'weapon', grade = 10 },
+			{ name = 'evidence-bag',        price = 10,    grade = 1 },
+			{ name = 'ammo-flare',          price = 4,     grade = 1 },
+			{ name = 'ammo-9-box',          price = 19,    grade = 1 },
+			{ name = 'ammo-rifle-box',      price = 50,    grade = 10 },
+			{ name = 'ammo-shotgun-box',    price = 10,    grade = 10 },
+			{ name = 'ammo-45-box',         price = 25,    grade = 10 },
+			{ name = 'ammo-sniper-box',     price = 105,   grade = 10 },
+			{ name = 'ammo-bb-box',         price = 12,    grade = 1 },
+			{ name = 'ammo-cart',           price = 3,     grade = 1 },
+			{ name = 'armour25',            price = 400,   grade = 10 },
+			{ name = 'armour50',            price = 800,   grade = 10 },
+			{ name = 'armour100',           price = 1600,  grade = 10 },
+			{ name = 'WEAPON_FLASHBANG',    price = 375,   grade = 10 },
+			{ name = 'spikestrip',          price = 2500,  grade = 10 },
+			{ name = 'alcotester',    		price = 500,   grade = 10 },
+			{ name = 'roadcone',            price = 10,    grade = 1 },
+			{ name = 'medbag',              price = 20,    grade = 1 },
+			{ name = 'trafficlight',        price = 30,    grade = 1 },
+			{ name = 'worklight',           price = 50,    grade = 1 },
+			{ name = 'worklight2',          price = 50,    grade = 1 },
+			{ name = 'worklight3',          price = 50,    grade = 1 },
+			{ name = 'camera',           	price = 500,   grade = 5 },
+			{ name = 'criminal_kit',        price = 200,   grade = 5 },
+			{ name = 'gsr_kit',          	price = 50,    grade = 5 }
+		},
+		locations = {
+			vec3(1763.86, 2589.9, 46.0)
+		},
+		targets = {
+			{ loc = vec3(608.65, 1.56, 87.8), length = 0.6, width = 1.6, heading = 90.0, minZ = 45.0, maxZ = 48.0, distance = 6 }
+		},
+	},
 
 	--AUTOMATY VENDINGOWE
 	VendingMachineDrinks1 = {
@@ -1235,9 +1299,9 @@ return {
 		},
 		inventory = {
 			{ name = 'pot',              price = 5 },
-			{ name = 'og_kush_seed',     price = 6, grade = 5 },
-			{ name = 'blue_dream_seed',  price = 6, grade = 5 },
-			{ name = 'purple_haze_seed', price = 9, grade = 5 },
+			{ name = 'og_kush_seed',     price = 6, grade = 3 },
+			{ name = 'blue_dream_seed',  price = 6, grade = 3 },
+			{ name = 'purple_haze_seed', price = 9, grade = 3 },
 			{ name = 'water3',           price = 1 },
 			{ name = 'fertilizer',       price = 4 },
 			{ name = 'meth_pipe',        price = 1 },
@@ -1251,7 +1315,7 @@ return {
 			{ name = 'zapalniczka',      price = 4 },
 			{ name = 'weedvodka',        price = 5 },
 			{ name = 'weedjunk',         price = 3 },
-			{ name = 'weed_dryer',              price = 150, count = 3 },
+			{ name = 'weed_dryer',       price = 150, count = 3 },
 		},
 		locations = {
 			vec3(476.78, -1397.71, 31.04)
@@ -1477,6 +1541,21 @@ return {
 		},
 		targets = {
 			{ loc = vec3(838.97, -1923.52, 30.31), length = 0.8, width = 2.8, heading = 355.0, minZ = 29.31, maxZ = 31.51, distance = 1.5 },
+		}
+	},
+	wolfs = {
+		name = 'Sklep WOLFS',
+		groups = {
+			['rea'] = 2,
+		},
+		inventory = {
+			{ name = 'rea_tablet',     price = 500 },
+		},
+		locations = {
+			vec3(-718.64, 260.62, 84.14)
+		},
+		targets = {
+			{ loc = vec3(-718.64, 260.62, 84.14), length = 0.6, width = 1.8, heading = 295.0, minZ = 83.34, maxZ = 84.74, distance = 1.5 },
 		}
 	},
 	ChopShopTools = {

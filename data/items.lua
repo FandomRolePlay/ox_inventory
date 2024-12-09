@@ -4764,6 +4764,13 @@ return {
 		stack = true
 	},
 
+	['flat_television2'] = {
+		label = 'Telewizor plazmowy',
+		description = "",
+		weight = 10000,
+		stack = true
+	},
+
 	['radio_alarm'] = {
 		label = 'Budzik',
 		description = "",
@@ -7810,14 +7817,14 @@ return {
 			export = 'frp_badge.badge_doj'
 		}
 	},
-	['badge_usmarshals'] = {
-		label = 'Odznaka USMS',
+	['badge_fib'] = {
+		label = 'Odznaka FIB',
 		stack = false,
 		weight = 50,
 		close = true,
 		consume = 0,
 		server = {
-			export = 'frp_badge.badge_usmarshals'
+			export = 'frp_badge.badge_fib'
 		}
 	},
 	['badge_cityhall'] = {
@@ -7838,6 +7845,16 @@ return {
 		consume = 0,
 		server = {
 			export = 'frp_badge.badge_sheriff'
+		}
+	},
+	['badge_doc'] = {
+		label = 'Odznaka DOC',
+		stack = false,
+		weight = 50,
+		close = true,
+		consume = 0,
+		server = {
+			export = 'frp_badge.badge_doc'
 		}
 	},
 
