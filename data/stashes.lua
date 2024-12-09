@@ -499,14 +499,14 @@ return {
 		groups = {['doc'] = 1}
 	},
 	{
-		coords = vec3(1748.41, 2598.44, 45.42),
+		coords = vec3(1681.25, 2587.64, 45.92),
 		target = {
-			loc = vec3(1748.41, 2598.44, 45.42),
-			length = 2.2,
+			loc = vec3(1681.25, 2587.64, 45.92),
+			length = 2.4,
 			width = 0.6,
 			heading = 0,
-			minZ = 44.62,
-			maxZ = 46.42,
+			minZ = 45.12,
+			maxZ = 46.92,
 			label = 'Otwórz Magazyn'
 		},
 		name = 'docmaginmate',
@@ -535,14 +535,14 @@ return {
 		groups = {['doc'] = 1}
 	},
 	{
-		coords = vec3(1766.53, 2582.91, 46.0),
+		coords = vec3(1766.53, 2582.91, 45.5),
 		target = {
-			loc = vec3(1766.53, 2582.91, 46.0),
+			loc = vec3(1766.53, 2582.91, 45.5),
 			length = 0.4,
 			width = 1.8,
 			heading = 0,
-			minZ = 45.4,
-			maxZ = 47.0,
+			minZ = 44.9,
+			maxZ = 46.5,
 			label = 'Otwórz Magazyn Broni'
 		},
 		name = 'doczbrojownia',

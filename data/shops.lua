@@ -806,8 +806,7 @@ return {
 	DOCArmoury = {
 		name = 'Zbrojownia SADCR',
 		groups = {
-			['doc'] = 0
-		},
+			['doc'] = 5 },
 		inventory = {
 			{ name = 'WEAPON_COMBATPISTOL', price = 900,   metadata = { registered = true, serial = 'DOC' }, license = 'weapon', grade = 1 },
 			{ name = 'WEAPON_PISTOL_MK2',   price = 1300,  metadata = { registered = true, serial = 'DOC' }, license = 'weapon', grade = 1 },
@@ -863,7 +862,7 @@ return {
 			vec3(1763.86, 2589.9, 46.0)
 		},
 		targets = {
-			{ loc = vec3(608.65, 1.56, 87.8), length = 0.6, width = 1.6, heading = 90.0, minZ = 45.0, maxZ = 48.0, distance = 6 }
+			{ loc = vec3(1763.86, 2589.9, 46.0), length = 0.6, width = 1.6, heading = 90.0, minZ = 45.0, maxZ = 48.0, distance = 6 }
 		},
 	},
 
