@@ -1673,9 +1673,9 @@ return {
 		-- Bahama
 
 		{
-			coords = vec3(-1375.99, -633.94, 30.62),
+			coords = vec3(-1382.49, -628.11, 30.06),
 			target = {
-				loc = vec3(-1375.99, -633.94, 30.62),
+				loc = vec3(-1382.49, -628.11, 30.06),
 				length = 1.8,
 				width = 1.0,
 				heading = 305,
@@ -1691,9 +1691,9 @@ return {
 			groups = {['bahama'] = 0}
 		},
 		{
-			coords = vec3(-1402.07, -597.26, 30.40),
+			coords = vec3(-1378.16, -593.26, 29.65),
 			target = {
-				loc = vec3(-1402.07, -597.26, 30.40),
+				loc = vec3(-1378.16, -593.26, 29.65),
 				length = 2.0,
 				width = 1.0,
 				heading = 300,
@@ -1709,9 +1709,9 @@ return {
 			groups = {['bahama'] = 1}
 		},		
 		{
-			coords = vec3(-1400.67, -597.42, 29.88),
+			coords = vec3(-1377.68, -594.39, 30.14),
 			target = {
-				loc = vec3(-1400.67, -597.42, 29.88),
+				loc = vec3(-1377.68, -594.39, 30.14),
 				length = 2.0,
 				width = 1.0,
 				heading = 300,
@@ -1727,9 +1727,9 @@ return {
 			groups = {['bahama'] = 1}
 		},		
 		{
-			coords = vec3(-1372.47, -629.36, 30.57),
+			coords = vec3(-1377.72, -626.14, 35.58),
 			target = {
-				loc = vec3(-1372.47, -629.36, 30.57),
+				loc = vec3(-1377.72, -626.14, 35.58),
 				length = 2.0,
 				width = 1.0,
 				heading = 300,
