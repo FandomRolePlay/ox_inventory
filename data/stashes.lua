@@ -1673,14 +1673,14 @@ return {
 		-- Bahama
 
 		{
-			coords = vec3(-1382.49, -628.11, 30.06),
+			coords = vec3(-1385.64, -624.35, 29.21),
 			target = {
-				loc = vec3(-1382.49, -628.11, 30.06),
-				length = 1.8,
-				width = 1.0,
-				heading = 305,
-				minZ = 27.62,
-				maxZ = 31.62,
+				loc = vec3(-1385.64, -624.35, 29.21),
+				length = 0.6,
+				width = 1.4,
+				heading = 33,
+				minZ = 29.21,
+				maxZ = 31.81,
 				label = 'Otwórz szafke'
 			},
 			name = 'bahamalocker',
@@ -1699,14 +1699,14 @@ return {
 				heading = 300,
 				minZ = 27.82,
 				maxZ = 31.82,
-				label = 'Otwórz Magazyn Składników'
+				label = 'Otwórz Lodówkę ze Składnikami'
 			},
 			name = 'bahamamagazyn',
-			label = 'Magazyn Składników',
+			label = 'Lodówka',
 			owner = false,
 			slots = 200,
-			weight = 500000,
-			groups = {['bahama'] = 1}
+			weight = 250000,
+			groups = {['bahama'] = 0}
 		},		
 		{
 			coords = vec3(-1377.68, -594.39, 30.14),
@@ -1717,14 +1717,14 @@ return {
 				heading = 300,
 				minZ = 27.82,
 				maxZ = 31.82,
-				label = 'Otwórz Magazyn Alkoholi'
+				label = 'Otwórz Lodówkę z Alkoholem'
 			},
 			name = 'bahamamagazyn2',
-			label = 'Magazyn Alkoholi',
+			label = 'Lodówka',
 			owner = false,
 			slots = 200,
-			weight = 500000,
-			groups = {['bahama'] = 1}
+			weight = 250000,
+			groups = {['bahama'] = 0}
 		},		
 		{
 			coords = vec3(-1377.72, -626.14, 35.58),
@@ -1743,7 +1743,79 @@ return {
 			slots = 30,
 			weight = 150000,
 			groups = {['bahama'] = 5}
-		},	
+		},
+		{
+			coords = vec3(-1381.35, -591.84, 30.22),
+			target = {
+				loc = vec3(-1381.35, -591.84, 30.22),
+				length = 2.0,
+				width = 1.0,
+				heading = 302,
+				minZ = 29.42,
+				maxZ = 31.22,
+				label = 'Półka na szklanki'
+			},
+			name = 'bahamakieliszki',
+			label = 'Półka na szklanki',
+			owner = false,
+			slots = 50,
+			weight = 70000,
+			groups = {['bahama'] = 0}
+		},
+		{
+			coords = vec3(-1390.31, -590.29, 29.21),
+			target = {
+				loc = vec3(-1390.31, -590.29, 29.21),
+				length = 0.6,
+				width = 0.6,
+				heading = 0,
+				minZ = 29.21,
+				maxZ = 30.61,
+				label = 'Pudło na rzeczy'
+			},
+			name = 'bahamagoscie',
+			label = 'Pudło',
+			owner = false,
+			slots = 100,
+			weight = 200000,
+			groups = {['bahama'] = 0}
+		},
+		{
+			coords = vec3(-1389.34, -628.93, 29.21),
+			target = {
+				loc = vec3(-1389.34, -628.93, 29.21),
+				length = 1.6,
+				width = 1.4,
+				heading = 313,
+				minZ = 29.21,
+				maxZ = 31.21,
+				label = 'Magazyn ogólny'
+			},
+			name = 'bahamamagazynog',
+			label = 'Otwórz Magazyn',
+			owner = false,
+			slots = 200,
+			weight = 500000,
+			groups = {['bahama'] = 0}
+		},
+		{
+			coords = vec3(-1386.08, -627.4, 35.9),
+			target = {
+				loc = vec3(-1386.08, -627.4, 35.9),
+				length = 0.4,
+				width = 1.8,
+				heading = 303,
+				minZ = 34.9,
+				maxZ = 37.1,
+				label = 'Lodówka'
+			},
+			name = 'bahamalodowka2',
+			label = 'Otwórz Lodówkę',
+			owner = false,
+			slots = 100,
+			weight = 200000,
+			groups = {['bahama'] = 0}
+		},
 		
 		-- Ramen
 		{
@@ -1781,7 +1853,42 @@ return {
 			slots = 200,
 			weight = 500000,
 			groups = {['ramen'] = 1}
-		},	
+		},
+		{
+			coords = vec3(-1379.47, -591.64, 29.22),
+			target = {
+				loc = vec3(-1379.47, -591.64, 29.22),
+				length = 0.8,
+				width = 0.8,
+				heading = 33,
+				minZ = 29.22,
+				maxZ = 31.42,
+				label = 'Otwórz Magazyn Składników'
+			},
+			name = 'ramenmagazynbahama',
+			label = 'Magazyn Składników',
+			owner = false,
+			slots = 100,
+			weight = 250000,
+			groups = {['ramen'] = 0}
+		},
+		{
+			coords = vec3(-1380.45, -597.87, 30.22),
+			target = {
+				loc = vec3(-1380.45, -597.87, 30.22),
+				length = 1.4,
+				width = 1.2,
+				heading = 303,
+				minZ = 29.21,
+				maxZ = 30.81,
+				label = 'Tacka'
+			},
+			name = 'bahamatacka',
+			label = 'Tacka',
+			owner = false,
+			slots = 15,
+			weight = 20000,
+		},
 	
 		-- BCSO
 
@@ -2076,6 +2183,24 @@ return {
 		slots = 200,
 		weight = 1000000,
 		groups = {['pops'] = 1}
+	},
+	{
+		coords = vec3(-1376.14, -596.77, 29.22),
+		target = {
+			loc = vec3(-1376.14, -596.77, 29.22),
+			length = 0.8,
+			width = 0.8,
+			heading = 34,
+			minZ = 29.22,
+			maxZ = 31.42,
+			label = 'Otwórz Magazyn'
+		},
+		name = 'popsmagazynbahama',
+		label = 'Magazyn',
+		owner = false,
+		slots = 100,
+		weight = 250000,
+		groups = {['pops'] = 0}
 	},
 	-- VANILLA
 	{
