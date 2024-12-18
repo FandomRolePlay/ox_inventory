@@ -1758,7 +1758,7 @@ return {
 			name = 'bahamakieliszki',
 			label = 'Półka na szklanki',
 			owner = false,
-			slots = 50,
+			slots = 150,
 			weight = 70000,
 			groups = {['bahama'] = 0}
 		},
