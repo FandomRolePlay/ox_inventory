@@ -478,7 +478,7 @@ return {
 		owner = true,
 		slots = 20,
 		weight = 25000,
-		groups = {['doc'] = 1}
+		groups = {['doc'] = 0}
 	},
 	{
 		coords = vec3(1788.36, 2546.47, 45.78),
@@ -496,7 +496,7 @@ return {
 		owner = true,
 		slots = 20,
 		weight = 25000,
-		groups = {['doc'] = 1}
+		groups = {['doc'] = 0}
 	},
 	{
 		coords = vec3(1681.25, 2587.64, 45.92),
@@ -514,7 +514,7 @@ return {
 		owner = false,
 		slots = 200,
 		weight = 700000,
-		groups = {['doc'] = 1}
+		groups = {['doc'] = 0}
 	},
 	{
 		coords = vec3(1778.29, 2558.11, 45.78),
@@ -586,7 +586,7 @@ return {
 		owner = false,
 		slots = 100,
 		weight = 500000,
-		groups = {['doc'] = 2, ['ambulance'] = 0}
+		groups = {['doc'] = 1, ['ambulance'] = 0}
 	},
 	{
 		coords = vec3(1748.41, 2598.44, 45.42),
