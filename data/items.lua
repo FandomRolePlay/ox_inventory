@@ -1253,7 +1253,7 @@ return {
 			prop = { model = `prop_cs_bs_cup`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
-			statusCap = 600000,
+			statusCap = 1000000,
 			thirst = 300000,
 		}
 	},
@@ -1266,7 +1266,20 @@ return {
 			prop = { model = `prop_cs_bs_cup`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
-			statusCap = 600000,
+			statusCap = 1000000,
+			thirst = 300000,
+		}
+	},
+
+	['bsicecream'] = {
+		label = 'Shake Morelowy',
+		weight = 300,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_bs_cup`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
 			thirst = 300000,
 		}
 	},
@@ -1279,7 +1292,21 @@ return {
 			prop = 'burger',
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
-			statusCap = 600000,
+			statusCap = 1000000,
+			hunger = 300000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+
+	['bsfries2'] = {
+		label = 'Frytki Kręcone',
+		weight = 200,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
 			hunger = 300000,
 		},
 		degrade = 3 * 24 * 60, -- day * hour * minute
@@ -1300,14 +1327,14 @@ return {
 	},
 
 	['chickenburger'] = {
-		label = 'Chick Burger',
+		label = 'Chciken Burger',
 		weight = 500,
 		client = {
 			anim = 'eating',
 			prop = 'burger',
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
-			statusCap = 600000,
+			statusCap = 1000000,
 			hunger = 400000,
 		},
 		degrade = 3 * 24 * 60, -- day * hour * minute
@@ -1321,35 +1348,77 @@ return {
 			prop = 'burger',
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
-			statusCap = 600000,
+			statusCap = 1000000,
 			hunger = 400000,
 		},
 		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 
 	['bswrap'] = {
-		label = 'BS Wrap',
+		label = 'Chicken Wrap',
 		weight = 500,
 		client = {
 			anim = 'eating',
 			prop = 'burger',
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
-			statusCap = 600000,
+			statusCap = 1000000,
 			hunger = 300000,
 		},
 		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 
-	['bsnuggets'] = {
-		label = 'BS Nuggets',
+	['bssalad'] = {
+		label = 'Sałatka',
 		weight = 500,
 		client = {
 			anim = 'eating',
 			prop = 'prop_food_cb_nugets',
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
-			statusCap = 600000,
+			statusCap = 1000000,
+			hunger = 300000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+
+	['bsnuggets'] = {
+		label = 'Nuggetsy',
+		weight = 500,
+		client = {
+			anim = 'eating',
+			prop = 'prop_food_cb_nugets',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 300000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+
+	['bswings'] = {
+		label = 'Chicken Wings',
+		weight = 500,
+		client = {
+			anim = 'eating',
+			prop = 'prop_food_cb_nugets',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 300000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+
+	['bslumberjack'] = {
+		label = 'Lumberjack Burger',
+		weight = 500,
+		client = {
+			anim = 'eating',
+			prop = 'prop_food_cb_nugets',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
 			hunger = 300000,
 		},
 		degrade = 3 * 24 * 60, -- day * hour * minute
@@ -2100,6 +2169,13 @@ return {
 		description = "NH3 17,03 g/mol"
 	},
 
+	['fenyloaceton'] = {
+		label = 'Fenyloaceton',
+		weight = 5000,
+		stack = true,
+		description = "C9H10O 134,18 g/mol"
+	},
+
 	['meth_pipe'] = {
 		label = 'Duża lufka',
 		weight = 15,
@@ -2258,7 +2334,7 @@ return {
 
 	['meth_sacid'] = {
 		label = 'Butla z benzoesanem sodu',
-		weight = 5000,
+		weight = 3000,
 		stack = true,
 		description = "C7H5NaO2 144,10 g/mol"
 	},
@@ -2279,7 +2355,9 @@ return {
 	['meth_access'] = {
 		label = 'Karta dostępu',
 		weight = 100,
-		stack = true,
+		degrade = 10080, -- 10080 tydzien
+		decay = true,
+		stack = false,
 		close = true
 	},
 

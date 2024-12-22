@@ -2351,4 +2351,98 @@ return {
 		weight = 1000000,
 		groups = {['pawnshop'] = 7}
 	},
+
+	-- Meth Lab
+	{
+		coords = vec3(997.60, -3200.00, -38.99),
+		target = {
+			loc = vec3(997.60, -3200.00, -38.99),
+			length = 1.0,
+			width = 1.0,
+			heading = 0,
+			minZ = 28.29,
+			maxZ = 32.29,
+			label = 'Otwórz magazyn'
+		},
+		name = 'methstorage',
+		label = 'Magazyn',
+		owner = false,
+		slots = 5,
+		weight = 120000,
+		groups = nil
+	},
+
+-- Lucky Plucker
+{
+	coords = vec3(145.13, -1475.25, 29.3),
+	target = {
+		loc = vec3(145.13, -1475.25, 29.3),
+		length = 1.2,
+		width = 0.4,
+		heading = 50,
+		minZ = 28.7,
+		maxZ = 30.5,
+		label = 'Otwórz szafke'
+	},
+	name = 'luckylocker',
+	label = 'Szafka Prywatna',
+	owner = true,
+	slots = 10,
+	weight = 15000,
+	groups = {['lucky'] = 0}
+},
+{
+	coords = vec3(143.07, -1468.69, 28.5),
+	target = {
+		loc = vec3(143.07, -1468.69, 28.5),
+		length = 2.4,
+		width = 1,
+		heading = 320,
+		minZ = 28.2,
+		maxZ = 30,
+		label = 'Otwórz magazyn'
+	},
+	name = 'luckystorage',
+	label = 'Magazyn',
+	owner = true,
+	slots = 300,
+	weight = 800000,
+	groups = {['lucky'] = 0}
+},
+{
+	coords = vec3(140.26, -1467.05, 28.5),
+	target = {
+		loc = vec3(140.26, -1467.05, 28.5),
+		length = 0.8,
+		width = 0.8,
+		heading = 321,
+		minZ = 28.5,
+		maxZ = 30.1,
+		label = 'Tacka'
+	},
+	name = 'luckytacka',
+	label = 'Tacka',
+	owner = false,
+	slots = 10,
+	weight = 25000,
+	groups = nil
+},
+{
+	coords = vec3(144.35, -1477.4, 28.5),
+	target = {
+		loc = vec3(144.35, -1477.4, 28.5),
+		length = 1.2,
+		width = 0.6,
+		heading = 50,
+		minZ = 28.3,
+		maxZ = 30.1,
+		label = 'Otwórz sejf'
+	},
+	name = 'luckysafe',
+	label = 'Sejf',
+	owner = true,
+	slots = 50,
+	weight = 250000,
+	groups = {['lucky'] = 6}
+}
 }
