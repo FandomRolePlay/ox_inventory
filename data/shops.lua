@@ -1012,6 +1012,7 @@ return {
 				["ramen"] = 0,
 				["pops"] = 0,
 				["vanilla"] = 0,
+				["lucky"] = 0,
 			},
 		inventory = {
 			{ name = 'water',             price = 1 },

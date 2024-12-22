@@ -1244,7 +1244,7 @@ return {
 		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 
-	--BURGERSHOT
+	--Lucky Plucker
 	['waniliashake'] = {
 		label = 'Shake Waniliowy',
 		weight = 300,
@@ -1254,7 +1254,8 @@ return {
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
 			statusCap = 1000000,
-			thirst = 300000,
+			thirst = 350000,
+			hunger = 100000,
 		}
 	},
 
@@ -1267,12 +1268,13 @@ return {
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
 			statusCap = 1000000,
-			thirst = 300000,
+			thirst = 350000,
+			hunger = 100000,
 		}
 	},
 
 	['bsicecream'] = {
-		label = 'Shake Morelowy',
+		label = 'Lucky Lody',
 		weight = 300,
 		client = {
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
@@ -1281,6 +1283,7 @@ return {
 			export = 'FandomRP.useStatusItem',
 			statusCap = 1000000,
 			thirst = 300000,
+			hunger = 150000,
 		}
 	},
 
@@ -1289,7 +1292,7 @@ return {
 		weight = 200,
 		client = {
 			anim = 'eating',
-			prop = 'burger',
+			prop = 'prop_food_bs_chips',
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
 			statusCap = 1000000,
@@ -1300,14 +1303,14 @@ return {
 
 	['bsfries2'] = {
 		label = 'Frytki Kręcone',
-		weight = 200,
+		weight = 220,
 		client = {
 			anim = 'eating',
-			prop = 'burger',
+			prop = 'prop_food_bs_chips',
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
 			statusCap = 1000000,
-			hunger = 300000,
+			hunger = 350000,
 		},
 		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
@@ -1327,7 +1330,7 @@ return {
 	},
 
 	['chickenburger'] = {
-		label = 'Chciken Burger',
+		label = 'Chicken Burger',
 		weight = 500,
 		client = {
 			anim = 'eating',
@@ -1335,7 +1338,7 @@ return {
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
 			statusCap = 1000000,
-			hunger = 400000,
+			hunger = 420000,
 		},
 		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
@@ -1349,7 +1352,7 @@ return {
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
 			statusCap = 1000000,
-			hunger = 400000,
+			hunger = 450000,
 		},
 		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
@@ -1363,7 +1366,7 @@ return {
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
 			statusCap = 1000000,
-			hunger = 300000,
+			hunger = 450000,
 		},
 		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
@@ -1377,7 +1380,7 @@ return {
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
 			statusCap = 1000000,
-			hunger = 300000,
+			hunger = 400000,
 		},
 		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
@@ -1391,7 +1394,7 @@ return {
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
 			statusCap = 1000000,
-			hunger = 300000,
+			hunger = 250000,
 		},
 		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
@@ -1405,7 +1408,7 @@ return {
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
 			statusCap = 1000000,
-			hunger = 300000,
+			hunger = 250000,
 		},
 		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
@@ -1415,11 +1418,11 @@ return {
 		weight = 500,
 		client = {
 			anim = 'eating',
-			prop = 'prop_food_cb_nugets',
+			prop = 'burger',
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
 			statusCap = 1000000,
-			hunger = 300000,
+			hunger = 6500000,
 		},
 		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
