@@ -8845,6 +8845,12 @@ return {
 		weight = 300,
 		stack = false,
 		close = true,
+		consume = 1,
+		client = {
+			remove = function()
+				TriggerEvent('astudios-skating:client:start', "skateboard")
+			end
+		}
 	},
 
 	["bandage"] = {
