@@ -2404,7 +2404,7 @@ return {
 	},
 	name = 'luckystorage',
 	label = 'Magazyn',
-	owner = true,
+	owner = false,
 	slots = 300,
 	weight = 800000,
 	groups = {['lucky'] = 0}
