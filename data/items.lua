@@ -9001,7 +9001,7 @@ return {
 		stack = false,
 		close = true,
 		decay = true,
-		degrade = 1 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 48 * 60, -- day * hour * minute
 		client = {
 			event = "bl-realtor:client:toggleUI"
 		}
