@@ -665,7 +665,7 @@ return {
 			{ name = 'ammo-cart',               price = 3,    grade = 1 },
 			{ name = 'armour25',            	price = 400,   grade = 12 },
 			{ name = 'armour50',            	price = 800,   grade = 12 },
-			{ name = 'armour100',           	price = 1600,  grade = 12 },
+			--{ name = 'armour100',           	price = 1600,  grade = 12 },
 			{ name = 'lornetka',                price = 150,  grade = 1 },
 			{ name = 'parachute',               price = 1500, grade = 12 },
 			{ name = 'defibrillator',    		price = 200, grade = 12 },
@@ -1324,7 +1324,7 @@ return {
 			{ loc = vec3(476.78, -1397.71, 31.04), length = 1.4, width = 1.0, heading = 0, minZ = 30.34, maxZ = 31.74, distance = 1.5 },
 		}
 	},
-	--[[ Hurtownia9 = {
+	Hurtownia9 = {
 		name = 'Hurtownia Alkohole',
 		blip = {
 			id = 50, colour = 24, scale = 0.8
@@ -1359,7 +1359,7 @@ return {
 		targets = {
 			{ loc = vec3(-1207.95, -1504.71, 4.37), length = 0.6, width = 0.8, heading = 35.0, minZ = 3.37, maxZ = 5.17, distance = 1.5 },
 		}
-	},]]--
+	},
 	Hurtownia10 = {
 		name = 'Hurtownia Siłownia',
 		blip = {
