@@ -217,27 +217,27 @@ return {
 		},
 		inventory = {
 			{ name = 'water',           price = 9 },
-			{ name = 'pisswasser',      price = 12 },
-			{ name = 'logger',          price = 13 },
-			{ name = 'barracho',        price = 15 },
-			{ name = 'vinewood_blanc',  price = 60 },
-			{ name = 'rockford_hill',   price = 60 },
-			{ name = 'vinewood_red',    price = 65 },
-			{ name = 'costa_del_perro', price = 70 },
-			{ name = 'marlowe',         price = 80 },
-			{ name = 'vodka',           price = 50 },
-			{ name = 'rum',             price = 90 },
-			{ name = 'whisky',          price = 100 },
-			{ name = 'tequila',         price = 115 },
-			{ name = 'cognac',          price = 150 },
-			{ name = 'bleuterd',        price = 200 },
+			{ name = 'pisswasser',      price = 40 },
+			{ name = 'logger',          price = 40 },
+			{ name = 'barracho',        price = 50 },
+			{ name = 'vinewood_blanc',  price = 190 },
+			{ name = 'rockford_hill',   price = 190 },
+			{ name = 'vinewood_red',    price = 195 },
+			{ name = 'costa_del_perro', price = 200 },
+			{ name = 'marlowe',         price = 220 },
+			{ name = 'vodka',           price = 180 },
+			{ name = 'rum',             price = 250 },
+			{ name = 'whisky',          price = 350 },
+			{ name = 'tequila',         price = 240 },
+			{ name = 'cognac',          price = 320 },
+			{ name = 'bleuterd',        price = 300 },
 			{ name = 'chipssalt',       price = 8 },
 			{ name = 'zapalniczka',     price = 15 },
 			{ name = 'meth_pipe',       price = 4 },
 			{ name = 'crack_pipe',      price = 2 },
-			{ name = 'redw',            price = 22,   count = 20 },
-			{ name = 'debg',            price = 25,   count = 20 },
-			{ name = 'estancia',        price = 30,   count = 20 },
+			{ name = 'redw',            price = 80,   count = 20 },
+			{ name = 'debg',            price = 40,   count = 20 },
+			{ name = 'estancia',        price = 70,   count = 20 },
 			--{ name = 'cubancigar', price = 80 },
 			{ name = 'davidoffcigar',   price = 80,   count = 20 },
 
@@ -1324,7 +1324,7 @@ return {
 			{ loc = vec3(476.78, -1397.71, 31.04), length = 1.4, width = 1.0, heading = 0, minZ = 30.34, maxZ = 31.74, distance = 1.5 },
 		}
 	},
-	Hurtownia9 = {
+	--[[ Hurtownia9 = {
 		name = 'Hurtownia Alkohole',
 		blip = {
 			id = 50, colour = 24, scale = 0.8
@@ -1359,7 +1359,7 @@ return {
 		targets = {
 			{ loc = vec3(-1207.95, -1504.71, 4.37), length = 0.6, width = 0.8, heading = 35.0, minZ = 3.37, maxZ = 5.17, distance = 1.5 },
 		}
-	},
+	},]]--
 	Hurtownia10 = {
 		name = 'Hurtownia Siłownia',
 		blip = {
@@ -1684,9 +1684,9 @@ return {
 			{ name = 'bottle',     				  price = 50, count = 10},
 			{ name = 'empty_blister',             price = 30, count = 40 },
 			{ name = 'pbag_pack',                 price = 7, count = 35 },
-			{ name = 'ammo-9-box',          	  price = 525, count = 20 },
-			{ name = 'ammo-45-box',               price = 630, count = 20 },
-			{ name = 'ammo-shotgun-box',          price = 1000, count = 20 },
+			{ name = 'ammo-9-box',          	  price = 385, count = 20 },
+			{ name = 'ammo-45-box',               price = 490, count = 20 },
+			{ name = 'ammo-shotgun-box',          price = 750, count = 20 },
 			{ name = 'crate_9',                   price = 10500, count = 2 },
 			{ name = 'crate_45',                  price = 12600, count = 2 },
 			{ name = 'crate_12gauge',             price = 28000, count = 2 },
@@ -1740,9 +1740,9 @@ return {
 			{ name = 'steel_rope',                price = 280,  count = 20 },
 			{ name = 'lockpick',                  price = 40,  count = 30 },
 			{ name = 'bottle',     				  price = 50, count = 10},
-			{ name = 'ammo-9-box',                price = 525, count = 20 },
-			{ name = 'ammo-45-box',               price = 630, count = 20 },
-			{ name = 'ammo-shotgun-box',          price = 1000, count = 20 },
+			{ name = 'ammo-9-box',                price = 385, count = 20 },
+			{ name = 'ammo-45-box',               price = 490, count = 20 },
+			{ name = 'ammo-shotgun-box',          price = 750, count = 20 },
 			{ name = 'crate_9',                   price = 10500, count = 2 },
 			{ name = 'crate_45',                  price = 12600, count = 2 },
 			{ name = 'crate_12gauge',             price = 28000, count = 2 },
