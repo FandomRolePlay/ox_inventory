@@ -663,11 +663,11 @@ return {
 			ammoname = 'ammo-sniper'
 		},
 
-		['WEAPON_SNOWBALL'] = {
+--[[ 		['WEAPON_SNOWBALL'] = {
 			label = 'Śnieżka',
 			weight = 5,
 			throwable = true,
-		},
+		}, ]]
 
 		['WEAPON_SNSPISTOL'] = {
 			label = 'HL SNSM10',
