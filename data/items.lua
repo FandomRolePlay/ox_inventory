@@ -3267,13 +3267,6 @@ return {
 	["spikestrip"] = {
 		label = "Kolczatki",
 		weight = 500,
-		client = {
-			export = "ND_Police.deploySpikestrip"
-		}
-	},
-	["spikestrip2"] = {
-		label = "Kolczatki N",
-		weight = 500,
 		stack = true
 	},
 	["cuffs"] = {
