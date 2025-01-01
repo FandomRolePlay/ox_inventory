@@ -1834,6 +1834,24 @@ return {
 			weight = 200000,
 			groups = {['bahama'] = 0}
 		},
+		{
+			coords = vec3(-1382.63, -631.69, 22.76),
+			target = {
+				loc = vec3(-1382.63, -631.69, 22.76),
+				length = 1.6,
+				width = 1.4,
+				heading = 313,
+				minZ = 29.21,
+				maxZ = 31.21,
+				label = 'Magazyn w piwnicy'
+			},
+			name = 'bahamapiwnica',
+			label = 'Magazyn',
+			owner = false,
+			slots = 100,
+			weight = 200000,
+			groups = {['bahama'] = 0}
+		},
 		
 		-- Ramen
 		{
