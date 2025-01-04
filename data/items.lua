@@ -1243,6 +1243,146 @@ return {
 		},
 		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
+ --nowe
+	['blazetacop'] = {
+		label = 'Taco Picante Carne',
+		weight = 200,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 500000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+
+	['blazetacoc'] = {
+		label = 'Taco',
+		weight = 200,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 400000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+
+	['blazetacosalsa'] = {
+		label = 'Taco Salsa Verde',
+		weight = 200,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 450000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+
+	['blazequesadilla'] = {
+		label = 'Quesadilla',
+		weight = 200,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 450000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+
+	['blazequesadillam'] = {
+		label = 'Quesadilla Mexicana',
+		weight = 200,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 550000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+
+	['blazequesadillar'] = {
+		label = 'Quesadilla Ranchera',
+		weight = 200,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 500000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+
+	['blazeburrito'] = {
+		label = 'Burrito',
+		weight = 200,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 400000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+
+	['blazeburritobbq'] = {
+		label = 'Burrito BBQ',
+		weight = 200,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 500000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+
+	['blazechurros'] = {
+		label = 'Churrosy',
+		weight = 200,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 700000,
+			hunger = 270000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+
+	['blazenachos'] = {
+		label = 'Nachosy',
+		weight = 200,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 700000,
+			hunger = 270000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
 
 	--Lucky Plucker
 	['waniliashake'] = {
@@ -3818,7 +3958,7 @@ return {
 	},
 
 	["xmastree2"] = {
-		label = "Choinkae",
+		label = "Choinka",
 		weight = 1000,
 		stack = true,
 		close = true,
@@ -6273,6 +6413,45 @@ return {
 		stack = true,
 		close = true,
 	},
+	['nachos'] = {
+		label = 'Nachosy',
+		weight = 400,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 700000,
+			hunger = 250000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+	['fruit_table'] = {
+		label = 'Tacka owoców',
+		weight = 400,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 700000,
+			hunger = 250000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+		['nuts_bowl'] = {
+			label = 'Miska z orzeszkami',
+			weight = 400,
+			client = {
+				anim = 'eating',
+				prop = 'burger',
+				usetime = 2500,
+				export = 'FandomRP.useStatusItem',
+				statusCap = 700000,
+				hunger = 250000,
+			},
+			degrade = 3 * 24 * 60, -- day * hour * minute
+		},
 	['tofu'] = {
 		label = "Tofu",
 		weight = 110,
@@ -6338,6 +6517,242 @@ return {
 		stack = true,
 		close = true,
 	},
+	["fruit_mash"] = {
+		label = "Zacier owocowy",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+	["herbal_mash"] = {
+		label = "Zacier ziołowy",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+	["grain_mash"] = {
+		label = "Zacier zbożowy",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+	["sugar_mash"] = {
+		label = "Zacier cukrowy",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+	["beer_apple"] = {
+		label = "Jabłkowe Piwo",
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+	["beer_lime"] = {
+		label = "Limonkowe Piwo",
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+	["beer_pear"] = {
+		label = "Gruszkowe Piwo",
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+	["beer_starkiwi"] = {
+		label = "Truskawka & Kiwi Piwo",
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+	["beer_cherryapple"] = {
+		label = "Wiśnia & Jabłko Piwo",
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+	["beer_mango"] = {
+		label = "Mango Piwo",
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+	["beer_strawberry"] = {
+		label = "Truskawkowe Piwo",
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+	["beer_apple0"] = {
+		label = "Bezalkoholowe Jabłkowe Piwo",
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+	["beer_lime0"] = {
+		label = "Bezalkoholowe Limonkowe Piwo",
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+	["beer_pear0"] = {
+		label = "Bezalkoholowe Gruszkowe Piwo",
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+	["beer_apricot0"] = {
+		label = "Bezalkoholowe Morelowe Piwo",
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+	["vodka_citrus"] = {
+		label = "Cytrusowa Wódka",
+		weight = 700,
+		stack = true,
+		close = true,
+	},
+	["vodka_herb"] = {
+		label = "Ziołowa Wódka",
+		weight = 700,
+		stack = true,
+		close = true,
+	},
+	["vodka_strawberry"] = {
+		label = "Truskawkowa Wódka",
+		weight = 700,
+		stack = true,
+		close = true,
+	},
+	["vodka_clean"] = {
+		label = "Czysta Wódka",
+		weight = 700,
+		stack = true,
+		close = true,
+	},
+	["tequila_lime"] = {
+		label = "Limonkowa Tequila",
+		weight = 700,
+		stack = true,
+		close = true,
+	},
+	["tequila_classico"] = {
+		label = "Tequila Classico",
+		weight = 700,
+		stack = true,
+		close = true,
+	},
+	["tequila_oro"] = {
+		label = "Tequila Oro",
+		weight = 700,
+		stack = true,
+		close = true,
+	},
+	["whisky_usa"] = {
+		label = "Amerykańska Whisky",
+		weight = 700,
+		stack = true,
+		close = true,
+	},
+	["whisky_canada"] = {
+		label = "Kanadyjska Whisky",
+		weight = 700,
+		stack = true,
+		close = true,
+	},
+	["whisky_scottish"] = {
+		label = "Szkocka Whisky",
+		weight = 700,
+		stack = true,
+		close = true,
+	},
+	["rum_tropicana"] = {
+		label = "Rum Tropicana",
+		weight = 700,
+		stack = true,
+		close = true,
+	},
+	["rum_sugar"] = {
+		label = "Rum Cukrowy",
+		weight = 700,
+		stack = true,
+		close = true,
+	},
+	["champagne_gold"] = {
+		label = "Szampan Złoty",
+		weight = 700,
+		stack = true,
+		close = true,
+	},
+	["champagne_tropicana"] = {
+		label = "Szampan Tropicana",
+		weight = 700,
+		stack = true,
+		close = true,
+	},
+	["champagne_rose"] = {
+		label = "Szampan Rose",
+		weight = 700,
+		stack = true,
+		close = true,
+	},
+	["brandy_grape"] = {
+		label = "Brandy Winogronowa",
+		weight = 700,
+		stack = true,
+		close = true,
+	},
+	["brandy_tropicana"] = {
+		label = "Brandy Tropicana",
+		weight = 700,
+		stack = true,
+		close = true,
+	},
+	["brandy_multifruit"] = {
+		label = "Brandy Wieloowocowa",
+		weight = 700,
+		stack = true,
+		close = true,
+	},
+	["moonshine_multifruit"] = {
+		label = "Bimber Wieloowocowy",
+		weight = 700,
+		stack = true,
+		close = true,
+	},
+	["moonshine_herb"] = {
+		label = "Bimber Ziołowy",
+		weight = 700,
+		stack = true,
+		close = true,
+	},
+	["moonshine_grain"] = {
+		label = "Bimber Zbożowy",
+		weight = 700,
+		stack = true,
+		close = true,
+	},
+	["moonshine_sugar"] = {
+		label = "Bimber Cukrowy",
+		weight = 700,
+		stack = true,
+		close = true,
+	},
+	["gin_herbs"] = {
+		label = "Gin Ziołowy",
+		weight = 700,
+		stack = true,
+		close = true,
+	},
+	["gin_classic"] = {
+		label = "Gin Klasyczny",
+		weight = 700,
+		stack = true,
+		close = true,
+	},
+	
+
 
 	["weedmuffin"] = {
 		label = "Muffinka",
