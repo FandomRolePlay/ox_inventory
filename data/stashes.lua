@@ -2480,5 +2480,80 @@ return {
 	slots = 50,
 	weight = 250000,
 	groups = {['lucky'] = 6}
-}
+},
+-- Kendall
+{
+    coords = vec3(1586.72, 6457.13, 26.01),
+    target = {
+        loc = vec3(1586.72, 6457.13, 26.01),
+        length = 0.75,
+        width = 0.8,
+        heading = 35,
+        minZ = 4.27,
+        maxZ = 4.57,
+        label = 'Tacka'
+    },
+    name = 'kendal_tacka',
+    label = 'Tacka',
+    owner = false,
+    slots = 8,
+    weight = 10000,
+},
+{
+    coords = vec3(1595.34, 6455.46, 26.01),
+    target = {
+        loc = vec3(1595.34, 6455.46, 26.01),
+        length = 1.0,
+        width = 0.6,
+        heading = 35,
+        minZ = 3.57,
+        maxZ = 4.97,
+        label = 'Otwórz szafke'
+    },
+    name = 'kednal_priv',
+    label = 'Szafka Prywatna',
+    owner = true,
+    slots = 10,
+    weight = 15000,
+    groups = {['kendal'] = 0}
+},
+{
+    coords = vec3(1586.0, 6459.83, 26.01),
+    target = {
+        loc = vec3(1586.0, 6459.83, 26.01),
+        length = 0.6,
+        width = 1.0,
+        heading = 35,
+        minZ = 4.17,
+        maxZ = 4.97,
+        label = 'Otwórz Magazyn'
+    },
+    name = 'kednal_storage',
+    label = 'Magazyn',
+    owner = false,
+    slots = 200,
+    weight = 1000000,
+    groups = {['kendal'] = 0}
+},
+
+{
+    coords = vec3(-1026.37, -422.84, 67.66),
+    target = {
+        loc = vec3(-1026.37, -422.84, 67.66),
+        length = 0.6,
+        width = 1.0,
+        heading = 297,
+        minZ = 4.17,
+        maxZ = 4.97,
+        label = 'Szafka prywatna'
+    },
+    name = 'atom_stash',
+    label = 'Szafka prywatna',
+    owner = false,
+    slots = 90,
+    weight = 100000,
+    groups = {['lawyer2'] = 0}
+},
+
+
 }
