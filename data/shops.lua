@@ -1013,6 +1013,7 @@ return {
 				["pops"] = 0,
 				["vanilla"] = 0,
 				["lucky"] = 0,
+				["kendal"] = 0,
 			},
 		inventory = {
 			{ name = 'water',             price = 1 },
@@ -1090,10 +1091,12 @@ return {
 			{ name = 'fishs',              price = 3 },
 		},
 		locations = {
-			vec3(-1223.07, -1484.14, 4.35)
+			vec3(-1223.07, -1484.14, 4.35),
+			vec3(413.0, 6538.75, 27.72),
 		},
 		targets = {
 			{ loc = vec3(-1223.07, -1484.14, 4.35), length = 0.9, width = 0.9, heading = 35.0, minZ = 3.57, maxZ = 4.36, distance = 1.5 },
+			{ loc = vec3(413.0, 6538.75, 27.72), length = 0.4, width = 1.4, heading = 354.0, minZ = 3.57, maxZ = 26.72, distance = 29.32 },
 		}
 	},
 	Hurtownia3 = {

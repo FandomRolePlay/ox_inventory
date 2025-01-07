@@ -2129,6 +2129,24 @@ return {
 		weight = 50000,
 		groups = {['sheriff'] = 0}
 	},
+	{ -- sandy
+		coords = vec3(1846.9, 3691.11, 38.22),
+		target = {
+			loc = vec3(1846.9, 3691.11, 38.22),
+			length = 0.4,
+			width = 1.0,
+			heading = 300,
+			minZ = 37.42,
+			maxZ = 39.42,
+			label = 'Otwórz Lodówkę'
+		},
+		name = 'bcsolodowka2',
+		label = 'Lodówka',
+		owner = false,
+		slots = 200,
+		weight = 50000,
+		groups = {['sheriff'] = 0}
+	},
 	{
 		coords = vec3(611.89, -19.52, 87.8),
 		target = {
@@ -2510,7 +2528,7 @@ return {
         maxZ = 4.97,
         label = 'Otwórz szafke'
     },
-    name = 'kednal_priv',
+    name = 'kendal_priv',
     label = 'Szafka Prywatna',
     owner = true,
     slots = 10,
@@ -2528,7 +2546,7 @@ return {
         maxZ = 4.97,
         label = 'Otwórz Magazyn'
     },
-    name = 'kednal_storage',
+    name = 'kendal_storage',
     label = 'Magazyn',
     owner = false,
     slots = 200,
