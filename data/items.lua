@@ -9439,9 +9439,10 @@ return {
 		close = true,
 		consume = 1,
 		client = {
-			remove = function()
+			export = "astudios-skating.start_skating",
+			--[[remove = function()
 				TriggerEvent('astudios-skating:client:start', "skateboard")
-			end
+			end]]--
 		}
 	},
 
