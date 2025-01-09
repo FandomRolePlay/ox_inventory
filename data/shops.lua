@@ -1096,7 +1096,7 @@ return {
 		},
 		targets = {
 			{ loc = vec3(-1223.07, -1484.14, 4.35), length = 0.9, width = 0.9, heading = 35.0, minZ = 3.57, maxZ = 4.36, distance = 1.5 },
-			{ loc = vec3(413.0, 6538.75, 27.72), length = 0.4, width = 1.4, heading = 354.0, minZ = 3.57, maxZ = 26.72, distance = 29.32 },
+			{ loc = vec3(413.0, 6538.75, 26.5), length = 0.4, width = 1.4, heading = 354.0, minZ = 26.72, maxZ = 29.32, distance = 1.5 },
 		}
 	},
 	Hurtownia3 = {
