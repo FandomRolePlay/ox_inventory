@@ -73,7 +73,7 @@ return {
 		weight = 10,
 	},
 
-	--PACIFIC/FLEECA/ATM
+	--PACIFIC/FLEECA/ATM/VANGELICO
 	['vanbag'] = {
 		label = 'Torba',
 		weight = 250,
@@ -121,34 +121,6 @@ return {
 	['big_drill'] = {
 		label = 'Duża wiertarka',
 		weight = 800,
-	},
-	['paintingg'] = {
-		label = 'Dzieło sztuki',
-		weight = 500,
-	},
-	['paintingf'] = {
-		label = 'Obraz akwarelisty',
-		weight = 500,
-	},
-	['vandiamond'] = {
-		label = 'Duży Diament',
-		weight = 300,
-	},
-	['vannecklace'] = {
-		label = 'Cenny Naszyjnik',
-		weight = 250,
-	},
-	['vanbottle'] = {
-		label = 'Tequila Sinsimito',
-		weight = 750,
-	},
-	['vanpogo'] = {
-		label = 'Złota Figurka',
-		weight = 500,
-	},
-	['vanpanther'] = {
-		label = 'Diamentowa Pantera',
-		weight = 1000,
 	},
 
 	--projectx-fleecabankrobbery
@@ -204,57 +176,57 @@ return {
 	-- 	weight = 160,
 	-- },
 	['cutter'] = {
-		label = 'Drill',
+		label = 'Wycinarka do szkła',
 		weight = 160,
 	},
 	['gasmask'] = {
-		label = 'Gasmask',
+		label = 'Maska przeciwgazowa',
 		weight = 160,
 	},
 	['rolex'] = {
-		label = 'Rolex',
+		label = 'Luksusowy zegarek',
 		weight = 160,
 	},
 	['ring'] = {
-		label = 'Ring',
+		label = 'Zdobiony pierścionek',
 		weight = 160,
 	},
-	-- ['necklace'] = {
-	-- 	label = 'Necklace',
-	-- 	weight = 160,
-	-- },
-	-- ['vandiamond'] = {
-	-- 	label = 'vandiamond',
-	-- 	weight = 160,
-	-- },
-	-- ['vanpanther'] = {
-	-- 	label = 'vanpanther',
-	-- 	weight = 160,
-	-- },
-	-- ['vannecklace'] = {
-	-- 	label = 'vannecklace',
-	-- 	weight = 160,
-	-- },
-	-- ['vanbottle'] = {
-	-- 	label = 'vanbottle',
-	-- 	weight = 160,
-	-- },
+	['vandiamond'] = {
+		label = 'Duży diament',
+		weight = 300,
+	},
+	['vannecklace'] = {
+		label = 'Cenny naszyjnik',
+		weight = 250,
+	},
+	['vanbottle'] = {
+		label = 'Tequila Sinsimito',
+		weight = 750,
+	},
+	['vanpogo'] = {
+		label = 'Złota figurka',
+		weight = 500,
+	},
+	['vanpanther'] = {
+		label = 'Diamentowa pantera',
+		weight = 1000,
+	},
 	['paintingh'] = {
-		label = 'Painting C',
+		label = 'Piękny obraz',
 		weight = 160,
 	},
 	['paintingj'] = {
-		label = 'Painting D',
+		label = 'Portret renesansowy',
 		weight = 160,
 	},
-	-- ['paintingf'] = {
-	-- 	label = 'Painting E',
-	-- 	weight = 160,
-	-- },
-	-- ['paintingg'] = {
-	-- 	label = 'Painting F',
-	-- 	weight = 160,
-	-- },
+	['paintingg'] = {
+		label = 'Dzieło sztuki',
+		weight = 500,
+	},
+	['paintingf'] = {
+		label = 'Obraz akwarelisty',
+		weight = 500,
+	},
 
 	--frp_banktruck
 	['calling_card'] = {
@@ -9694,4 +9666,26 @@ return {
 		stack = false,
 		close = false,
 	},
+
+	--exrp_vehicles
+
+	["no2"] = {
+		label = "Butla NO2",
+		weight = 2000,
+		stack = false,
+		close = true,
+		client = {
+			export = "exrp_vehicles.no2"
+		}
+	},
+
+	["sys_no2"] = {
+		label = "System NO2",
+		weight = 2000,
+		stack = false,
+		close = true,
+		client = {
+			export = "exrp_vehicles.sys_no2"
+		}
+	}
 }
