@@ -11,11 +11,34 @@ OxInventory.__index = OxInventory
 
 ---Open a player's inventory, optionally with a secondary inventory.
 ---@param inv? inventory
+
+local function getInvWeightByStrength(owner)
+
+	local playerStrenght = exports['vms_gym']:getSkill(owner, 'strenght')
+	
+	local minWeight = 25
+    local maxWeight = 40
+    local maxStrength = 100
+
+	if not playerStrenght then 
+		return minWeight
+	end
+
+    local weight = minWeight + ((playerStrenght / maxStrength) * (maxWeight - minWeight))
+
+    return math.ceil(weight)
+end
+
 function OxInventory:openInventory(inv)
 	if not self?.player then return end
 
 	inv = Inventory(inv)
-
+	
+	local weightByStrength = getInvWeightByStrength(self.id) * 1000
+	if inv.maxWeight < weightByStrength then 
+		Inventory.SetMaxWeight(inv, weightByStrength)
+	end
+	
 	if not inv then return end
 
 	inv:set('open', true)
@@ -562,6 +585,7 @@ end, true)
 ---@return OxInventory?
 --- This should only be utilised internally!
 --- To create a stash, please use `exports.ox_inventory:RegisterStash` instead.
+
 function Inventory.Create(id, label, invType, slots, weight, maxWeight, owner, items, groups, dbId)
 	if invType == 'player' and hasActiveInventory(id, owner) then return end
 
