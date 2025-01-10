@@ -1336,7 +1336,7 @@ return {
 			prop = 'burger',
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
-			statusCap = 700000,
+			statusCap = 1000000,
 			hunger = 270000,
 		},
 		degrade = 3 * 24 * 60, -- day * hour * minute
@@ -1350,7 +1350,7 @@ return {
 			prop = 'burger',
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
-			statusCap = 700000,
+			statusCap = 1000000,
 			hunger = 270000,
 		},
 		degrade = 3 * 24 * 60, -- day * hour * minute
