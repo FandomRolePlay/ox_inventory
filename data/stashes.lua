@@ -2221,14 +2221,14 @@ return {
 		groups = {['pops'] = 0}
 	},
 	{
-		coords = vec3(1229.6, -419.75, 67.78),
+		coords = vec3(1230.24, -417.85, 66.78),
 		target = {
-			loc = vec3(1229.6, -419.75, 67.78),
-			length = 0.4,
+			loc = vec3(1230.24, -417.85, 66.78),
+			length = 1.6,
 			width = 0.8,
-			heading = 73,
-			minZ = 66.83,
-			maxZ = 67.83,
+			heading = 345,
+			minZ = 66.63,
+			maxZ = 68.43,
 			label = 'Otwórz Magazyn'
 		},
 		name = 'popsmagazyn',
