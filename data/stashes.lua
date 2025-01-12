@@ -1315,21 +1315,21 @@ return {
 		groups = {['weedshop'] = 1}
 	},
 	{
-		coords = vec3(-1219.68, -1488.06, 4.33),
+		coords = vec3(-1221.82, -1489.57, 4.37),
 		target = {
-			loc = vec3(-1219.68, -1488.06, 4.33),
-			length = 0.75,
-			width = 0.8,
-			heading = 35,
-			minZ = 4.27,
-			maxZ = 4.57,
-			label = 'Lada'
+			loc = vec3(-1221.82, -1489.57, 4.37),
+			length = 0.6,
+			width = 0.6,
+			heading = 305,
+			minZ = 3.57,
+			maxZ = 4.77,
+			label = 'Pudełko'
 		},
 		name = 'weedshoptacka',
 		label = 'Lada',
 		owner = false,
-		slots = 8,
-		weight = 10000,
+		slots = 15,
+		weight = 20000,
 	},
 	{
 		coords = vec3(-1218.2548, -1489.1263, 5.3080),
@@ -2255,6 +2255,23 @@ return {
 		slots = 100,
 		weight = 250000,
 		groups = {['pops'] = 0}
+	},
+	{
+		coords = vec3(1227.13, -418.56, 67.78),
+		target = {
+			loc = vec3(1227.13, -418.56, 67.78),
+			length = 0.8,
+			width = 0.8,
+			heading = 346,
+			minZ = 66.98,
+			maxZ = 68.38,
+			label = 'Tacka'
+		},
+		name = 'pops_tacka',
+		label = 'Tacka',
+		owner = false,
+		slots = 10,
+		weight = 15000,
 	},
 	-- VANILLA
 	{
