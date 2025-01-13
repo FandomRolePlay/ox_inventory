@@ -6584,26 +6584,26 @@ return {
 	},
 	['fruit_table'] = {
 		label = 'Tacka owoców',
-		weight = 400,
+		weight = 1000,
 		client = {
 			anim = 'eating',
 			prop = 'burger',
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
-			statusCap = 700000,
+			statusCap = 600000,
 			hunger = 250000,
 		},
 		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
 		['nuts_bowl'] = {
 			label = 'Miska z orzeszkami',
-			weight = 400,
+			weight = 700,
 			client = {
 				anim = 'eating',
 				prop = 'burger',
 				usetime = 2500,
 				export = 'FandomRP.useStatusItem',
-				statusCap = 700000,
+				statusCap = 600000,
 				hunger = 250000,
 			},
 			degrade = 3 * 24 * 60, -- day * hour * minute
@@ -7831,6 +7831,18 @@ return {
 	["kamikaze"] = {
 		label = "Kamikaze",
 		weight = 50,
+		stack = true,
+		close = true,
+	},
+	["bahama_drink"] = {
+		label = "Bahama Drink",
+		weight = 300,
+		stack = true,
+		close = true,
+	},
+	["adrenaline_shot"] = {
+		label = "Adrenaline Shot",
+		weight = 100,
 		stack = true,
 		close = true,
 	},
