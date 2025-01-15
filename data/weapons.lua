@@ -327,7 +327,8 @@ return {
 		},
 
 		['WEAPON_HEAVYRIFLE'] = {
-			label = 'Ciężki Karabin',
+			label = 'VF SCR-H',
+			description = "Vom Feuer SCR-H",
 			weight = 3300,
 			durability = 0.2,
 			ammoname = 'ammo-rifle'
@@ -380,7 +381,7 @@ return {
 		},
 
 		['WEAPON_HEAVYSNIPER_MK2'] = {
-			label = 'Ciężki Karabin Snajperski MK2',
+			label = 'Feuer M82A3',
 			weight = 14000,
 			durability = 0.3,
 			ammoname = 'ammo-heavysniper'
