@@ -2589,6 +2589,25 @@ return {
     weight = 100000,
     groups = {['lawyer2'] = 0}
 },
+-- barber
+{
+    coords = vec3(-822.79, -180.72, 37.57),
+    target = {
+        loc = vec3(-822.79, -180.72, 37.57),
+        length = 0.4,
+        width = 2.0,
+        heading = 30,
+        minZ = 36.57,
+        maxZ = 37.77,
+        label = 'Otwórz szafke'
+    },
+    name = 'barber_priv',
+    label = 'Szafka Prywatna',
+    owner = true,
+    slots = 10,
+    weight = 15000,
+    groups = {['barber'] = 0}
+},
 
 
 }
