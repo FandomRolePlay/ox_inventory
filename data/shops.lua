@@ -998,10 +998,10 @@ return {
 			{ loc = vec3(1240.19, -3238.98, 6.03), length = 2.1, width = 2.3, heading = 126.6940, minZ = 13.80, maxZ = 14.35, distance = 1.5 },
 		}
 	},
-	Hurtownia2 = {
-		name = 'Hurtownia Spożywcza',
+	HurtowniaB1 = {
+		name = 'Alamo Fruit Market',
 		blip = {
-			id = 50, colour = 24, scale = 0.8 },
+			id = 628, colour = 24, scale = 0.8 },
 			groups = {
 				['foodtruck'] = 0,
 				["coolbeans"] = 0,
@@ -1016,29 +1016,7 @@ return {
 				["kendal"] = 0,
 			},
 		inventory = {
-			{ name = 'water',             price = 1 },
-			{ name = 'water2',             price = 1 },
-			{ name = 'water3',             price = 1 },
-			{ name = 'farming_egg',        price = 1 },
-			{ name = 'flour',              price = 2 },
-			{ name = 'dough',              price = 2 },
-			{ name = 'pasta',              price = 3 },
-			{ name = 'bonding_agent',      price = 1 },
-			{ name = 'gelatine',           price = 1 },
-			{ name = 'sugar',              price = 2 },
-			{ name = 'groundcoffee',       price = 2 },
-			{ name = 'beancoffee',         price = 2 },
-			{ name = 'cc-chinsuko',        price = 1 },
-			{ name = 'cream',              price = 1 },
-			{ name = 'milk',               price = 2 },
-			{ name = 'milk2',              price = 2 },
-			{ name = 'yogurt',             price = 1 },
-			{ name = 'butter',             price = 2 },
-			{ name = 'chocolate2',         price = 1 },
-			{ name = 'wanilla',            price = 1 },
 			{ name = 'farming_pistachio',  price = 1 },
-			{ name = 'oilbottle',          price = 1 },
-			{ name = 'advocat',            price = 2 },
 			{ name = 'farming_strawberry', price = 1 },
 			{ name = 'farming_rasberry',   price = 1 },
 			{ name = 'banana',             price = 1 },
@@ -1056,11 +1034,43 @@ return {
 			{ name = 'farming_tomato',     price = 1 },
 			{ name = 'onion',              price = 1 },
 			{ name = 'potato',             price = 1 },
-			{ name = 'burgerbun',          price = 3 },
-			{ name = 'bread',              price = 2 },
+			{ name = 'tealeaf',            price = 1 },
+		},
+		locations = {
+			vec3(1792.95, 4595.27, 37.68),
+		},
+		targets = {
+			{ loc = vec3(1792.95, 4595.27, 37.18), length = 0.6, width = 3.0, heading = 5.0, minZ = 36.68, maxZ = 38.88, distance = 1.5 },
+		}
+	},
+	HurtowniaB2 = {
+		name = 'Bell Farms',
+		blip = {
+			id = 628, colour = 24, scale = 0.8 },
+			groups = {
+				['foodtruck'] = 0,
+				["coolbeans"] = 0,
+				["tequilala"] = 0,
+				["weedshop"] = 0,
+				["pizza"] = 0,
+				["bahama"] = 0,
+				["ramen"] = 0,
+				["pops"] = 0,
+				["vanilla"] = 0,
+				["lucky"] = 0,
+				["kendal"] = 0,
+			},
+		inventory = {
+			{ name = 'farming_egg',        price = 1 },
+			{ name = 'flour',              price = 2 },
+			{ name = 'dough',              price = 2 },
+			{ name = 'cream',              price = 1 },
+			{ name = 'milk',               price = 2 },
+			{ name = 'milk2',              price = 2 },
+			{ name = 'yogurt',             price = 1 },
+			{ name = 'butter',             price = 2 },
 			{ name = 'farming_cheese',     price = 2 },
 			{ name = 'mozzarella',         price = 2 },
-			{ name = 'wraps',              price = 2 },
 			{ name = 'chickenmeat',        price = 3 },
 			{ name = 'burgerpatty2',       price = 2 },
 			{ name = 'grilled_meat',       price = 4 },
@@ -1071,6 +1081,49 @@ return {
 			{ name = 'ham',                price = 3 },
 			{ name = 'beef',               price = 2 },
 			{ name = 'bacon',              price = 2 },
+		},
+		locations = {
+			vec3(111.76, 6370.62, 31.38),
+		},
+		targets = {
+			{ loc = vec3(111.76, 6370.62, 31.38), length = 0.8, width = 3.2, heading = 35.0, minZ = 30.38, maxZ = 33.38, distance = 1.5 },
+		} 
+	}, 
+		HurtowniaB3 = {
+		name = 'Big Goods',
+		blip = {
+			id = 628, colour = 24, scale = 0.8 },
+			groups = {
+				['foodtruck'] = 0,
+				["coolbeans"] = 0,
+				["tequilala"] = 0,
+				["weedshop"] = 0,
+				["pizza"] = 0,
+				["bahama"] = 0,
+				["ramen"] = 0,
+				["pops"] = 0,
+				["vanilla"] = 0,
+				["lucky"] = 0,
+				["kendal"] = 0,
+			},
+		inventory = {
+			{ name = 'water',             price = 1 },
+			{ name = 'water2',             price = 1 },
+			{ name = 'water3',             price = 1 },
+			{ name = 'pasta',              price = 3 },
+			{ name = 'bonding_agent',      price = 1 },
+			{ name = 'gelatine',           price = 1 },
+			{ name = 'sugar',              price = 2 },
+			{ name = 'groundcoffee',       price = 2 },
+			{ name = 'beancoffee',         price = 2 },
+			{ name = 'cc-chinsuko',        price = 1 },
+			{ name = 'chocolate2',         price = 1 },
+			{ name = 'wanilla',            price = 1 },
+			{ name = 'oilbottle',          price = 1 },
+			{ name = 'advocat',            price = 2 },
+			{ name = 'burgerbun',          price = 3 },
+			{ name = 'bread',              price = 2 },
+			{ name = 'wraps',              price = 2 },
 			{ name = 'bs-box',             price = 1 },
 			{ name = 'pizzabox',           price = 1 },
 			{ name = 'sauce',              price = 1 },
@@ -1083,22 +1136,19 @@ return {
 			{ name = 'curaco',             price = 5 },
 			{ name = 'larios',             price = 5 },
 			{ name = 'syrup',              price = 2 },
-			{ name = 'tealeaf',            price = 1 },
 			{ name = 'shrims',             price = 3 },
 			{ name = 'tofu',               price = 2 },
 			{ name = 'nori',               price = 2 },
-			{ name = 'rice',               price = 2 },
+			{ name = 'rice',               price = 2 }, 
 			{ name = 'fishs',              price = 3 },
 		},
 		locations = {
-			vec3(-1223.07, -1484.14, 4.35),
-			vec3(413.0, 6538.75, 27.72),
+			vec3(-272.71, -2495.97, 7.3),
 		},
 		targets = {
-			{ loc = vec3(-1223.07, -1484.14, 4.35), length = 0.9, width = 0.9, heading = 35.0, minZ = 3.57, maxZ = 4.36, distance = 1.5 },
-			{ loc = vec3(413.0, 6538.75, 26.5), length = 0.4, width = 1.4, heading = 354.0, minZ = 26.72, maxZ = 29.32, distance = 1.5 },
-		}
-	},
+			{ loc = vec3(-272.71, -2495.97, 6.8), length = 1.2, width = 0.6, heading = 319.0, minZ = 6.3, maxZ = 8.7, distance = 1.5 },
+		} 
+	}, 
 	Hurtownia3 = {
 		name = 'Hurtownia Elektronika',
 		blip = {
@@ -1321,10 +1371,10 @@ return {
 			{ name = 'weed_dryer',       price = 150, count = 3 },
 		},
 		locations = {
-			vec3(476.78, -1397.71, 31.04)
+			vec3(-69.52, 6384.92, 31.49)
 		},
 		targets = {
-			{ loc = vec3(476.78, -1397.71, 31.04), length = 1.4, width = 1.0, heading = 0, minZ = 30.34, maxZ = 31.74, distance = 1.5 },
+			{ loc = vec3(-69.52, 6384.92, 31.0), length = 2.6, width = 1.0, heading = 315, minZ = 30.49, maxZ = 32.89, distance = 1.5 },
 		}
 	},
 	Hurtownia9 = {
@@ -1581,6 +1631,7 @@ return {
 			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
 			{ name = 'hack_laptop',   price = 200, count = 10, currency = 'black_money' },
 			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money'},
+			{ name = 'plate_taker',      price = 1250, count = 2, currency = 'black_money'},
 		},
 		locations = {
 			vec3(-1375.61, -336.372, 38.8921)
@@ -1595,6 +1646,7 @@ return {
 			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
 			{ name = 'hack_laptop',   price = 200, count = 10, currency = 'black_money' },
 			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money' },
+			{ name = 'plate_taker',      price = 1250, count = 2, currency = 'black_money'},
 		},
 		locations = {
 			vec3(-539.40, -1638.21, 20.21)
@@ -1609,6 +1661,7 @@ return {
 			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
 			{ name = 'hack_laptop',   price = 200, count = 10, currency = 'black_money' },
 			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money' },
+			{ name = 'plate_taker',      price = 1250, count = 2, currency = 'black_money'},
 		},
 		locations = {
 			vec3(466.13, -709.56, 27.60)
@@ -1623,6 +1676,7 @@ return {
 			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
 			{ name = 'hack_laptop',   price = 200, count = 10, currency = 'black_money' },
 			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money' },
+			{ name = 'plate_taker',      price = 1250, count = 2, currency = 'black_money'},
 		},
 		locations = {
 			vec3(1597.70, 3573.28, 38.94)
@@ -1637,6 +1691,7 @@ return {
 			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
 			{ name = 'hack_laptop',   price = 200, count = 10, currency = 'black_money' },
 			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money'},
+			{ name = 'plate_taker',      price = 1250, count = 2, currency = 'black_money'},
 		},
 		locations = {
 			vec3(281.11, 6789.36, 16.33)
@@ -1713,6 +1768,8 @@ return {
 			-- { name = 'minismgset',                price = 3400, count = 5 }, brak itema
 			{ name = 'sawnoffshotgun',            price = 6150, count = 5 },
 			{ name = 'vanbag',                 	  price = 100, count = 5 },
+			{ name = 'plate_taker',      		  price = 1250, count = 2 },
+			{ name = 'plate_changer',      		  price = 1750, count = 2 },
 		},
 		locations = {
 			vec3(2864.34, 1518.22, 25.23)
@@ -1773,6 +1830,8 @@ return {
 			-- { name = 'minismgset',                price = 3400, count = 5 }, brak itema
 			{ name = 'sawnoffshotgun',            price = 6150, count = 5 },
 			{ name = 'vanbag',                    price = 100, count = 5 },
+			{ name = 'plate_taker',      		  price = 1250, count = 2 },
+			{ name = 'plate_changer',      		  price = 1750, count = 2 },
 		},
 		locations = {
 			vec3(2918.52, 4630.11, 49.24)
@@ -1833,6 +1892,8 @@ return {
 			-- { name = 'minismgset',                price = 3400, count = 5 }, brak itema
 			-- { name = 'sawnoffshotgun',            price = 6150, count = 5 },
 			{ name = 'vanbag',                    price = 100, count = 5 },
+			{ name = 'plate_taker',      		  price = 1250, count = 2 },
+			{ name = 'plate_changer',      		  price = 1750, count = 2 },
 		},
 		locations = {
 			vec3(-249.77, -2432.55, 6.67)
