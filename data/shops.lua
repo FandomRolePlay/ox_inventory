@@ -1631,7 +1631,7 @@ return {
 			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
 			{ name = 'hack_laptop',   price = 200, count = 10, currency = 'black_money' },
 			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money'},
-			{ name = 'plate_taker',      price = 1250, count = 2, currency = 'black_money'},
+			--{ name = 'plate_taker',      price = 1250, count = 2, currency = 'black_money'},
 		},
 		locations = {
 			vec3(-1375.61, -336.372, 38.8921)
@@ -1646,7 +1646,7 @@ return {
 			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
 			{ name = 'hack_laptop',   price = 200, count = 10, currency = 'black_money' },
 			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money' },
-			{ name = 'plate_taker',      price = 1250, count = 2, currency = 'black_money'},
+			--{ name = 'plate_taker',      price = 1250, count = 2, currency = 'black_money'},
 		},
 		locations = {
 			vec3(-539.40, -1638.21, 20.21)
@@ -1661,7 +1661,7 @@ return {
 			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
 			{ name = 'hack_laptop',   price = 200, count = 10, currency = 'black_money' },
 			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money' },
-			{ name = 'plate_taker',      price = 1250, count = 2, currency = 'black_money'},
+			--{ name = 'plate_taker',      price = 1250, count = 2, currency = 'black_money'},
 		},
 		locations = {
 			vec3(466.13, -709.56, 27.60)
@@ -1676,7 +1676,7 @@ return {
 			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
 			{ name = 'hack_laptop',   price = 200, count = 10, currency = 'black_money' },
 			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money' },
-			{ name = 'plate_taker',      price = 1250, count = 2, currency = 'black_money'},
+			--{ name = 'plate_taker',      price = 1250, count = 2, currency = 'black_money'},
 		},
 		locations = {
 			vec3(1597.70, 3573.28, 38.94)
@@ -1691,7 +1691,7 @@ return {
 			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
 			{ name = 'hack_laptop',   price = 200, count = 10, currency = 'black_money' },
 			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money'},
-			{ name = 'plate_taker',      price = 1250, count = 2, currency = 'black_money'},
+			--{ name = 'plate_taker',      price = 1250, count = 2, currency = 'black_money'},
 		},
 		locations = {
 			vec3(281.11, 6789.36, 16.33)
@@ -1768,8 +1768,8 @@ return {
 			-- { name = 'minismgset',                price = 3400, count = 5 }, brak itema
 			{ name = 'sawnoffshotgun',            price = 6150, count = 5 },
 			{ name = 'vanbag',                 	  price = 100, count = 5 },
-			{ name = 'plate_taker',      		  price = 1250, count = 2 },
-			{ name = 'plate_changer',      		  price = 1750, count = 2 },
+			--{ name = 'plate_taker',      		  price = 1250, count = 2 },
+			--{ name = 'plate_changer',      		  price = 1750, count = 2 },
 		},
 		locations = {
 			vec3(2864.34, 1518.22, 25.23)
@@ -1830,8 +1830,8 @@ return {
 			-- { name = 'minismgset',                price = 3400, count = 5 }, brak itema
 			{ name = 'sawnoffshotgun',            price = 6150, count = 5 },
 			{ name = 'vanbag',                    price = 100, count = 5 },
-			{ name = 'plate_taker',      		  price = 1250, count = 2 },
-			{ name = 'plate_changer',      		  price = 1750, count = 2 },
+			--{ name = 'plate_taker',      		  price = 1250, count = 2 },
+			--{ name = 'plate_changer',      		  price = 1750, count = 2 },
 		},
 		locations = {
 			vec3(2918.52, 4630.11, 49.24)
@@ -1892,8 +1892,8 @@ return {
 			-- { name = 'minismgset',                price = 3400, count = 5 }, brak itema
 			-- { name = 'sawnoffshotgun',            price = 6150, count = 5 },
 			{ name = 'vanbag',                    price = 100, count = 5 },
-			{ name = 'plate_taker',      		  price = 1250, count = 2 },
-			{ name = 'plate_changer',      		  price = 1750, count = 2 },
+			--{ name = 'plate_taker',      		  price = 1250, count = 2 },
+			--{ name = 'plate_changer',      		  price = 1750, count = 2 },
 		},
 		locations = {
 			vec3(-249.77, -2432.55, 6.67)
