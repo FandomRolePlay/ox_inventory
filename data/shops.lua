@@ -412,6 +412,24 @@ return {
 		},
 	},
 
+	PrisonShop = {
+		name = 'Sklepik',
+		inventory = {
+			{ name = 'sprunk',           price = 18,  count = 10 },
+			{ name = 'water2',           price = 15,  count = 20 },
+			{ name = 'chipssalt',        price = 10,  count = 20 },
+			{ name = 'candybar',         price = 12, count = 10 },
+			{ name = 'paperbag',         price = 5,    count = 20 },
+			{ name = 'speaker',          price = 650, metadata = {typeId = 7, label = 'Boombox', description = 'Nowoczesny boombox, idealny na imprezy!', imageurl = 'https://r2.fivemanage.com/pub/ue292lurwzs8.png'} },
+		},
+		locations = {
+			vec3(1717.08, 2454.34, 45.67)
+		},
+		targets = {
+			{ loc = vec3(1717.08, 2454.34, 45.67), length = 0.8, width = 0.8, heading = 31, minZ = 31.57, maxZ = 32.17, distance = 1.5 },
+		},
+	},
+
 	PROBikes = {
 		name = 'PRO Bikes',
 		blip = {
