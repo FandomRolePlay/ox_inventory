@@ -5459,6 +5459,12 @@ return {
 		stack = false,
 		description = ""
 	},
+	["melee_table1"] = {
+		label = 'Skrawarka',
+		weight = 13000,
+		stack = false,
+		description = ""
+	},
 
 	["weapon1_manual"] = {
 		label = 'Podręcznik Rusznikarski',
@@ -5479,6 +5485,19 @@ return {
 		weight = 150,
 		stack = false,
 		description = "Podręcznik Rusznikarski część III"
+	},
+
+	["melee1_manual"] = {
+		label = 'Podręcznik broni białej',
+		weight = 150,
+		stack = false,
+		description = "Podręcznik broni białej część I"
+	},
+	["melee2_manual"] = {
+		label = 'Podręcznik broni białej',
+		weight = 150,
+		stack = false,
+		description = "Podręcznik broni białej część II"
 	},
 
 	["blueprint_pistol"] = {
@@ -6705,8 +6724,8 @@ return {
 	},
 	["beer_lime"] = {
 		label = "Limonkowe Piwo",
-		weight = 500,
 		stack = true,
+		weight = 500,
 		close = true,
 	},
 	["beer_pear"] = {
@@ -8035,6 +8054,12 @@ return {
 		stack = true,
 		close = false,
 	},
+	["melee_parts"] = {
+		label = "Części do broni białej",
+		weight = 500,
+		stack = true,
+		close = false,
+	},
 	["keyhanging"] = {
 		label = "Etui na klucze",
 		weight = 30,
@@ -8514,6 +8539,16 @@ return {
 			export = 'frp_badge.badge_doc'
 		}
 	},
+	['badge_weazel'] = {
+		label = 'Legitymacja WN',
+		stack = false,
+		weight = 50,
+		close = true,
+		consume = 0,
+		server = {
+			export = 'frp_badge.badge_weazel'
+		}
+	},
 
 	--- Aparat
 	["tripolar_camera"] = {
@@ -8948,7 +8983,125 @@ return {
 		stack = true,
 		close = true,
 	},
-
+	-- frp_gold
+	["bowl"] = {
+		label = 'Miska do płukania',
+		weight = 600,
+		stack = false,
+		close = true,
+		decay = true,
+		consume = 0.02,
+		client = {
+			export = 'frp_gold.bowl' 
+		},	
+	},
+	["dirty_stone"] = {
+		label = "Brudny kamień",
+		weight = 300,
+		stack = true,
+		close = true,
+		decay = true,
+		consume = 0,
+		client = {
+			export = 'frp_gold.dirty_stone'
+		}
+	},
+	["small_gnugget"] = {
+		label = "Mały samorodek złota",
+		stack = true,
+		close = true,
+		weight = 5,
+	},
+	["medium_gnugget"] = {
+		label = "Samorodek złota",
+		stack = true,
+		close = true,
+		weight = 15,
+	},
+	["big_gnugget"] = {
+		label = "Duży samorodek złota",
+		stack = true,
+		close = true,
+		weight = 50,
+	},
+	["msmall_snugget"] = {
+		label = "Mały samorodek srebra",
+		stack = true,
+		close = true,
+		weight = 30,
+	},
+	["medium_snugget"] = {
+		label = "Samorodek srebra",
+		stack = true,
+		close = true,
+		weight = 15,
+	},
+	["big_snugget"] = {
+		label = "Duży samorodek srebra",
+		stack = true,
+		close = true,
+		weight = 30,
+	},
+	["raw_ruby"] = {
+		label = "Nieoszlifowany rubin",
+		stack = true,
+		close = true,
+		weight = 150,
+	},
+	["ruby"] = {
+		label = "Rubin",
+		stack = true,
+		close = true,
+		weight = 80,
+	},
+	["raw_emerald"] = {
+		label = "Nieoszlifowany szmaragd",
+		stack = true,
+		close = true,
+		weight = 200,
+	},
+	["emerald"] = {
+		label = "Szmaragd",
+		stack = true,
+		close = true,
+		weight = 100,
+	},
+	["raw_saphire"] = {
+		label = "Nieoszlifowany szafir",
+		stack = true,
+		close = true,
+		weight = 180,
+	},
+	["saphire"] = {
+		label = "Szafir",
+		stack = true,
+		close = true,
+		weight = 90,
+	},
+	["raw_diamond"] = {
+		label = "Nieoszlifowany diament",
+		stack = true,
+		close = true,
+		weight = 90,
+	},
+	["gdiamond"] = { -- wagi dac dla itemow
+		label = "Diament",
+		stack = true,
+		close = true,
+		weight = 70,
+	},
+	["gold_bar"] = {
+		label = "Sztabka złota",
+		stack = true,
+		close = true,
+		weight = 2000,
+	},
+	["silver_bar"] = {
+		label = "Sztabka srebra",
+		stack = true,
+		close = true,
+		weight = 2000,
+	},
 	--ars_ambulancejob
 	['medicalbag'] = {
 		label = 'Torba medyczna',
@@ -9681,23 +9834,102 @@ return {
 
 	--exrp_vehicles
 
+	--exrp_vehicle:nitro
 	["no2"] = {
-		label = "Butla NO2",
-		weight = 2000,
+		label = "Butla NO2 ",
+		weight = 10000,
+		stack = false,
+		close = true,
+		consume = 1,
+		description = "Butla NO2 10kg",
+		client = {
+			image = "no2.png",
+			usetime = 20000,
+			export = "exrp_vehicles.no2",
+			disable = {
+				move = true,
+				car = true
+			
+			},
+			anim = { dict = 'mp_intro_seq@', clip = 'mp_mech_fix' },
+			prop = {
+				model = 'prop_tool_blowtorch',
+				pos = { x = 0.04, y = -0.08, z = 0.05},
+				rot = { x = -85.0, y = 5.0, z = -5.0}
+			},
+		},
+	},
+	["sys_no2"] = {
+		label = "System NO2 ",
+		weight = 5000,
+		stack = false,
+		close = true,
+		consume = 1,
+		description = "Zestaw montażowy Systemu NO2",
+		client = {
+			image = "sys_no2.png", --zmienic
+			usetime = 5000,
+			export = "exrp_vehicles.sys_no2",
+			disable = {
+				move = true,
+				car = true
+			},
+			anim = { dict = 'mp_intro_seq@', clip = 'mp_mech_fix' },
+			prop = {
+				model = 'prop_tool_blowtorch',
+				pos = { x = 0.04, y = -0.08, z = 0.05},
+				rot = { x = -85.0, y = 5.0, z = -5.0}
+			},
+		},
+	},
+
+	--frp_parkings
+	["plate_taker"] = {
+		label = "Narzędzia do ściągania rejestracji",
+		weight = 5000,
 		stack = false,
 		close = true,
 		client = {
-			export = "exrp_vehicles.no2"
+			export = "frp_parkings.changeVehiclePlate",
+			usetime = 15000,
+			disable = {
+				move = true,
+				car = true
+			},
+			anim = { dict = 'mp_intro_seq@', clip = 'mp_mech_fix' },
 		}
 	},
 
-	["sys_no2"] = {
-		label = "System NO2",
-		weight = 2000,
+	["plate_changer"] = {
+		label = "Narzędzia do zmieniania rejestracji",
+		weight = 5000,
 		stack = false,
 		close = true,
 		client = {
-			export = "exrp_vehicles.sys_no2"
+			export = "frp_parkings.changeVehiclePlate",
+			usetime = 20000,
+			disable = {
+				move = true,
+				car = true
+			},
+			anim = { dict = 'mp_intro_seq@', clip = 'mp_mech_fix' },
 		}
-	}
+	},
+
+	["adv_plate_changer"] = {
+		label = "Narzędzia do zmieniania rejestracji (zaawansowane)",
+		weight = 5000,
+		stack = false,
+		close = true,
+		client = {
+			export = "frp_parkings.changeVehiclePlate",
+			usetime = 25000,
+			disable = {
+				move = true,
+				car = true
+			},
+			anim = { dict = 'mp_intro_seq@', clip = 'mp_mech_fix' },
+		}
+	},
+
 }
