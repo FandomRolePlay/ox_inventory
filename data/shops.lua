@@ -430,6 +430,21 @@ return {
 		},
 	},
 
+	PrisonCanteen = {
+		name = 'Kantyna Więzienna',
+		inventory = {
+			{ name = 'water',            price = 0,  count = 50 },
+			{ name = 'tea',              price = 0, count = 50 },
+			{ name = 'sandwich',         price = 0,  count = 50 },
+		},
+		locations = {
+			vec3(1740.87, 2587.71, 45.63)
+		},
+		targets = {
+			{ loc = vec3(1740.87, 2587.71, 45.63), length = 0.8, width = 0.8, heading = 31, minZ = 31.57, maxZ = 32.17, distance = 1.5 },
+		},
+	},
+
 	PROBikes = {
 		name = 'PRO Bikes',
 		blip = {
