@@ -1047,6 +1047,7 @@ return {
 				["vanilla"] = 0,
 				["lucky"] = 0,
 				["kendal"] = 0,
+				["doc"] = 1,
 			},
 		inventory = {
 			{ name = 'farming_pistachio',  price = 1 },
@@ -1092,6 +1093,7 @@ return {
 				["vanilla"] = 0,
 				["lucky"] = 0,
 				["kendal"] = 0,
+				["doc"] = 1,
 			},
 		inventory = {
 			{ name = 'farming_egg',        price = 1 },
@@ -1138,6 +1140,7 @@ return {
 				["vanilla"] = 0,
 				["lucky"] = 0,
 				["kendal"] = 0,
+				["doc"] = 1,
 			},
 		inventory = {
 			{ name = 'water',             price = 1 },
