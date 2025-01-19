@@ -1668,6 +1668,7 @@ return {
 			{ name = 'hack_laptop',   price = 200, count = 10, currency = 'black_money' },
 			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money'},
 			--{ name = 'plate_taker',      price = 1250, count = 2, currency = 'black_money'},
+			--{ name = 'plate_taker',      price = 1250, count = 2, currency = 'black_money'},
 		},
 		locations = {
 			vec3(-1375.61, -336.372, 38.8921)
