@@ -433,9 +433,10 @@ return {
 	PrisonCanteen = {
 		name = 'Kantyna Więzienna',
 		inventory = {
-			{ name = 'water',            price = 0,  count = 50 },
-			{ name = 'tea',              price = 0, count = 50 },
-			{ name = 'sandwich',         price = 0,  count = 50 },
+			{ name = 'water2',            price = 0 },
+			{ name = 'prisontea',         price = 0,  count = 100 },
+			{ name = 'prisonsandwich',    price = 0 },
+			{ name = 'prisonhotdog',      price = 0,  count = 50 },
 		},
 		locations = {
 			vec3(1740.87, 2587.71, 45.63)

@@ -1736,6 +1736,51 @@ return {
         },
 		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
+
+--PRISON CANTEEN
+	['prisonsandwich'] = {
+		label = 'Kanapka',
+		weight = 180,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 250000,
+		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
+	},
+	
+	['prisonhotdog'] = {
+		label = 'Hot dog',
+		weight = 250,
+		client = {
+			anim = 'eating',
+			prop = 'prop_cs_hotdog_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 350000,
+		},
+		degrade = 1 * 24 * 60, -- day * hour * minute		
+	},
+
+	["prisontea"] = {
+		label = "Herbata",
+		weight = 200,
+		stack = true,
+		close = true,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_tumbler_01b`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 400000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute	
+	},
 -- sklepy spożyw
 ['hotdog'] = {
 		label = 'Hot dog',
