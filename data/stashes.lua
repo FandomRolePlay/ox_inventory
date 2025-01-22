@@ -847,7 +847,7 @@ return {
 		label = 'Magazyn',
 		owner = false,
 		slots = 200,
-		weight = 500000,
+		weight = 3000000,
 		groups = {['browary'] = 1}
 	},
 	{
@@ -865,7 +865,7 @@ return {
 		label = 'Magazyn',
 		owner = false,
 		slots = 200,
-		weight = 1000000,
+		weight = 10000000,
 		groups = {['browary'] = 1}
 	},
 
