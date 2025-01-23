@@ -20,6 +20,23 @@ return {
 		groups = shared.police
 	},
 	{
+		coords = vec3(621.17, 7.92, 83.0),
+		target = {
+			loc = vec3(621.17, 7.92, 83.0),
+			length = 1.0,
+			width = 1.0,
+			heading = 340,
+			minZ = 83.24,
+			maxZ = 84.44,
+			label = 'Lada'
+		},
+		name = 'PDlada',
+		label = 'Lada',
+		owner = false,
+		slots = 15,
+		weight = 25000,
+	},
+	{
 		coords = vec3(606.19, 7.96, 87.8),
 		target = {
 			loc = vec3(606.19, 7.96, 87.8),
@@ -1407,6 +1424,25 @@ return {
 		weight = 15000,
 		groups = {['hunting'] = 0}
 	},
+
+	{
+		coords = vec3(-768.14, 5600.36, 33.0),
+		target = {
+			loc = vec3(-768.14, 5600.36, 33.0),
+			length = 1.0,
+			width = 0.8,
+			heading = 345,
+			minZ = 33.35,
+  			maxZ = 34.35,
+			label = 'Lada'
+		},
+		name = 'huntinglada',
+		label = 'Lada',
+		owner = false,
+		slots = 15,
+		weight = 25000,
+	},
+	
 	{
 		coords = vec3(-776.86, 5594.82, 33.75),
 		target = {
