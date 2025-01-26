@@ -659,6 +659,42 @@ return {
 		weight = 25000,
 		groups = nil
 	},
+	{
+		coords = vec3(1712.58, 2450.43, 45.60),
+		target = {
+			loc = vec3(1712.58, 2450.43, 45.60),
+			length = 0.8,
+			width = 2.4,
+			heading = 0,
+			minZ = 44.89,
+			maxZ = 46.59,
+			label = 'Otwórz skrytkę'
+		},
+		name = 'docprisonpriv',
+		label = 'Skrytka prywatna',
+		owner = true,
+		slots = 20,
+		weight = 25000,
+		groups = nil
+	},
+	{
+		coords = vec3(1693.25, 2443.06, 45.81),
+		target = {
+			loc = vec3(1693.25, 2443.06, 45.81),
+			length = 0.8,
+			width = 2.4,
+			heading = 0,
+			minZ = 44.89,
+			maxZ = 46.59,
+			label = 'Otwórz skrytkę'
+		},
+		name = 'docprisonpriv2',
+		label = 'Skrytka prywatna',
+		owner = true,
+		slots = 20,
+		weight = 25000,
+		groups = nil
+	},
 	
 	-- BURGERSHOT
 	{
