@@ -293,6 +293,28 @@ return {
 			durability = 0.1,
 		},
 
+		['WEAPON_COLBATON'] = {
+			label = 'Pałka teleskopowa',
+			weight = 400,
+			durability = 0.05,
+			anim = { 'anim@melee@colbaton@holster', 'unholster', 200, 'anim@melee@colbaton@holster', 'holster', 600 },
+
+		},
+
+		['WEAPON_KATANA'] = {
+			label = 'Katana',
+			weight = 400,
+			durability = 0.05,
+
+		},
+
+		['WEAPON_SLEDGEHAMMER'] = {
+			label = 'Młot',
+			weight = 4000,
+			durability = 0.05,
+
+		},
+
 		['WEAPON_GRENADE'] = {
 			label = 'Granat',
 			weight = 400,
