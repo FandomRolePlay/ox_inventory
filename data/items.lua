@@ -4995,6 +4995,97 @@ return {
 	},
 	
 	-- propy biuro koniec
+	-- itemki dla frakcji od szoriego
+    ["accidentsign"] = {
+        label = "Znak Wypadek",
+        weight = 200,
+        stack = true,
+        close = true,
+        client = {
+            image = "prop_consign_01.png"
+        }
+    },
+    ["accidentsign2"] = {
+        label = "Znak Wypadek 2",
+        weight = 200,
+        stack = true,
+        close = true,
+        client = {
+            image = "prop_consign_02a.png"
+        }
+    },
+    ["parawan"] = {
+        label = "Parawan",
+        weight = 200,
+        stack = true,
+        close = true,
+        client = {
+            image = "prop_crim_02.png"
+        }
+    },
+    ["stopsign"] = {
+        label = "Znak STOP",
+        weight = 200,
+        stack = true,
+        close = true,
+        client = {
+            image = "prop_sign_road_01a.png"
+        }
+    },
+    ["noparksign"] = {
+        label = "Znak NOPARKING",
+        weight = 200,
+        stack = true,
+        close = true,
+        client = {
+            image = "prop_sign_road_04a.png"
+        }
+    },
+    ["arrowsign"] = {
+        label = "Znak STRZAŁKA P",
+        weight = 200,
+        stack = true,
+        close = true,
+        client = {
+            image = "prop_sign_road_09d.png"
+        }
+    },
+    ["arrowsign2"] = {
+        label = "Znak STRZAŁKA L",
+        weight = 200,
+        stack = true,
+        close = true,
+        client = {
+            image = "prop_sign_road_09c.png"
+        }
+    },
+    ["csutent"] = {
+        label = "Namiot CSU/CID",
+        weight = 200,
+        stack = true,
+        close = true,
+        client = {
+            image = "prop_gazebo_02.png"
+        }
+    },
+    ["csutable"] = {
+        label = "Stolik CSU/CID",
+        weight = 200,
+        stack = true,
+        close = true,
+        client = {
+            image = "prop_ven_market_table1.png"
+        }
+    },
+    ["csuchair"] = {
+        label = "Krzesełko CSU/CID",
+        weight = 200,
+        stack = true,
+        close = true,
+        client = {
+            image = "prop_skid_chair_02.png"
+        }
+    },
 
 	["printerdocument"] = {
 		label = "Wydrukowany dokument",
