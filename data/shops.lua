@@ -1769,6 +1769,9 @@ return {
 
 	SupplierShop1 = { -- Dark Phoenix
 		name = 'Darkweb',
+		groups = {
+			['supplier'] = 0
+		},
 		inventory = {
 			{ name = 'peyote',                    price = 55,  count = 60 },
 			{ name = 'magicmushroom',             price = 55,  count = 60 },
@@ -1831,6 +1834,9 @@ return {
 
 	SupplierShop2 = { -- Drill Trailers
 		name = 'Darkweb',
+		groups = {
+			['supplier'] = 0
+		},
 		inventory = {
 			{ name = 'peyote',                    price = 55,  count = 60 },
 			{ name = 'magicmushroom',             price = 55,  count = 60 },
@@ -1893,6 +1899,9 @@ return {
 
 	SupplierShop3 = { -- Iron Veil
 		name = 'Darkweb',
+		groups = {
+			['supplier'] = 0
+		},
 		inventory = {
 			{ name = 'peyote',                    price = 55,  count = 60 },
 			{ name = 'magicmushroom',             price = 55,  count = 60 },
