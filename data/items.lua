@@ -5020,7 +5020,7 @@ return {
         stack = true,
         close = true,
         client = {
-            image = "prop_crim_02.png"
+            image = "prop_scrim_02.png"
         }
     },
     ["stopsign"] = {
