@@ -1229,6 +1229,25 @@ return {
 			{ loc = vec3(-272.71, -2495.97, 6.8), length = 1.2, width = 0.6, heading = 319.0, minZ = 6.3, maxZ = 8.7, distance = 1.5 },
 		} 
 	}, 
+
+	HurtowniaFish = {
+		name = 'Fishing Corporation',
+		blip = {
+			id = 628, colour = 24, scale = 0.8 },
+			groups = {
+				['hunting'] = 0,
+				
+			},
+		inventory = {
+			{ name = 'fishs',              price = 3 },	
+		},
+		locations = {
+			vec3(31.1688, 6447.6509, 31.4253),
+		},
+		targets = {
+			{ loc = vec3(31.1688, 6447.6509, 1.0171), length = 0.1, width = 0.1, heading = 319.0, minZ = 1.0, maxZ = 1.0, distance = 0.1 },
+		} 
+	}, 
 	Hurtownia3 = {
 		name = 'Hurtownia Elektronika',
 		blip = {
@@ -1536,6 +1555,9 @@ return {
 		{ name = 'WEAPON_NIGHTSTICK',       price = 0, count = 100 },
 		{ name = 'WEAPON_SWITCHBLADE',      price = 0, count = 100 },
 		{ name = 'WEAPON_WRENCH',           price = 0, count = 100 },
+		{ name = 'WEAPON_CONBATON',           price = 0, count = 100 },
+		{ name = 'WEAPON_SLEDGEHAMMER',           price = 0, count = 100 },
+		{ name = 'WEAPON_KATANA',           price = 0, count = 100 },
 		{ name = 'ammo-9-box',              price = 0, count = 100 },
 		{ name = 'ammo-45-box',             price = 0, count = 100 },
 		{ name = 'ammo-38-box',             price = 0, count = 100 },
@@ -1590,6 +1612,11 @@ return {
 		{ name = 'chem_table',              price = 0, count = 100 },
 		{ name = 'crack_table',              price = 0, count = 100 },
 		{ name = 'weed_dryer',              price = 0, count = 100 },
+		{ name = 'heroin_table',              price = 0, count = 100 },
+		{ name = 'percocet_table',              price = 0, count = 100 },
+		{ name = 'weapon1_table',              price = 0, count = 100 },
+		{ name = 'melee_table1',              price = 0, count = 100 },
+		{ name = 'melee_parts',              price = 0, count = 100 },
 	},
 		locations = {
 			vec3(-1379.2985, -471.3574, 78.2001)
