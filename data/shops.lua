@@ -1555,7 +1555,7 @@ return {
 		{ name = 'WEAPON_NIGHTSTICK',       price = 0, count = 100 },
 		{ name = 'WEAPON_SWITCHBLADE',      price = 0, count = 100 },
 		{ name = 'WEAPON_WRENCH',           price = 0, count = 100 },
-		{ name = 'WEAPON_CONBATON',           price = 0, count = 100 },
+		{ name = 'WEAPON_COLBATON',           price = 0, count = 100 },
 		{ name = 'WEAPON_SLEDGEHAMMER',           price = 0, count = 100 },
 		{ name = 'WEAPON_KATANA',           price = 0, count = 100 },
 		{ name = 'ammo-9-box',              price = 0, count = 100 },
