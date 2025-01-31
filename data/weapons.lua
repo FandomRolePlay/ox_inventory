@@ -353,7 +353,7 @@ return {
 			description = "Vom Feuer SCR-H",
 			weight = 3300,
 			durability = 0.2,
-			ammoname = 'ammo-rifle'
+			ammoname = 'ammo-rifle2'
 		},
 
 		['WEAPON_HAZARDCAN'] = {
