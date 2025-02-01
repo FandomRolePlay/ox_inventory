@@ -55,7 +55,7 @@ return {
 		[15] = {5, 20000},	-- Helicopter
 		[16] = {5, 20000},	-- Plane
 		[17] = {5, 8000},		-- Service
-		[18] = {5, 6000},		-- Emergency
+		[18] = {5, 8000},		-- Emergency
 		[19] = {5, 8000},		-- Military
 		[20] = {10, 11000},		-- Commercial (trucks)
 		models = {
@@ -65,6 +65,10 @@ return {
 
 			[`xa21`] = {11, 88000},
 			[`dloader`] = {60, 200000},
+			[`2vd_bmaverick`] = {15, 80000},
+			[`annm2`] = {15, 80000},
+			[`valkyrie3`] = {15, 80000},
+			[`2vd_gsty151`] = {40, 600000},
 		}
 	},
 
@@ -86,7 +90,7 @@ return {
 		-- [15] -- Helicopter
 		-- [16] -- Plane
 		[17] = {40, 60000},	-- Service
-		[18] = {35, 50000},	-- Emergency
+		[18] = {35, 80000},	-- Emergency
 		[19] = {40, 60000},	-- Military
 		[20] = {60, 80000},	-- Commercial
 		models = {
