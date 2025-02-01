@@ -69,6 +69,7 @@ return {
 			[`annm2`] = {15, 80000},
 			[`valkyrie3`] = {15, 80000},
 			[`2vd_gsty151`] = {40, 600000},
+			[`bcsowesternwinter`] = {10, 20000},
 		}
 	},
 
