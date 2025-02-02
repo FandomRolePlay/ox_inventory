@@ -945,7 +945,7 @@ return {
 
 	--Pops Diner
 	['popsbekon'] = {
-		label = 'Taven Bekon',
+		label = 'Tavern Bekon',
 		description = "Smażone jajka ze słonym bekonem.",
 		weight = 400,
 		client = {
@@ -960,7 +960,7 @@ return {
 	},
 
 	['popsryba'] = {
-		label = 'Taven Fish',
+		label = 'Tavern Fish',
 		description = "Świeża ryba z chrupiącymi frytkami.",
 		weight = 500,
 		client = {
@@ -975,7 +975,7 @@ return {
 	},
 
 	['popskielbasa'] = {
-		label = 'Taven Sausage',
+		label = 'Tavern Sausage',
 		description = "Smażone jajka z kiełbaską.",
 		weight = 400,
 		client = {
@@ -990,7 +990,7 @@ return {
 	},
 
 	['popsnuggetsy'] = {
-		label = 'Taven Nuggets',
+		label = 'Tavern Nuggets',
 		description = "Kawałki kurczaka ze złocistymi frytkami.",
 		weight = 400,
 		client = {
@@ -1005,7 +1005,7 @@ return {
 	},
 
 	['popsser'] = {
-		label = 'Taven Cheese',
+		label = 'Tavern Cheese',
 		description = "Ser w panierce i frytki.",
 		weight = 400,
 		client = {
@@ -1020,7 +1020,7 @@ return {
 	},
 
 	['popskurczak'] = {
-		label = 'Taven Chicken',
+		label = 'Tavern Chicken',
 		description = "Kanapka z grillowanym kurczakiem, jajkiem i bekonem.",
 		weight = 400,
 		client = {
@@ -1035,7 +1035,7 @@ return {
 	},
 
 	['popswolowina'] = {
-		label = 'Taven Beef',
+		label = 'Tavern Beef',
 		description = "Kanapka z szarpaną wołowiną.",
 		weight = 400,
 		client = {
@@ -1050,7 +1050,7 @@ return {
 	},
 
 	['popswege'] = {
-		label = 'Taven Wege',
+		label = 'Tavern Wege',
 		description = "Kanapka wegetariańska.",
 		weight = 400,
 		client = {
@@ -1065,7 +1065,7 @@ return {
 	},
 
 	['popsstek'] = {
-		label = 'Taven Steak',
+		label = 'Tavern Steak',
 		description = "Soczysy stek z dodatkami.",
 		weight = 400,
 		client = {
@@ -1080,7 +1080,7 @@ return {
 	},
 
 	['popslemoniada'] = {
-		label = 'Taven Lemonade',
+		label = 'Tavern Lemonade',
 		description = "Orzeźwiająca klasyczna lemoniada.",
 		weight = 300,
 		client = {
@@ -1094,7 +1094,7 @@ return {
 	},
 
 	['popsherbata'] = {
-		label = 'Taven Tea',
+		label = 'Tavern Tea',
 		description = "Herbata czarna.",
 		weight = 300,
 		client = {
@@ -1108,7 +1108,7 @@ return {
 	},
 
 	['popskawa'] = {
-		label = 'Taven Coffee',
+		label = 'Tavern Coffee',
 		description = "Klasyczna, mocna, czarna kawa.",
 		weight = 300,
 		client = {
@@ -1122,7 +1122,7 @@ return {
 	},
 
 	['popsslushie'] = {
-		label = 'Taven Slushie',
+		label = 'Tavern Slushie',
 		description = "Zimne truskawkowe slushie.",
 		weight = 300,
 		client = {
