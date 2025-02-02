@@ -5107,7 +5107,7 @@ return {
 	},
 
 	["ryza2"] = {
-		label = "Ryza papieru MasterPaper", -- item do prania kasy CRIME
+		label = "Ryza papieru MasterPaper", 
 		weight = 500,
 		stack = false,
 		close = true,

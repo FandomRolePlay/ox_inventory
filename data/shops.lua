@@ -1617,6 +1617,19 @@ return {
 		{ name = 'weapon1_table',              price = 0, count = 100 },
 		{ name = 'melee_table1',              price = 0, count = 100 },
 		{ name = 'melee_parts',              price = 0, count = 100 },
+		{ name = 'bomb',                    price = 0, count = 100 },
+		{ name = 'hack_usb',                    price = 0, count = 100 },
+		{ name = 'fleeca_box',                    price = 0, count = 100 },
+		{ name = 'cutter',                    price = 0, count = 100 },
+		{ name = 'gasmask',                    price = 0, count = 100 },
+		{ name = 'calling_card',                    price = 0, count = 100 },
+		{ name = 'heist_papers',                    price = 0, count = 100 },
+		{ name = 'radio2',                    price = 0, count = 100 },
+		{ name = 'radio3',                    price = 0, count = 100 },
+		{ name = 'lean',                    price = 0, count = 100 },
+		{ name = 'meth_access',                    price = 0, count = 100 },
+		{ name = 'house_lockpick',                    price = 0, count = 100 },
+		{ name = 'cargobox7',                    price = 0, count = 100 }, -- pranie
 	},
 		locations = {
 			vec3(-1379.2985, -471.3574, 78.2001)
