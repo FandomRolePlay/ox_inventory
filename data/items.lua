@@ -72,6 +72,11 @@ return {
 		label = 'Karta Bankowa',
 		weight = 10,
 	},
+	['prisonticket'] = {
+		label = 'Kupon więzienny',
+		description = 'Z tym możesz zwojować cały świat',
+		weight = 5,
+	},
 
 	--PACIFIC/FLEECA/ATM/VANGELICO
 	['vanbag'] = {
