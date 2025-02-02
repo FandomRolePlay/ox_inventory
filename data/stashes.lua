@@ -549,7 +549,7 @@ return {
 		owner = false,
 		slots = 200,
 		weight = 1000000,
-		groups = {['doc'] = 1}
+		groups = {['doc'] = 0}
 	},
 	{
 		coords = vec3(1766.53, 2582.91, 45.5),
@@ -583,7 +583,7 @@ return {
 		name = 'docmagazynboss',
 		label = 'Magazyn Commandu',
 		owner = false,
-		slots = 50,
+		slots = 200,
 		weight = 200000,
 		groups = {['doc'] = 7}
 	},
@@ -693,6 +693,96 @@ return {
 		owner = true,
 		slots = 20,
 		weight = 25000,
+		groups = nil
+	},
+	{
+		coords = vec3(1693.30, 2581.86, 46.39),
+		target = {
+			loc = vec3(1693.30, 2581.86, 46.39),
+			length = 0.8,
+			width = 2.4,
+			heading = 0,
+			minZ = 44.89,
+			maxZ = 46.59,
+			label = 'Depozyt'
+		},
+		name = 'docprisonpriv3',
+		label = 'Depozyt',
+		owner = true,
+		slots = 25,
+		weight = 100000,
+		groups = nil
+	},
+	{
+		coords = vec3(1703.77, 2551.76, 45.00),
+		target = {
+			loc = vec3(1703.77, 2551.76, 45.00),
+			length = 1.0,
+			width = 1.8,
+			heading = 0,
+			minZ = 44.62,
+			maxZ = 46.62,
+			label = 'Śmietnik'
+		},
+		name = 'doctrash',
+		label = 'Śmietnik',
+		owner = false,
+		slots = 10,
+		weight = 50000,
+		groups = nil
+	},
+	{
+		coords = vec3(1720.29, 2503.86, 45.01),
+		target = {
+			loc = vec3(1720.29, 2503.86, 45.01),
+			length = 1.0,
+			width = 1.8,
+			heading = 0,
+			minZ = 44.62,
+			maxZ = 46.62,
+			label = 'Śmietnik'
+		},
+		name = 'doctrash2',
+		label = 'Śmietnik',
+		owner = false,
+		slots = 10,
+		weight = 50000,
+		groups = nil
+	},
+	{
+		coords = vec3(1718.06, 2439.66, 45.82),
+		target = {
+			loc = vec3(1718.06, 2439.66, 45.82),
+			length = 1.0,
+			width = 1.8,
+			heading = 0,
+			minZ = 44.62,
+			maxZ = 46.62,
+			label = 'Pudełko'
+		},
+		name = 'doctrash3',
+		label = 'Pudełko',
+		owner = false,
+		slots = 10,
+		weight = 50000,
+		groups = nil
+	},
+	{
+		coords = vec3(1736.18, 2597.70, 45.32),
+		target = {
+			loc = vec3(1736.18, 2597.70, 45.32),
+			length = 1.0,
+			width = 1.8,
+			heading = 0,
+			minZ = 44.62,
+			maxZ = 46.62,
+			label = 'Szafka kuchenna'
+		},
+		name = 'doctrash5',
+		label = 'Szafka kuchenna',
+		owner = false,
+		slots = 10,
+		weight = 50000,
 		groups = nil
 	},
 	

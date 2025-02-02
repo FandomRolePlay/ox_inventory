@@ -117,7 +117,7 @@ setContainerProperties('wallet', {
 setContainerProperties('filecabinet', {
 	slots = 100,
 	maxWeight = 1000,
-	whitelist = {'printerdocument', 'photo', 'evidence_report'}
+	whitelist = {'printerdocument', 'photo', 'evidence_report', 'id'}
 })
 
 return containers
