@@ -1993,7 +1993,7 @@ return {
 			label = 'Otwórz Lodówkę',
 			owner = false,
 			slots = 100,
-			weight = 200000,
+			weight = 600000,
 			groups = {['bahama'] = 0}
 		},
 		{
