@@ -1454,7 +1454,7 @@ return {
 		label = 'Magazyn',
 		owner = false,
 		slots = 200,
-		weight = 1000000,
+		weight = 2000000,
 		groups = {['weedshop'] = 1}
 	},
 	{
