@@ -2866,13 +2866,13 @@ return {
 
 	['poppyplant'] = {
 		label = 'Roślinka maku',
-		weight = 200,
+		weight = 50,
 		stack = true
 	},
 
 	['poppyplant_dry'] = {
 		label = 'Roślinka maku',
-		weight = 200,
+		weight = 50,
 		stack = true,
 		description = "Ususzony mak"
 	},
@@ -2989,7 +2989,7 @@ return {
 	},
 
 	['panties'] = {
-		label = 'Spodenki',
+		label = 'Bielizna',
 		weight = 10,
 		consume = 0,
 	},
