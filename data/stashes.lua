@@ -567,7 +567,7 @@ return {
 		owner = false,
 		slots = 200,
 		weight = 1000000,
-		groups = {['doc'] = 2}
+		groups = {['doc'] = 1}
 	},
 	{
 		coords = vec3(1780.27, 2543.69, 45.78),
