@@ -584,6 +584,9 @@ return {
 			{ name = 'accidentsign',            price = 50,    grade = 1 },
 			{ name = 'accidentsign2',           price = 50,    grade = 1 },
 			{ name = 'parawan',                 price = 100,   grade = 1 },
+			{ name = 'csutent',             	price = 200,   grade = 1 },
+			{ name = 'csutable',           		price = 100,   grade = 1 },
+			{ name = 'csuchair',            	price = 100,   grade = 1 },
 			{ name = 'stopsign',                price = 50,    grade = 1 },
 			{ name = 'arrowsign',               price = 50,    grade = 1 },
 			{ name = 'arrowsign2',              price = 50,    grade = 1 }
