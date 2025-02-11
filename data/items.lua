@@ -3235,15 +3235,19 @@ return {
 		}
 	},
 
-	--[[ ['armour'] = {
+	['armour'] = {
 		label = 'Kamizelka kuloodporna',
-		weight = 3000,
+		description = "Kamizelka kuloodporna",
+		weight = 0,
 		stack = false,
 		client = {
 			anim = { dict = 'clothingshirt', clip = 'try_shirt_positive_d' },
 			usetime = 3500
+		},
+		server = {
+			export = "ND_Police.armour"
 		}
-	}, ]]
+	},
 
 	--ND_Police
 	--TODO: make it as a custom field which would apply specific armour value
@@ -10177,13 +10181,13 @@ return {
 	--exrp_vehicles
 
 	--exrp_vehicle:nitro
-	["no2"] = {
-		label = "Butla NO2 ",
-		weight = 10000,
+	["small_no2_bottle"] = {
+		label = "Mała butla N2O",
+		weight = 2000,
 		stack = false,
 		close = true,
 		consume = 1,
-		description = "Butla NO2 10kg",
+		description = "Mała butla podtlenku azotu (2kg)",
 		client = {
 			image = "no2.png",
 			usetime = 20000,
@@ -10199,6 +10203,57 @@ return {
 				pos = { x = 0.04, y = -0.08, z = 0.05},
 				rot = { x = -85.0, y = 5.0, z = -5.0}
 			},
+			cancel = true,
+		},
+	},
+	["medium_no2_bottle"] = {
+		label = "Średnia butla N2O",
+		weight = 10000,
+		stack = false,
+		close = true,
+		consume = 1,
+		description = "Średnia butla podtlenku azotu (5kg)",
+		client = {
+			image = "no2.png",
+			usetime = 20000,
+			export = "exrp_vehicles.no2",
+			disable = {
+				move = true,
+				car = true
+			
+			},
+			anim = { dict = 'mp_intro_seq@', clip = 'mp_mech_fix' },
+			prop = {
+				model = 'prop_tool_blowtorch',
+				pos = { x = 0.04, y = -0.08, z = 0.05},
+				rot = { x = -85.0, y = 5.0, z = -5.0}
+			},
+			cancel = true,
+		},
+	},
+	["big_no2_bottle"] = {
+		label = "Duża butla N2O",
+		weight = 10000,
+		stack = false,
+		close = true,
+		consume = 1,
+		description = "Duża butla podtlenku azotu (10kg)",
+		client = {
+			image = "no2.png",
+			usetime = 20000,
+			export = "exrp_vehicles.no2",
+			disable = {
+				move = true,
+				car = true
+			
+			},
+			anim = { dict = 'mp_intro_seq@', clip = 'mp_mech_fix' },
+			prop = {
+				model = 'prop_tool_blowtorch',
+				pos = { x = 0.04, y = -0.08, z = 0.05},
+				rot = { x = -85.0, y = 5.0, z = -5.0}
+			},
+			cancel = true,
 		},
 	},
 	["sys_no2"] = {
@@ -10222,6 +10277,7 @@ return {
 				pos = { x = 0.04, y = -0.08, z = 0.05},
 				rot = { x = -85.0, y = 5.0, z = -5.0}
 			},
+			cancel = true,
 		},
 	},
 
@@ -10271,6 +10327,26 @@ return {
 				car = true
 			},
 			anim = { dict = 'mp_intro_seq@', clip = 'mp_mech_fix' },
+		}
+	},
+
+	["dice"] = {
+		label = "Kostka",
+		weight = 10,
+		stack = false,
+		close = true,
+		decay = false,
+		consume = 0.02,
+		server = {
+			export = "fandom_chat.useKostka",
+		},
+		client = {
+			usetime = 1000,
+			disable = {
+				move = false,
+				car = true
+			},
+			anim = { dict = 'anim@mp_player_intcelebrationmale@wank', clip = 'wank' },
 		}
 	},
 
