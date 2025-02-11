@@ -7376,7 +7376,7 @@ return {
 	},
 
 	['chicken_potato'] = {
-		label = 'Kurczak z ziemniakami',
+		label = 'Grilowany kurczak',
 		weight = 390,
 		client = {
 			anim = 'eating',
@@ -7390,7 +7390,7 @@ return {
 	},
 
 	['salmon_potato'] = {
-		label = 'Ryba z ziemniakami',
+		label = 'Grilowany łosoś',
 		weight = 410,
 		client = {
 			anim = 'eating',
