@@ -1104,36 +1104,36 @@ return {
 	groups = {['pizza'] = 1}
 },
 
-	-- COOLBEANS
+	-- L'espoir Cafe
 	{
-		coords = vec3(-1217.6, -1493.92, 4.37),
+		coords = vec3(-112.2, 384.39, 112.28),
 		target = {
-			loc = vec3(-1217.6, -1493.92, 4.37),
-			length = 0.75,
-			width = 0.8,
-			heading = 35,
-			minZ = 4.27,
-			maxZ = 4.57,
-			label = 'Tacka'
+			loc = vec3(-112.2, 384.39, 112.28),
+			length = 1.6,
+			width = 1,
+			heading = 155,
+			minZ = 112.28,
+			maxZ = 114.48,
+			label = 'Lada'
 		},
-		name = 'cbtacka',
-		label = 'Tacka',
+		name = 'Cafetacka',
+		label = 'Lada',
 		owner = false,
-		slots = 8,
-		weight = 10000,
+		slots = 10,
+		weight = 15000,
 	},
 	{
-		coords = vec3(-1211.6, -1492.31, 4.37),
+		coords = vec3(-107.75, 396.09, 112.28),
 		target = {
-			loc = vec3(-1211.6, -1492.31, 4.37),
-			length = 1.0,
+			loc = vec3(-107.75, 396.09, 112.28),
+			length = 2.2,
 			width = 0.6,
-			heading = 35,
-			minZ = 3.57,
-			maxZ = 4.97,
+			heading = 64,
+			minZ = 112.28,
+			maxZ = 114.48,
 			label = 'Otwórz szafke'
 		},
-		name = 'cblocker',
+		name = 'Cafelocker',
 		label = 'Szafka Prywatna',
 		owner = true,
 		slots = 10,
@@ -1141,22 +1141,60 @@ return {
 		groups = {['coolbeans'] = 0}
 	},
 	{
-		coords = vec3(-1219.14, -1495.03, 4.37),
+		coords = vec3(-118.79, 380.6, 112.28),
 		target = {
-			loc = vec3(-1219.14, -1495.03, 4.37),
-			length = 0.6,
+			loc = vec3(-118.79, 380.6, 112.28),
+			length = 1.6,
 			width = 1.0,
-			heading = 35,
-			minZ = 4.17,
-			maxZ = 4.97,
+			heading = 335,
+			minZ = 112.28,
+			maxZ = 114.68,
+			label = 'Otwórz Lodówkę'
+		},
+		name = 'cafelodowka',
+		label = 'Lodówka',
+		owner = false,
+		slots = 150,
+		weight = 200000,
+		groups = {['coolbeans'] = 0}
+	},
+
+	{
+		coords = vec3(-112.16, 392.99, 112.28),
+		target = {
+			loc = vec3(-112.16, 392.99, 112.28),
+			length = 2.4,
+			width = 0.6,
+			heading = 65,
+			minZ = 112.28,
+			maxZ = 114.48,
 			label = 'Otwórz Magazyn'
 		},
-		name = 'cbmagazyn',
+		name = 'cafemagazyn',
 		label = 'Magazyn',
 		owner = false,
 		slots = 200,
-		weight = 1000000,
-		groups = {['coolbeans'] = 1}
+		weight = 600000,
+		groups = {['coolbeans'] = 0}
+	},
+
+	{
+		coords = vec3(-98.87, 389.72, 112.28),
+		target = {
+			loc = vec3(-98.87, 389.72, 112.28),
+			length = 2.6,
+			width = 0.6,
+			heading = 335,
+			minZ = 112.28,
+			maxZ = 114.48,
+			label = 'Otwórz Szafkę'
+		},
+		name = 'cafebossmagazyn',
+		label = 'Szafka',
+		owner = false,
+		slots = 50,
+		weight = 75000,
+		groups = {['coolbeans'] = 5}
 	},
 
 	-- TEQUILALA
@@ -1271,6 +1309,44 @@ return {
 		slots = 200,
 		weight = 1000000,
 		groups = {['mechanic2'] = 1}
+	},
+	-- HARMONY REPAIRS
+
+	{
+		coords = vec3(1187.27, 2635.39, 37.4),
+		target = {
+			loc = vec3(1187.27, 2635.39, 37.4),
+			length = 0.6,
+			width = 1.2,
+			heading = 0,
+			minZ = 37.4,
+			maxZ = 38.8,
+			label = 'Otwórz szafke'
+		},
+		name = 'dosbroslocker',
+		label = 'Szafka Prywatna',
+		owner = true,
+		slots = 10,
+		weight = 15000,
+		groups = {['mechanic3'] = 0}
+	},
+	{
+		coords = vec3(1184.9, 2637.96, 37.75),
+		target = {
+			loc = vec3(1184.9, 2637.96, 37.75),
+			length = 1.6,
+			width = 1.0,
+			heading = 0,
+			minZ = 36.75,
+			maxZ = 39.55,
+			label = 'Otwórz Magazyn'
+		},
+		name = 'harmonymagazyn',
+		label = 'Magazyn',
+		owner = false,
+		slots = 200,
+		weight = 1000000,
+		groups = {['mechanic3'] = 1}
 	},
 
 	-- AMMUNATION

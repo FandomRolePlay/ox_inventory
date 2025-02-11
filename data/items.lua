@@ -7331,6 +7331,165 @@ return {
 			thirst = 300000,
 		},
 	},
+	-- Lespoir
+
+	['beef_tartare'] = {
+		label = 'Tatar wołowy',
+		weight = 455,
+		client = {
+			anim = 'eating',
+			prop = 'prop_taco_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 600000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+
+	['chicken_salad'] = {
+		label = 'Sałatka z kurczkiem',
+		weight = 310,
+		client = {
+			anim = 'eating',
+			prop = 'prop_taco_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 650000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+
+	['bagel_tofu'] = {
+		label = 'Bajgiel tofu',
+		weight = 180,
+		client = {
+			anim = 'eating',
+			prop = 'prop_taco_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 400000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+
+	['chicken_potato'] = {
+		label = 'Kurczak z ziemniakami',
+		weight = 390,
+		client = {
+			anim = 'eating',
+			prop = 'prop_taco_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 650000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+
+	['salmon_potato'] = {
+		label = 'Ryba z ziemniakami',
+		weight = 410,
+		client = {
+			anim = 'eating',
+			prop = 'prop_taco_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 700000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+
+	['bbq_ribs'] = {
+		label = 'Żeberka BBQ',
+		weight = 520,
+		client = {
+			anim = 'eating',
+			prop = 'prop_taco_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 800000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+
+	['bbq_wings'] = {
+		label = 'Skrzydełka BBQ',
+		weight = 500,
+		client = {
+			anim = 'eating',
+			prop = 'prop_taco_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 700000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+
+	['american_roast'] = {
+		label = 'Amerykańska pieczeń',
+		weight = 450,
+		client = {
+			anim = 'eating',
+			prop = 'prop_taco_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 600000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+
+	['apple_pie_ice'] = {
+		label = 'Szarlotka jabłkowa z lodami',
+		weight = 350,
+		client = {
+			anim = 'eating',
+			prop = 'prop_taco_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 100000,
+			hunger = 450000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+
+	['american_pudding'] = {
+		label = 'Pudding',
+		weight = 200,
+		client = {
+			anim = 'eating',
+			prop = 'prop_taco_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 100000,
+			hunger = 200000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+
+	['chocolateice'] = {
+		label = 'Lody czekoladowe',
+		weight = 220,
+		client = {
+			anim = 'eating',
+			prop = 'prop_taco_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 100000,
+			hunger = 300000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+
 	["caffelatte"] = {
 		label = "Caffe Latte",
 		weight = 300,
@@ -7466,7 +7625,7 @@ return {
 		},
 	},
 	["cc-greentea"] = {
-		label = "Zielona herbata",
+		label = "Egzotyczna herbata",
 		weight = 150,
 		stack = true,
 		close = true,
