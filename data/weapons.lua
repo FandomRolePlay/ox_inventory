@@ -816,6 +816,13 @@ return {
 			ammoname = 'ammo-300savage',
 		},
 
+		['WEAPON_LLRIFLE'] = {
+			label = 'Karabin LL',    
+			weight = 4000,	
+			durability = 0.02,
+			ammoname = 'ammo-bb',
+		},
+
 	},
 
 	Components = {
