@@ -1155,7 +1155,7 @@ return {
 		label = 'Lodówka',
 		owner = false,
 		slots = 150,
-		weight = 200000,
+		weight = 300000,
 		groups = {['coolbeans'] = 0}
 	},
 
@@ -1174,7 +1174,7 @@ return {
 		label = 'Magazyn',
 		owner = false,
 		slots = 200,
-		weight = 600000,
+		weight = 100000,
 		groups = {['coolbeans'] = 0}
 	},
 
