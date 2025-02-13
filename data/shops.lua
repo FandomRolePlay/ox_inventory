@@ -621,6 +621,7 @@ return {
 			{ name = 'examlight',         price = 50,  grade = 1 },
 			{ name = 'oscillator',        price = 100, grade = 1 },
 			{ name = 'iakwheel',          price = 200, grade = 1 },
+			{ name = 'parawan',           price = 100,   grade = 1 },
 			{ name = 'manekin1',          price = 50,  grade = 13 },
 			{ name = 'manekin2',          price = 50,  grade = 13 },
 			{ name = 'manekin3',          price = 50,  grade = 13 },
@@ -684,6 +685,10 @@ return {
 			{ name = 'worklight',           price = 50,    grade = 1 },
 			{ name = 'worklight2',          price = 50,    grade = 1 },
 			{ name = 'worklight3',          price = 50,    grade = 1 },
+			{ name = 'parawan',             price = 100,   grade = 1 },
+			{ name = 'csutent',             price = 200,   grade = 1 },
+			{ name = 'csutable',            price = 100,   grade = 1 },
+			{ name = 'csuchair',            price = 100,   grade = 1 },
 			{ name = 'camera',           	price = 500,   grade = 1 },
 			{ name = 'criminal_kit',        price = 200,   grade = 1 },
 			{ name = 'gsr_kit',          	price = 50,    grade = 1 }
