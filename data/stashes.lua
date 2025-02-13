@@ -1495,6 +1495,24 @@ return {
 		weight = 500000,
 		groups = {['autohouse'] = 1}
 	},
+	{
+		coords = vec3(1232.09, 2729.57, 38.01),
+		target = {
+			loc = vec3(1232.09, 2729.57, 38.01),
+			length = 0.6,
+			width = 0.8,
+			heading = 0,
+			minZ = 37.61,
+			maxZ = 38.61,
+			label = 'Lada'
+		},
+		name = 'ahrecepcja',
+		label = 'Lada',
+		owner = false,
+		slots = 10,
+		weight = 12000,
+		groups = {['autohouse'] = 1}
+	},
 
 	-- WEEDSHOP
 	{
