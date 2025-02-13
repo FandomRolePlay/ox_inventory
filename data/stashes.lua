@@ -1174,7 +1174,7 @@ return {
 		label = 'Magazyn',
 		owner = false,
 		slots = 200,
-		weight = 100000,
+		weight = 1000000,
 		groups = {['coolbeans'] = 0}
 	},
 
