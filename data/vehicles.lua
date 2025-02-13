@@ -70,6 +70,7 @@ return {
 			[`valkyrie3`] = {15, 80000},
 			[`2vd_gsty151`] = {40, 600000},
 			[`bcsowesternwinter`] = {10, 20000},
+			[`bcsomtlpacker`] = {40, 60000},
 		}
 	},
 
