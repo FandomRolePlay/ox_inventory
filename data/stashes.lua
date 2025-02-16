@@ -1323,7 +1323,7 @@ return {
 			maxZ = 38.8,
 			label = 'Otwórz szafke'
 		},
-		name = 'dosbroslocker',
+		name = 'harmonylocker',
 		label = 'Szafka Prywatna',
 		owner = true,
 		slots = 10,
