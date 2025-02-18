@@ -205,9 +205,9 @@ return {
 
 	-- SAMS
 	{
-		coords = vec3(302.58, -598.77, 43.28),
+		coords = vec3(318.96, -600.86, 43.26),
 		target = {
-			loc = vec3(302.58, -598.77, 43.28),
+			loc = vec3(318.96, -600.86, 43.26),
 			length = 1.0,
 			width = 0.6,
 			heading = 340,
@@ -241,11 +241,11 @@ return {
 		groups = {['ambulance'] = 1}
 	},
 	{
-		coords = vec3(339.63, -595.44, 43.28),
+		coords = vec3(309.94, -560.55, 43.26),
 		target = {
-			loc = vec3(339.63, -595.44, 43.28),
-			length = 1.8,
-			width = 0.6,
+			loc = vec3(309.94, -560.55, 43.26),
+			length = 1,
+			width = 1,
 			heading = 340,
 			minZ = 42.48,
 			maxZ = 44.48,

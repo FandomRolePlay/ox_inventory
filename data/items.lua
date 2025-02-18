@@ -8205,6 +8205,18 @@ return {
 		stack = true,
 		close = true,
 	},
+	["vanilla_temptation"] = {
+		label = "Vanilla Temptation",
+		weight = 350,
+		stack = true,
+		close = true,
+	},
+	["scarlet_desire"] = {
+		label = "Scarlet Desire",
+		weight = 250,
+		stack = true,
+		close = true,
+	},
 	["adrenaline_shot"] = {
 		label = "Adrenaline Shot",
 		weight = 100,

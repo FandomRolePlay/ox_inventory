@@ -627,13 +627,17 @@ return {
 			{ name = 'manekin3',          price = 50,  grade = 13 },
 			{ name = 'manekin4',          price = 50,  grade = 13 },
 			{ name = 'manekin5',          price = 50,  grade = 13 },
-			{ name = 'manekin6',          price = 50,  grade = 13 }
+			{ name = 'manekin6',          price = 50,  grade = 13 },
+			{ name = 'medikit',      	  price = 15,  grade = 1 },   ---do uzupełniania apteki
+			{ name = 'syringe',           price = 2,  grade = 1 },     ---do uzupełniania apteki
+			{ name = 'scissors',          price = 5,  grade = 1 },    ---do uzupełniania apteki
+			{ name = 'pet_medikit',       price = 50, grade = 1 },    ---do uzupełniania apteki
 		},
 		locations = {
-			vec3(310.4, -568.92, 43.28)
+			vec3(295.75, -598.57, 43.26)
 		},
 		targets = {
-			{ loc = vec3(310.4, -568.92, 43.28), length = 0.4, width = 2.8, heading = 250.0, minZ = 42.48, maxZ = 44.68, distance = 2 }
+			{ loc = vec3(295.75, -598.57, 43.26), length = 1, width = 1, heading = 250.0, minZ = 42.48, maxZ = 44.68, distance = 2 }
 		},
 	},
 	Marshals = {
