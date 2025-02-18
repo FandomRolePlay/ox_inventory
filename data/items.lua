@@ -2008,6 +2008,24 @@ return {
 		}
 	},
 	['water3'] = {
+		label = 'Woda Raine',
+		weight = 400,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 2500,
+			cancel = true,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 650000,
+			thirst = 300000,
+		}
+	},
+	['water_weedshop'] = {
+		label = 'Woda osmotyczna',
+		weight = 500,
+	},
+
+	['water_weed'] = {
 		label = 'Woda raine',
 		weight = 250,
 		client = {

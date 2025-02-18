@@ -338,7 +338,7 @@ return {
 			{ name = 'WEAPON_CROWBAR',  price = 50,   count = 7 },
 			{ name = 'WEAPON_WRENCH',   price = 65,   count = 5 },
 			{ name = 'weapon_hatchet',  price = 570,  count = 3 },
-			{ name = 'trowel',          price = 20,   metadata = { durability = 100 } },
+			{ name = 'trowel',          price = 80,   metadata = { durability = 100 } },
 			{ name = 'tools',           price = 20,   count = 20 },
 			{ name = 'basketball',      price = 25},
 			{ name = 'crafting_table',  price = 400 },
@@ -1480,6 +1480,8 @@ return {
 			{ name = 'weedvodka',        price = 5 },
 			{ name = 'weedjunk',         price = 3 },
 			{ name = 'weed_dryer',       price = 150, count = 3 },
+			{ name = 'water_weedshop',   price = 3 },
+			{ name = 'trowel',          price = 10,   metadata = { durability = 100 } },
 		},
 		locations = {
 			vec3(-69.52, 6384.92, 31.49)
