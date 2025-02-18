@@ -10208,9 +10208,7 @@ return {
 		close = false,
 	},
 
-	--exrp_vehicles
-
-	--exrp_vehicle:nitro
+	--frp_nitro
 	["small_no2_bottle"] = {
 		label = "Mała butla N2O",
 		weight = 2000,
@@ -10221,7 +10219,7 @@ return {
 		client = {
 			image = "no2.png",
 			usetime = 20000,
-			export = "exrp_vehicles.no2",
+			export = "frp_nitro.no2",
 			disable = {
 				move = true,
 				car = true
@@ -10246,7 +10244,7 @@ return {
 		client = {
 			image = "no2.png",
 			usetime = 20000,
-			export = "exrp_vehicles.no2",
+			export = "frp_nitro.no2",
 			disable = {
 				move = true,
 				car = true
@@ -10271,7 +10269,7 @@ return {
 		client = {
 			image = "no2.png",
 			usetime = 20000,
-			export = "exrp_vehicles.no2",
+			export = "frp_nitro.no2",
 			disable = {
 				move = true,
 				car = true
@@ -10296,7 +10294,7 @@ return {
 		client = {
 			image = "sys_no2.png", --zmienic
 			usetime = 5000,
-			export = "exrp_vehicles.sys_no2",
+			export = "frp_nitro.sys_no2",
 			disable = {
 				move = true,
 				car = true
