@@ -1356,6 +1356,8 @@ return {
 			{ name = 'revolverset',       price = 1750,   grade = 3 },
 			{ name = 'pumpshotgunset',    price = 4550,   grade = 5 },
 			{ name = 'smgset',            price = 5900,   grade = 5 },
+			{ name = 'weaponcase',        price = 50,   grade = 3 },
+			{ name = 'longweaponcase',    price = 100,   grade = 3 },
 			{ name = 'weapon_knife',      price = 65,   grade = 3 },
 			{ name = 'weapon_bat',        price = 35,   grade = 3 },
 			{ name = 'weapon_flashlight', price = 20,   grade = 3 },
