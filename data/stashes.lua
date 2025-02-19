@@ -223,9 +223,9 @@ return {
 		groups = {['ambulance'] = 0}
 	},
 	{
-		coords = vec3(306.54, -602.22, 43.28),
+		coords = vec3(315.85, -599.18, 43.26),
 		target = {
-			loc = vec3(306.54, -602.22, 43.28),
+			loc = vec3(315.85, -599.18, 43.26),
 			length = 0.6,
 			width = 1.8,
 			heading = 340,
