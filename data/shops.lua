@@ -1462,7 +1462,7 @@ return {
 			id = 50, colour = 24, scale = 0.8
 		},
 		groups = {
-			['weedshop'] = 3
+			['weedshop'] = 5
 		},
 		inventory = {
 			{ name = 'pot',              price = 5 },
@@ -1717,6 +1717,7 @@ return {
 		},
 		inventory = {
 			{ name = 'water3',     price = 1 },
+			{ name = 'water_weedshop',  price = 5 },
 			{ name = 'fertilizer', price = 4 },
 			{ name = 'hops_seed',  price = 10, },
 			{ name = 'still1',     price = 180, },
