@@ -534,6 +534,42 @@ return {
 		groups = {['doc'] = 0}
 	},
 	{
+		coords = vec3(1681.25, 2587.64, 45.92),
+		target = {
+			loc = vec3(1681.25, 2587.64, 45.92),
+			length = 2.4,
+			width = 0.6,
+			heading = 0,
+			minZ = 45.12,
+			maxZ = 46.92,
+			label = 'Otwórz szafę na broń'
+		},
+		name = 'doczbrojownia2',
+		label = 'Pancerna szafa na broń',
+		owner = false,
+		slots = 200,
+		weight = 700000,
+		groups = {['doc'] = 0}
+	},
+	{
+		coords = vec3(1840.69, 2574.89, 45.89),
+		target = {
+			loc = vec3(1840.69, 2574.89, 45.89),
+			length = 0.8,
+			width = 2.4,
+			heading = 0,
+			minZ = 44.89,
+			maxZ = 47.09,
+			label = 'Otwórz szafke prywatną'
+		},
+		name = 'doclockerpriv2',
+		label = 'Szafka prywatna',
+		owner = true,
+		slots = 20,
+		weight = 25000,
+		groups = {['doc'] = 0}
+	},
+	{
 		coords = vec3(1778.29, 2558.11, 45.78),
 		target = {
 			loc = vec3(1778.29, 2558.11, 45.78),
