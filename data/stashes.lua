@@ -547,7 +547,7 @@ return {
 		name = 'doczbrojownia2',
 		label = 'Pancerna szafa na broń',
 		owner = false,
-		slots = 200,
+		slots = 50,
 		weight = 700000,
 		groups = {['doc'] = 0}
 	},
@@ -565,7 +565,7 @@ return {
 		name = 'doclockerpriv2',
 		label = 'Szafka prywatna',
 		owner = true,
-		slots = 20,
+		slots = 15,
 		weight = 25000,
 		groups = {['doc'] = 0}
 	},
@@ -1311,14 +1311,14 @@ return {
 
 	-- PITSTOP
 	{
-		coords = vec3(961.91, -1568.05, 30.74),
+		coords = vec3(960.91, -1566.24, 30.74),
 		target = {
-			loc = vec3(961.91, -1568.05, 30.74),
-			length = 2.8,
-			width = 0.6,
+			loc = vec3(960.91, -1566.24, 30.74),
+			length = 1.0,
+			width = 1.0,
 			heading = 0,
-			minZ = 30.14,
-			maxZ = 32.34,
+			minZ = 29.74,
+			maxZ = 30.94,
 			label = 'Otwórz szafke'
 		},
 		name = 'dosbroslocker',
