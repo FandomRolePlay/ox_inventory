@@ -2599,7 +2599,7 @@ return {
 		label = 'Magazyn',
 		owner = false,
 		slots = 200,
-		weight = 500000,
+		weight = 1000000,
 		groups = {['vanilla'] = 1}
 	},
 
