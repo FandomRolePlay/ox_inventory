@@ -1311,14 +1311,14 @@ return {
 
 	-- PITSTOP
 	{
-		coords = vec3(960.91, -1566.24, 30.74),
+		coords = vec3(961.75, -1567.37, 30.74),
 		target = {
-			loc = vec3(960.91, -1566.24, 30.74),
-			length = 1.0,
-			width = 1.0,
+			loc = vec3(961.75, -1567.37, 30.74),
+			length = 1.6,
+			width = 0.6,
 			heading = 0,
 			minZ = 29.74,
-			maxZ = 30.94,
+			maxZ = 32.54,
 			label = 'Otwórz szafke'
 		},
 		name = 'dosbroslocker',
