@@ -1919,8 +1919,8 @@ return {
 			-- { name = 'minismgset',                price = 3400, count = 5 }, brak itema
 			{ name = 'sawnoffshotgun',            price = 6150, count = 5 },
 			{ name = 'vanbag',                 	  price = 100, count = 5 },
-			--{ name = 'plate_taker',      		  price = 1250, count = 2 },
-			--{ name = 'plate_changer',      		  price = 1750, count = 2 },
+			{ name = 'plate_taker',      		  price = 1250, count = 2 },
+			{ name = 'plate_changer',      		  price = 1750, count = 2 },
 		},
 		locations = {
 			vec3(2864.34, 1518.22, 25.23)
@@ -1984,8 +1984,8 @@ return {
 			-- { name = 'minismgset',                price = 3400, count = 5 }, brak itema
 			{ name = 'sawnoffshotgun',            price = 6150, count = 5 },
 			{ name = 'vanbag',                    price = 100, count = 5 },
-			--{ name = 'plate_taker',      		  price = 1250, count = 2 },
-			--{ name = 'plate_changer',      		  price = 1750, count = 2 },
+			{ name = 'plate_taker',      		  price = 1250, count = 2 },
+			{ name = 'plate_changer',      		  price = 1750, count = 2 },
 		},
 		locations = {
 			vec3(2918.52, 4630.11, 49.24)
@@ -2049,8 +2049,8 @@ return {
 			-- { name = 'minismgset',                price = 3400, count = 5 }, brak itema
 			-- { name = 'sawnoffshotgun',            price = 6150, count = 5 },
 			{ name = 'vanbag',                    price = 100, count = 5 },
-			--{ name = 'plate_taker',      		  price = 1250, count = 2 },
-			--{ name = 'plate_changer',      		  price = 1750, count = 2 },
+			{ name = 'plate_taker',      		  price = 1250, count = 2 },
+			{ name = 'plate_changer',      		  price = 1750, count = 2 },
 		},
 		locations = {
 			vec3(-1106.62, 4937.07, 218.18)
