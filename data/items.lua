@@ -8157,6 +8157,83 @@ return {
 		},
 		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
+
+	["focaccia"] = {
+        label = "Focaccia",
+        weight = 200,
+        stack = true,
+        close = true,
+        client = {
+            anim = 'eating',
+            prop = 'v_res_tt_pizzaplate',
+            usetime = 2500,
+            export = 'FandomRP.useStatusItem',
+            statusCap = 1000000,
+            hunger = 400000,
+        },
+        degrade = 3 * 24 * 60, -- day * hour * minute
+    },
+    ["bruschetta"] = {
+        label = "Bruschetta",
+        weight = 200,
+        stack = true,
+        close = true,
+        client = {
+            anim = 'eating',
+            prop = 'prop_food_bs_burger2',
+            usetime = 2500,
+            export = 'FandomRP.useStatusItem',
+            statusCap = 1000000,
+            hunger = 450000,
+        },
+        degrade = 3 * 24 * 60, -- day * hour * minute
+    },
+    ["chitarra"] = {
+        label = "Spaghetti alla chitarra",
+        weight = 200,
+        stack = true,
+        close = true,
+        client = {
+            anim = 'eating',
+            prop = 'prop_plate_03',
+            usetime = 2500,
+            export = 'FandomRP.useStatusItem',
+            statusCap = 1000000,
+            hunger = 500000,
+        },
+        degrade = 3 * 24 * 60, -- day * hour * minute
+    },
+    ["lasagne"] = {
+        label = "Lasagne bolognese",
+        weight = 200,
+        stack = true,
+        close = true,
+        client = {
+            anim = 'eating',
+            prop = 'prop_plate_03',
+            usetime = 2500,
+            export = 'FandomRP.useStatusItem',
+            statusCap = 1000000,
+            hunger = 450000,
+        },
+        degrade = 3 * 24 * 60, -- day * hour * minute
+    },
+    ["pizzanightcity"] = {
+        label = "Pizza Night City",
+        weight = 200,
+        stack = true,
+        close = true,
+        client = {
+            anim = 'eating',
+            prop = 'v_res_tt_pizzaplate',
+            usetime = 2500,
+            export = 'FandomRP.useStatusItem',
+            statusCap = 1000000,
+            hunger = 550000,
+        },
+        degrade = 3 * 24 * 60, -- day * hour * minute
+    },
+
 	["dough"] = {
 		label = "Surowe ciasto",
 		weight = 150,
