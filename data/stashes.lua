@@ -2033,9 +2033,27 @@ return {
 			label = 'Lodówka',
 			owner = false,
 			slots = 200,
-			weight = 250000,
+			weight = 600000,
 			groups = {['bahama'] = 0}
-		},		
+		},	
+		{
+			coords = vec3(-1382.6, -619.03, 35.2),
+			target = {
+				loc = vec3(-1382.6, -619.03, 35.2),
+				length = 0.8,
+				width = 1.4,
+				heading = 304,
+				minZ = 34.9,
+				maxZ = 36.9,
+				label = 'Otwórz szafę'
+			},
+			name = 'bahamasecurity',
+			label = 'Szafka ochrony',
+			owner = false,
+			slots = 100,
+			weight = 200000,
+			groups = {['bahama'] = 5}
+		},
 		{
 			coords = vec3(-1377.72, -626.14, 35.58),
 			target = {
@@ -2124,6 +2142,24 @@ return {
 			owner = false,
 			slots = 100,
 			weight = 600000,
+			groups = {['bahama'] = 0}
+		},
+		{
+			coords = vec3(-1434.14, 206.82, 57),
+			target = {
+				loc = vec3(-1434.14, 206.82, 57),
+				length = 0.8,
+				width = 1.4,
+				heading = 337,
+				minZ = 56.8,
+				maxZ = 58.42,
+				label = 'Lodówka'
+			},
+			name = 'bahamalodowkaPB',
+			label = 'Otwórz Lodówkę',
+			owner = false,
+			slots = 400,
+			weight = 4000000,
 			groups = {['bahama'] = 0}
 		},
 		{
