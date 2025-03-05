@@ -9217,7 +9217,7 @@ return {
 
 	['crate_9'] = {
 		label = 'Skrzynia 9mm',
-		description = "Skrzynia z 30 paczkami 9mm",
+		description = "Skrzynia z 20 paczkami 9mm",
 		weight = 12500,
 		stack = false,
 		client = {
