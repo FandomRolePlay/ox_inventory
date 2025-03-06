@@ -1100,7 +1100,7 @@ return {
 	label = 'Magazyn',
 	owner = false,
 	slots = 200,
-	weight = 500000,
+	weight = 1000000,
 	groups = {['pizza'] = 1}
 },
 {
@@ -1118,7 +1118,7 @@ return {
 	label = 'Magazyn',
 	owner = false,
 	slots = 50,
-	weight = 100000,
+	weight = 200000,
 	groups = {['pizza'] = 1}
 },
 {
@@ -1135,8 +1135,8 @@ return {
 	name = 'pizzamagazyn2',
 	label = 'Magazyn Kartonów',
 	owner = false,
-	slots = 30,
-	weight = 750,
+	slots = 40,
+	weight = 1000,
 	groups = {['pizza'] = 1}
 },
 
