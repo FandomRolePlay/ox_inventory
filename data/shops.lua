@@ -530,7 +530,7 @@ return {
 			{ name = 'csutable',            price = 100,   grade = 1 },
 			{ name = 'csuchair',            price = 100,   grade = 1 },
 			{ name = 'camera',           	price = 500,   grade = 2 },
-			{ name = 'criminal_kit',        price = 200,    grade = 4 },
+			{ name = 'criminal_kit',        price = 200,    grade = 2 },
 			{ name = 'gsr_kit',          	price = 50,    grade = 2 }
 		},
 		locations = {
