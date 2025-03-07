@@ -8453,15 +8453,33 @@ return {
 		stack = false,
 		close = false,
 	},
+	["pistolsetmk2"] = {
+		label = "Zestaw HL PT92G1",
+		weight = 320,
+		stack = false,
+		close = false,
+	},
 	["snspistolset"] = {
 		label = "Zestaw HL SNSM10",
 		weight = 200,
 		stack = false,
 		close = false,
 	},
+	["snspistolsetmk2"] = {
+		label = "Zestaw HL SNSM10G1",
+		weight = 220,
+		stack = false,
+		close = false,
+	},
 	["revolverset"] = {
 		label = "Zestaw BM .44",
 		weight = 500,
+		stack = false,
+		close = false,
+	},
+	["revolversetmk2"] = {
+		label = "Zestaw Cobra .44",
+		weight = 550,
 		stack = false,
 		close = false,
 	},
