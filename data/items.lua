@@ -366,7 +366,7 @@ return {
 
 	['marlborocig'] = {
 		label = 'Papieros Marlboro',
-		weight = 1,
+		weight = 1, 
 	},
 
 	['debgcig'] = {
@@ -1985,12 +1985,7 @@ return {
 		label = 'Woda Flow',
 		weight = 500,
 		client = {
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
-			usetime = 2500,
-			cancel = true,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 500000,
+			statusCap = 1000000,
 			thirst = 300000,
 		}
 	},
@@ -3677,7 +3672,30 @@ return {
 		label = "Pocisk",
 		weight = 25,
 	},
+	["roza"] = {
+		label = "Czerwona róża",
+		weight = 25,
+	},	
+--[[ 	["roza"] = {
+		label = "Czerwona róża",
+		weight = 10,
+		stack = false,
+		close = true,
+		decay = false,
+		consume = 0.01,
+		client = {
+			usetime = 10000,
+			cancel = true,
+			disable = {
+				move = false,
+				car = true
+			},
+			anim = { dict = 'anim@heists@humane_labs@finale@keycards', clip = 'ped_a_enter_loop' },
+			prop = { model = `prop_single_rose`, pos = vec3(0.0, 0.5, 0.0), rot = vec3(60.0, 0.0, 0.0) },
+		}
+	}, ]]
 
+--prop = { model = `prop_single_rose`, pos = vec3(0.13, 0.15, 0.0), rot = vec3(-100.0, 0.0, -20.0) },
 	----- Propy jako itemki wp_placable
 
 	["worklight2"] = {
@@ -5443,6 +5461,12 @@ return {
 
 	['notepad'] = {
 		label = 'Notatnik',
+		weight = 100,
+		stack = true
+	},
+
+	['note'] = {
+		label = 'Notatka',
 		weight = 5,
 		stack = true
 	},
@@ -10473,4 +10497,108 @@ return {
 		}
 	},
 
+	--cis_HawkEyeSurveillance
+
+	['cctv1'] = {
+		label = 'Kamera CCTV 1',
+		weight = 350,
+		stack = true,
+		close = true,
+	},
+	
+	['cctv2'] = {
+		label = 'Kamera CCTV 2',
+		weight = 2500,
+		stack = true,
+		close = true,
+	},
+	
+	['cctv3'] = {
+		label = 'Kamera CCTV 3',
+		weight = 1800,
+		stack = true,
+		close = true,
+	},
+	
+	['cctv4'] = {
+		label = 'Kamera CCTV 4',
+		weight = 2000,
+		stack = true,
+		close = true,
+	},
+	
+	['cctv5'] = {
+		label = 'Kamera CCTV 5',
+		weight = 350,
+		stack = true,
+		close = true,
+	},
+	
+	['cctv6'] = {
+		label = 'Kamera CCTV 6',
+		weight = 6000,
+		stack = true,
+		close = true,
+	},
+	
+	['jammer_tracker'] = {
+		label = 'Wykrywacz zagłuszaczy sygnału',
+		weight = 500,
+		stack = false,
+		close = true,
+	},
+	
+	['jammer1'] = {
+		label = 'Zagłuszacz sygnału 1',
+		weight = 400,
+		stack = true,
+		close = true,
+	},
+	
+	['jammer2'] = {
+		label = 'Zagłuszacz sygnału 2',
+		weight = 2000,
+		stack = true,
+		close = true,
+	},
+	
+	['jammer3'] = {
+		label = 'Zagłuszacz sygnału 3',
+		weight = 5000,
+		stack = true,
+		close = true,
+	},
+
+	['tablet_cctv'] = {
+		label = 'Tablet CCTV',
+		weight = 300,
+		stack = true,
+		close = true,
+	},
+
+	--vms_gym
+
+	["steryd"] = {
+		label = "Steryd",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Tajemnicza substancja, kucie zalecane",
+		server = {
+			stat = "strenght",	-- nazwa statystyki do zwiększenia
+			capStat = 10.0,		-- maksymalny cap nabijania statystyki dziennie
+			export = "vms_gym.useSteroid"
+		}
+	},
+
+	["metka"] = {
+		label = "Metka do plecaka",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Metka do plecaka - można nią opisać plecak",
+	    client = {
+			export = "FandomRP.useMetka"
+		}
+	}
 }
