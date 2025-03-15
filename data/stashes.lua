@@ -1494,6 +1494,26 @@ return {
 		weight = 25000,
 		groups = {['ammunation'] = 0}
 	},
+	{
+		coords = vec3(28.0, -1080.48, 27.72),
+		target = {
+			loc = vec3(28.0, -1080.48, 27.72),
+			length = 2.0,
+			width = 1.2,
+			heading = 70,
+			minZ = 27.52,
+			maxZ = 28.32,
+			label = 'Otwórz Magazyn'
+		},
+		name = 'anmagazyn6', --szafka biuro mazebank
+		label = 'Magazyn',
+		owner = false,
+		slots = 100,
+		weight = 250000,
+		groups = {['ammunation'] = 0}
+	},
+
+  
 	-- AUTOKOMIS
 	{
 		coords = vec3(1232.07, 2740.94, 37.01),
