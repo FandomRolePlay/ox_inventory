@@ -5654,24 +5654,31 @@ return {
 	},
 
 	["weapon1_manual"] = {
-		label = 'Podręcznik Rusznikarski',
+		label = 'Podręcznik rusznikarski',
 		weight = 150,
 		stack = false,
 		description = "Podręcznik Rusznikarski część I"
 	},
 
 	["weapon2_manual"] = {
-		label = 'Podręcznik Rusznikarski',
+		label = 'Podręcznik rusznikarski',
 		weight = 150,
 		stack = false,
 		description = "Podręcznik Rusznikarski część II"
 	},
 
 	["weapon3_manual"] = {
-		label = 'Podręcznik Rusznikarski',
+		label = 'Podręcznik rusznikarski',
 		weight = 150,
 		stack = false,
 		description = "Podręcznik Rusznikarski część III"
+	},
+
+	["weapon4_manual"] = {
+		label = 'Podręcznik rusznikarski',
+		weight = 150,
+		stack = false,
+		description = "Podręcznik Rusznikarski część IV"
 	},
 
 	["melee1_manual"] = {
@@ -8519,6 +8526,18 @@ return {
 		stack = false,
 		close = false,
 	},
+	["tecpistolset"] = {
+		label = "Zestaw TACTICAL-SMG9",
+		weight = 700,
+		stack = false,
+		close = false,
+	},
+	["minismgset"] = {
+		label = "Zestaw Mini SMG",
+		weight = 700,
+		stack = false,
+		close = false,
+	},
 	["pumpshotgunset"] = {
 		label = "Zestaw Shrewsbury 590",
 		weight = 900,
@@ -8527,6 +8546,30 @@ return {
 	},
 	["sawnoffshotgun"] = {
 		label = "Zestaw Shrewsbury 500",
+		weight = 900,
+		stack = false,
+		close = false,
+	},
+	["assaultrifleset"] = {
+		label = "Zestaw AKR-47",
+		weight = 900,
+		stack = false,
+		close = false,
+	},
+	["compactrifleset"] = {
+		label = "Zestaw AKR-PT15",
+		weight = 900,
+		stack = false,
+		close = false,
+	},
+	["assaultriflemk2set"] = {
+		label = "Zestaw AKR-12",
+		weight = 900,
+		stack = false,
+		close = false,
+	},
+	["tacticalrifleset"] = {
+		label = "Zestaw SC16 A2",
 		weight = 900,
 		stack = false,
 		close = false,
@@ -8944,9 +8987,9 @@ return {
 
 	--rahe_racing
 	['racingtablet'] = {
-		label = 'Racing tablet',
+		label = 'Tablet  wyścigowy',
 		weight = 500,
-		description = 'Seems like something to do with cars.',
+		description = 'Umożliwia zorganizowanie wyścigu',
 		stack = false,
 		client = {
 			export = 'rahe-racing.racingtablet',
