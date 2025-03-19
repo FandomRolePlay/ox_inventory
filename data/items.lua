@@ -1985,7 +1985,12 @@ return {
 		label = 'Woda Flow',
 		weight = 500,
 		client = {
-			statusCap = 1000000,
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 2500,
+			cancel = true,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 500000,			
 			thirst = 300000,
 		}
 	},
