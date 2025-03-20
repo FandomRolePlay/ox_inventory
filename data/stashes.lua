@@ -1792,16 +1792,16 @@ return {
 		groups = {['hunting'] = 6}
 	},
 
-	-- ZIRCONIUM
+	-- Limitless
 	{
-		coords = vec3(-1239.94, -1451.88, 4.37),
+		coords = vec3(-272.27, -2006.57, 21.6),
 		target = {
-			loc = vec3(-1239.94, -1451.88, 4.37),
-			length = 1.5,
-			width = 0.65,
-			heading = 0,
-			minZ = 3.57,
-			maxZ = 5.17,
+			loc = vec3(-272.27, -2006.57, 21.6),
+			length = 0.6,
+			width = 1.2,
+			heading = 50,
+			minZ = 20.6,
+			maxZ = 22.4,
 			label = 'Otwórz szafke'
 		},
 		name = 'zrlocker',
@@ -1812,14 +1812,14 @@ return {
 		groups = {['zirconium'] = 0}
 	},
 	{
-		coords = vec3(-1239.2, -1451.32, 4.37),
+		coords = vec3(-280.43, -2010.02, 21.0),
 		target = {
-			loc = vec3(-1239.2, -1451.32, 4.37),
-			length = 0.6,
-			width = 1.8,
-			heading = 347,
-			minZ = 3.37,
-			maxZ = 4.77,
+			loc = vec3(-280.43, -2010.02, 21.0),
+			length = 0.8,
+			width = 1.4,
+			heading = 51,
+			minZ = 20.6,
+			maxZ = 22.2,
 			label = 'Otwórz Magazyn'
 		},
 		name = 'zrmagazyn',
@@ -1830,14 +1830,14 @@ return {
 		groups = {['zirconium'] = 1}
 	},
 	{
-		coords = vec3(-382.4066, -1943.1086, 20.2794),
+		coords = vec3(-262.53, -2001.26, 29.0),
 		target = {
-			loc = vec3(-382.4066, -1943.1086, 20.2794),
-			length = 2.0,
-			width = 2.0,
-			heading = 334,
-			minZ = 19.2794,
-			maxZ = 21.2794,
+			loc = vec3(-262.53, -2001.26, 29.0),
+			length = 2.6,
+			width = 0.8,
+			heading = 50,
+			minZ = 29.15,
+			maxZ = 31.7,
 			label = 'Otwórz Magazyn'
 		},
 		name = 'zrmagazyn2',
