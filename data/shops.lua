@@ -717,6 +717,7 @@ return {
 		inventory = {
 			{ name = 'WEAPON_PISTOL_MK2',       price = 1300, metadata = { registered = true, serial = 'AF' }, license = 'weapon', grade = 1 },
 			{ name = 'WEAPON_CARBINERIFLE_MK2', price = 6750, metadata = { registered = true, serial = 'AF' }, license = 'weapon', grade = 12 },
+			{ name = 'WEAPON_MUSKET', 			price = 3750, metadata = { registered = true, serial = 'AF' }, license = 'weapon', grade = 12 },
 			{ name = 'WEAPON_STUNGUN',          price = 250,  metadata = { registered = true, serial = 'AF' }, license = 'weapon', grade = 1 },
 			{ name = 'WEAPON_NIGHTSTICK',       price = 100,  grade = 1 },
 			{ name = 'cuffs',                   price = 25,   grade = 1 },
@@ -729,6 +730,7 @@ return {
 			{ name = 'ammo-flare',              price = 4,    grade = 1 },
 			{ name = 'ammo-9-box',              price = 19,   grade = 1 },
 			{ name = 'ammo-rifle-box',          price = 50,   grade = 12 },
+			{ name = 'ammo-musket',          	price = 50,   grade = 12 },
 			{ name = 'ammo-cart',               price = 3,    grade = 1 },
 			{ name = 'armour',            		price = 400,   grade = 12,  metadata = {durability = 25, description = "Prosta kamizelka kuloodporna", weight = 750}},
 			{ name = 'armour',            		price = 800,   grade = 12,  metadata = {durability = 50, description = "Dobra kamizelka kuloodporna", weight = 1500}},
