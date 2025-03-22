@@ -2514,6 +2514,24 @@ return {
 		groups = {['police'] = 0}
 	},
 	{
+		coords = vec3(1214.49, -1465.53, 34.86),
+		target = {
+			loc = vec3(1214.49, -1465.53, 34.86),
+			length = 0.6,
+			width = 1.2,
+			heading = 0,
+			minZ = 33.86,
+			maxZ = 36.06,
+			label = 'Otwórz Lodówkę'
+		},
+		name = 'fdlodowka',
+		label = 'Lodówka',
+		owner = false,
+		slots = 200,
+		weight = 50000,
+		groups = {['fire'] = 0}
+	},
+	{
 		coords = vec3(-2294.28, 3238.38, 36.51),
 		target = {
 			loc = vec3(-2294.28, 3238.38, 36.51),
