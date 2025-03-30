@@ -1678,10 +1678,10 @@ return {
 		{ name = 'cargobox7',                    price = 0, count = 100 }, -- pranie
 	},
 		locations = {
-			vec3(-1379.2985, -471.3574, 78.2001)
+			vec3(-1299.5446, -3017.2405, -48.6927)
 		},
 		targets = {
-			{ loc = vec3(-1379.2985, -471.3574, 78.2001), length = 2.4, width = 2.0, heading = 0, minZ = 77.72, maxZ = 79.52, distance = 1.5 },
+			{ loc = vec3(-1299.5446, -3017.2405, -48.6927), length = 2.5, width = 2.5, heading = 270, minZ = -47.70, maxZ = -49.70, distance = 2.5 },
 		}
 	},
 	Hurtownia12 = {
