@@ -1050,7 +1050,7 @@ return {
 	},
 
 	['popswege'] = {
-		label = 'Tavern Wege',
+		label = 'Kanapka Vege',
 		description = "Kanapka wegetariańska.",
 		weight = 400,
 		client = {
@@ -8331,7 +8331,7 @@ return {
 		close = true,
 	},
 	["bahama_drink"] = {
-		label = "Bahama Drink",
+		label = "Crimson Rush",
 		weight = 300,
 		stack = true,
 		close = true,
