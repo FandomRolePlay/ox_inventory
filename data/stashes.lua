@@ -1140,36 +1140,36 @@ return {
 	groups = {['pizza'] = 1}
 },
 
-	-- L'espoir Cafe
+-- COOLBEANS
 	{
-		coords = vec3(-112.2, 384.39, 112.28),
+	coords = vec3(-1217.6, -1493.92, 4.37),
 		target = {
-			loc = vec3(-112.2, 384.39, 112.28),
-			length = 1.6,
-			width = 1,
-			heading = 155,
-			minZ = 112.28,
-			maxZ = 114.48,
-			label = 'Lada'
+		loc = vec3(-1217.6, -1493.92, 4.37),
+		length = 0.75,
+		width = 0.8,
+		heading = 35,
+		minZ = 4.27,
+		maxZ = 4.57,
+		label = 'Tacka'
 		},
-		name = 'Cafetacka',
-		label = 'Lada',
+	name = 'cbtacka',
+	label = 'Tacka',
 		owner = false,
-		slots = 10,
-		weight = 15000,
+	slots = 15,
+	weight = 20000,
 	},
 	{
-		coords = vec3(-107.75, 396.09, 112.28),
+	coords = vec3(-1211.6, -1492.31, 4.37),
 		target = {
-			loc = vec3(-107.75, 396.09, 112.28),
-			length = 2.2,
+		loc = vec3(-1211.6, -1492.31, 4.37),
+		length = 1.0,
 			width = 0.6,
-			heading = 64,
-			minZ = 112.28,
-			maxZ = 114.48,
+		heading = 35,
+		minZ = 3.57,
+		maxZ = 4.97,
 			label = 'Otwórz szafke'
 		},
-		name = 'Cafelocker',
+	name = 'cblocker',
 		label = 'Szafka Prywatna',
 		owner = true,
 		slots = 10,
@@ -1177,60 +1177,23 @@ return {
 		groups = {['coolbeans'] = 0}
 	},
 	{
-		coords = vec3(-118.79, 380.6, 112.28),
+	coords = vec3(-1219.14, -1495.03, 4.37),
 		target = {
-			loc = vec3(-118.79, 380.6, 112.28),
-			length = 1.6,
+		loc = vec3(-1219.14, -1495.03, 4.37),
+		length = 0.6,
 			width = 1.0,
-			heading = 335,
-			minZ = 112.28,
-			maxZ = 114.68,
-			label = 'Otwórz Lodówkę'
-		},
-		name = 'cafelodowka',
-		label = 'Lodówka',
-		owner = false,
-		slots = 150,
-		weight = 300000,
-		groups = {['coolbeans'] = 0}
-	},
-
-	{
-		coords = vec3(-112.16, 392.99, 112.28),
-		target = {
-			loc = vec3(-112.16, 392.99, 112.28),
-			length = 2.4,
-			width = 0.6,
-			heading = 65,
-			minZ = 112.28,
-			maxZ = 114.48,
+		heading = 35,
+		minZ = 4.17,
+		maxZ = 4.97,
 			label = 'Otwórz Magazyn'
 		},
-		name = 'cafemagazyn',
+	name = 'cbmagazyn',
 		label = 'Magazyn',
 		owner = false,
 		slots = 200,
 		weight = 1000000,
-		groups = {['coolbeans'] = 0}
-	},
+	groups = {['coolbeans'] = 1}
 
-	{
-		coords = vec3(-98.87, 389.72, 112.28),
-		target = {
-			loc = vec3(-98.87, 389.72, 112.28),
-			length = 2.6,
-			width = 0.6,
-			heading = 335,
-			minZ = 112.28,
-			maxZ = 114.48,
-			label = 'Otwórz Szafkę'
-		},
-		name = 'cafebossmagazyn',
-		label = 'Szafka',
-		owner = false,
-		slots = 50,
-		weight = 75000,
-		groups = {['coolbeans'] = 5}
 	},
 
 	-- TEQUILALA
@@ -2955,6 +2918,25 @@ return {
     weight = 100000,
     groups = {['lawyer2'] = 0}
 },
+-- Keller &ross law
+{
+	coords = vec3(-1043.85, -1024.15, -120.65),
+	target = {
+		loc = vec3(-1043.85, -1024.15, -120.65),
+		length = 0.50,
+		width = 3.55,
+		heading = 90,
+		minZ = -121.65,
+		maxZ = -119.2,
+		label = 'Otwórz Magazyn'
+	},
+	name = 'lawyermagazyn',
+	label = 'Magazyn',
+	owner = false,
+	slots = 200,
+	weight = 500000,
+	groups = {['lawyer'] = 1}
+},
 -- barber
 {
     coords = vec3(-822.79, -180.72, 37.57),
@@ -2973,6 +2955,205 @@ return {
     slots = 10,
     weight = 15000,
     groups = {['barber'] = 0}
+},
+-- Taco Farmer
+{
+	coords = vec3(19.75, -1600.7, 29.05),
+	target = {
+		loc = vec3(19.75, -1600.7, 29.05),
+		length = 0.6,
+		width = 0.7,
+		heading = 50,
+		minZ = 28.50,
+		maxZ = 29.75,
+		label = 'Otwórz szafke'
+	},
+	name = 'tacolocker',
+	label = 'Szafka Prywatna',
+	owner = true,
+	slots = 10,
+	weight = 15000,
+	groups = {['taco'] = 0}
+},
+{
+	coords = vec3(16.15, -1598.05, 29.6),
+	target = {
+		loc = vec3(16.15, -1598.05, 29.6),
+		length = 0.75,
+		width = 1.0,
+		heading = 50,
+		minZ = 28.2,
+		maxZ = 30.6,
+		label = 'Otwórz Magazyn'
+	},
+	name = 'tacomagazyn',
+	label = 'Magazyn',
+	owner = false,
+	slots = 200,
+	weight = 500000,
+	groups = {['taco'] = 1}
+},
+{
+	coords = vec3(13.63, -1602.12, 29.38),
+	target = {
+		loc = vec3(13.63, -1602.12, 29.38),
+		length = 2.4,
+		width = 0.8,
+		heading = 50,
+		minZ = 28.98,
+		maxZ = 30.18,
+		label = 'Tacka'
+	},
+	name = 'tacotacka',
+	label = 'Tacka',
+	owner = false,
+	slots = 8,
+	weight = 10000,
+},
+
+-- The town Rest
+{
+	coords = vec3(-1347.6, -1086.0, 6.6),
+	target = {
+		loc = vec3(-1347.6, -1086.0, 6.6),
+		length = 1.85,
+		width = 0.65,
+		heading = 120,
+		minZ = 5.60,
+		maxZ = 6.95,
+		label = 'Otwórz szafke'
+	},
+	name = 'townrestlocker',
+	label = 'Szafka Prywatna',
+	owner = true,
+	slots = 10,
+	weight = 15000,
+	groups = {['townrest'] = 0}
+},
+{
+	coords = vec3(-1351.95, -1098.65, 7.1),
+	target = {
+		loc = vec3(-1351.95, -1098.65, 7.1),
+		length = 2.70,
+		width = 0.6,
+		heading = 120,
+		minZ = 6.0,
+		maxZ = 8.25,
+		label = 'Otwórz Magazyn'
+	},
+	name = 'townrestmagazyn',
+	label = 'Magazyn',
+	owner = false,
+	slots = 200,
+	weight = 500000,
+	groups = {['townrest'] = 1}
+},
+{
+	coords = vec3(-1360.6, -1095.65, 6.55),
+	target = {
+		loc = vec3(-1360.6, -1095.65, 6.5),
+		length = 2.35,
+		width = 0.65,
+		heading = 120,
+		minZ = 5.85,
+		maxZ = 7.15,
+		label = 'Otwórz Szafke'
+	},
+	name = 'townrestbosmagazyn',
+	label = 'Szafka szefa',
+	owner = false,
+	slots = 100,
+	weight = 100000,
+	groups = {['townrest'] = 6}
+},
+{
+	coords = vec3(-1356.35, -1072.3, 7.1),
+	target = {
+		loc = vec3(-1356.35, -1072.3, 7.1),
+		length = 2.85,
+		width = 1.05,
+		heading = 120,
+		minZ = 6.85,
+		maxZ = 7.15,
+		label = 'Tacka'
+	},
+	name = 'townresttacka',
+	label = 'Tacka',
+	owner = false,
+	slots = 8,
+	weight = 10000,
+},
+-- The town Club
+{
+	coords = vec3(-1345.1, -1058.1, 11.6),
+	target = {
+		loc = vec3(-1345.1, -1058.1, 11.6),
+		length = 0.3,
+		width = 3.05,
+		heading = 120,
+		minZ = 10.40,
+		maxZ = 12.75,
+		label = 'Otwórz szafke'
+	},
+	name = 'townclublocker',
+	label = 'Szafka Prywatna',
+	owner = true,
+	slots = 10,
+	weight = 15000,
+	groups = {['townclub'] = 0}
+},
+{
+	coords = vec3(-1352.86, -1065.69, 11.48),
+	target = {
+		loc = vec3(-1352.86, -1065.69, 11.48),
+		length = 0.20,
+		width = 1.4,
+		heading = 300,
+		minZ = 7.48,
+		maxZ = 11.48,
+		label = 'Otwórz Magazyn'
+	},
+	name = 'townclubmagazyn',
+	label = 'Magazyn',
+	owner = false,
+	slots = 200,
+	weight = 500000,
+	groups = {['townclub'] = 1}
+},
+{
+	coords = vec3(-1297.5, -1038.2, 14.2),
+	target = {
+		loc = vec3(-1297.5, -1038.2, 14.2),
+		length = 0.55,
+		width = 0.60,
+		heading = 120,
+		minZ = 13.95,
+		maxZ = 14.45,
+		label = 'Otwórz Szafke'
+	},
+	name = 'townclubbosmagazyn',
+	label = 'Szafka szefa',
+	owner = false,
+	slots = 100,
+	weight = 100000,
+	groups = {['townclub'] = 6}
+},
+{
+	coords = vec3(-1349.7, -1064.31, 11.47),
+	target = {
+		loc = vec3(-1349.7, -1064.31, 11.47),
+		length = 0.80,
+		width = 2.0,
+		heading = 30,
+		minZ = 7.22,
+		maxZ = 11.62,
+		label = 'Tacka'
+	},
+	name = 'townclubtacka',
+	label = 'Tacka',
+	owner = false,
+	slots = 8,
+	weight = 10000,
 },
 
 

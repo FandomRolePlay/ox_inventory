@@ -1093,16 +1093,19 @@ return {
 			groups = {
 				['foodtruck'] = 0,
 				["coolbeans"] = 0,
+				["townrest"] = 0,
 				["tequilala"] = 0,
 				["weedshop"] = 0,
 				["pizza"] = 0,
 				["bahama"] = 0,
+				["townclub"] = 0,
 				["ramen"] = 0,
 				["pops"] = 0,
 				["vanilla"] = 0,
 				["lucky"] = 0,
 				["kendal"] = 0,
 				["doc"] = 1,
+				['taco'] = 0,
 				["browary"] = 0
 			},
 		inventory = {
@@ -1148,11 +1151,14 @@ return {
 			id = 628, colour = 24, scale = 0.8 },
 			groups = {
 				['foodtruck'] = 0,
+				['taco'] = 0,
 				["coolbeans"] = 0,
+				["townrest"] = 0,
 				["tequilala"] = 0,
 				["weedshop"] = 0,
 				["pizza"] = 0,
 				["bahama"] = 0,
+				["townclub"] = 0,
 				["ramen"] = 0,
 				["pops"] = 0,
 				["vanilla"] = 0,
@@ -1196,11 +1202,14 @@ return {
 			id = 628, colour = 24, scale = 0.8 },
 			groups = {
 				['foodtruck'] = 0,
+				['taco'] = 0,
 				["coolbeans"] = 0,
+				["townrest"] = 0,
 				["tequilala"] = 0,
 				["weedshop"] = 0,
 				["pizza"] = 0,
 				["bahama"] = 0,
+				["townclub"] = 0,
 				["ramen"] = 0,
 				["pops"] = 0,
 				["vanilla"] = 0,
@@ -1528,7 +1537,8 @@ return {
 			id = 50, colour = 24, scale = 0.8
 		},
 		groups = {
-			["tequilala"] = 0, ["browary"] = 0, ["bahama"] = 0, ["foodtruck"] = 0, ["vanilla"] = 0, ["pops"] = 0,
+			["tequilala"] = 0, ["browary"] = 0, ["bahama"] = 0, ["foodtruck"] = 0, ["vanilla"] = 0, ["pops"] = 0, ['taco'] = 0, ["townclub"] = 0,
+
 		},
 		inventory = {
 			{ name = 'pisswasser',      price = 15 },
@@ -1569,9 +1579,14 @@ return {
 		inventory = {
 			{ name = 'proteinshake',  price = 3 },
 			{ name = 'proteinshakes', price = 5 },
-			{ name = 'junko',         price = 4 },
-			{ name = 'junkb',         price = 4 },
-			{ name = 'junkp',         price = 4 },
+			{ name = 'junko',         price = 10 },
+			{ name = 'junkb',         price = 10 },
+			{ name = 'junkp',         price = 10 },
+			{ name = 'cruiser2',    price = 100 },
+			{ name = 'bmx3',        price = 200 },
+			{ name = 'scorcher2',   price = 350 },
+			{ name = 'tribike4',    price = 500 },
+			{ name = 'skateboard', price = 50 },
 		},
 		locations = {
 			vec3(869.08, -1629.27, 30.2)
@@ -1776,6 +1791,21 @@ return {
 		},
 		targets = {
 			{ loc = vec3(-718.64, 260.62, 84.14), length = 0.6, width = 1.8, heading = 295.0, minZ = 83.34, maxZ = 84.74, distance = 1.5 },
+		}
+	},
+	HurtowniaLimitles = {
+		name = 'Sklep Limitles',
+		groups = {
+			['zirconium'] = 7,
+		},
+		inventory = {
+			{ name = 'parachute', price = 500, grade = 7 },
+		},
+		locations = {
+			vec3(-732.94, -1501.43, 5.0)
+		},
+		targets = {
+			{ loc = vec3(-732.94, -1501.43, 5.0), length = 2.2, width = 3.6, heading = 25.0, minZ = 4.0, maxZ = 6.6, distance = 1.5 },
 		}
 	},
 	ChopShopTools = {
