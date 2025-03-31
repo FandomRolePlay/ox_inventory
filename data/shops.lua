@@ -1609,11 +1609,11 @@ return {
 			['sandgym'] = 6
 		},
 		inventory = {
-			{ name = 'proteinshake',  price = 3 },
-			{ name = 'proteinshakes', price = 5 },
-			{ name = 'junko',         price = 10 },
-			{ name = 'junkb',         price = 10 },
-			{ name = 'junkp',         price = 10 },
+			{ name = 'proteinshake',  price = 10 },
+			{ name = 'proteinshakes', price = 10 },
+			{ name = 'junko',         price = 12 },
+			{ name = 'junkb',         price = 12 },
+			{ name = 'junkp',         price = 12 },
 			{ name = 'cruiser2',    price = 100 },
 			{ name = 'bmx3',        price = 200 },
 			{ name = 'scorcher2',   price = 350 },
