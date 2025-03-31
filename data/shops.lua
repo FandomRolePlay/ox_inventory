@@ -446,7 +446,7 @@ return {
 		},
 	},
 
-	PROBikes = {
+--[[ 	PROBikes = {
 		name = 'PRO Bikes',
 		blip = {
 			id = 559, colour = 18, scale = 0.8 },
@@ -463,7 +463,7 @@ return {
 		targets = {
 			{ loc = vec3(-1228.06, -1437.67, 4.37), length = 0.6, width = 0.8, heading = 305.0, minZ = 3.97, maxZ = 4.77, distance = 1.5 },
 		},
-	},
+	}, ]]
 
 
 	--FRAKCJE
