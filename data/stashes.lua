@@ -3045,7 +3045,7 @@ return {
 	label = 'Magazyn',
 	owner = false,
 	slots = 200,
-	weight = 500000,
+	weight = 1000000,
 	groups = {['townrest'] = 1}
 },
 {
@@ -3117,7 +3117,7 @@ return {
 	label = 'Magazyn',
 	owner = false,
 	slots = 200,
-	weight = 500000,
+	weight = 1000000,
 	groups = {['townclub'] = 1}
 },
 {
