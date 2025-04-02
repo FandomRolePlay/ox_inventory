@@ -1132,9 +1132,93 @@ return {
 			export = 'FandomRP.useStatusItem',
 			statusCap = 1000000,
 			thirst = 500000,
-		}
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
-
+	['foodtruckburger1'] = {
+		label = 'Classic Burger',
+		description = "Burger z soczystym kotletem z wołowiny, łagodnym sosem i pomidorkiem.",
+		weight = 400,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 450000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
+	['foodtruckburger2'] = {
+		label = 'Big James',
+		description = "Burger na podwójnym mięsie wołowym, tylko dla pasibrzuchów",
+		weight = 400,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 550000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
+	['foodtruckburger3'] = {
+		label = 'Stinky Angel',
+		description = "Burger wołowy z podwójnym serem",
+		weight = 400,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 550000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
+	['foodtrucksandwich1'] = {
+		label = 'Spicy Sandwitch',
+		description = "Kanapka z szarpaną wołowiną i zapiekanym serem. Dobrze przyprawiona.",
+		weight = 400,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 450000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
+	['foodtrucksandwich2'] = {
+		label = 'Jalapeno Bobber',
+		description = "Kanapka z Jalapeno, piecze dwa razy.",
+		weight = 400,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 450000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
+	['foodtruckfries'] = {
+		label = 'Frytki',
+		description = "Pyszne złociste ociekające tłuszczem frytki.",
+		weight = 400,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 350000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
 	--Blazing Truck
 	['blazeburger'] = {
 		label = 'Blaze Burger',
@@ -5519,12 +5603,6 @@ return {
 	},
 
 	-- pickle_crafting
-	["grill1_table"] = {
-		label = 'Grill',
-		weight = 6000,
-		stack = false,
-		description = "Duży grill gazowy"
-	},
 
 	["grill2_table"] = {
 		label = 'Grill',
@@ -5624,7 +5702,7 @@ return {
 		description = "Zbiornik do składowania materiałów"
 	},
 
-	["blazing_table"] = {
+	["foodtruck_table"] = {
 		label = 'Stół do gotowania',
 		weight = 1000,
 		stack = false,
