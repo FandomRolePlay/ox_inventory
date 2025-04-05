@@ -6508,7 +6508,7 @@ return {
 		label = 'Flądra',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6522,7 +6522,7 @@ return {
 		label = 'Sum',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6536,7 +6536,7 @@ return {
 		label = 'Bass duży',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6550,7 +6550,7 @@ return {
 		label = 'Bass mały',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
