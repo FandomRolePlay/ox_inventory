@@ -956,7 +956,7 @@ return {
 			statusCap = 1000000,
 			hunger = 450000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['popsryba'] = {
@@ -971,7 +971,7 @@ return {
 			statusCap = 1000000,
 			hunger = 550000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['popskielbasa'] = {
@@ -986,7 +986,7 @@ return {
 			statusCap = 1000000,
 			hunger = 450000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['popsnuggetsy'] = {
@@ -1001,7 +1001,7 @@ return {
 			statusCap = 1000000,
 			hunger = 400000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['popsser'] = {
@@ -1016,7 +1016,7 @@ return {
 			statusCap = 1000000,
 			hunger = 350000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['popskurczak'] = {
@@ -1031,7 +1031,7 @@ return {
 			statusCap = 1000000,
 			hunger = 350000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['popswolowina'] = {
@@ -1046,7 +1046,7 @@ return {
 			statusCap = 1000000,
 			hunger = 350000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['popswege'] = {
@@ -1061,7 +1061,7 @@ return {
 			statusCap = 1000000,
 			hunger = 350000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['popsstek'] = {
@@ -1076,7 +1076,7 @@ return {
 			statusCap = 1000000,
 			hunger = 650000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['popslemoniada'] = {
@@ -1090,7 +1090,8 @@ return {
 			export = 'FandomRP.useStatusItem',
 			statusCap = 1000000,
 			thirst = 500000,
-		}
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['popsherbata'] = {
@@ -1104,7 +1105,8 @@ return {
 			export = 'FandomRP.useStatusItem',
 			statusCap = 1000000,
 			thirst = 500000,
-		}
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['popskawa'] = {
@@ -1118,7 +1120,8 @@ return {
 			export = 'FandomRP.useStatusItem',
 			statusCap = 1000000,
 			thirst = 500000,
-		}
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['popsslushie'] = {
@@ -1133,7 +1136,7 @@ return {
 			statusCap = 1000000,
 			thirst = 500000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	['foodtruckburger1'] = {
 		label = 'Classic Burger',
@@ -1231,7 +1234,7 @@ return {
 			statusCap = 1000000,
 			hunger = 500000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 
 	},
 
@@ -1246,7 +1249,7 @@ return {
 			statusCap = 1000000,
 			hunger = 350000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['blazeinferno'] = {
@@ -1260,7 +1263,7 @@ return {
 			statusCap = 1000000,
 			hunger = 400000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['blazepopper'] = {
@@ -1274,7 +1277,7 @@ return {
 			statusCap = 1000000,
 			hunger = 550000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['blazegoldflame'] = {
@@ -1288,7 +1291,7 @@ return {
 			statusCap = 1000000,
 			hunger = 500000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['blazefries'] = {
@@ -1302,7 +1305,7 @@ return {
 			statusCap = 1000000,
 			hunger = 300000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
  --nowe
 	['blazetacop'] = {
@@ -1316,7 +1319,7 @@ return {
 			statusCap = 1000000,
 			hunger = 500000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['blazetacoc'] = {
@@ -1330,7 +1333,7 @@ return {
 			statusCap = 1000000,
 			hunger = 400000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['blazetacosalsa'] = {
@@ -1344,7 +1347,7 @@ return {
 			statusCap = 1000000,
 			hunger = 450000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['blazequesadilla'] = {
@@ -1358,7 +1361,7 @@ return {
 			statusCap = 1000000,
 			hunger = 450000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['blazequesadillam'] = {
@@ -1372,7 +1375,7 @@ return {
 			statusCap = 1000000,
 			hunger = 550000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['blazequesadillar'] = {
@@ -1386,7 +1389,7 @@ return {
 			statusCap = 1000000,
 			hunger = 500000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['blazeburrito'] = {
@@ -1400,7 +1403,7 @@ return {
 			statusCap = 1000000,
 			hunger = 400000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['blazeburritobbq'] = {
@@ -1414,7 +1417,7 @@ return {
 			statusCap = 1000000,
 			hunger = 500000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['blazechurros'] = {
@@ -1428,7 +1431,7 @@ return {
 			statusCap = 1000000,
 			hunger = 270000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['blazenachos'] = {
@@ -1442,7 +1445,7 @@ return {
 			statusCap = 1000000,
 			hunger = 270000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	--Lucky Plucker
@@ -1458,7 +1461,7 @@ return {
 			thirst = 350000,
 			hunger = 100000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['morelshake'] = {
@@ -1473,7 +1476,7 @@ return {
 			thirst = 350000,
 			hunger = 100000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['bsicecream'] = {
@@ -1488,7 +1491,7 @@ return {
 			thirst = 300000,
 			hunger = 150000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['bsfries'] = {
@@ -1502,7 +1505,7 @@ return {
 			statusCap = 1000000,
 			hunger = 300000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['bsfries2'] = {
@@ -1516,7 +1519,7 @@ return {
 			statusCap = 1000000,
 			hunger = 350000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['nuts'] = {
@@ -1530,7 +1533,7 @@ return {
 			statusCap = 600000,
 			hunger = 200000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['chickenburger'] = {
@@ -1544,7 +1547,7 @@ return {
 			statusCap = 1000000,
 			hunger = 420000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['cheeseburger'] = {
@@ -1558,7 +1561,7 @@ return {
 			statusCap = 1000000,
 			hunger = 450000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['bswrap'] = {
@@ -1572,7 +1575,7 @@ return {
 			statusCap = 1000000,
 			hunger = 450000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['bssalad'] = {
@@ -1586,7 +1589,7 @@ return {
 			statusCap = 1000000,
 			hunger = 400000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['bsnuggets'] = {
@@ -1600,7 +1603,7 @@ return {
 			statusCap = 1000000,
 			hunger = 250000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['bswings'] = {
@@ -1614,7 +1617,7 @@ return {
 			statusCap = 1000000,
 			hunger = 250000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['bslumberjack'] = {
@@ -1628,7 +1631,7 @@ return {
 			statusCap = 1000000,
 			hunger = 6500000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['burger'] = {
@@ -1658,7 +1661,7 @@ return {
         	statusCap = 1000000,
         	hunger = 250000,
     },
-    degrade = 3 * 24 * 60, -- day * hour * minute
+    degrade = 2 * 24 * 60, -- day * hour * minute
 },
 ["kendalshaket"] = {
 	label = "Shake Truskawkowy",
@@ -1674,7 +1677,7 @@ return {
 		thirst = 350000,
 		hunger = 100000,
     },
-	degrade = 3 * 24 * 60, -- day * hour * minute
+	degrade = 2 * 24 * 60, -- day * hour * minute
 },
 ['kendalshakew'] = {
 	label = 'Shake Waniliowy',	
@@ -1688,7 +1691,7 @@ return {
 		thirst = 350000,
 		hunger = 100000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},    
 ["kendalshakec"] = {
 	label = "Shake Czekoladowy",
@@ -1704,7 +1707,7 @@ return {
         thirst = 350000,
         hunger = 100000,
         },
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 ["kendallemoniada"] = {
     label = "Lemoniada",
@@ -1719,6 +1722,7 @@ return {
         statusCap = 1000000,
         thirst = 450000,
         },
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 ["kendalsandwich"] = {
     label = "Kanapka z mięsem",
@@ -1733,7 +1737,7 @@ return {
         statusCap = 1000000,
         hunger = 350000,
         },
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 ["kendalcake"] = {
     label = "Ciasto Czekoladowe",
@@ -1748,7 +1752,7 @@ return {
         statusCap = 1000000,
         hunger = 450000,
         },
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 ["kendalfries"] = {
     label = "Frytki z dodatkami",
@@ -1763,7 +1767,7 @@ return {
         statusCap = 1000000,
         hunger = 350000,
         },
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 ["kendalsticks"] = {
 	label = "Smażone paluszki serowe",
@@ -1778,7 +1782,7 @@ return {
         statusCap = 1000000,
         hunger = 550000,
         },
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 ["kendalchili"] = {
 	label = "Gulasz z dodatkami",
@@ -1793,7 +1797,7 @@ return {
         statusCap = 1000000,
         hunger = 550000,
         },
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 ["kendalburger"] = {
 	label = "Tostowy Burger",
@@ -1808,7 +1812,7 @@ return {
         statusCap = 1000000,
         hunger = 450000,
         },
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 ["kendalbekon"] = {
     label = "Smażone jajka z bekonem",
@@ -1823,7 +1827,7 @@ return {
         statusCap = 1000000,
         hunger = 350000,
         },
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 --PRISON CANTEEN
@@ -2150,6 +2154,7 @@ return {
 			thirst = 350000,
 			stress = -50000
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["junkb"] = {
 		label = "JUNK Blue",
@@ -2166,6 +2171,7 @@ return {
 			thirst = 350000,
 			stress = -50000
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["junkp"] = {
 		label = "JUNK Purple",
@@ -2182,6 +2188,7 @@ return {
 			thirst = 350000,
 			stress = -50000
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	["proteinshake"] = {
@@ -2199,6 +2206,7 @@ return {
 			thirst = 350000,
 			stress = -50000
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	["proteinshakes"] = {
@@ -2216,6 +2224,7 @@ return {
 			thirst = 350000,
 			stress = -50000
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['bread'] = {
@@ -6731,7 +6740,7 @@ return {
 			statusCap = 1000000,
 			hunger = 500000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	['sushi'] = {
 		label = 'Sushi',
@@ -6744,7 +6753,7 @@ return {
 			statusCap = 1000000,
 			hunger = 200000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	['gyoza'] = {
 		label = 'Pierożki Gyoza',
@@ -6757,7 +6766,7 @@ return {
 			statusCap = 1000000,
 			hunger = 200000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	['sukiyaki'] = {
 		label = 'Sukiyaki',
@@ -6770,7 +6779,7 @@ return {
 			statusCap = 1000000,
 			hunger = 600000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	['krewetki'] = {
 		label = 'Krewetki w cieście',
@@ -6783,7 +6792,7 @@ return {
 			statusCap = 1000000,
 			hunger = 400000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	['kitsune_soba'] = {
 		label = 'Kitsune Soba',
@@ -6796,7 +6805,7 @@ return {
 			statusCap = 1000000,
 			hunger = 600000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["ramune"] = {
 		label = "Ramune",
@@ -6882,7 +6891,7 @@ return {
 			statusCap = 700000,
 			hunger = 250000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	['fruit_table'] = {
 		label = 'Tacka owoców',
@@ -6895,7 +6904,7 @@ return {
 			statusCap = 600000,
 			hunger = 250000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 		['nuts_bowl'] = {
 			label = 'Miska z orzeszkami',
@@ -6908,7 +6917,7 @@ return {
 				statusCap = 600000,
 				hunger = 250000,
 			},
-			degrade = 3 * 24 * 60, -- day * hour * minute
+			degrade = 2 * 24 * 60, -- day * hour * minute
 		},
 	['tofu'] = {
 		label = "Tofu",
@@ -7227,7 +7236,7 @@ return {
 			hunger = 350000,
 			stress = -100000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["weedchoc"] = {
 		label = "Czekolada",
@@ -7292,6 +7301,7 @@ return {
 			thirst = 300000,
 			stress = -100000,
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["weedvodka"] = {
 		label = "Wódka WS",
@@ -7322,7 +7332,7 @@ return {
 			statusCap = 1000000,
 			hunger = 350000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["mufchocolate"] = {
 		label = "Muffinka Czekoladowa",
@@ -7337,7 +7347,7 @@ return {
 			statusCap = 1000000,
 			hunger = 250000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["panutela"] = {
 		label = "Naleśnik",
@@ -7352,7 +7362,7 @@ return {
 			statusCap = 1000000,
 			hunger = 250000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["cake"] = {
 		label = "Ciasto Truskawkowe",
@@ -7367,7 +7377,7 @@ return {
 			statusCap = 1000000,
 			hunger = 450000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["blueberry_pie"] = {
 		label = "Ciasto z borówkami",
@@ -7382,7 +7392,7 @@ return {
 			statusCap = 1000000,
 			hunger = 350000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["croissant"] = {
 		label = "Croissant z czekoladą",
@@ -7397,7 +7407,7 @@ return {
 			statusCap = 1000000,
 			hunger = 250000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["baconeggs"] = {
 		label = "Jajecznica z bekonem",
@@ -7457,7 +7467,7 @@ return {
 			statusCap = 1000000,
 			hunger = 250000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["coretto"] = {
 		label = "Caffe Coretto",
@@ -7486,7 +7496,7 @@ return {
 			statusCap = 1000000,
 			hunger = 600000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['chicken_salad'] = {
@@ -7500,7 +7510,7 @@ return {
 			statusCap = 1000000,
 			hunger = 650000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['bagel_tofu'] = {
@@ -7514,7 +7524,7 @@ return {
 			statusCap = 1000000,
 			hunger = 400000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['chicken_potato'] = {
@@ -7528,7 +7538,7 @@ return {
 			statusCap = 1000000,
 			hunger = 650000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['salmon_potato'] = {
@@ -7542,7 +7552,7 @@ return {
 			statusCap = 1000000,
 			hunger = 700000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['bbq_ribs'] = {
@@ -7556,7 +7566,7 @@ return {
 			statusCap = 1000000,
 			hunger = 800000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['bbq_wings'] = {
@@ -7570,7 +7580,7 @@ return {
 			statusCap = 1000000,
 			hunger = 700000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['american_roast'] = {
@@ -7584,7 +7594,7 @@ return {
 			statusCap = 1000000,
 			hunger = 600000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['apple_pie_ice'] = {
@@ -7599,7 +7609,7 @@ return {
 			thirst = 100000,
 			hunger = 450000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['american_pudding'] = {
@@ -7614,7 +7624,7 @@ return {
 			thirst = 100000,
 			hunger = 200000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	['chocolateice'] = {
@@ -7629,7 +7639,7 @@ return {
 			thirst = 100000,
 			hunger = 300000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	["caffelatte"] = {
@@ -7645,6 +7655,7 @@ return {
 			statusCap = 1000000,
 			thirst = 450000,
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["americana"] = {
 		label = "Americana",
@@ -7659,6 +7670,7 @@ return {
 			statusCap = 1000000,
 			thirst = 350000,
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["icecreamcaffe"] = {
 		label = "Kawa z lodami waniliowymi",
@@ -7673,6 +7685,7 @@ return {
 			statusCap = 1000000,
 			thirst = 400000,
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["waffle"] = {
 		label = "Gofr",
@@ -7687,7 +7700,7 @@ return {
 			statusCap = 1000000,
 			hunger = 450000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["wanillaice"] = {
 		label = "Puchar lodowy",
@@ -7702,7 +7715,7 @@ return {
 			statusCap = 1000000,
 			hunger = 350000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["farming_pistachio"] = {
 		label = "Pistacje",
@@ -7723,6 +7736,7 @@ return {
 			statusCap = 1000000,
 			thirst = 400000,
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["espresso_macchiato"] = {
 		label = "Podwójne Espresso",
@@ -7737,6 +7751,7 @@ return {
 			statusCap = 1000000,
 			thirst = 350000,
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["macchiato"] = {
 		label = "Espresso Macchiato",
@@ -7751,6 +7766,7 @@ return {
 			statusCap = 1000000,
 			thirst = 350000,
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["hot_choc_2"] = {
 		label = "Gorąca czekolada",
@@ -7765,6 +7781,7 @@ return {
 			statusCap = 1000000,
 			thirst = 400000,
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["cc-greentea"] = {
 		label = "Egzotyczna herbata",
@@ -7779,6 +7796,7 @@ return {
 			statusCap = 1000000,
 			thirst = 450000,
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["tea"] = {
 		label = "Herbata",
@@ -7793,6 +7811,7 @@ return {
 			statusCap = 650000,
 			thirst = 350000,
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["cc-catlemonade"] = {
 		label = "Lemoniada",
@@ -7807,6 +7826,7 @@ return {
 			statusCap = 1000000,
 			thirst = 450000,
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["iced_caffe_latte"] = {
 		label = "Ice Latte",
@@ -7821,6 +7841,7 @@ return {
 			statusCap = 1000000,
 			thirst = 400000,
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["espresso"] = {
 		label = "Espresso",
@@ -7835,6 +7856,7 @@ return {
 			statusCap = 1000000,
 			thirst = 200000,
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["larios"] = {
 		label = "Likier",
@@ -8173,7 +8195,7 @@ return {
 			statusCap = 1000000,
 			hunger = 450000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["gelatine"] = {
 		label = "Żelatyna",
@@ -8200,7 +8222,7 @@ return {
 			statusCap = 1000000,
 			hunger = 550000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["fusilli"] = {
 		label = "Fusilli",
@@ -8215,7 +8237,7 @@ return {
 			statusCap = 1000000,
 			hunger = 550000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["pizzacapricciosa"] = {
 		label = "Pizza Capricciosa",
@@ -8230,7 +8252,7 @@ return {
 			statusCap = 1000000,
 			hunger = 300000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["pizzadiavolo"] = {
 		label = "Pizza Diavolo",
@@ -8245,7 +8267,7 @@ return {
 			statusCap = 1000000,
 			hunger = 300000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["pizzamargherita"] = {
 		label = "Pizza Margherita",
@@ -8260,7 +8282,7 @@ return {
 			statusCap = 1000000,
 			hunger = 300000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["pizzapepperoni"] = {
 		label = "Pizza Pepperoni",
@@ -8275,7 +8297,7 @@ return {
 			statusCap = 1000000,
 			hunger = 300000,
 		},
-		degrade = 3 * 24 * 60, -- day * hour * minute
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 
 	["focaccia"] = {
@@ -8291,7 +8313,7 @@ return {
             statusCap = 1000000,
             hunger = 400000,
         },
-        degrade = 3 * 24 * 60, -- day * hour * minute
+        degrade = 2 * 24 * 60, -- day * hour * minute
     },
     ["bruschetta"] = {
         label = "Bruschetta",
@@ -8306,7 +8328,7 @@ return {
             statusCap = 1000000,
             hunger = 450000,
         },
-        degrade = 3 * 24 * 60, -- day * hour * minute
+        degrade = 2 * 24 * 60, -- day * hour * minute
     },
     ["chitarra"] = {
         label = "Spaghetti alla chitarra",
@@ -8321,7 +8343,7 @@ return {
             statusCap = 1000000,
             hunger = 500000,
         },
-        degrade = 3 * 24 * 60, -- day * hour * minute
+        degrade = 2 * 24 * 60, -- day * hour * minute
     },
     ["lasagne"] = {
         label = "Lasagne bolognese",
@@ -8336,7 +8358,7 @@ return {
             statusCap = 1000000,
             hunger = 450000,
         },
-        degrade = 3 * 24 * 60, -- day * hour * minute
+        degrade = 2 * 24 * 60, -- day * hour * minute
     },
     ["pizzanightcity"] = {
         label = "Pizza Night City",
@@ -8351,7 +8373,7 @@ return {
             statusCap = 1000000,
             hunger = 550000,
         },
-        degrade = 3 * 24 * 60, -- day * hour * minute
+        degrade = 2 * 24 * 60, -- day * hour * minute
     },
 
 	["dough"] = {
@@ -9269,7 +9291,7 @@ return {
 		weight = 3000,
 		stack = false,
 		close = true,
-		degrade = 3 * 24 * 60,
+		degrade = 2 * 24 * 60,
 		decay = true,
 	},
 
@@ -9917,21 +9939,21 @@ return {
 		label = '★ Skóra dzika',
 		weight = 1200,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 
 	},
 	['carcass_boar2'] = {
 		label = '★★ Skóra dzika',
 		weight = 1200,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 
 	},
 	['carcass_boar3'] = {
 		label = '★★★ Skóra dzika',
 		weight = 1200,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 
 	},
 
@@ -9939,21 +9961,21 @@ return {
 		label = '★ Skóra kojota',
 		weight = 800,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 
 	},
 	['carcass_coyote2'] = {
 		label = '★★ Skóra kojota',
 		weight = 800,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 
 	},
 	['carcass_coyote3'] = {
 		label = '★★★ Skóra kojota',
 		weight = 800,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 
 	},
 
@@ -9962,21 +9984,21 @@ return {
 		label = '★ Skóra jelenia',
 		weight = 1100,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 
 	},
 	['carcass_deer2'] = {
 		label = '★★ Skóra jelenia',
 		weight = 1100,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 
 	},
 	['carcass_deer3'] = {
 		label = '★★★ Skóra jelenia',
 		weight = 1100,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 
 	},
 
@@ -9985,21 +10007,21 @@ return {
 		label = '★ Skóra pantery górskiej',
 		weight = 1000,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 
 	},
 	['carcass_mtlion2'] = {
 		label = '★★ Skóra pantery górskiej',
 		weight = 1000,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 
 	},
 	['carcass_mtlion3'] = {
 		label = '★★★ Skóra pantery górskiej',
 		weight = 1000,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 
 	},
 
@@ -10007,21 +10029,21 @@ return {
 		label = '★ Skóra królika',
 		weight = 300,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 
 	},
 	['carcass_rabbit2'] = {
 		label = '★★ Skóra królika',
 		weight = 300,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 
 	},
 	['carcass_rabbit3'] = {
 		label = '★★★ Skóra królika',
 		weight = 300,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 
 	},
 
@@ -10029,78 +10051,78 @@ return {
 		label = '★ Skóra wilka',
 		weight = 1000,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 	},
 	['carcass_wolf2'] = {
 		label = '★★ Skóra wilka',
 		weight = 1000,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 	},
 	['carcass_wolf3'] = {
 		label = '★★★ Skóra wilka',
 		weight = 1000,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 	},
 
 	['carcass_redpanda1'] = {
 		label = '★ Skóra rudej pandy',
 		weight = 300,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 	},
 	['carcass_redpanda2'] = {
 		label = '★★ Skóra rudej pandy',
 		weight = 300,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 	},
 	['carcass_redpanda3'] = {
 		label = '★★★ Skóra rudej pandy',
 		weight = 300,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 	},
 
 	['carcass_bear1'] = {
 		label = '★ Skóra niedźwiedzia',
 		weight = 1800,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 	},
 	['carcass_bear2'] = {
 		label = '★★ Skóra niedźwiedzia',
 		weight = 1800,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 	},
 	['carcass_bear3'] = {
 		label = '★★★ Skóra niedźwiedzia',
 		weight = 1800,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 	},
 
 	['carcass_bocat1'] = {
 		label = '★ Skóra rysia',
 		weight = 800,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 
 	},
 	['carcass_bocat2'] = {
 		label = '★★ Skóra rysia',
 		weight = 800,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 
 	},
 	['carcass_bocat3'] = {
 		label = '★★★ Skóra rysia',
 		weight = 800,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 
 	},
 
@@ -10108,21 +10130,21 @@ return {
 		label = '★ Skóra skunksa',
 		weight = 350,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 
 	},
 	['carcass_skunk2'] = {
 		label = '★★ Skóra skunksa',
 		weight = 350,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 
 	},
 	['carcass_skunk3'] = {
 		label = '★★★ Skóra skunksa',
 		weight = 350,
 		stack = false,
-		degrade = 3 * 24 * 60,
+		degrade = 5 * 24 * 60,
 
 	},
 	--Graffiti
