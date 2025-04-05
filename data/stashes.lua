@@ -1851,14 +1851,14 @@ return {
 	-- Tatto
 
     {
-		coords = vec3(-1150.44, -1425.14, 4.95),
+		coords = vec3(-1149.1, -1426.65, 5.0),
 		target = {
-			loc = vec3(-1150.44, -1425.14, 4.95),
-			length = 0.8,
-			width = 1.6,
-			heading = 305,
-            minZ = 3.95,
-            maxZ = 5.35,
+			loc = vec3(-1149.1, -1426.65, 5.0),
+			length = 1.1,
+			width = 0.7,
+			heading = 35,
+            minZ = 4.00,
+            maxZ = 5.50,
 			label = 'Otwórz szafke'
 		},
 		name = 'tattolocker',
@@ -1869,14 +1869,14 @@ return {
 		groups = {['tatto'] = 0}
 	},
 	{
-		coords = vec3(-1151.65, -1423.19, 4.95),
+		coords = vec3(-1150.6, -1427.0, 4.5),
 		target = {
-			loc = vec3(-1151.65, -1423.19, 4.95),
-			length = 0.6,
-			width = 1.6,
-			heading = 305,
-            minZ = 3.95,
-            maxZ = 5.35,
+			loc = vec3(-1150.6, -1427.0, 4.5),
+			length = 2.35,
+			width = 0.7,
+			heading = 35,
+            minZ = 4.0,
+            maxZ = 5.0,
 			label = 'Otwórz Magazyn'
 		},
 		name = 'tattomagazyn',
