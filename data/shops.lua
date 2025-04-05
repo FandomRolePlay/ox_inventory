@@ -2182,8 +2182,47 @@ return {
 		targets = {
 			{ loc = vec3(146.46, 2296.17, 94.39), length = 1.5, width = 1.5, heading = 35.0, minZ = 29.78, maxZ = 30.28, distance = 0.8 },
 		}
-	}, 
+	},
+	FurnitureShop = {
+		name = 'Furniture Shop',
+		blip = {
+			id = 478, colour = 21, scale = 0.8
+		},
+		inventory = {
+			{ name = 'roznosci2', 	   	price = 10 },
+			{ name = 'tent2', 		   	price = 50 },
+			{ name = 'beachtowel', 	   	price = 20 },
+			{ name = 'beachumbrella',  	price = 50 },
+			{ name = 'beachumbrella2', 	price = 50 },
+			{ name = 'beachumbrella3', 	price = 50 },
+			{ name = 'beachumbrella4', 	price = 50 },
+			{ name = 'umbrella2',      	price = 100 },
+			{ name = 'camp_chair_blue', price = 30 },
+			{ name = 'plastictable',  	price = 70 },
+			{ name = 'plastictable2',   price = 80},
+			{ name = 'woodtable',  		price = 120 },
+			{ name = 'canopy1', 		price = 85 },
+			{ name = 'canopy2',        	price = 90 }, 
+			{ name = 'canopy3',         price = 100  },
+			{ name = 'worklight',       price = 40 },
+			{ name = 'worklight2',      price = 50 },
+			{ name = 'worklight3',      price = 50 },
+			{ name = 'sunchair',     	price = 30 },
+			{ name = 'sunchair2',       price = 30 },
+			{ name = "table_outside", 	price = 90  },
+			{ name = "table_chair", 	price = 40 },
+		
 
+		},
+		locations = {
+			vec3(-1291.07, -1102.64, 6.93),
+		},
+		targets = {
+			{ loc = vec3(-1291.07, -1102.64, 6.93), length = 1, width = 2, heading = 295, minZ = 5.33, maxZ = 4.57, distance = 8.93 },
+		}
+	},
+	
+	
 
 	--[[ 	PropShop = {
 		name = 'Sklep z różnościami',

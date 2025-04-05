@@ -10726,5 +10726,36 @@ return {
 	    client = {
 			export = "FandomRP.useMetka"
 		}
-	}
+	},
+
+	['sunchair'] = {
+		label = 'Leżak',
+		weight = 2500,
+		stack = true,
+		close = true,
+	},
+	['sunchair2'] = {
+		label = 'Leżak',
+		weight = 2500,
+		stack = true,
+		close = true,
+	},
+	['umbrella2'] = {
+		label = 'Parasol tarasowy',
+		weight = 5000,
+		stack = true,
+		close = true,
+	},
+	['table_outside'] = {
+		label = 'Stół tarasowy',
+		weight = 3500,
+		stack = true,
+		close = true,
+	},
+	['table_chair'] = {
+		label = 'Krzesło tarasowe',
+		weight = 1500,
+		stack = true,
+		close = true,
+	},
 }
