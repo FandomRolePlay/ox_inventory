@@ -5708,6 +5708,12 @@ return {
 		stack = false,
 		description = ""
 	},
+	["taco_table"] = {
+		label = 'Stół Taco',
+		weight = 1000,
+		stack = false,
+		description = ""
+	},
 
 	["chem_table"] = {
 		label = 'Stół chemiczny',
