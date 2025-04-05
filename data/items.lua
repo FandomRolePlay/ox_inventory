@@ -5990,7 +5990,7 @@ return {
 		label = 'Szprotki',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6004,7 +6004,7 @@ return {
 		label = 'Tobiasze',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6018,7 +6018,7 @@ return {
 		label = 'Jaź',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6032,7 +6032,7 @@ return {
 		label = 'Karaś',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6046,7 +6046,7 @@ return {
 		label = 'Lin',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6060,7 +6060,7 @@ return {
 		label = 'Uklej',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6074,7 +6074,7 @@ return {
 		label = 'Fladra strzałozębna',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6088,7 +6088,7 @@ return {
 		label = 'Halibut',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6102,7 +6102,7 @@ return {
 		label = 'Karmazyn',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6116,7 +6116,7 @@ return {
 		label = 'Pagrus różowy',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6130,7 +6130,7 @@ return {
 		label = 'Boleń',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6144,7 +6144,7 @@ return {
 		label = 'Jelec',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6158,7 +6158,7 @@ return {
 		label = 'Kiełb białopłetwy',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6172,7 +6172,7 @@ return {
 		label = 'Kleń',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6186,7 +6186,7 @@ return {
 		label = 'Płoć',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6200,7 +6200,7 @@ return {
 		label = 'Sandacz',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6214,7 +6214,7 @@ return {
 		label = 'Węgorzyca',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6228,7 +6228,7 @@ return {
 		label = 'Certa',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6242,7 +6242,7 @@ return {
 		label = 'Kantar',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6256,7 +6256,7 @@ return {
 		label = 'Amarel',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6270,7 +6270,7 @@ return {
 		label = 'Srebrzyk',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6284,7 +6284,7 @@ return {
 		label = 'Aloza',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6298,7 +6298,7 @@ return {
 		label = 'Łupacz',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6312,7 +6312,7 @@ return {
 		label = 'Zębacz smugowy',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6326,7 +6326,7 @@ return {
 		label = 'Węgorz',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6340,7 +6340,7 @@ return {
 		label = 'Dorada królewska',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6354,7 +6354,7 @@ return {
 		label = 'Leszcz',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6368,7 +6368,7 @@ return {
 		label = 'Szczupak',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6382,7 +6382,7 @@ return {
 		label = 'Trewal',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6396,7 +6396,7 @@ return {
 		label = 'Barwena',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6410,7 +6410,7 @@ return {
 		label = 'Belona pospolita',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6424,7 +6424,7 @@ return {
 		label = 'Sargus',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6438,7 +6438,7 @@ return {
 		label = 'Miruna',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6452,7 +6452,7 @@ return {
 		label = 'Mintaj',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6466,7 +6466,7 @@ return {
 		label = 'Makrela',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6480,7 +6480,7 @@ return {
 		label = 'Dorsz',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
@@ -6494,7 +6494,7 @@ return {
 		label = 'Pstrąg tęczowy',
 		stack = false,
 		close = true,
-		degrade = 2 * 24 * 60,
+		degrade = 18 * 24 * 60,
 		buttons = {
 			{
 				label = 'Pokrój rybe na kawałki',
