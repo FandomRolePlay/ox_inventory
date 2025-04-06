@@ -1141,9 +1141,9 @@ return {
 },
 
 -- COOLBEANS
-	{
+{
 	coords = vec3(-1217.6, -1493.92, 4.37),
-		target = {
+	target = {
 		loc = vec3(-1217.6, -1493.92, 4.37),
 		length = 0.75,
 		width = 0.8,
@@ -1151,50 +1151,50 @@ return {
 		minZ = 4.27,
 		maxZ = 4.57,
 		label = 'Tacka'
-		},
+	},
 	name = 'cbtacka',
 	label = 'Tacka',
-		owner = false,
+	owner = false,
 	slots = 15,
 	weight = 20000,
-	},
-	{
+},
+{
 	coords = vec3(-1211.6, -1492.31, 4.37),
-		target = {
+	target = {
 		loc = vec3(-1211.6, -1492.31, 4.37),
 		length = 1.0,
-			width = 0.6,
+		width = 0.6,
 		heading = 35,
 		minZ = 3.57,
 		maxZ = 4.97,
-			label = 'Otwórz szafke'
-		},
-	name = 'cblocker',
-		label = 'Szafka Prywatna',
-		owner = true,
-		slots = 10,
-		weight = 15000,
-		groups = {['coolbeans'] = 0}
+		label = 'Otwórz szafke'
 	},
-	{
+	name = 'cblocker',
+	label = 'Szafka Prywatna',
+	owner = true,
+	slots = 10,
+	weight = 15000,
+	groups = {['coolbeans'] = 0}
+},
+{
 	coords = vec3(-1219.14, -1495.03, 4.37),
-		target = {
+	target = {
 		loc = vec3(-1219.14, -1495.03, 4.37),
 		length = 0.6,
-			width = 1.0,
+		width = 1.0,
 		heading = 35,
 		minZ = 4.17,
 		maxZ = 4.97,
-			label = 'Otwórz Magazyn'
-		},
+		label = 'Otwórz Magazyn'
+	},
 	name = 'cbmagazyn',
-		label = 'Magazyn',
-		owner = false,
-		slots = 200,
-		weight = 1000000,
+	label = 'Magazyn',
+	owner = false,
+	slots = 200,
+	weight = 1000000,
 	groups = {['coolbeans'] = 1}
 
-	},
+},
 
 	-- TEQUILALA
 	{
@@ -3156,5 +3156,22 @@ return {
 	weight = 10000,
 },
 
-
+-- Dom Ciotki Franklina Forum Dr.
+{
+	coords = vec3(-12.75, -1435.09, 30.71),
+	target = {
+		loc = vec3(-12.75, -1435.09, 30.71),
+		length = 0.80,
+		width = 2.0,
+		heading = 30,
+		minZ = 26.92,
+		maxZ = 30.92,
+		label = 'Szafka'
+	},
+	name = 'forumprivlock',
+	label = 'Szafka Prywatna',
+	owner = true,
+	slots = 15,
+	weight = 0000,
+},
 }
