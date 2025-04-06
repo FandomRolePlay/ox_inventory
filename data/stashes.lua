@@ -3172,6 +3172,6 @@ return {
 	label = 'Szafka Prywatna',
 	owner = true,
 	slots = 15,
-	weight = 0000,
+	weight = 100000,
 },
 }
