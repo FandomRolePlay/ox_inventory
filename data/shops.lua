@@ -1512,6 +1512,27 @@ return {
 			{ loc = vec3(-69.52, 6384.92, 31.0), length = 2.6, width = 1.0, heading = 315, minZ = 30.49, maxZ = 32.89, distance = 1.5 },
 		}
 	},
+	AutomatJunkWS = {
+		name = 'Automat Junk',
+		blip = false,
+		groups = {
+			['weedshop'] = 0
+		},
+		inventory = {
+			
+			{ name = 'weedjunk',      price = 4, count = 20 },
+			{ name = 'junko',         price = 4, count = 15 },
+			{ name = 'junkb',         price = 4, count = 15 },
+			{ name = 'junkp',         price = 4, county = 15 },
+			
+		},
+		locations = {
+			vec3(-1222.14, -1485.54, 4.37)
+		},
+		targets = {
+			{ loc = vec3(-1222.14, -1485.54, 4.37), length = 1.0, width = 1.0, heading = 305, minZ = 3.37, maxZ = 5.17, distance = 1.5 },
+		}
+	},
 	Hurtownia9 = {
 		name = 'Hurtownia Alkohole',
 		blip = {
