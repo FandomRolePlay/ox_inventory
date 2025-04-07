@@ -8480,8 +8480,8 @@ return {
 		stack = true,
 		close = true,
 	},
-	["orange_juice"] = {
-		label = "Sok pomarańczowy",
+	["fruit_juice"] = {
+		label = "Sok wieloowocowy",
 		weight = 100,
 		stack = true,
 		close = true,
@@ -8493,6 +8493,7 @@ return {
 			statusCap = 1000000,
 			thirst = 450000,
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["mango_juice"] = {
 		label = "Sok z mango",
@@ -8507,6 +8508,7 @@ return {
 			statusCap = 1000000,
 			thirst = 450000,
 		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["faygo-pineapple"] = {
 		label = "Sok z ananasa",
