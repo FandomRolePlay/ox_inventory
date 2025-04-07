@@ -1201,8 +1201,7 @@ return {
 				['taco'] = 0,
 			},
 		inventory = {
-			{ name = 'water',             price = 1 },
-			{ name = 'water2',             price = 1 },
+		
 			{ name = 'water3',             price = 1 },
 			{ name = 'pasta',              price = 3 },
 			{ name = 'bonding_agent',      price = 1 },
