@@ -8490,8 +8490,8 @@ return {
 		stack = true,
 		close = true,
 	},
-	["faygo-pineapple"] = {
-		label = "Sok z ananasa",
+	["orange_juice"] = {
+		label = "Sok pomarańczowy",
 		weight = 100,
 		stack = true,
 		close = true,
@@ -8503,21 +8503,34 @@ return {
 			statusCap = 1000000,
 			thirst = 450000,
 		},
+	},
+	["pineapple_juice"] = {
+		label = "Sok ananasowy",
+		weight = 100,
+		stack = true,
+		close = true,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `p_ing_coffeecup_02`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 450000,
+		},
+	},
+	["faygo-pineapple"] = {
+		label = "Sok z ananasa",
+		weight = 100,
+		stack = true,
+		close = true,
 	},
 	["juice"] = {
 		label = "Sok z pomarańczy",
 		weight = 100,
 		stack = true,
 		close = true,
-		client = {
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `p_ing_coffeecup_02`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			thirst = 450000,
-		},
 	},
+		
 	["syrup"] = {
 		label = "Grenadine",
 		weight = 100,
