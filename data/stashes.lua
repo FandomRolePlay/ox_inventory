@@ -1195,6 +1195,25 @@ return {
 	groups = {['coolbeans'] = 1}
 
 },
+{
+	coords = vec3(-1212.17, -1492.59, 4.37),
+	target = {
+		loc = vec3(-1212.17, -1492.59, 4.37),
+		length = 0.6,
+		width = 0.6,
+		heading = 35,
+		minZ = 4.07,
+		maxZ = 4.67,
+		label = 'Otwórz Magazyn'
+	},
+	name = 'cbbossmagazyn',
+	label = 'Szafka szefa',
+	owner = false,
+	slots = 200,
+	weight = 1000000,
+	groups = {['coolbeans'] = 6}
+
+},
 
 	-- TEQUILALA
 	{
@@ -1479,14 +1498,14 @@ return {
   
 	-- AUTOKOMIS
 	{
-		coords = vec3(1232.07, 2740.94, 37.01),
+		coords = vec3(-195.11, -1164.65, 23.67),
 		target = {
-			loc = vec3(1232.07, 2740.94, 37.01),
-			length = 0.8,
-			width = 1.2,
+			loc = vec3(-195.11, -1164.65, 23.67),
+			length = 1.3,
+			width = 0.8,
 			heading = 0,
-			minZ = 37.01,
-			maxZ = 39.01,
+			minZ = 22.82,
+			maxZ = 24.62,
 			label = 'Otwórz szafke'
 		},
 		name = 'ahlocker',
@@ -1497,14 +1516,14 @@ return {
 		groups = {['autohouse'] = 0}
 	},
 	{
-		coords = vec3(1228.64, 2737.58, 37.01),
+		coords = vec3(-184.51, -1161.89, 23.67),
 		target = {
-			loc = vec3(1228.64, 2737.58, 37.01),
-			length = 2.2,
-			width = 1.0,
+			loc = vec3(-184.51, -1161.89, 23.67),
+			length = 0.8,
+			width = 2.6,
 			heading = 0,
-			minZ = 37.01,
-			maxZ = 39.41,
+			minZ = 22.87,
+			maxZ = 24.87,
 			label = 'Otwórz Magazyn'
 		},
 		name = 'ahmagazyn',
