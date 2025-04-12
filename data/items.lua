@@ -5711,11 +5711,28 @@ return {
 	},
 	["taco_table"] = {
 		label = 'Stół Taco',
-		weight = 1000,
+		weight = 10000,
 		stack = false,
 		description = ""
 	},
-
+	["coolbeans_table"] = {
+		label = 'Budka CoolBeans',
+		weight = 10000,
+		stack = false,
+		description = ""
+	},
+	["townclub_table"] = {
+		label = 'Lodówka Club',
+		weight = 10000,
+		stack = false,
+		description = ""
+	},
+	["townrest_table"] = {
+		label = 'Budka TownRest',
+		weight = 10000,
+		stack = false,
+		description = ""
+	},
 	["chem_table"] = {
 		label = 'Stół chemiczny',
 		weight = 1000,
@@ -7803,6 +7820,60 @@ return {
 		},
 		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
+	['panacotta'] = {
+		label = 'Pana Cotta',
+		weight = 220,
+		client = {
+			anim = 'eating',
+			prop = 'prop_taco_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 100000,
+			hunger = 300000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
+	['tartacytrynowa'] = {
+		label = 'Tarta Cytrynowa',
+		weight = 220,
+		client = {
+			anim = 'eating',
+			prop = 'prop_taco_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 100000,
+			hunger = 300000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
+	['koktajlmalinowy'] = {
+		label = 'Koktajl malinowy',
+		weight = 300,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_bs_cup`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 500000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
+	['sokjablkowy'] = {
+		label = 'Sok Jabłkowy',
+		weight = 300,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_bs_cup`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 500000,
+		},
+		degrade = 3 * 24 * 60, -- day * hour * minute
+	},
 	["cc-catlemonade"] = {
 		label = "Lemoniada",
 		weight = 300,
@@ -8739,6 +8810,12 @@ return {
 	["wallet"] = {
 		label = "Portfel",
 		weight = 95,
+		stack = false,
+		close = false,
+	},
+	["cratehunting"] = {
+		label = "Skrzynia na skóry",
+		weight = 5000,
 		stack = false,
 		close = false,
 	},
