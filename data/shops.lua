@@ -1389,6 +1389,7 @@ return {
 			{ name = 'crate_44',       price = 880,   grade = 3  },
 			{ name = 'crate_12gauge',  price = 580,   grade = 3  },
 			{ name = 'crate_300s',  price = 380,   grade = 3 },
+			{ name = 'cratehunting',  price = 500,   grade = 3  },
 		},
 		locations = {
 			vec3(798.1658, -2136.1316, 29.5148)
