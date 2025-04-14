@@ -96,9 +96,15 @@ return {
 		label = 'Ładunek termiczny',
 		weight = 100,
 	},
+	['hackingchip_2'] = {
+		label = 'Chip',
+		description = "Może warto to pod coś podpiąć...",
+		weight = 300,
+		stack = true
+	},
 	['hacked_laptop'] = {
 		label = 'Laptop',
-		weight = 300,
+		weight = 1000,
 		description = 'Złośliwe oprogramowanie',
 	},
 	['bomb'] = {
@@ -1999,53 +2005,25 @@ return {
 	['cola'] = {
 		label = 'eCola',
 		weight = 330,
-		client = {
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `prop_ecola_can`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 400000,
-			thirst = 200000,
-		}
+	
 	},
 
 	['coffee'] = {
 		label = 'Kawa',
 		weight = 250,
-		client = {
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `p_ing_coffeecup_01`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 400000,
-			thirst = 250000,
-		}
+		
 	},
 
 	['coffeebean'] = {
 		label = 'Bean Coffee',
 		weight = 200,
-		client = {
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `p_ing_coffeecup_01`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 400000,
-			thirst = 250000,
-		}
+		
 	},
 
 	['sprunk'] = {
 		label = 'Sprunk',
 		weight = 250,
-		client = {
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `prop_ld_can_01`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 400000,
-			thirst = 200000,
-		}
+		
 	},
 
  	['adm'] = {
@@ -2072,73 +2050,35 @@ return {
 	['water'] = {
 		label = 'Woda Flow',
 		weight = 500,
-		client = {
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
-			usetime = 2500,
-			cancel = true,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 500000,			
-			thirst = 300000,
-		}
+		stack = true,
+		close = true,
 	},
 	['water2'] = {
 		label = 'Woda Flow Vitamin',
 		weight = 700,
-		client = {
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
-			usetime = 2500,
-			cancel = true,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 750000,
-			thirst = 400000,
-		}
+		stack = true,
+		close = true,
 	},
 	['water3'] = {
 		label = 'Woda Raine',
 		weight = 400,
-		client = {
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
-			usetime = 2500,
-			cancel = true,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 650000,
-			thirst = 300000,
-		}
+		stack = true,
+		close = true,
 	},
 	['water_weedshop'] = {
 		label = 'Woda osmotyczna',
 		weight = 500,
+		stack = true,
+		close = true,
 	},
 
-	['water_weed'] = {
-		label = 'Woda raine',
-		weight = 250,
-		client = {
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
-			usetime = 2500,
-			cancel = true,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 500000,
-			thirst = 250000,
-		}
-	},
 	['kubekwoda'] = {
 		label = 'Kubek z wodą',
 		weight = 200,
-		client = {
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `prop_cs_paper_cup`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
-			usetime = 2500,
-			cancel = true,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 300000,
-			thirst = 100000,
-		}
+		stack = true,
+		close = true,
 	},
+
 	["junko"] = {
 		label = "JUNK Orange",
 		description = "Napój energetyczny o smaku cytrusów",
@@ -2449,7 +2389,7 @@ return {
 	},
 
 	['coke_figure'] = {
-		label = 'Figurka z kokainą',
+		label = 'Figurka',
 		weight = 400,
 		stack = true
 	},
@@ -5355,11 +5295,16 @@ return {
 	},
 
 	--drc_houserobbery
-
+	['hackingchip_1'] = {
+		label = 'Płytka',
+		description = "Może warto to pod coś podpiąć...",
+		weight = 300,
+		stack = true
+	},
 	['hack_laptop'] = {
-		label = 'Laptop z wirusem',
-		description = "",
-		weight = 500,
+		label = 'Laptop',
+		description = "Posiada wirusa",
+		weight = 1000,
 		stack = true
 	},
 
@@ -5373,7 +5318,7 @@ return {
 	['laptop'] = {
 		label = 'Laptop',
 		description = "",
-		weight = 1200,
+		weight = 1000,
 		stack = true
 	},
 
@@ -8990,6 +8935,14 @@ return {
 		close = true,
 	},
 
+	-- waluty
+	["crime_token"] = {
+		label = "Pozłacana karta",
+		description = "Rewers i awers wyglądają identycznie",
+		weight = 10,
+		stack = true,
+		close = true,
+	},
 	-- klucze CRIME
 	["keyg1"] = {
 		label = "Klucz G1", -- Kazuki
@@ -9141,6 +9094,16 @@ return {
 		consume = 0,
 		server = {
 			export = 'frp_id.weapon'
+		}
+	},
+	['longweapon'] = {
+		label = 'Licencja na broń długą',
+		stack = false,
+		weight = 50,
+		close = true,
+		consume = 0,
+		server = {
+			export = 'frp_id.longweapon'
 		}
 	},
 	['fly'] = {
@@ -10884,4 +10847,30 @@ return {
 		stack = true,
 		close = true,
 	},
+		--rahe_boosting
+		['boostingtablet'] = {
+			label = 'Boosting tablet',
+			weight = 0,
+			description = "Seems like something's installed on this.",
+			client = {
+			export = 'rahe-boosting.boostingtablet',
+			}
+		},
+		['hackingdevice'] = {
+			label = 'Hacking device',
+			weight = 0,
+			description = 'Will allow you to bypass vehicle security systems.',
+			client = {
+			export = 'rahe-boosting.hackingdevice',
+			}
+		},
+		['gpshackingdevice'] = {
+			label = 'GPS hacking device',
+			weight = 0,
+			description = 'If you wish to disable vehicle GPS systems.',
+			client = {
+			export = 'rahe-boosting.gpshackingdevice',
+			}
+		},
+	
 }
