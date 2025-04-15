@@ -120,4 +120,10 @@ setContainerProperties('filecabinet', {
 	whitelist = {'printerdocument', 'photo', 'evidence_report', 'id'}
 })
 
+setContainerProperties('cratehunting', {
+	slots = 25,
+	maxWeight = 30000,
+	whitelist = { 'carcass_boar1', 'carcass_boar2', 'carcass_boar3', 'carcass_coyote1', 'carcass_coyote2', 'carcass_coyote3', 'carcass_deer1', 'carcass_deer2', 'carcass_deer3','carcass_mtlion1', 'carcass_mtlion2', 'carcass_mtlion3','carcass_rabbit1', 'carcass_rabbit2', 'carcass_rabbit3', }
+})
+
 return containers
