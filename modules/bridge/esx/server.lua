@@ -34,9 +34,13 @@ server.accounts.black_money = 0
 
 ---@diagnostic disable-next-line: duplicate-set-field
 function server.setPlayerData(player)
+	local org = player.metadata.organisation
 	local groups = {
-		[player.job.name] = player.job.grade
+		[player.job.name] = player.job.grade,
 	}
+	if org and org.name and org.grade then
+		groups[org.name] = org.grade
+	end
 
 	return {
 		source = player.source,

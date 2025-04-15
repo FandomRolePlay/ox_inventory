@@ -3,6 +3,7 @@ local ESX = setmetatable({}, {
 		local obj = exports.es_extended:getSharedObject()
 		self.SetPlayerData = obj.SetPlayerData
 		self.PlayerLoaded = obj.PlayerLoaded
+	 	self.GetPlayerData = obj.GetPlayerData
 		return self[index]
 	end
 })
@@ -26,8 +27,32 @@ AddEventHandler('esx:setPlayerData', function(key, value)
 	if not PlayerData.loaded or GetInvokingResource() ~= 'es_extended' then return end
 
 	if key == 'job' then
+ 		local ESXPlayerData = ESX.GetPlayerData()
+		local org = ESXPlayerData.metadata?.organisation
+
+		if org and org.name ~= '' then
+			key = 'groups'
+			value = {
+				[value.name] = value.grade,
+				[org.name] = org.grade
+			}
+		else
 		key = 'groups'
 		value = { [value.name] = value.grade }
+	end
+	end
+
+	if key == 'metadata' then
+		local ESXPlayerData = ESX.GetPlayerData()
+		local org = value.organisation
+
+		if org and org.name ~= '' then
+			key = 'groups'
+			value = {
+				[ESXPlayerData.job.name] = ESXPlayerData.job.grade,
+				[org.name] = org.grade
+			}
+		end
 	end
 
 	PlayerData[key] = value
