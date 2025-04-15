@@ -37,9 +37,9 @@ AddEventHandler('esx:setPlayerData', function(key, value)
 				[org.name] = org.grade
 			}
 		else
-		key = 'groups'
-		value = { [value.name] = value.grade }
-	end
+			key = 'groups'
+			value = { [value.name] = value.grade }
+ 		end
 	end
 
 	if key == 'metadata' then
