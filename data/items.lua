@@ -2005,25 +2005,53 @@ return {
 	['cola'] = {
 		label = 'eCola',
 		weight = 330,
-	
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_ecola_can`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 400000,
+			thirst = 200000,
+		}
 	},
 
 	['coffee'] = {
 		label = 'Kawa',
 		weight = 250,
-		
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `p_ing_coffeecup_01`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 400000,
+			thirst = 250000,
+		}
 	},
 
 	['coffeebean'] = {
 		label = 'Bean Coffee',
 		weight = 200,
-		
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `p_ing_coffeecup_01`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 400000,
+			thirst = 250000,
+		}
 	},
 
 	['sprunk'] = {
 		label = 'Sprunk',
 		weight = 250,
-		
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_ld_can_01`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 400000,
+			thirst = 200000,
+		}
 	},
 
  	['adm'] = {
@@ -2050,33 +2078,72 @@ return {
 	['water'] = {
 		label = 'Woda Flow',
 		weight = 500,
-		stack = true,
-		close = true,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 2500,
+			cancel = true,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 500000,			
+			thirst = 300000,
+		}
 	},
 	['water2'] = {
 		label = 'Woda Flow Vitamin',
 		weight = 700,
-		stack = true,
-		close = true,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 2500,
+			cancel = true,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 750000,
+			thirst = 400000,
+		}
 	},
 	['water3'] = {
 		label = 'Woda Raine',
 		weight = 400,
-		stack = true,
-		close = true,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 2500,
+			cancel = true,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 650000,
+			thirst = 300000,
+		}
 	},
 	['water_weedshop'] = {
 		label = 'Woda osmotyczna',
 		weight = 500,
-		stack = true,
-		close = true,
 	},
 
+	['water_weed'] = {
+		label = 'Woda raine',
+		weight = 250,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 2500,
+			cancel = true,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 500000,
+			thirst = 250000,
+		}
+	},
 	['kubekwoda'] = {
 		label = 'Kubek z wodą',
 		weight = 200,
-		stack = true,
-		close = true,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_paper_cup`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 2500,
+			cancel = true,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 300000,
+			thirst = 100000,
+		}
 	},
 
 	["junko"] = {
