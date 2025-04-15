@@ -1949,7 +1949,8 @@ return {
 	SupplierShop1 = { -- Lone Wolves
 		name = 'Darkweb',
 		groups = {
-			['freelancer1'] = 0
+			['freelancer1'] = 0,
+			['supplier'] = 0
 		},
 		inventory = {
 			--[[ { name = 'peyote',                    price = 55,  count = 60 },
@@ -2256,7 +2257,8 @@ return {
 	SupplierShop3 = { -- Asatru
 		name = 'Darkweb',
 		groups = {
-			['freelancer3'] = 0
+			['freelancer3'] = 0,
+			['supplier'] = 0
 		},
 		inventory = {
 			{ name = 'crime_token', price = 500, count = 2, currency = 'black_money' },
