@@ -2058,11 +2058,11 @@ return {
 			{ name = 'weapon_bzgas', price = 1500, count = 2, currency = 'money' },
 			{ name = 'gasmask', price = 350, count = 5, currency = 'money' },
 			{ name = 'cutter', price = 1000, count = 2, currency = 'money' },
-			{ name = 'hackingchip_2', price = 7, count = 1, currency = 'crime_token' },
+			{ name = 'hackingchip_2', price = 7, count = 0, currency = 'crime_token' }, --1
 			{ name = 'pliers', price = 180, count = 1, currency = 'black_money' },
-			{ name = 'x_device', price = 11, count = 1, currency = 'crime_token' },
-			{ name = 'blueprint_molotov', price = 50, count = 1, currency = 'goldbar' },
-			{ name = 'molotovset', price = 1, count = 4, currency = 'goldbar' },
+			{ name = 'x_device', price = 11, count = 0, currency = 'crime_token' }, --1
+			{ name = 'blueprint_molotov', price = 50, count = 0, currency = 'goldbar' }, --1
+			{ name = 'molotovset', price = 1, count = 0, currency = 'goldbar' }, --4
 			{ name = 'kevlar', price = 100, count = 15, currency = 'money' },
 			{ name = 'kevlar', price = 120, count = 20, currency = 'black_money' },
 			{ name = 'cloth', price = 50, count = 15, currency = 'money' },
@@ -2091,7 +2091,7 @@ return {
 			{ name = 'weapon-parts', price = 300, count = 20, currency = 'black_money' },
 			{ name = 'weapon-cleaning', price = 100, count = 15, currency = 'money' },
 			{ name = 'weapon-cleaning', price = 120, count = 20, currency = 'black_money' },
-			{ name = 'weapon-parts_spec', price = 1, count = 1, currency = 'goldbar' },
+			{ name = 'weapon-parts_spec', price = 1, count = 0, currency = 'goldbar' }, --1
 			{ name = 'snspistolset', price = 1800, count = 4, currency = 'money' },
 			{ name = 'snspistolset', price = 2160, count = 6, currency = 'black_money' },
 			{ name = 'pistolset', price = 2800, count = 4, currency = 'money' },
@@ -2183,11 +2183,11 @@ return {
 			{ name = 'weapon_bzgas', price = 1500, count = 2, currency = 'money' },
 			{ name = 'gasmask', price = 350, count = 5, currency = 'money' },
 			{ name = 'cutter', price = 1000, count = 2, currency = 'money' },
-			{ name = 'hackingchip_2', price = 7, count = 1, currency = 'crime_token' },
+			{ name = 'hackingchip_2', price = 7, count = 0, currency = 'crime_token' }, --1
 			{ name = 'pliers', price = 180, count = 1, currency = 'black_money' },
-			{ name = 'x_device', price = 11, count = 1, currency = 'crime_token' },
-			{ name = 'blueprint_molotov', price = 50, count = 1, currency = 'goldbar' },
-			{ name = 'molotovset', price = 1, count = 4, currency = 'goldbar' },
+			{ name = 'x_device', price = 11, count = 0, currency = 'crime_token' }, --1
+			{ name = 'blueprint_molotov', price = 50, count = 0, currency = 'goldbar' }, --1
+			{ name = 'molotovset', price = 1, count = 0, currency = 'goldbar' }, --4
 			{ name = 'kevlar', price = 100, count = 15, currency = 'money' },
 			{ name = 'kevlar', price = 120, count = 20, currency = 'black_money' },
 			{ name = 'cloth', price = 50, count = 15, currency = 'money' },
@@ -2216,7 +2216,7 @@ return {
 			{ name = 'weapon-parts', price = 300, count = 20, currency = 'black_money' },
 			{ name = 'weapon-cleaning', price = 100, count = 15, currency = 'money' },
 			{ name = 'weapon-cleaning', price = 120, count = 20, currency = 'black_money' },
-			{ name = 'weapon-parts_spec', price = 1, count = 1, currency = 'goldbar' },
+			{ name = 'weapon-parts_spec', price = 1, count = 0, currency = 'goldbar' }, --1
 			{ name = 'snspistolset', price = 1800, count = 4, currency = 'money' },
 			{ name = 'snspistolset', price = 2160, count = 6, currency = 'black_money' },
 			{ name = 'pistolset', price = 2800, count = 4, currency = 'money' },
@@ -2308,11 +2308,11 @@ return {
 			{ name = 'weapon_bzgas', price = 1500, count = 2, currency = 'money' },
 			{ name = 'gasmask', price = 350, count = 5, currency = 'money' },
 			{ name = 'cutter', price = 1000, count = 2, currency = 'money' },
-			{ name = 'hackingchip_2', price = 7, count = 1, currency = 'crime_token' },
+			{ name = 'hackingchip_2', price = 7, count = 0, currency = 'crime_token' }, --1
 			{ name = 'pliers', price = 180, count = 1, currency = 'black_money' },
-			{ name = 'x_device', price = 11, count = 1, currency = 'crime_token' },
-			{ name = 'blueprint_molotov', price = 50, count = 1, currency = 'goldbar' },
-			{ name = 'molotovset', price = 1, count = 4, currency = 'goldbar' },
+			{ name = 'x_device', price = 11, count = 0, currency = 'crime_token' }, --1
+			{ name = 'blueprint_molotov', price = 50, count = 0, currency = 'goldbar' }, --1
+			{ name = 'molotovset', price = 1, count = 0, currency = 'goldbar' }, --4
 			{ name = 'kevlar', price = 100, count = 15, currency = 'money' },
 			{ name = 'kevlar', price = 120, count = 20, currency = 'black_money' },
 			{ name = 'cloth', price = 50, count = 15, currency = 'money' },
@@ -2341,7 +2341,7 @@ return {
 			{ name = 'weapon-parts', price = 300, count = 20, currency = 'black_money' },
 			{ name = 'weapon-cleaning', price = 100, count = 15, currency = 'money' },
 			{ name = 'weapon-cleaning', price = 120, count = 20, currency = 'black_money' },
-			{ name = 'weapon-parts_spec', price = 1, count = 1, currency = 'goldbar' },
+			{ name = 'weapon-parts_spec', price = 1, count = 0, currency = 'goldbar' }, --1
 			{ name = 'snspistolset', price = 1800, count = 4, currency = 'money' },
 			{ name = 'snspistolset', price = 2160, count = 6, currency = 'black_money' },
 			{ name = 'pistolset', price = 2800, count = 4, currency = 'money' },
