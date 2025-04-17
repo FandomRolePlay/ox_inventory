@@ -276,8 +276,7 @@ lib.callback.register('ox_inventory:buyItem', function(source, data)
 					currency = response.currency
 				end
 
-				--TODO: Check for other currency types
-				if currency == 'money' or currency == "black_money" then
+				if currency ~= 'bank' then
 					local canAfford = canAffordItem(playerInv, currency, price)
 
 					if canAfford ~= true then
