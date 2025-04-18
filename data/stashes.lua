@@ -3047,7 +3047,7 @@ return {
 	owner = false,
 	slots = 200,
 	weight = 1000000,
-	groups = {['townrest'] = 1}
+	groups = {['townrest'] = 0}
 },
 {
 	coords = vec3(-1360.6, -1095.65, 6.55),
