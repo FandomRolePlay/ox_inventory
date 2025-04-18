@@ -9168,6 +9168,7 @@ return {
 		stack = false,
 		weight = 50,
 		close = true,
+		degrade = 7 * 24 * 60,
 		consume = 0,
 		server = {
 			export = 'frp_id.longweapon'
