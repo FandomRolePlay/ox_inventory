@@ -10380,6 +10380,10 @@ return {
     	label = 'Części samochodowe',
     	weight = 400,
 	},
+	['parts_set'] = {
+    	label = 'Zestaw części samochodowych',
+    	weight = 800,
+	},
 
 	['chop_lockpick'] = {
 		label = 'Wytrych specjalistyczny',
