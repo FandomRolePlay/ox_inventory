@@ -9235,6 +9235,12 @@ return {
 			export = 'rahe-racing.racingtablet',
 		}
 	},
+	['racingchip'] = {
+		label = 'Chip',
+		description = "Może warto to pod coś podpiąć...",
+		weight = 300,
+		stack = true
+	},
 
 	--frp_badge
 	['badge_lspd'] = {
