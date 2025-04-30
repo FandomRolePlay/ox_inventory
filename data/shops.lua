@@ -1310,8 +1310,8 @@ return {
 			{ name = 'pistolsetmk2',         price = 950,   grade = 6 },
 			{ name = 'pistolxm3set',      price = 1200,   grade = 6 },
 			{ name = 'pistol50set',       price = 1600,   grade = 6 },
-			{ name = 'pumpshotgunset',    price = 4550 ,   grade = 6 },
-			{ name = 'smgset',            price = 5900,   grade = 6  },
+			{ name = 'pumpshotgunset',    price = 30550 ,   grade = 7 },
+			{ name = 'smgset',            price = 25900,   grade = 7  },
 			{ name = 'weapon_machete',    price = 150,   grade = 6 },
 			{ name = 'weapon_switchblade',price = 100,   grade = 6 },
 			{ name = 'weapon_knife',      price = 65,   grade = 6  },
@@ -1358,7 +1358,7 @@ return {
 			id = 50, colour = 24, scale = 0.8
 		},
 		groups = {
-			["hunting"] = 3
+			["administracja"] = 1
 		},
 		inventory = {
 			{ name = 'weapon-parts',      price = 50,   grade = 3 },
@@ -1369,8 +1369,8 @@ return {
 			{ name = 'pistolset',         price = 950,   grade = 3 },
 			{ name = 'pistolxm3set',      price = 1200,   grade = 3 },
 			{ name = 'pistol50set',       price = 1600,   grade = 3 },
-			{ name = 'pumpshotgunset',    price = 4550,   grade = 5 },
-			{ name = 'smgset',            price = 5900,   grade = 5 },
+			{ name = 'pumpshotgunset',    price = 30550 ,   grade = 7 },
+			{ name = 'smgset',            price = 25900,   grade = 7  },
 			{ name = 'weaponcase',        price = 50,   grade = 3 },
 			{ name = 'longweaponcase',    price = 100,   grade = 3 },
 			{ name = 'weapon_knife',      price = 65,   grade = 3 },
