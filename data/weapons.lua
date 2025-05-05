@@ -113,7 +113,7 @@ return {
 		},
 
 		['WEAPON_CARBINERIFLE_MK2'] = {
-			label = 'Karabinek MK2',
+			label = 'CRF-15G2',
 			weight = 3000,
 			durability = 0.06,
 			ammoname = 'ammo-rifle'
