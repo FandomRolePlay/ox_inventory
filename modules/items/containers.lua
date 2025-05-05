@@ -111,7 +111,7 @@ setContainerProperties('keyhanging', {
 setContainerProperties('wallet', {
 	slots = 8,
 	maxWeight = 500,
-	whitelist = { 'fake_id', 'id', 'drivers', 'hunting', 'fly', 'weapon', 'money', 'black_money', 'creditcard', }
+	whitelist = { 'fake_id', 'id', 'drivers', 'hunting', 'fly', 'weapon', 'money', 'black_money', 'creditcard', 'longweapon', }
 })
 
 setContainerProperties('filecabinet', {
