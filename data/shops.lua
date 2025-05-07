@@ -391,7 +391,7 @@ return {
 		}
 	},
 
-	Cluckinbell = {
+	--[[Cluckinbell = {
 		name = 'Cluckin Bell',
 		inventory = {
 			{ name = 'cb-chickenwrap',   price = 18, count = 10 },
@@ -411,7 +411,7 @@ return {
 		targets = {
 			{ loc = vec3(-184.11, -1428.6, 31.47), length = 0.8, width = 0.8, heading = 31, minZ = 31.57, maxZ = 32.17, distance = 1.5 },
 		},
-	},
+	},]]
 
 	PrisonShop = {
 		name = 'Sklepik',
@@ -1098,6 +1098,7 @@ return {
 				['tequilala'] = 0,
 				['weedshop'] = 0,
 				['townclub'] = 0,
+				['hellsgate'] = 0,
 				['pops'] = 0,
 				['vanilla'] = 0,
 				['kendal'] = 0,
@@ -1151,6 +1152,7 @@ return {
 				['tequilala'] = 0,
 				['weedshop'] = 0,
 				['townclub'] = 0,
+				['hellsgate'] = 0,
 				['pops'] = 0,
 				['vanilla'] = 0,
 				['kendal'] = 0,
@@ -1196,6 +1198,7 @@ return {
 				['tequilala'] = 0,
 				['weedshop'] = 0,
 				['townclub'] = 0,
+				['hellsgate'] = 0,
 				['pops'] = 0,
 				['vanilla'] = 0,
 				['kendal'] = 0,
@@ -1501,6 +1504,11 @@ return {
 			{ name = 'weed_dryer',       price = 150, count = 3 },
 			{ name = 'water_weedshop',   price = 3 },
 			{ name = 'trowel',          price = 10,   metadata = { durability = 100 } },
+			{ name = 'redw',            price = 5},
+			{ name = 'debg',            price = 5},
+			{ name = 'estancia',        price = 5},
+			{ name = 'cubancigar', price = 20 },
+			{ name = 'davidoffcigar',   price = 20,},
 		},
 		locations = {
 			vec3(-69.52, 6384.92, 31.49)
@@ -1537,15 +1545,12 @@ return {
 		},
 		groups = {
 			
-			['foodtruck'] = 0,
 			['coolbeans'] = 0,
 			['townrest'] = 0,
 			['tequilala'] = 0,
-			['weedshop'] = 0,
 			['townclub'] = 0,
-			['pops'] = 0,
+			['hellsgate'] = 0,
 			['vanilla'] = 0,
-			['kendal'] = 0,
 			['taco'] = 0,
 				
 
@@ -1788,19 +1793,14 @@ return {
 			id = 50, colour = 24, scale = 0.8
 		},
 		groups = {
-			['browary'] = 0,
+			['hellsgate'] = 0,
 		},
 		inventory = {
 			{ name = 'water3',     price = 1 },
-			{ name = 'water_weedshop',  price = 5 },
-			{ name = 'fertilizer', price = 4 },
-			{ name = 'hops_seed',  price = 10, },
-			{ name = 'still1',     price = 180, },
-			{ name = 'still2',     price = 250, },
-			{ name = 'barrel',     price = 100, },
 			{ name = 'malt',       price = 3, },
 			{ name = 'yeast',      price = 2, },
 			{ name = 'bottle',     price = 1, },
+			{ name = 'hops_dry',   price = 1 },
 		},
 		locations = {
 			vec3(838.97, -1923.52, 30.31)

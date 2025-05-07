@@ -1453,6 +1453,49 @@ return {
 		},
 		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
+-- Itemy hells nowe
+	['hells_whisky'] = {
+		label = '666`s Wastelander',
+		stack = true,
+		weight = 500,
+		close = true,
+		},
+		['hells_vodka'] = {
+		label = '666`s Hellfrost',
+		stack = true,
+		weight = 500,
+		close = true,
+		},
+		['hells_beer'] = {
+		label = '666`s Blaze',
+		stack = true,
+		weight = 500,
+		close = true,
+		},
+		['vodka2'] = {
+		label = 'Cherenkov Vodka',
+		stack = true,
+		weight = 500,
+		close = true,
+		},
+		['whisky2'] = {
+		label = 'Macbeth Single Malt',
+		stack = true,
+		weight = 500,
+		close = true,
+		},
+		['brandy'] = {
+		label = 'Cardiaque Brandy',
+		stack = true,
+		weight = 500,
+		close = true,
+		},
+		['tequila2'] = {
+		label = 'Cazafortunas Tequila',
+		stack = true,
+		weight = 500,
+		close = true,
+		},
 
 	--Lucky Plucker
 	['waniliashake'] = {

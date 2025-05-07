@@ -3157,6 +3157,80 @@ return {
 	weight = 10000,
 },
 
+-- Hells Gate Pub
+{
+	coords = vec3(1951.9, 3830.79, 35.5),
+	target = {
+		loc = vec3(1951.9, 3830.79, 35.5),
+		length = 1.6,
+		width = 1.0,
+		heading = 30,
+		minZ = 34.7,
+		maxZ = 36.9,
+		label = 'Otwórz szafke'
+	},
+	name = 'hellsgatelocker',
+	label = 'Szafka Prywatna',
+	owner = true,
+	slots = 10,
+	weight = 15000,
+	groups = {['hellsgate'] = 0}
+},
+{
+	coords = vec3(1939.58, 3846.02, 32.15),
+	target = {
+		loc = vec3(1939.58, 3846.02, 32.15),
+		length = 0.6,
+		width = 2.8,
+		heading = 300,
+		minZ = 31.55,
+		maxZ = 33.35,
+		label = 'Otwórz Magazyn'
+	},
+	name = 'hellsgatemagazyn',
+	label = 'Magazyn',
+	owner = false,
+	slots = 200,
+	weight = 1000000,
+	groups = {['hellsgate'] = 1}
+},
+{
+	coords = vec3(1948.91, 3829.49, 27.96),
+	target = {
+		loc = vec3(1948.91, 3829.49, 27.96),
+		length = 1.6,
+		width = 1.0,
+		heading = 300,
+		minZ = 26.81,
+		maxZ = 28.81,
+		label = 'Otwórz Magazyn 2'
+	},
+	name = 'hellsgatemagazyn2',
+	label = 'Magazyn',
+	owner = false,
+	slots = 200,
+	weight = 1000000,
+	groups = {['hellsgate'] = 1}
+},
+
+{
+	coords = vec3(1945.4, 3840.96, 32.13),
+	target = {
+		loc = vec3(1945.4, 3840.96, 32.13),
+		length = 0.6,
+		width = 0.6,
+		heading = 31,
+		minZ = 31.93,
+		maxZ = 32.53,
+		label = 'Tacka'
+	},
+	name = 'hellsgatetacka',
+	label = 'Tacka',
+	owner = false,
+	slots = 8,
+	weight = 10000,
+},
+
 -- Dom Ciotki Franklina Forum Dr.
 {
 	coords = vec3(-12.75, -1435.09, 30.71),
