@@ -1811,6 +1811,24 @@ return {
 		weight = 500000,
 		groups = {['zirconium'] = 6}
 	},
+		{
+		coords = vec3(-274.85, -2019.19, 21.96),
+		target = {
+			loc = vec3(-274.85, -2019.19, 21.96),
+			length = 2.0,
+			width = 1.0,
+			heading = 50,
+			minZ = 21.56,
+			maxZ = 22.56,
+			label = 'Tacka'
+		},
+		name = 'limitlestacka',
+		label = 'Tacka',
+		owner = false,
+		slots = 10,
+		weight = 25000,
+		groups = nil
+	},
 	--DOJ
 	
 	{
