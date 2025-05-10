@@ -3815,6 +3815,8 @@ return {
 	["roza"] = {
 		label = "Czerwona róża",
 		weight = 25,
+		degrade = 1 * 48 * 60, -- day * hour * minute
+
 	},	
 --[[ 	["roza"] = {
 		label = "Czerwona róża",
@@ -8919,16 +8921,22 @@ return {
 		label = "Bukiet kwiatów",
 		description = "Bukiet kolorowych tulipanów. Idealny na niezobowiązujący prezent",
 		weight = 1000,
+		degrade = 1 * 48 * 60, -- day * hour * minute
+
 		},
 		["bukiet2"] = {
 		label = "Bukiet kwiatów",
 		description = "Czerwonych róż. Ewidentny dowód Twojego zaangażowania uczuciowego",
 		weight = 1000,
+		degrade = 1 * 48 * 60, -- day * hour * minute
+
 		},
 		["bukiet3"] = {
 		label = "Bukiet kwiatów",
 		description = "Mieszanka kwiatów wszelkiej maści na różne okazje",
 		weight = 1000,
+		degrade = 1 * 48 * 60, -- day * hour * minute
+
 		},
 		["teddybear"] = {
 		label = "Miś pluszowy",
