@@ -9055,8 +9055,8 @@ return {
 	},
 	-- klucze CRIME
 	["keyg1"] = {
-		label = "Klucz G1", -- Kazuki
-		description = "F4N-D03",
+		label = "Klucz z bryloczkiem", -- Pralnia
+		description = "Przy kluczu merda bryloczek w kształcie igły.",
 		weight = 5,
 		stack = false,
 		close = true,
