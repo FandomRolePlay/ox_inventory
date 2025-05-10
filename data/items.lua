@@ -8874,6 +8874,67 @@ return {
 		stack = false,
 		close = false,
 	},
+	['presentboxblack'] = {
+		label = 'Prezent',
+		weight = 250,
+		stack = true,
+		close = false,
+		consume = 0
+		},
+		['presentboxred'] = {
+		label = 'Prezent',
+		weight = 250,
+		stack = true,
+		close = false,
+		consume = 0
+		},
+		['presentboxgreen'] = {
+		label = 'Prezent',
+		weight = 250,
+		stack = true,
+		close = false,
+		consume = 0
+		},
+		["mordobiciegold"] = {
+		label = "Złoty Puchar",
+		description = "Nagroda za zajęcie pierwszego miejsca w turnieju Mordobicie 2.0",
+		weight = 250,
+		},
+		["mordobiciesilver"] = {
+		label = "Srebrny Puchar",
+		description = "Nagroda za zajęcie drugiego miejsca w turnieju Mordobicie 2.0",
+		weight = 250,
+		},
+		["mordobiciebronze"] = {
+		label = "Brązowy Puchar",
+		description = "Nagroda za zajęcie trzeciego miejsca w turnieju Mordobicie 2.0",
+		weight = 250,
+		},
+		["mordobiciestatue"] = {
+		label = "Statuetka",
+		description = "Pamiątkowa statuetka za udział w turnieju Mordobicie 2.0",
+		weight = 250,
+		},
+		["bukiet1"] = {
+		label = "Bukiet kwiatów",
+		description = "Bukiet kolorowych tulipanów. Idealny na niezobowiązujący prezent",
+		weight = 1000,
+		},
+		["bukiet2"] = {
+		label = "Bukiet kwiatów",
+		description = "Czerwonych róż. Ewidentny dowód Twojego zaangażowania uczuciowego",
+		weight = 1000,
+		},
+		["bukiet3"] = {
+		label = "Bukiet kwiatów",
+		description = "Mieszanka kwiatów wszelkiej maści na różne okazje",
+		weight = 1000,
+		},
+		["teddybear"] = {
+		label = "Miś pluszowy",
+		description = "Biały, pluszowy miś z różą. Idealny na mały prezent",
+		weight = 500,
+		},
 
 	--klucze plaża
 	["keya1"] = {
