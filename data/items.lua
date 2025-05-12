@@ -8738,6 +8738,12 @@ return {
 		stack = false,
 		close = false,
 	},
+	["ceramicset"] = {
+		label = "Zestaw VF PT7",
+		weight = 300,
+		stack = false,
+		close = false,
+	},
 	["pistolset"] = {
 		label = "Zestaw HL PT92",
 		weight = 300,
@@ -8752,6 +8758,12 @@ return {
 	},
 	["snspistolset"] = {
 		label = "Zestaw HL SNSM10",
+		weight = 200,
+		stack = false,
+		close = false,
+	},
+	["snsmk2set"] = {
+		label = "Zestaw HL SNSM10G1",
 		weight = 200,
 		stack = false,
 		close = false,
@@ -8806,6 +8818,18 @@ return {
 	},
 	["sawnoffshotgun"] = {
 		label = "Zestaw Shrewsbury 500",
+		weight = 900,
+		stack = false,
+		close = false,
+	},
+	["dbshotgunset"] = {
+		label = "Zestaw Marshall 12 Gauge",
+		weight = 900,
+		stack = false,
+		close = false,
+	},
+	["pumpshotgunmk2set"] = {
+		label = "Zestaw Rhinberg 590A1",
 		weight = 900,
 		stack = false,
 		close = false,
