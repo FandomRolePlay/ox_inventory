@@ -2085,7 +2085,7 @@ return {
 			{ name = 'weapon-parts', price = 300, count = 20, currency = 'black_money' },
 			{ name = 'weapon-cleaning', price = 100, count = 15, currency = 'money' },
 			{ name = 'weapon-cleaning', price = 120, count = 20, currency = 'black_money' },
-			{ name = 'weapon-parts_spec', price = 1, count = 1, currency = 'goldbar' }, --1
+			{ name = 'weapon-parts_spec', price = 1, count = 3, currency = 'goldbar' }, --1
 			{ name = 'snspistolset', price = 1000, count = 4, currency = 'money' },
 			{ name = 'snspistolset', price = 1200, count = 6, currency = 'black_money' },
 			{ name = 'snsmk2set', price = 1500, count = 4, currency = 'money' },
@@ -2126,10 +2126,6 @@ return {
 			{ name = 'assaultriflemk2set', price = 12000, count = 3, currency = 'black_money' },
 			{ name = 'tacticalrifleset', price = 8000, count = 2, currency = 'money' },
 			{ name = 'tacticalrifleset', price = 9600, count = 3, currency = 'black_money' },
-			{ name = 'plate_taker', price = 1250, count = 2, currency = 'money' },
-			{ name = 'plate_taker', price = 1500, count = 4, currency = 'black_money' },
-			{ name = 'plate_changer', price = 1750, count = 1, currency = 'money' },
-			{ name = 'plate_changer', price = 2100, count = 3, currency = 'black_money' },
 
 		},
 		locations = {
@@ -2232,7 +2228,7 @@ return {
 			{ name = 'weapon-parts', price = 300, count = 20, currency = 'black_money' },
 			{ name = 'weapon-cleaning', price = 100, count = 15, currency = 'money' },
 			{ name = 'weapon-cleaning', price = 120, count = 20, currency = 'black_money' },
-			{ name = 'weapon-parts_spec', price = 1, count = 1, currency = 'goldbar' }, --1
+			{ name = 'weapon-parts_spec', price = 1, count = 3, currency = 'goldbar' }, --1
 			{ name = 'snspistolset', price = 1000, count = 4, currency = 'money' },
 			{ name = 'snspistolset', price = 1200, count = 6, currency = 'black_money' },
 			{ name = 'snsmk2set', price = 1500, count = 4, currency = 'money' },
@@ -2273,10 +2269,6 @@ return {
 			{ name = 'assaultriflemk2set', price = 12000, count = 3, currency = 'black_money' },
 			{ name = 'tacticalrifleset', price = 8000, count = 2, currency = 'money' },
 			{ name = 'tacticalrifleset', price = 9600, count = 3, currency = 'black_money' },
-			{ name = 'plate_taker', price = 1250, count = 2, currency = 'money' },
-			{ name = 'plate_taker', price = 1500, count = 4, currency = 'black_money' },
-			{ name = 'plate_changer', price = 1750, count = 1, currency = 'money' },
-			{ name = 'plate_changer', price = 2100, count = 3, currency = 'black_money' },
 		},
 		locations = {
 			vec3(2918.52, 4630.11, 49.24)
@@ -2379,7 +2371,7 @@ return {
 			{ name = 'weapon-parts', price = 300, count = 20, currency = 'black_money' },
 			{ name = 'weapon-cleaning', price = 100, count = 15, currency = 'money' },
 			{ name = 'weapon-cleaning', price = 120, count = 20, currency = 'black_money' },
-			{ name = 'weapon-parts_spec', price = 1, count = 1, currency = 'goldbar' }, --1
+			{ name = 'weapon-parts_spec', price = 1, count = 3, currency = 'goldbar' }, --1
 			{ name = 'snspistolset', price = 1000, count = 4, currency = 'money' },
 			{ name = 'snspistolset', price = 1200, count = 6, currency = 'black_money' },
 			{ name = 'snsmk2set', price = 1500, count = 4, currency = 'money' },
@@ -2420,10 +2412,6 @@ return {
 			{ name = 'assaultriflemk2set', price = 12000, count = 3, currency = 'black_money' },
 			{ name = 'tacticalrifleset', price = 8000, count = 2, currency = 'money' },
 			{ name = 'tacticalrifleset', price = 9600, count = 3, currency = 'black_money' },
-			{ name = 'plate_taker', price = 1250, count = 2, currency = 'money' },
-			{ name = 'plate_taker', price = 1500, count = 4, currency = 'black_money' },
-			{ name = 'plate_changer', price = 1750, count = 1, currency = 'money' },
-			{ name = 'plate_changer', price = 2100, count = 3, currency = 'black_money' },
 		},
 		locations = {
 			vec3(-1106.62, 4937.07, 218.18)
