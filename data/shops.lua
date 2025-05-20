@@ -1075,7 +1075,7 @@ return {
 			id = 50, colour = 24, scale = 0.8
 		},
 		groups = {
-			['mechanic'] = 0, ["mechanic2"] = 0, ["mechanic3"] = 0
+			['mechanic'] = 6, ["mechanic2"] = 0, ["mechanic3"] = 0
 		},
 		inventory = {
 			{ name = 'spareparts',     price = 8 },
