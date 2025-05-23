@@ -5817,6 +5817,16 @@ return {
 		description = ""
 	},
 
+	["nitro_manual"] = {
+		label = 'Podręcznik do mechaniki',
+		weight = 150,
+		stack = false,
+		client = {
+			image = "blueprint2.png",
+		},
+		description = "Mechanika samochodowa i NOS"
+	},
+	
 	["weapon1_manual"] = {
 		label = 'Podręcznik rusznikarski',
 		weight = 150,
