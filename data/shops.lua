@@ -2050,8 +2050,9 @@ return {
 			{ name = 'cutter', price = 1000, count = 2, currency = 'money' },
 			{ name = 'hackingchip_2', price = 7, count = 1, currency = 'crime_token' }, --1
 			{ name = 'pliers', price = 180, count = 1, currency = 'black_money' },
-			{ name = 'x_device', price = 11, count = 1, currency = 'crime_token' }, --1
-			{ name = 'blueprint_molotov', price = 50, count = 1, currency = 'goldbar' }, --1
+			{ name = 'x_device', price = 5, count = 1, currency = 'crime_token' }, --1
+			{ name = 'fleecacard', price = 20, count = 1, currency = 'crime_token' }, --1
+			{ name = 'blueprint_molotov', price = 10, count = 1, currency = 'goldbar' }, --1
 			{ name = 'molotovset', price = 1, count = 4, currency = 'goldbar' }, --4
 			{ name = 'kevlar', price = 100, count = 15, currency = 'money' },
 			{ name = 'kevlar', price = 120, count = 20, currency = 'black_money' },
@@ -2193,8 +2194,9 @@ return {
 			{ name = 'cutter', price = 1000, count = 2, currency = 'money' },
 			{ name = 'hackingchip_2', price = 7, count = 1, currency = 'crime_token' }, --1
 			{ name = 'pliers', price = 180, count = 1, currency = 'black_money' },
-			{ name = 'x_device', price = 11, count = 1, currency = 'crime_token' }, --1
-			{ name = 'blueprint_molotov', price = 50, count = 1, currency = 'goldbar' }, --1
+			{ name = 'x_device', price = 5, count = 1, currency = 'crime_token' }, --1
+			{ name = 'fleecacard', price = 20, count = 1, currency = 'crime_token' }, --1
+			{ name = 'blueprint_molotov', price = 10, count = 1, currency = 'goldbar' }, --1
 			{ name = 'molotovset', price = 1, count = 4, currency = 'goldbar' }, --4
 			{ name = 'kevlar', price = 100, count = 15, currency = 'money' },
 			{ name = 'kevlar', price = 120, count = 20, currency = 'black_money' },
@@ -2336,8 +2338,9 @@ return {
 			{ name = 'cutter', price = 1000, count = 2, currency = 'money' },
 			{ name = 'hackingchip_2', price = 7, count = 1, currency = 'crime_token' }, --1
 			{ name = 'pliers', price = 180, count = 1, currency = 'black_money' },
-			{ name = 'x_device', price = 11, count = 1, currency = 'crime_token' }, --1
-			{ name = 'blueprint_molotov', price = 50, count = 1, currency = 'goldbar' }, --1
+			{ name = 'x_device', price = 5, count = 1, currency = 'crime_token' }, --1
+			{ name = 'fleecacard', price = 20, count = 1, currency = 'crime_token' }, --1
+			{ name = 'blueprint_molotov', price = 10, count = 1, currency = 'goldbar' }, --1
 			{ name = 'molotovset', price = 1, count = 4, currency = 'goldbar' }, --4
 			{ name = 'kevlar', price = 100, count = 15, currency = 'money' },
 			{ name = 'kevlar', price = 120, count = 20, currency = 'black_money' },
@@ -2414,10 +2417,10 @@ return {
 			{ name = 'tacticalrifleset', price = 9600, count = 3, currency = 'black_money' },
 		},
 		locations = {
-			vec3(-1106.62, 4937.07, 218.18)
+			vec3(-963.72, 736.17, 171.92)
 		}, 
 		targets = {
-			{ loc = vec3(-1106.62, 4937.07, 218.18), length = 1.5, width = 1.5, heading = 35.0, minZ = 29.78, maxZ = 30.28, distance = 0.8 },
+			{ loc = vec3(-963.72, 736.17, 171.92), length = 1.5, width = 1.5, heading = 45.0, minZ = 171.72, maxZ = 172.52, distance = 0.8 },
 		}
 	}, 
 
