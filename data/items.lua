@@ -1551,8 +1551,8 @@ return {
 			prop = 'prop_food_bs_chips',
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 300000,
+			statusCap = 600000,
+			hunger = 250000,
 		},
 		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
@@ -1586,15 +1586,15 @@ return {
 	},
 
 	['chickenburger'] = {
-		label = 'Chicken Burger',
+		label = 'MiniChicken Burger',
 		weight = 500,
 		client = {
 			anim = 'eating',
 			prop = 'burger',
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 420000,
+			statusCap = 600000,
+			hunger = 350000,
 		},
 		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
