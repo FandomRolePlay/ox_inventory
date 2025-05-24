@@ -9399,6 +9399,16 @@ return {
 			export = 'frp_badge.badge_lspd'
 		}
 	},
+	['badge_lssd'] = {
+		label = 'Odznaka LSSD',
+		stack = false,
+		weight = 50,
+		close = true,
+		consume = 0,
+		server = {
+			export = 'frp_badge.badge_lssd'
+		}
+	},
 	['badge_ems'] = {
 		label = 'Odznaka EMS',
 		stack = false,
