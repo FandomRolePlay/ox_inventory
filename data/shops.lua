@@ -540,10 +540,12 @@ return {
 			{ name = 'gsr_kit',          	price = 50,    grade = 2 }
 		},
 		locations = {
-			vec3(608.65, 1.56, 87.8)
+			vec3(608.65, 1.56, 87.8),
+			vec3(836.04, -1287.98, 28.31) --La Mesa
 		},
 		targets = {
-			{ loc = vec3(608.65, 1.56, 87.8), length = 1.0, width = 1.0, heading = 340.0, minZ = 87.4, maxZ = 88.6, distance = 6 }
+			{ loc = vec3(608.65, 1.56, 87.8), length = 1.0, width = 1.0, heading = 340.0, minZ = 87.4, maxZ = 88.6, distance = 6 },
+			{ loc = vec3(836.04, -1287.98, 28.31), length = 1.0, width = 1.0, heading = 340.0, minZ = 87.4, maxZ = 88.6, distance = 6 } --La Mesa
 		},
 	},
 

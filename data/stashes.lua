@@ -111,6 +111,80 @@ return {
 		groups = {['police'] = 11}
 	},
 
+	--La Mesa PD
+	{
+		coords = vec3(845.03, -1286.68, 28.44),
+		target = {
+			loc = vec3(845.03, -1286.68, 28.44),
+			length = 1.2,
+			width = 1.2,
+			heading = 340,
+			minZ = 87.2,
+			maxZ = 88.8,
+			label = 'Otwórz szafke'
+		},
+		name = 'lamesalocker',
+		label = 'Szafka prywatna',
+		owner = true,
+		slots = 15,
+		weight = 20000,
+		groups = shared.police
+	},
+	{
+		coords = vec3(836.05, -1286.32, 28.32),
+		target = {
+			loc = vec3(836.05, -1286.32, 28.32),
+			length = 0.6,
+			width = 1.6,
+			heading = 70,
+			minZ = 87.45,
+			maxZ = 89.05,
+			label = 'Otwórz Magazyn'
+		},
+		name = 'lamesamagazyn',
+		label = 'Magazyn',
+		owner = false,
+		slots = 200,
+		weight = 500000,
+		groups = {['police'] = 1}
+	},
+	{
+		coords = vec3(836.04, -1287.98, 28.31),
+		target = {
+			loc = vec3(836.04, -1287.98, 28.31),
+			length = 1.8,
+			width = 0.6,
+			heading = 340,
+			minZ = 87.4,
+			maxZ = 89.2,
+			label = 'Otwórz Magazyn z Bronią'
+		},
+		name = 'lamesazbrojownia',
+		label = 'Magazyn z Bronią',
+		owner = false,
+		slots = 200,
+		weight = 500000,
+		groups = {['police'] = 2}
+	},
+	{
+		coords = vec3(857.68, -1302.16, 28.05),
+		target = {
+			loc = vec3(857.68, -1302.16, 28.05),
+			length = 0.8,
+			width = 1.6,
+			heading = 340,
+			minZ = 87.6,
+			maxZ = 88.8,
+			label = 'Otwórz Magazyn'
+		},
+		name = 'lamesamagazyncm',
+		label = 'Magazyn Commandu',
+		owner = false,
+		slots = 50,
+		weight = 50000,
+		groups = {['police'] = 10}
+	},
+
 	-- LSSD
 	{
 		coords = vec3(360.76, -1609.33, 24.65),
@@ -2617,6 +2691,25 @@ return {
 			label = 'Otwórz Lodówkę'
 		},
 		name = 'lspdlodowka',
+		label = 'Lodówka',
+		owner = false,
+		slots = 200,
+		weight = 50000,
+		groups = {['police'] = 0}
+	},
+	--La Mesa
+	{
+		coords = vec3(840.46, -1286.08, 28.22),
+		target = {
+			loc = vec3(840.46, -1286.08, 28.22),
+			length = 1.0,
+			width = 0.8,
+			heading = 340,
+			minZ = 87.2,
+			maxZ = 88.8,
+			label = 'Otwórz Lodówkę'
+		},
+		name = 'lspdlodowka2',
 		label = 'Lodówka',
 		owner = false,
 		slots = 200,
