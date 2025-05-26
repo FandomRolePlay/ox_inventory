@@ -34,6 +34,29 @@ return {
 			minZ = 27.46,
 			maxZ = 29.06
 		}
+	},
+	{
+		coords = vec3(386.34, -1606.03, 29.27),
+		target = { -- qtarget support
+			name = 'lssd_evidence', -- name of zone must be uniuqe
+			loc = vec3(386.34, -1606.03, 29.27),
+			length = 0.7,
+			width = 2.2,
+			heading = 0.0,
+			minZ = 28.46,
+			maxZ = 30.06
+		}
+	},
+	{
+		coords = vec3(608.45, 8.72, 75.04),
+		target = { -- qtarget support
+			name = 'lspd_evidence', -- name of zone must be uniuqe
+			loc = vec3(608.45, 8.72, 75.04),
+			length = 0.7,
+			width = 2.2,
+			heading = 0.0,
+			minZ = 74.46,
+			maxZ = 76.06
+		}
 	}
-	
 }
