@@ -8951,6 +8951,12 @@ return {
 		description = "Pamiątkowa statuetka za udział w turnieju Mordobicie 2.0",
 		weight = 250,
 		},
+		["sprunkstatue"] = {
+		label = "Statuetka Sprunk",
+		description = "Statuetka za udział w wydarzeniu na 40lecie Sprunka",
+		weight = 250,
+		},
+
 		["bukiet1"] = {
 		label = "Bukiet kwiatów",
 		description = "Bukiet kolorowych tulipanów. Idealny na niezobowiązujący prezent",
