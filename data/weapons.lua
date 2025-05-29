@@ -808,7 +808,12 @@ return {
 			durability = 0,
 			ammoname = 'ammo-bb'
 		},
-
+		['WEAPON_YBBSHOTGUN'] = {
+			label = 'Bean Bag Shotgun',
+			weight = 2300,
+			durability = 0,
+			ammoname = 'ammo-bb'
+		},
 		['WEAPON_HUNTINGRIFLE'] = {
 			label = 'Karabin myśliwski',    
 			weight = 4100,	
