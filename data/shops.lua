@@ -1570,6 +1570,7 @@ return {
 			{ name = 'og_kush_seed',     price = 6, grade = 3 },
 			{ name = 'blue_dream_seed',  price = 6, grade = 3 },
 			{ name = 'purple_haze_seed', price = 9, grade = 3 },
+			{ name = 'chem_sister_seed', price = 9, grade = 3 },			
 			{ name = 'water3',           price = 1 },
 			{ name = 'fertilizer',       price = 4 },
 			{ name = 'meth_pipe',        price = 1 },
