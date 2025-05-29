@@ -2697,6 +2697,24 @@ return {
 		weight = 50000,
 		groups = {['police'] = 0}
 	},
+	{
+		coords = vec3(351.02, -1598.30, 33.76),
+		target = {
+			loc = vec3(351.02, -1598.30, 33.76),
+			length = 1.0,
+			width = 0.8,
+			heading = 340,
+			minZ = 33.16,
+			maxZ = 34.16,
+			label = 'Otwórz Lodówkę'
+		},
+		name = 'lssdlodowka',
+		label = 'Lodówka',
+		owner = false,
+		slots = 200,
+		weight = 50000,
+		groups = {['lssd'] = 0}
+	},
 	--La Mesa
 	{
 		coords = vec3(840.46, -1286.08, 28.22),
