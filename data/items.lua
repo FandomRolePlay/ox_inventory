@@ -133,7 +133,11 @@ return {
 		label = 'Duża wiertarka',
 		weight = 800,
 	},
-
+	['expensive_bag'] = {
+		label = 'Droga torba',
+		weight = 1000,
+		description = 'Może coś jest w środku?',
+	},
 	--projectx-fleecabankrobbery
 	["x_device"] = {
 		label = "Sterownik USB",
@@ -2159,7 +2163,7 @@ return {
 	},
 	['water_weedshop'] = {
 		label = 'Woda osmotyczna',
-		weight = 500,
+		weight = 200,
 	},
 
 	['water_weed'] = {
