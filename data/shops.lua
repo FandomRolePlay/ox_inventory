@@ -2580,6 +2580,7 @@ return {
             { name = "bukiet2",     	price = 500 },
             { name = "bukiet3",     	price = 500 },
 			{ name = "dice",     		price = 50 },
+			{ name = "cup",     		price = 5 },
 
 		
 
