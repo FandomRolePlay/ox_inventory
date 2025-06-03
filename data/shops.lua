@@ -384,7 +384,8 @@ return {
 			{ name = 'anhydride',    price = 8,   count = 70 }, -- heroina bezwodnik octowy
 			{ name = 'eter',  	     price = 5,   count = 70 }, -- heroina
 			{ name = 'hydrochloric_acid', price = 2,   count = 70 }, -- heroina kwas octowy
-			{ name = 'paracetamol',  price = 80, count = 50 }, -- lean i perc
+			{ name = 'paracetamol',  price = 80, count = 50 },
+			{ name = 'syrup2',  	 price = 25, count = 50 }, -- lean i perc
 			{ name = 'chem',         price = 15,  count = 70 },
 			{ name = 'chem_manual',  price = 28,  count = 5 },
 		},
