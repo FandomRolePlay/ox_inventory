@@ -2221,6 +2221,7 @@ return {
 	SupplierShop2 = { -- Jimmy
 		name = 'Darkweb',
 		groups = {
+			['freelancer4'] = 0,
 			['supplier'] = 0
 		},
 		inventory = {
