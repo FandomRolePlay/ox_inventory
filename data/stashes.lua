@@ -3524,4 +3524,42 @@ return {
 	slots = 15,
 	weight = 100000,
 },
+
+-- Administracja
+{
+		coords = vec3(-1296.68, -3034.04, -48.49),
+		target = {
+			loc = vec3(-1296.68, -3034.04, -48.49),
+			length = 1.2,
+			width = 1.2,
+			heading = 0,
+			minZ = -51.49,
+ 			maxZ = -48.09,
+			label = 'Otwórz szafke'
+		},
+		name = 'admlocker',
+		label = 'Szafka Prywatna',
+		owner = true,
+		slots = 100,
+		weight = 9000000,
+		groups = {['administracja'] = 0}
+	},
+	{
+		coords = vec3(-1299.02, -3036.4, -48.49),
+		target = {
+			loc = vec3(-1299.02, -3036.4, -48.49),
+			length = 0.8,
+			width = 1.8,
+			heading = 20,
+			minZ = -51.09,
+  			maxZ = -47.09,
+			label = 'Otwórz Magazyn'
+		},
+		name = 'admmagazyn',
+		label = 'Magazyn',
+		owner = false,
+		slots = 200,
+		weight = 9000000,
+		groups = {['administracja'] = 0}
+	},
 }
