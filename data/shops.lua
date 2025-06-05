@@ -343,6 +343,8 @@ return {
 			{ name = 'WEAPON_CROWBAR',  price = 50,   count = 7 },
 			{ name = 'WEAPON_WRENCH',   price = 65,   count = 5 },
 			{ name = 'weapon_hatchet',  price = 570,  count = 3 },
+			{ name = 'weapon_knife',    price = 200,  count = 3 },
+			{ name = 'weapon_bat',      price = 300,  count = 5 },
 			{ name = 'trowel',          price = 80,   metadata = { durability = 100 } },
 			{ name = 'tools',           price = 20,   count = 20 },
 			{ name = 'basketball',      price = 25},
@@ -1818,7 +1820,7 @@ return {
 			{ name = 'banana_kush_seed', price = 200, count = 2 },
 			{ name = 'red_jack_seed',    price = 200, count = 2 },
 			{ name = 'chem_sister_seed', price = 200, count = 2 },
-			{ name = 'steel_rope',       price = 500, count = 2 },
+		--	{ name = 'steel_rope',       price = 500, count = 2 },
 		},
 		locations = {
 			vec3(2194.6409, 5582.1021, 53.3583)
@@ -1878,6 +1880,24 @@ return {
 			{ loc = vec3(838.97, -1923.52, 30.31), length = 0.8, width = 2.8, heading = 355.0, minZ = 29.31, maxZ = 31.51, distance = 1.5 },
 		}
 	},
+	Hurtownia15 = {
+		name = 'Handlarz bronią białą',
+		inventory = {
+			{ name = 'WEAPON_GOLFCLUB', 	     price = 350,  count = 3 },
+			{ name = 'WEAPON_KNUCKLE',           price = 50,   count = 5 },
+			{ name = 'WEAPON_POOLCUE',           price = 300, count = 2 },
+			{ name = 'WEAPON_BATTLEAXE',   		 price = 600,  count = 1 },
+			{ name = 'WEAPON_DAGGER',    		 price = 250, count = 2 },
+			{ name = 'WEAPON_MACHETE',           price = 600, count = 1 },
+			{ name = 'WEAPON_SWITCHBLADE', 		 price = 300, count = 5 },
+		},
+		locations = {
+			vec3(272.6129, -1072.6925, 14.8046)
+		},
+		targets = {
+			{ loc = vec3(272.6129, -1072.6925, 14.8046), length = 1.5, width = 1.5, heading = 183, minZ = 182.02, maxZ = 184.02, distance = 2.5 },
+		}
+	},	
 	wolfs = {
 		name = 'Sklep WOLFS',
 		groups = {
