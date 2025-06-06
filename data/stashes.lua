@@ -1654,11 +1654,11 @@ return {
 			label = 'Otwórz Szafke'
 		},
 		name = 'anmagazyn4', --szafka biuro
-		label = 'Szafka',
+		label = 'Szafka Szafa',
 		owner = false,
 		slots = 100,
 		weight = 25000,
-		groups = {['ammunation'] = 1}
+		groups = {['ammunation'] = 6}
 	},
 	{
 		coords = vec3(-81.91, -804.42, 243.4),
