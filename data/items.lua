@@ -953,6 +953,214 @@ return {
 		close = true,
 	},
 
+	['town_zupa'] = {
+		label = 'Zupa',
+		description = "Lekka zupka warzywna, idealna przystawka do głównego dania",
+		weight = 400,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 350000,
+			thirst = 100000,
+		},
+		decay = true,
+		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
+	['town_chicken_salad'] = {
+		label = 'Sałatka z kurczkiem',
+		weight = 310,
+		decay = true,
+		client = {
+			anim = 'eating',
+			prop = 'prop_taco_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 400000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
+	['town_tartare'] = {
+		label = 'Tatar wołowy',
+		weight = 455,
+		decay = true,
+		client = {
+			anim = 'eating',
+			prop = 'prop_taco_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 400000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
+	["town_lasagne"] = {
+        label = "Lasagne bolognese",
+        weight = 200,
+        stack = true,
+        close = true,
+		decay = true,
+        client = {
+            anim = 'eating',
+            prop = 'prop_plate_03',
+            usetime = 2500,
+            export = 'FandomRP.useStatusItem',
+            statusCap = 1000000,
+            hunger = 450000,
+        },
+        degrade = 2 * 24 * 60, -- day * hour * minute
+    },
+	['town_ribs'] = {
+		label = 'Żeberka BBQ',
+		weight = 520,
+		decay = true,
+		client = {
+			anim = 'eating',
+			prop = 'prop_taco_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 600000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
+	['town_salmon'] = {
+		label = 'Grilowany łosoś',
+		weight = 410,
+		decay = true,
+		client = {
+			anim = 'eating',
+			prop = 'prop_taco_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 600000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
+	['town_shrimps_pasta'] = {
+		label = 'Makaron z krewetkami',
+		weight = 455,
+		decay = true,
+		client = {
+			anim = 'eating',
+			prop = 'prop_taco_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 600000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
+	['town_steak'] = {
+		label = 'Stek',
+		description = "Soczysy stek z dodatkami.",
+		weight = 400,
+		decay = true,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 800000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
+	['town_brownie'] = {
+		label = 'Brownie z mleczną czekoladą',
+		weight = 455,
+		decay = true,
+		client = {
+			anim = 'eating',
+			prop = 'prop_taco_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 300000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
+	['town_sernik'] = {
+		label = 'Serniczek',
+		weight = 455,
+		decay = true,
+		client = {
+			anim = 'eating',
+			prop = 'prop_taco_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 300000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
+	['town_coffee'] = {
+		label = 'Kawa',
+		description = "Klasyczna kawka z kleksem mleczka",
+		weight = 300,
+		decay = true,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_bs_cup`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 500000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
+	["town_tea"] = {
+		label = "Herbata",
+		weight = 200,
+		stack = true,
+		decay = true,
+		close = true,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_tumbler_01b`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 400000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute	
+	},
+	["town_lemonade"] = {
+		label = "Lemoniada",
+		weight = 300,
+		stack = true,
+		close = true,
+		decay = true,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `p_w_grass_gls_s`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 450000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
+	['town_koktajl'] = {
+		label = 'Koktajl owocowy',
+		weight = 300,
+		decay = true,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_bs_cup`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 500000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
+
+
 	--Pops Diner
 	['popsbekon'] = {
 		label = 'Tavern Bekon',
@@ -8960,6 +9168,21 @@ return {
 		description = "Statuetka za udział w wydarzeniu na 40lecie Sprunka",
 		weight = 250,
 		},
+        ["thriatlongold"] = {
+        label = "Złoty Puchar",
+        description = "Nagroda za zajęcie pierwszego miejsca w Triathlonie",
+        weight = 250,
+        },
+        ["thriatlonsilver"] = {
+        label = "Srebrny Puchar",
+        description = "Nagroda za zajęcie drugiego miejsca w Triathlonie",
+        weight = 250,
+        },
+        ["thriatlonbronze"] = {
+        label = "Brązowy Puchar",
+        description = "Nagroda za zajęcie trzeciego miejsca w Triathlonie",
+        weight = 250,
+        },		
 
 		["bukiet1"] = {
 		label = "Bukiet kwiatów",
