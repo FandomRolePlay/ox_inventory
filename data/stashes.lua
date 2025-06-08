@@ -1604,7 +1604,7 @@ return {
 		owner = false,
 		slots = 200,
 		weight = 1000000,
-		groups = {['ammunation'] = 1}
+		groups = {['ammunation'] = 3}
 	},
 	{
 		coords = vec3(13.71, -1105.61, 29.1),
