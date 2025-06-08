@@ -1660,6 +1660,24 @@ return {
 		weight = 25000,
 		groups = {['ammunation'] = 6}
 	},
+		{
+		coords = vec3(34.21, -1075.85, 27.72),
+		target = {
+			loc = vec3(34.21, -1075.85, 27.72),
+			length = 1.0,
+			width = 2.0,
+			heading = 340,
+			minZ = 26.72,
+			maxZ = 28.52,
+			label = 'Utylizacja'
+		},
+		name = 'anmagazyn4', --szafka biuro
+		label = 'Utylizacja',
+		owner = false,
+		slots = 100,
+		weight = 250000,
+		groups = {['ammunation'] = 6}
+	},
 	{
 		coords = vec3(-81.91, -804.42, 243.4),
 		target = {
@@ -3322,6 +3340,24 @@ return {
 	owner = false,
 	slots = 200,
 	weight = 1000000,
+	groups = {['townrest'] = 0}
+},
+{
+	coords = vec3(-1360.27, -1071.03, 6.94),
+	target = {
+		loc = vec3(-1360.27, -1071.03, 6.94),
+		length = 0.8,
+		width = 2.4,
+		heading = 300,
+		minZ = 6.14,
+		maxZ = 7.74,
+		label = 'Otwórz Magazyn'
+	},
+	name = 'townrestmagazyn2',
+	label = 'Magazyn',
+	owner = false,
+	slots = 200,
+	weight = 250000,
 	groups = {['townrest'] = 0}
 },
 {
