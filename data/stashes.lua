@@ -1671,7 +1671,7 @@ return {
 			maxZ = 28.52,
 			label = 'Utylizacja'
 		},
-		name = 'anmagazyn4', --szafka biuro
+		name = 'anmagazyn5', --szafka biuro
 		label = 'Utylizacja',
 		owner = false,
 		slots = 100,
