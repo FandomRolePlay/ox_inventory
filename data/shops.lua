@@ -1330,24 +1330,7 @@ return {
 		} 
 	}, 
 
-	HurtowniaFish = {
-		name = 'Fishing Corporation',
-		blip = {
-			id = 628, colour = 24, scale = 0.8 },
-			groups = {
-				['hunting'] = 0,
-				
-			},
-		inventory = {
-			{ name = 'fishs',              price = 3 },	
-		},
-		locations = {
-			vec3(31.1688, 6447.6509, 31.4253),
-		},
-		targets = {
-			{ loc = vec3(31.1688, 6447.6509, 1.0171), length = 0.1, width = 0.1, heading = 319.0, minZ = 1.0, maxZ = 1.0, distance = 0.1 },
-		} 
-	}, 
+
 	Hurtownia3 = {
 		name = 'Hurtownia Elektronika',
 		blip = {
@@ -1446,37 +1429,20 @@ return {
 			id = 50, colour = 24, scale = 0.8
 		},
 		groups = {
-			["administracja"] = 1
+			["hunting"] = 6
 		},
 		inventory = {
 			{ name = 'weapon-parts',      price = 50,   grade = 3 },
 			{ name = 'weapon-cleaning',   price = 50,   grade = 3 },
 			{ name = 'blueprint_an',      price = 500,   grade = 6 },
 			{ name = 'at_flashlight',     price = 180,   grade = 3 },
-			{ name = 'snspistolset',      price = 800,   grade = 3 },
-			{ name = 'pistolset',         price = 950,   grade = 3 },
-			{ name = 'pistolxm3set',      price = 1200,   grade = 3 },
-			{ name = 'pistol50set',       price = 1600,   grade = 3 },
-			{ name = 'pumpshotgunset',    price = 30550 ,   grade = 7 },
-			{ name = 'smgset',            price = 25900,   grade = 7  },
 			{ name = 'weaponcase',        price = 50,   grade = 3 },
 			{ name = 'longweaponcase',    price = 100,   grade = 3 },
 			{ name = 'weapon_knife',      price = 65,   grade = 3 },
 			{ name = 'weapon_bat',        price = 35,   grade = 3 },
 			{ name = 'weapon_flashlight', price = 20,   grade = 3 },
 			{ name = 'weapon_flare',      price = 25,   grade = 3 },
-			{ name = 'ammo-45-box',       price = 45,   grade = 3  },
-			{ name = 'ammo-50-box',       price = 65,   grade = 3  },
-			{ name = 'ammo-9-box',        price = 30,   grade = 3  },
-			{ name = 'ammo-44-box',       price = 45,   grade = 3  },
-			{ name = 'ammo-shotgun-box',  price = 30,   grade = 3  },
-			{ name = 'ammo-rifle-box',    price = 120,   grade = 3  },
 			{ name = 'ammo-300-box',      price = 20,   grade = 3 },
-			{ name = 'crate_45',       price = 880,   grade = 3  },
-			{ name = 'crate_50',       price = 1250,   grade = 3  },
-			{ name = 'crate_9',        price = 580,   grade = 3  },
-			{ name = 'crate_44',       price = 880,   grade = 3  },
-			{ name = 'crate_12gauge',  price = 580,   grade = 3  },
 			{ name = 'crate_300s',  price = 380,   grade = 3 },
 			{ name = 'cratehunting',  price = 500,   grade = 3  },
 		},

@@ -1867,14 +1867,14 @@ return {
 
 	-- HUNTING
 	{
-		coords = vec3(-766.22, 5602.64, 33.74),
+		coords = vec3(-327.91, 6085.64, 31.45),
 		target = {
-			loc = vec3(-766.22, 5602.64, 33.74),
-			length = 1.5,
-			width = 0.65,
-			heading = 0,
-			minZ = 32.74,
-			maxZ = 34.34,
+			loc = vec3(-327.91, 6085.64, 31.45),
+			length = 1.4,
+			width = 0.8,
+			heading = 45,
+  			minZ = 31.45,
+  			maxZ = 32.25,
 			label = 'Otwórz szafke'
 		},
 		name = 'hslocker',
@@ -1886,14 +1886,14 @@ return {
 	},
 
 	{
-		coords = vec3(-768.14, 5600.36, 33.0),
+		coords = vec3(-326.96, 6080.96, 31.45),
 		target = {
-			loc = vec3(-768.14, 5600.36, 33.0),
+			loc = vec3(-326.96, 6080.96, 31.45),
 			length = 1.0,
-			width = 0.8,
-			heading = 345,
-			minZ = 33.35,
-  			maxZ = 34.35,
+			width = 1.0,
+			heading = 45,
+  			minZ = 31.25,
+  			maxZ = 31.85,
 			label = 'Lada'
 		},
 		name = 'huntinglada',
@@ -1904,14 +1904,14 @@ return {
 	},
 	
 	{
-		coords = vec3(-776.86, 5594.82, 33.75),
+		coords = vec3(-327.91, 6085.64, 31.45),
 		target = {
-			loc = vec3(-776.86, 5594.82, 33.75),
-			length = 0.6,
-			width = 1.8,
-			heading = 347,
-			minZ = 32.75,
-			maxZ = 34.35,
+			loc = vec3(-327.91, 6085.64, 31.45),
+			length = 1.4,
+			width = 0.8,
+			heading = 45,
+  			minZ = 31.45,
+  			maxZ = 32.25,
 			label = 'Otwórz Magazyn 1'
 		},
 		name = 'hsmagazyn',
@@ -1922,14 +1922,14 @@ return {
 		groups = {['hunting'] = 1}
 	},
 	{
-		coords = vec3(-776.86, 5594.82, 33.75),
+		coords = vec3(-327.91, 6085.64, 31.45),
 		target = {
-			loc = vec3(-776.86, 5594.82, 33.75),
-			length = 0.6,
-			width = 1.8,
-			heading = 347,
-			minZ = 32.75,
-			maxZ = 34.35,
+			loc = vec3(-327.91, 6085.64, 31.45),
+			length = 1.4,
+			width = 0.8,
+			heading = 45,
+  			minZ = 31.45,
+  			maxZ = 32.25,
 			label = 'Otwórz Magazyn 2'
 		},
 		name = 'hsmagazy2',
@@ -1940,14 +1940,14 @@ return {
 		groups = {['hunting'] = 2}
 	},
 	{
-		coords = vec3(-776.86, 5594.82, 33.75),
+		coords = vec3(-327.91, 6085.64, 31.45),
 		target = {
-			loc = vec3(-776.86, 5594.82, 33.75),
-			length = 0.6,
-			width = 1.8,
-			heading = 347,
-			minZ = 32.75,
-			maxZ = 34.35,
+			loc = vec3(-327.91, 6085.64, 31.45),
+			length = 1.4,
+			width = 0.8,
+			heading = 45,
+  			minZ = 31.45,
+  			maxZ = 32.25,
 			label = 'Otwórz Magazyn 3'
 		},
 		name = 'hsmagazyn3',
@@ -1958,14 +1958,14 @@ return {
 		groups = {['hunting'] = 4}
 	},
 	{
-		coords = vec3(-776.86, 5594.82, 33.75),
+		coords = vec3(-327.91, 6085.64, 31.45),
 		target = {
-			loc = vec3(-776.86, 5594.82, 33.75),
-			length = 0.6,
-			width = 1.8,
-			heading = 347,
-			minZ = 32.75,
-			maxZ = 34.35,
+			loc = vec3(-327.91, 6085.64, 31.45),
+			length = 1.4,
+			width = 0.8,
+			heading = 45,
+  			minZ = 31.45,
+  			maxZ = 32.25,
 			label = 'Otwórz Magazyn 4'
 		},
 		name = 'hsmagazy4',
