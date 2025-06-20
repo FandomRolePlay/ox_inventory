@@ -226,7 +226,7 @@ return {
 		['WEAPON_FIREEXTINGUISHER'] = {
 			label = 'Gaśnica',
 			weight = 5000,
-			durability = 0.1,
+			durability = 0.01,
 		},
 		-- Strażackie
 		['WEAPON_HOOK'] = {
