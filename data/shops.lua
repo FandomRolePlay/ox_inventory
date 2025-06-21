@@ -1858,10 +1858,10 @@ return {
 			{ name = 'WEAPON_SWITCHBLADE', 		 price = 300, count = 5 },
 		},
 		locations = {
-			vec3(272.6129, -1072.6925, 14.8046)
+			vec3(453.3525, -1305.021, 29.12087)
 		},
 		targets = {
-			{ loc = vec3(272.6129, -1072.6925, 14.8046), length = 1.5, width = 1.5, heading = 183, minZ = 182.02, maxZ = 184.02, distance = 2.5 },
+			{ loc = vec3(453.3525, -1305.021, 29.12087), length = 1.5, width = 1.5, heading = 224.60, minZ = 182.02, maxZ = 184.02, distance = 2.5 },
 		}
 	},	
 	wolfs = {
