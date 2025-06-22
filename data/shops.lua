@@ -1932,6 +1932,7 @@ return {
 			{ name = 'chop_lockpick',  price = 100, count = 5 },
 			{ name = 'chop_torch',     price = 150, count = 5 },
 			{ name = 'chop_lugwrench', price = 150, count = 5 },
+			{ name = 'boostingtablet', price = 1000, count = 10 },
 		},
 		locations = {
 			vec3(-1150.54, -2034.855, 13.1607)
