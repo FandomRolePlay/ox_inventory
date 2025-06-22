@@ -3732,10 +3732,10 @@ return {
 		}
 	},
 
-	['lotteryticket'] = {
-		label = 'Kupon na loterie',
-		weight = 5,
-		stack = false,
+	['casinoticket'] = {
+		label = 'Kupon z kasyna',
+		weight = 1,
+		stack = true,
 	},
 
 	-- vehiclehandler
@@ -11328,20 +11328,83 @@ return {
 		stack = true,
 		close = true,
 	},
-		--rahe_boosting
-		['boostingtablet'] = {
-			label = 'Boosting tablet',
-			weight = 0,
-			description = "Seems like something's installed on this.",
-			client = {
+	-- kasyno
+
+	['blackjack_table'] = {
+		label = 'Blackjack Table',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+	['baccarat_table'] = {
+		label = 'Baccarat Table',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+	['poker_table'] = {
+		label = 'Poker Table',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+	['roulette_table'] = {
+		label = 'Roulette Table',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+	['wheel_machine'] = {
+		label = 'Wheel',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+	['slot_machine'] = {
+		label = 'Slot Machine',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+	['horseracing_machine'] = {
+		label = 'Horseracing Machine',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+	['chips'] = {
+		label = 'Żetony',
+		stack = true,
+		close = true,
+		description = nil
+	},
+	
+
+	--rahe_boosting
+	['boostingtablet'] = {
+		label = 'Nietypowy tablet',
+		weight = 0,
+        description = "Obok ikonki Sparka zauważasz nietypową aplikacje.",
+		degrade = 10080, -- 10080 tydzien
+		decay = true,
+		client = {
 			export = 'rahe-boosting.boostingtablet',
-			}
-		},
-		['hackingdevice'] = {
-			label = 'Hacking device',
-			weight = 0,
-			description = 'Will allow you to bypass vehicle security systems.',
-			client = {
+		}
+	},
+	['hackingdevice'] = {
+		label = 'Urządzenie hakujące',
+		weight = 0,
+		description = 'Urządzenie umożliwiające złamanie systemu zabezpieczeń pojazdu.',
+		degrade = 10080, -- 10080 tydzien
+		decay = true,
+		client = {
 			export = 'rahe-boosting.hackingdevice',
 			}
 		},

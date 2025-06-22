@@ -3,7 +3,7 @@ return {
 	General = {
 		name = '24/7',
 		blip = {
-			id = 52, colour = 2, scale = 0.8
+			id = 746, colour = 4, scale = 0.8
 		},
 		inventory = {
 			{ name = 'burger',      price = 25 },
@@ -74,7 +74,7 @@ return {
 	General2 = {
 		name = '24/7',
 		blip = {
-			id = 52, colour = 2, scale = 0.8
+			id = 746, colour = 4, scale = 0.8
 		},
 		inventory = {
 			{ name = 'burger',      price = 25 },
@@ -137,7 +137,7 @@ return {
 	DigitalDen = {
 		name = 'DigitalDen',
 		blip = {
-			id = 817, colour = 1, scale = 0.8
+			id = 737, colour = 4, scale = 0.8
 		},
 		inventory = {
 			--[[{ name = 'phone', price = 1100 },
@@ -213,7 +213,7 @@ return {
 	Liquor = {
 		name = 'Liquor',
 		blip = {
-			id = 59, colour = 64, scale = 0.8
+			id = 746, colour = 4, scale = 0.8
 		},
 		inventory = {
 			{ name = 'water',           price = 15 },
@@ -301,7 +301,7 @@ return {
 	YouTool = {
 		name = 'Mega Mall',
 		blip = {
-			id = 402, colour = 69, scale = 0.9
+			id = 738, colour = 4, scale = 1.0
 		},
 		inventory = {
 			{ name = 'repairkit',       price = 200 },
@@ -356,10 +356,41 @@ return {
 			{ name = 'whiskey_glass',   price = 2 },
 			{ name = 'beer_glass',      price = 2 },
 			--{ name = 'campfire',		price = 50,   count = 10 },			
-			{ name = 'grill1_table',	price = 350,   count = 2 },
 			{ name = 'grill2_table',	price = 100,   count = 10 },
 			{ name = 'grill4_table',	price = 150,   count = 5 },
 			{ name = 'grill5_table',	price = 300,   count = 2 },
+			{ name = 'roznosci2', 	   	price = 10 },
+			{ name = 'tent2', 		   	price = 50 },
+			{ name = 'beachtowel', 	   	price = 20 },
+			{ name = 'beachumbrella',  	price = 50 },
+			{ name = 'beachumbrella2', 	price = 50 },
+			{ name = 'beachumbrella3', 	price = 50 },
+			{ name = 'beachumbrella4', 	price = 50 },
+			{ name = 'umbrella2',      	price = 100 },
+			{ name = 'camp_chair_blue', price = 30 },
+			{ name = 'plastictable',  	price = 70 },
+			{ name = 'plastictable2',   price = 80},
+			{ name = 'woodtable',  		price = 120 },
+			{ name = 'canopy1', 		price = 85 },
+			{ name = 'canopy2',        	price = 90 }, 
+			{ name = 'canopy3',         price = 100  },
+			{ name = 'worklight',       price = 40 },
+			{ name = 'worklight2',      price = 50 },
+			{ name = 'worklight3',      price = 50 },
+			{ name = 'sunchair',     	price = 30 },
+			{ name = 'sunchair2',       price = 30 },
+			{ name = "table_outside", 	price = 90  },
+			{ name = "table_chair", 	price = 40 },
+            { name = "presentboxblack", price = 100 },
+            { name = "presentboxred",   price = 100 },
+            { name = "presentboxgreen", price = 100 },
+            { name = "roza",     		price = 50 },
+            { name = "teddybear",     	price = 100 },
+            { name = "bukiet1",   		price = 500 },
+            { name = "bukiet2",     	price = 500 },
+            { name = "bukiet3",     	price = 500 },
+			{ name = "dice",     		price = 50 },
+			{ name = "cup",     		price = 5 },
 		},
 		locations = {
 			vec3(2748.0, 3473.0, 55.67), --SANDY
@@ -374,7 +405,7 @@ return {
 	Apteka = {
 		name = 'Apteka',
 		blip = {
-			id = 51, colour = 1, scale = 0.8 },
+			id = 731, colour = 4, scale = 0.8 },
 		inventory = {
 			{ name = 'medikit',      price = 25,  count = 30 },
 			{ name = 'syringe',      price = 10,  count = 30 },
@@ -1152,7 +1183,7 @@ return {
 	Hurtownia = {
 		name = 'Hurtownia Mechanik',
 		blip = {
-			id = 50, colour = 24, scale = 0.8
+			id = 760, colour = 4, scale = 1.0
 		},
 		groups = {
 			['mechanic'] = 6, ["mechanic2"] = 0, ["mechanic3"] = 0
@@ -1175,7 +1206,7 @@ return {
 	HurtowniaB1 = {
 		name = 'Alamo Fruit Market',
 		blip = {
-			id = 628, colour = 24, scale = 0.8 },
+			id = 760, colour = 4, scale = 1.0,},
 			groups = {
 				['foodtruck'] = 0,
 				['coolbeans'] = 0,
@@ -1229,7 +1260,7 @@ return {
 	HurtowniaB2 = {
 		name = 'Bell Farms',
 		blip = {
-			id = 628, colour = 24, scale = 0.8 },
+			id = 760, colour = 4, scale = 1.0 },
 			groups = {
 				['foodtruck'] = 0,
 				['coolbeans'] = 0,
@@ -1275,7 +1306,7 @@ return {
 		HurtowniaB3 = {
 		name = 'Big Goods',
 		blip = {
-			id = 628, colour = 24, scale = 0.8 },
+			id = 760, colour = 4, scale = 1.0},
 			groups = {
 				['foodtruck'] = 0,
 				['coolbeans'] = 0,
@@ -1334,7 +1365,7 @@ return {
 	Hurtownia3 = {
 		name = 'Hurtownia Elektronika',
 		blip = {
-			id = 50, colour = 24, scale = 0.8
+			id = 760, colour = 4, scale = 1.0
 		},
 		groups = {
 			['digitalden'] = 0
@@ -1362,7 +1393,7 @@ return {
 	Hurtownia4 = {
 		name = 'Hurtownia AmmuNation', --NIŻEJ JEST OSOBNY HUNTING STORE
 		blip = {
-			id = 50, colour = 24, scale = 0.8
+			id = 760, colour = 4, scale = 1.0
 		},
 		groups = {
 			['ammunation'] = 0, ["ammunation2"] = 0
@@ -1426,7 +1457,7 @@ return {
 	Hurtownia8 = {
 		name = 'Hurtownia Hunting Store',
 		blip = {
-			id = 50, colour = 24, scale = 0.8
+			id = 760, colour = 4, scale = 1.0
 		},
 		groups = {
 			["hunting"] = 6
@@ -1477,7 +1508,7 @@ return {
 	Hurtownia6 = {
 		name = 'Hurtownia',
 		blip = {
-			id = 50, colour = 24, scale = 0.8
+			id = 760, colour = 4, scale = 1.0
 		},
 		groups = {
 			['sklep'] = 0
@@ -1529,7 +1560,7 @@ return {
 	Hurtownia7 = {
 		name = 'Hurtownia WEEDSHOP',
 		blip = {
-			id = 50, colour = 24, scale = 0.8
+			id = 760, colour = 4, scale = 1.0
 		},
 		groups = {
 			['weedshop'] = 5
@@ -1600,7 +1631,7 @@ return {
 	Hurtownia9 = {
 		name = 'Hurtownia Alkohole',
 		blip = {
-			id = 50, colour = 24, scale = 0.8
+			id = 760, colour = 4, scale = 1.0
 		},
 		groups = {
 			
@@ -1644,7 +1675,7 @@ return {
 	Hurtownia10 = {
 		name = 'Hurtownia Siłownia',
 		blip = {
-			id = 50, colour = 24, scale = 0.8
+			id = 760, colour = 4, scale = 1.0
 		},
 		groups = {
 			['sandgym'] = 6
@@ -1657,7 +1688,7 @@ return {
 			{ name = 'junkp',         price = 12 },
 			{ name = 'cruiser2',    price = 100 },
 			{ name = 'bmx3',        price = 200 },
-			{ name = 'bmx',        price = 500 },
+			{ name = 'bmx4',        price = 500 },
 			{ name = 'scorcher2',   price = 350 },
 			{ name = 'tribike4',    price = 500 },
 			{ name = 'skateboard', price = 50 },
@@ -1799,7 +1830,7 @@ return {
 	Hurtownia13 = {
 		name = 'Hurtownia Gruppe6',
 		blip = {
-			id = 50, colour = 24, scale = 0.8
+			id = 760, colour = 4, scale = 1.0
 		},
 		groups = {
 			['gruppe6'] = 6,
@@ -1881,7 +1912,7 @@ return {
 		}
 	},
 	HurtowniaLimitles = {
-		name = 'Sklep Limitles',
+		name = 'Sklep Limitless',
 		groups = {
 			['zirconium'] = 7,
 		},
@@ -2524,7 +2555,7 @@ return {
 			{ loc = vec3(146.46, 2296.17, 94.39), length = 1.5, width = 1.5, heading = 35.0, minZ = 29.78, maxZ = 30.28, distance = 0.8 },
 		}
 	},
-	FurnitureShop = {
+--[[	FurnitureShop = {
 		name = 'Sklep z pierdołami',
 		blip = {
 			id = 478, colour = 21, scale = 0.8
@@ -2574,7 +2605,7 @@ return {
 		}
 	},
 	
-	
+	]]
 
 	--[[ 	PropShop = {
 		name = 'Sklep z różnościami',
