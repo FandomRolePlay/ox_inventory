@@ -11415,15 +11415,17 @@ return {
 		decay = true,
 		client = {
 			export = 'rahe-boosting.hackingdevice',
-			}
-		},
-		['gpshackingdevice'] = {
-			label = 'GPS hacking device',
-			weight = 0,
-			description = 'If you wish to disable vehicle GPS systems.',
-			client = {
+		}
+	},
+	['gpshackingdevice'] = {
+		label = 'Urządzenie hakujące GPS',
+		weight = 0,
+		description = 'Narzędzie umożliwiające wyłączenie systemu GPS w aucie.',
+		degrade = 10080, -- 10080 tydzien
+		decay = true,
+		client = {
 			export = 'rahe-boosting.gpshackingdevice',
-			}
-		},
+		}
+	},
 	
 }
