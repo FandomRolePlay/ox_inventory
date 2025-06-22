@@ -702,18 +702,18 @@ return {
 			{ name = 'accidentsign',            price = 50,    grade = 1 },
 			{ name = 'accidentsign2',           price = 50,    grade = 1 },
 			{ name = 'parawan',                 price = 100,   grade = 1 },
-			{ name = 'csutent',             	price = 200,   grade = 1 },
-			{ name = 'csutable',           		price = 100,   grade = 1 },
-			{ name = 'csuchair',            	price = 100,   grade = 1 },
+            { name = 'csutent',                 price = 200,   grade = 1 },
+            { name = 'csutable',                   price = 100,   grade = 1 },
+            { name = 'csuchair',                price = 100,   grade = 1 },
 			{ name = 'stopsign',                price = 50,    grade = 1 },
 			{ name = 'arrowsign',               price = 50,    grade = 1 },
 			{ name = 'arrowsign2',              price = 50,    grade = 1 }
 		},
 		locations = {
-			vec3(1208.0, -1466.79, 34.36)
+            vec3(-840.00, -796.36, 18.16)
 		},
 		targets = {
-			{ loc = vec3(1208.0, -1466.79, 34.36), length = 1.8, width = 0.6, heading = 0.0, minZ = 34.06, maxZ = 35.26, distance = 3 }
+            { loc = vec3(-840.00, -796.36, 18.16), length = 1.8, width = 0.6, heading = 0.0, minZ = 34.06, maxZ = 35.26, distance = 3 }
 		},
 	},
 

@@ -315,9 +315,9 @@ return {
 
 	--LSCoFD
 	{
-		coords = vec3(1217.25, -1474.87, 34.86),
+		coords = vec3(-808.2238, -788.0073, 19.3418),
 		target = {
-			loc = vec3(1217.25, -1474.87, 34.86),
+			loc = vec3(-808.2238, -788.0073, 19.3418),
 			length = 3.4,
 			width = 0.6,
 			heading = 0,
@@ -333,9 +333,9 @@ return {
 		groups = {['fire'] = 0}
 	},
 	{
-		coords = vec3(1193.83, -1466.37, 34.86),
+		coords = vec3(-822.2927, -799.4235, 19.4618),
 		target = {
-			loc = vec3(1193.83, -1466.37, 34.86),
+			loc = vec3(-822.2927, -799.4235, 19.4618),
 			length = 2.0,
 			width = 0.6,
 			heading = 0,
@@ -351,9 +351,9 @@ return {
 		groups = {['fire'] = 1}
 	},
 	{
-		coords = vec3(1184.4, -1474.02, 34.86),
+		coords = vec3(-804.89, -812.81, 20.05),
 		target = {
-			loc = vec3(1184.4, -1474.02, 34.86),
+			loc = vec3(-804.89, -812.81, 20.05),
 			length = 1.8,
 			width = 0.6,
 			heading = 0,
@@ -369,9 +369,9 @@ return {
 		groups = {['fire'] = 7}
 	},
 	{
-		coords = vec3(1207.74, -1471.88, 34.86),
+		coords = vec3(-821.9967, -801.8000, 19.42180),
 		target = {
-			loc = vec3(1207.74, -1471.88, 34.86),
+			loc = vec3(-821.9967, -801.8000, 19.42180),
 			length = 1.4,
 			width = 0.4,
 			heading = 0,
@@ -2676,7 +2676,7 @@ return {
 		label = 'Lodówka',
 		owner = false,
 		slots = 200,
-		weight = 50000,
+		weight = 100000,
 		groups = {['fib'] = 0}
 	},
 	{
@@ -2694,7 +2694,7 @@ return {
 		label = 'Lodówka',
 		owner = false,
 		slots = 200,
-		weight = 50000,
+		weight = 100000,
 		groups = {['sheriff'] = 0}
 	},
 	{ -- sandy
@@ -2712,7 +2712,7 @@ return {
 		label = 'Lodówka',
 		owner = false,
 		slots = 200,
-		weight = 50000,
+		weight = 100000,
 		groups = {['sheriff'] = 0}
 	},
 	{
@@ -2730,7 +2730,7 @@ return {
 		label = 'Lodówka',
 		owner = false,
 		slots = 200,
-		weight = 50000,
+		weight = 100000,
 		groups = {['police'] = 0}
 	},
 	{
@@ -2748,7 +2748,7 @@ return {
 		label = 'Lodówka',
 		owner = false,
 		slots = 200,
-		weight = 50000,
+		weight = 100000,
 		groups = {['lssd'] = 0}
 	},
 	--La Mesa
@@ -2767,13 +2767,13 @@ return {
 		label = 'Lodówka',
 		owner = false,
 		slots = 200,
-		weight = 50000,
+		weight = 100000,
 		groups = {['police'] = 0}
 	},
 	{
-		coords = vec3(1214.49, -1465.53, 34.86),
+		coords = vec3(-824.2344, -793.1641, 19.5018),
 		target = {
-			loc = vec3(1214.49, -1465.53, 34.86),
+			loc = vec3(-824.2344, -793.1641, 19.5018),
 			length = 0.6,
 			width = 1.2,
 			heading = 0,
@@ -2785,7 +2785,7 @@ return {
 		label = 'Lodówka',
 		owner = false,
 		slots = 200,
-		weight = 50000,
+		weight = 100000,
 		groups = {['fire'] = 0}
 	},
 	{
@@ -2803,7 +2803,7 @@ return {
 		label = 'Lodówka',
 		owner = false,
 		slots = 200,
-		weight = 50000,
+		weight = 100000,
 		groups = {['army'] = 0}
 	},
 	{
@@ -2821,7 +2821,7 @@ return {
 		label = 'Mugshot',
 		owner = false,
 		slots = 10,
-		weight = 50000,
+		weight = 100000,
 		groups = {['police'] = 1}
 	},
 	-- MR Tavern
