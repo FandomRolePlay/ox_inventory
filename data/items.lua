@@ -9616,10 +9616,19 @@ return {
 		label = 'Tablet  wyścigowy',
 		weight = 500,
 		description = 'Umożliwia zorganizowanie wyścigu',
+		degrade = 10080, -- 10080 tydzien
+		decay = true,
 		stack = false,
 		client = {
 			export = 'rahe-racing.racingtablet',
 		}
+	},
+	['racingtablet_box'] = {
+		label = 'Pudełko z tabletem',
+		weight = 500,
+		description = '',
+		decay = true,
+		stack = false,
 	},
 	['racingchip'] = {
 		label = 'Chip',
