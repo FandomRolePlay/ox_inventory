@@ -11189,9 +11189,6 @@ return {
 		close = true,
 		decay = false,
 		consume = 0.02,
-		server = {
-			export = "fandom_chat.useKostka",
-		},
 		client = {
 			usetime = 1000,
 			disable = {
@@ -11199,6 +11196,7 @@ return {
 				car = true
 			},
 			anim = { dict = 'anim@mp_player_intcelebrationmale@wank', clip = 'wank' },
+			export = "frp_chat.useKostka"
 		}
 	},
 
