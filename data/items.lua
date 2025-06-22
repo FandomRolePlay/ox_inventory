@@ -9796,6 +9796,13 @@ return {
 		close = true,
 	},
 
+	["bmx"] = {
+		label = "BMX Wyczynowy",
+		weight = 8500,
+		stack = false,
+		close = true,
+	},
+
 	["cruiser2"] = {
 		label = "Cruiser",
 		weight = 6000,
