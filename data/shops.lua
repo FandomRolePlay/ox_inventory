@@ -1882,7 +1882,6 @@ return {
 		name = 'Handlarz bronią białą',
 		inventory = {
 			{ name = 'WEAPON_GOLFCLUB', 	     price = 350,  count = 3 },
-			{ name = 'WEAPON_KNUCKLE',           price = 50,   count = 5 },
 			{ name = 'WEAPON_POOLCUE',           price = 300, count = 2 },
 			{ name = 'WEAPON_BATTLEAXE',   		 price = 600,  count = 1 },
 			{ name = 'WEAPON_DAGGER',    		 price = 250, count = 2 },
