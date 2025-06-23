@@ -2153,6 +2153,8 @@ return {
 			{ name = 'fleecacard', price = 20, count = 1, currency = 'crime_token' }, --1
 			{ name = 'blueprint_molotov', price = 10, count = 1, currency = 'goldbar' }, --1
 			{ name = 'molotovset', price = 500, count = 2, currency = 'money' },
+			{ name = 'melee1_manual', price = 5, count = 1, currency = 'goldbar' },
+			{ name = 'melee2_manual', price = 15, count = 1, currency = 'goldbar' },
 			{ name = 'kevlar', price = 100, count = 15, currency = 'money' },
 			{ name = 'kevlar', price = 120, count = 20, currency = 'black_money' },
 			{ name = 'cloth', price = 50, count = 15, currency = 'money' },
@@ -2290,6 +2292,8 @@ return {
 			{ name = 'fleecacard', price = 20, count = 1, currency = 'crime_token' }, --1
 			{ name = 'blueprint_molotov', price = 10, count = 1, currency = 'goldbar' }, --1
 			{ name = 'molotovset', price = 500, count = 2, currency = 'money' },
+			{ name = 'melee1_manual', price = 5, count = 1, currency = 'goldbar' },
+			{ name = 'melee2_manual', price = 15, count = 1, currency = 'goldbar' },
 			{ name = 'kevlar', price = 100, count = 15, currency = 'money' },
 			{ name = 'kevlar', price = 120, count = 20, currency = 'black_money' },
 			{ name = 'cloth', price = 50, count = 15, currency = 'money' },
@@ -2383,14 +2387,6 @@ return {
 			{ name = 'money', price = 1, count = 2500, currency = 'black_money' },
 			{ name = 'black_money', price = 1, count = 1000, currency = 'money' },
 			{ name = 'bottle', price = 50, count = 10, currency = 'money' },
-			-- { name = 'peyote', price = 55, count = 60, currency = 'money' },
-			-- { name = 'magicmushroom', price = 55, count = 60, currency = 'money' },
-			-- { name = 'banana_kush_seed', price = 65, count = 30, currency = 'money' },
-			-- { name = 'banana_kush_seed', price = 78, count = 45, currency = 'black_money' },
-			-- { name = 'red_jack_seed', price = 80, count = 30, currency = 'money' },
-			-- { name = 'red_jack_seed', price = 96, count = 45, currency = 'black_money' },
-			-- { name = 'chem_sister_seed', price = 80, count = 30, currency = 'money' },
-			-- { name = 'chem_sister_seed', price = 98, count = 45, currency = 'black_money' },
 			{ name = 'coke_seed', price = 120, count = 30, currency = 'money' },
 			{ name = 'coke_seed', price = 144, count = 45, currency = 'black_money' },
 			{ name = 'poppy_seed', price = 100, count = 30, currency = 'money' },
@@ -2434,6 +2430,8 @@ return {
 			{ name = 'fleecacard', price = 20, count = 1, currency = 'crime_token' }, --1
 			{ name = 'blueprint_molotov', price = 10, count = 1, currency = 'goldbar' }, --1
 			{ name = 'molotovset', price = 500, count = 2, currency = 'money' },
+			{ name = 'melee1_manual', price = 5, count = 1, currency = 'goldbar' },
+			{ name = 'melee2_manual', price = 15, count = 1, currency = 'goldbar' },
 			{ name = 'kevlar', price = 100, count = 15, currency = 'money' },
 			{ name = 'kevlar', price = 120, count = 20, currency = 'black_money' },
 			{ name = 'cloth', price = 50, count = 15, currency = 'money' },
