@@ -2032,7 +2032,6 @@ return {
 			{ loc = vec3(1528.64, 3794.55, 34.66), length = 2.1, width = 2.3, heading = 34.66, minZ = 29.78, maxZ = 30.28, distance = 1.5 }, -- 1528.64208984375, 3794.553466796875, 34.66408538818359
 		}
 	},
-
 	SupplierShop1 = { -- Lone Wolves
 		name = 'Darkweb',
 		groups = {

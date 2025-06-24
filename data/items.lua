@@ -9850,6 +9850,15 @@ return {
 	},
 
 	-- AMMO
+	['molotov-box'] = {
+		label = 'Koktajle Molotova',
+		description = "Dwupak koktajli Molotova",
+		weight = 3600,
+		stack = false,
+		client = {
+		}
+	},
+
 	['ammo-9-box'] = {
 		label = '9mm Ammo Box',
 		description = "Paczka 50 sztuk amunicji 9mm",
