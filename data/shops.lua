@@ -2604,6 +2604,24 @@ return {
 	
 	]]
 
+		Casinoshop = {
+		name = 'Bar Kasynowy',
+		inventory = {
+			{ name = 'champagne_gold', price = 2, count = 10, currency = 'casinoticket' },
+			{ name = 'champagne_tropicana', price = 2, count = 10, currency = 'casinoticket' },
+			{ name = 'champagne_rose', price = 2, count = 10, currency = 'casinoticket' },
+			{ name = 'fruit_table', price = 50, count = 20},
+			{ name = 'nuts_bowl', price = 50, count = 20},
+			{ name = 'fruit_juice', price = 50, count = 20},
+		},
+		locations = {
+			vec3(1112.1689, 211.5443, -49.4400),
+		},
+		targets = {
+			{ loc = vec3(1111.83, 210.61, -49.44), length = 0.6, width = 0.8, heading = 359.0,   minZ = -49.64, maxZ = -49.04, distance = 2.0 },
+		}
+	},
+
 	--[[ 	PropShop = {
 		name = 'Sklep z różnościami',
 		blip = {
