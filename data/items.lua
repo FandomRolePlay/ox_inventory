@@ -11401,6 +11401,14 @@ return {
 		close = true,
 		description = nil
 	},
+	['penthouse_access'] = {
+		label = 'Karta do Penthouse',
+		stack = true,
+		close = true,
+		description = "Karta dostępu do Penthouse Diamond Casino and Resort",
+		degrade = 180, -- 3 godziny
+		decay = true,
+	},
 	
 
 	--rahe_boosting
