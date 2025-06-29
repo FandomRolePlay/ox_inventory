@@ -11409,6 +11409,26 @@ return {
 		degrade = 180, -- 3 godziny
 		decay = true,
 	},
+	['casinovip_access'] = {
+		label = 'Karta Dostępu DC&R',
+		stack = true,
+		close = true,
+		description = "Czasowa karta dostępu do strefy Super VIP Diamond Casino and Resort",
+		degrade = 240, -- 4 godziny
+		decay = true,
+	},
+	['casinomgmt_access'] = {
+		label = 'Karta Dostępu DC&R',
+		stack = true,
+		close = true,
+		description = "Karta dostępu do Biura Zarządu Diamond Casino and Resort",
+	},
+	['casinovip_access2'] = {
+		label = 'Karta Dostępu DC&R',
+		stack = true,
+		close = true,
+		description = "Karta dostępu do strefy Super VIP Diamond Casino and Resort",
+	},
 	
 
 	--rahe_boosting
