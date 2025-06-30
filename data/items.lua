@@ -11429,7 +11429,12 @@ return {
 		close = true,
 		description = "Karta dostępu do strefy Super VIP Diamond Casino and Resort",
 	},
-	
+	['penthouse_access2'] = {
+		label = 'Karta do Penthouse',
+		stack = true,
+		close = true,
+		description = "Karta dostępu do Penthouse Diamond Casino and Resort",
+	},
 
 	--rahe_boosting
 	['boostingtablet'] = {
