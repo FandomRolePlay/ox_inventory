@@ -2444,6 +2444,29 @@ return {
 		}
 	},
 
+	CasinoshopMGMT = {
+		name = 'Zaplecze Techniczne Kasyno',
+		groups = {
+			['administracja'] = 1
+		},
+		inventory = {
+		{ name = 'casinomgmt_access',       price = 0,   count = 5,  metadata = {description = 'Karta dostępu do Biura Zarządu Diamond Casino and Resort'} },
+		{ name = 'casinovip_access',        price = 0,   count = 20,  metadata = {description = 'Ograniczona karta dostępu do strefy Super VIP Diamond Casino and Resort'} },
+		{ name = 'casinovip_access2',       price = 0,   count = 5,  metadata = {description = 'Nieograniczona karta dostępu do strefy Super VIP Diamond Casino and Resort'} },
+		{ name = 'penthouse_access',        price = 0,   count = 20,  metadata = {description = 'Ograniczona karta dostępu do Penthouse Diamond Casino and Resort'} },
+		{ name = 'penthouse_access2',       price = 0,   count = 5,  metadata = {description = 'Nieograniczona karta dostępu do Penthouse Diamond Casino and Resort'} },
+		{ name = 'radio2',                  price = 0,   count = 20,  metadata = {description = 'Komercyjne radio dalekiego zasięgu'} },
+		{ name = 'radio3',                  price = 0,   count = 10,  metadata = {description = 'Komercyjne radio z mocną baterią, dalekiego zasięgu'} },
+		{ name = 'WEAPON_COLBATON',         price = 100, count = 10 },
+	},
+		locations = {
+			vec3(1108.62, 250.37, -46.18)
+		},
+		targets = {
+			{ loc = vec3(1108.62, 250.37, -46.18), length = 2.5, width = 2.5, heading = 270, minZ = -45.18, maxZ = -47.18, distance = 2.5 },
+		}
+	},
+
 	--[[ 	PropShop = {
 		name = 'Sklep z różnościami',
 		blip = {

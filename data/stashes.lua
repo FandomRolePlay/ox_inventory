@@ -3561,6 +3561,43 @@ return {
 	weight = 100000,
 },
 
+--Diamond Casino MGMT
+{
+		coords = vec3(1108.62, 250.37, -46.18),
+		target = {
+			loc = vec3(1108.62, 250.37, -46.18),
+			length = 1.2,
+			width = 1.2,
+			heading = 0,
+			minZ = -45.18,
+ 			maxZ = -47.18,
+			label = 'Otwórz Szafke'
+		},
+		name = 'casinolocker',
+		label = 'Szafka Prywatna',
+		owner = true,
+		slots = 50,
+		weight = 300000,
+	},
+	{
+		coords = vec3(1108.62, 250.37, -46.18),
+		target = {
+			loc = vec3(1108.62, 250.37, -46.18),
+			length = 0.8,
+			width = 1.8,
+			heading = 20,
+			minZ = -45.18,
+  			maxZ = -47.18,
+			label = 'Otwórz Magazyn'
+		},
+		name = 'casinomagazyn',
+		label = 'Magazyn',
+		owner = false,
+		slots = 200,
+		weight = 9000000,
+		groups = {['administracja'] = 0}
+	},
+
 -- Administracja
 {
 		coords = vec3(-1296.68, -3034.04, -48.49),
