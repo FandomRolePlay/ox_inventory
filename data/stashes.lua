@@ -2014,38 +2014,38 @@ return {
 		groups = {['zirconium'] = 6}
 	},
 	{
-		coords = vec3(1962.23, 3828.12, 32.22),
+		coords = vec3(-796.56, 329.17, 187.31),
 		target = {
-			loc = vec3(1962.23, 3828.12, 32.22),
+			loc = vec3(-796.56, 329.17, 187.31),
 			length = 1.0,
-			width = 1.0,
-			heading = 300,
-			minZ = 31.42,
-			maxZ = 33.42,
+			width = 1.6,
+			heading = 0,
+  			minZ = 186.16,
+  			maxZ = 188.56,
 			label = 'Otwórz Magazyn'
 		},
 		name = 'zrmagazynsprunk',
 		label = 'Magazyn',
 		owner = false,
 		slots = 200,
-		weight = 1000000,
+		weight = 100000,
 		groups = {['zirconium'] = 1}
 	},
 		{
-		coords = vec3(-274.85, -2019.19, 21.96),
+		coords = vec3(-781.09, 329.96, 187.31),
 		target = {
-			loc = vec3(-274.85, -2019.19, 21.96),
+			loc = vec3(-781.09, 329.96, 187.31),
 			length = 2.0,
 			width = 1.0,
-			heading = 50,
-			minZ = 21.56,
-			maxZ = 22.56,
+			heading = 0,
+			minZ = 185.91,
+			maxZ = 188.31,
 			label = 'Tacka'
 		},
 		name = 'limitlestacka',
 		label = 'Tacka',
 		owner = false,
-		slots = 10,
+		slots = 20,
 		weight = 25000,
 		groups = nil
 	},
