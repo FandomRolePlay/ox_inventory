@@ -11441,7 +11441,7 @@ return {
 		label = 'Nietypowy tablet',
 		weight = 0,
         description = "Obok ikonki Sparka zauważasz nietypową aplikacje.",
-		degrade = 10080, -- 10080 tydzien
+		degrade = 20160, -- 10080 tydzien
 		decay = true,
 		client = {
 			export = 'rahe-boosting.boostingtablet',
@@ -11451,7 +11451,7 @@ return {
 		label = 'Urządzenie hakujące',
 		weight = 0,
 		description = 'Urządzenie umożliwiające złamanie systemu zabezpieczeń pojazdu.',
-		degrade = 10080, -- 10080 tydzien
+		degrade = 20160, -- 10080 tydzien
 		decay = true,
 		client = {
 			export = 'rahe-boosting.hackingdevice',
@@ -11461,7 +11461,7 @@ return {
 		label = 'Urządzenie hakujące GPS',
 		weight = 0,
 		description = 'Narzędzie umożliwiające wyłączenie systemu GPS w aucie.',
-		degrade = 10080, -- 10080 tydzien
+		degrade = 20160, -- 10080 tydzien
 		decay = true,
 		client = {
 			export = 'rahe-boosting.gpshackingdevice',
