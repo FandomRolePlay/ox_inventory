@@ -1805,7 +1805,7 @@ return {
 		}
 	},
 	Hurtownia12 = {
-		name = 'Marty Brązowe Oko',
+		name = 'Marty Sr.',
 		inventory = {
 			{ name = 'hotdog', 			 price = 20, count = 20 },
 			{ name = 'water3', 			 price = 10, count = 20 },
@@ -1813,12 +1813,11 @@ return {
 			{ name = 'logger',           price = 8, count = 30 },
 			{ name = 'whisky',           price = 150, count = 5 },
 			{ name = 'redw',   		 	 price = 30, count = 20 },
-			{ name = 'magicmushroom',    price = 100, count = 10 },
-			{ name = 'peyote',           price = 100, count = 10 },
-			{ name = 'banana_kush_seed', price = 200, count = 2 },
-			{ name = 'red_jack_seed',    price = 200, count = 2 },
-			{ name = 'chem_sister_seed', price = 200, count = 2 },
-		--	{ name = 'steel_rope',       price = 500, count = 2 },
+			{ name = 'bottle', price = 50, count = 10, currency = 'money' },
+			{ name = 'big_drill', price = 1500, count = 1, currency = 'money' },
+			{ name = 'lockpick', price = 40, count = 30, currency = 'money' },
+			{ name = 'house_lockpick', price = 300, count = 10, currency = 'money' },
+			{ name = 'hackingchip_1', price = 80, count = 5, currency = 'money' },
 		},
 		locations = {
 			vec3(2194.6409, 5582.1021, 53.3583)
@@ -2038,18 +2037,14 @@ return {
 			{ name = 'weapon_bzgas', price = 1500, count = 2, currency = 'money' },
 			{ name = 'gasmask', price = 350, count = 5, currency = 'money' },
 			{ name = 'cutter', price = 1000, count = 2, currency = 'money' },
-			{ name = 'blueprint_molotov', price = 10, count = 1, currency = 'goldbar' }, --1
+			{ name = 'blueprint_molotov', price = 10, count = 1, currency = 'goldbar' },
 			{ name = 'molotovset', price = 500, count = 2, currency = 'money' },
 			{ name = 'melee1_manual', price = 5, count = 1, currency = 'goldbar' },
 			{ name = 'melee2_manual', price = 10, count = 1, currency = 'goldbar' },
 			{ name = 'kevlar', price = 100, count = 15, currency = 'money' },
-			{ name = 'kevlar', price = 120, count = 20, currency = 'black_money' },
 			{ name = 'cloth', price = 50, count = 15, currency = 'money' },
-			{ name = 'cloth', price = 60, count = 20, currency = 'black_money' },
 			{ name = 'armour25set', price = 300, count = 4, currency = 'money' },
-			{ name = 'armour25set', price = 360, count = 8, currency = 'black_money' },
 			{ name = 'armour50set', price = 600, count = 4, currency = 'money' },
-			{ name = 'armour50set', price = 720, count = 8, currency = 'black_money' },
 		},
 		locations = {
 			vec3(2186.29, 5571.07, 53.9)
