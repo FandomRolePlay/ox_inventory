@@ -1196,14 +1196,14 @@ return {
 
 	-- BROWAR
 	{
-		coords = vec3(1212.79, 1845.16, 78.97),
+		coords = vec3(1227.56, 2738.82, 38.01),
 		target = {
-			loc = vec3(1212.79, 1845.16, 78.97),
-			length = 0.8,
-			width = 0.8,
-			heading = 40,
-			minZ = 77.97,
-			maxZ = 79.97,
+			loc = vec3(1227.56, 2738.82, 38.01),
+			length = 2.0,
+			width = 0.6,
+			heading = 0,
+  			minZ = 37.01,
+  			maxZ = 38.41,
 			label = 'Otwórz szafke'
 		},
 		name = 'browarlocker',
@@ -1214,14 +1214,14 @@ return {
 		groups = {['browary'] = 0}
 	},
 	{
-		coords = vec3(1218.55, 1860.27, 78.97),
+		coords = vec3(1228.64, 2737.69, 38.01),
 		target = {
-			loc = vec3(1218.55, 1860.27, 78.97),
-			length = 2.0,
-			width = 1.4,
-			heading = 40,
-			minZ = 77.97,
-			maxZ = 79.97,
+			loc = vec3(1228.64, 2737.69, 38.01),
+			length = 2.4,
+			width = 1.0,
+			heading = 0,
+			minZ = 37.01,
+			maxZ = 39.81,
 			label = 'Otwórz Magazyn'
 		},
 		name = 'browarmagazyn',
@@ -1229,25 +1229,7 @@ return {
 		owner = false,
 		slots = 200,
 		weight = 3000000,
-		groups = {['browary'] = 1}
-	},
-	{
-		coords = vec3(-1235.0, -1443.0, 4.3),
-		target = {
-			loc = vec3(-1235.0, -1443.0, 4.3),
-			length = 1.0,
-			width = 2.5,
-			heading = 35,
-			minZ = 5.3,
-			maxZ = 3.3,
-			label = 'Otwórz Magazyn VBM'
-		},
-		name = 'browarmagazyn2',
-		label = 'Magazyn',
-		owner = false,
-		slots = 200,
-		weight = 10000000,
-		groups = {['browary'] = 1}
+		groups = {['browary'] = 5}
 	},
 
 
