@@ -3449,6 +3449,24 @@ return {
 	slots = 8,
 	weight = 10000,
 },
+{
+	coords = vec3(1111.36, 207.85, -49.44),
+	target = {
+		loc = vec3(1111.36, 207.85, -49.44),
+		length = 0.8,
+		width = 0.60,
+		heading = 25,
+  		minZ = -49.64,
+  		maxZ = -48.64,
+		label = 'Otwórz Lodówkę'
+	},
+	name = 'townclubcasino',
+	label = 'Lodówka',
+	owner = false,
+	slots = 100,
+	weight = 100000,
+	groups = {['townclub'] = 0}
+},
 
 -- Hells Gate Pub
 {
