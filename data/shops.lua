@@ -2058,7 +2058,6 @@ return {
 		name = 'Darkweb',
 		groups = {
 			['freelancer4'] = 0,
-			['supplier'] = 0
 		},
 		inventory = {
 		--[[	{ name = 'crime_token', price = 500, count = 2, currency = 'black_money' },
@@ -2333,7 +2332,6 @@ return {
 	SupplierShop4 = { -- Medyk
 		name = 'Darkweb',
 		groups = {
-			['supplier'] = 0,
 			['freelancer2'] = 0
 		},
 		inventory = {
