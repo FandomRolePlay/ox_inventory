@@ -1947,8 +1947,6 @@ return {
 			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
 			{ name = 'hack_laptop',   price = 200, count = 10, currency = 'black_money' },
 			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money'},
-			--{ name = 'plate_taker',      price = 1250, count = 2, currency = 'black_money'},
-			--{ name = 'plate_taker',      price = 1250, count = 2, currency = 'black_money'},
 		},
 		locations = {
 			vec3(-1375.61, -336.372, 38.8921)
@@ -1963,7 +1961,6 @@ return {
 			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
 			{ name = 'hack_laptop',   price = 200, count = 10, currency = 'black_money' },
 			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money' },
-			--{ name = 'plate_taker',      price = 1250, count = 2, currency = 'black_money'},
 		},
 		locations = {
 			vec3(-539.40, -1638.21, 20.21)
@@ -1978,7 +1975,6 @@ return {
 			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
 			{ name = 'hack_laptop',   price = 200, count = 10, currency = 'black_money' },
 			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money' },
-			--{ name = 'plate_taker',      price = 1250, count = 2, currency = 'black_money'},
 		},
 		locations = {
 			vec3(466.13, -709.56, 27.60)
@@ -1993,7 +1989,6 @@ return {
 			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
 			{ name = 'hack_laptop',   price = 200, count = 10, currency = 'black_money' },
 			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money' },
-			--{ name = 'plate_taker',      price = 1250, count = 2, currency = 'black_money'},
 		},
 		locations = {
 			vec3(1597.70, 3573.28, 38.94)
@@ -2008,7 +2003,6 @@ return {
 			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
 			{ name = 'hack_laptop',   price = 200, count = 10, currency = 'black_money' },
 			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money'},
-			--{ name = 'plate_taker',      price = 1250, count = 2, currency = 'black_money'},
 		},
 		locations = {
 			vec3(281.11, 6789.36, 16.33)
@@ -2193,7 +2187,7 @@ return {
 		}
 	},
 
-	SupplierShop3 = { -- Asatru
+	SupplierShop3 = { -- Portola Drive Mob Supplier
 		name = 'Darkweb',
 		groups = {
 			['freelancer3'] = 0,
@@ -2304,10 +2298,10 @@ return {
 			{ name = 'tacticalrifleset', price = 9600, count = 3, currency = 'black_money' },
 		},
 		locations = {
-			vec3(-3510.07, -4090.51, 1050.96)
+			vec3(-3510, -4090.71, 1050)
 		}, 
 		targets = {
-			{ loc = vec3(-3510.07, -4090.51, 1050.96), length = 1.5, width = 1.5, heading = 45.0, minZ = 171.72, maxZ = 172.52, distance = 0.8 },
+			{ loc = vec3(-3510, -4090.71, 1050), length = 1.5, width = 1.5, heading = 45.0, minZ = 171.72, maxZ = 172.52, distance = 0.8 },
 		}
 	}, 
 
