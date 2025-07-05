@@ -9405,8 +9405,8 @@ return {
 		close = true,
 	},
  	["keyg2"] = {
-		label = "Klucz G2",  -- Santa Mafia
-		description = "F4N-D03",
+		label = "Klucz z bryloczkiem",  -- Komputer u Martyego
+		description = "Przy kluczu merda bryloczek w kształcie czterolistnej koniczyny.",
 		weight = 5,
 		stack = false,
 		close = true,
