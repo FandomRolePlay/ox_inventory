@@ -3047,6 +3047,25 @@ return {
 		weight = 120000,
 		groups = nil
 	},
+	-- Cayo Perico Supplier
+	{
+	coords = vec3(-3508, -4103.45, 1050),
+	target = {
+		loc = vec3(-3508, -4103.45, 1050),
+		length = 2.4,
+		width = 1,
+		heading = 320,
+		minZ = 28.2,
+		maxZ = 30,
+		label = 'Otwórz magazyn'
+	},
+	name = 'supplierstorage',
+	label = 'Magazyn',
+	owner = false,
+	slots = 150,
+	weight = 800000,
+	groups = {['supplier'] = 0}
+	},
 
 -- Lucky Plucker
 {
