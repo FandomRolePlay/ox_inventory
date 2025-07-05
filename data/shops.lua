@@ -2323,10 +2323,10 @@ return {
 			{ name = 'tacticalrifleset', price = 9600, count = 3, currency = 'black_money' },
 		},
 		locations = {
-			vec3(-963.72, 736.17, 171.92)
+			vec3(-3510.07, -4090.51, 1050.96)
 		}, 
 		targets = {
-			{ loc = vec3(-963.72, 736.17, 171.92), length = 1.5, width = 1.5, heading = 45.0, minZ = 171.72, maxZ = 172.52, distance = 0.8 },
+			{ loc = vec3(-3510.07, -4090.51, 1050.96), length = 1.5, width = 1.5, heading = 45.0, minZ = 171.72, maxZ = 172.52, distance = 0.8 },
 		}
 	}, 
 
