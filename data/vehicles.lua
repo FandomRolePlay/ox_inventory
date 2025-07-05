@@ -71,6 +71,8 @@ return {
 			[`2vd_gsty151`] = {40, 600000},
 			[`bcsowesternwinter`] = {10, 20000},
 			[`bcsomtlpacker`] = {40, 60000},
+			[`sr650fly`] = {20, 60000},
+			[`streamer216x`] = {40, 200000},
 		}
 	},
 
