@@ -2496,6 +2496,14 @@ return {
 		description = nil
 	},
 
+	['goldmold'] = {
+		label = 'Złoto w formie',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
 	['goldbar'] = {
 		label = 'Złota sztabka',
 		weight = 100,
