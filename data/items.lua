@@ -7592,7 +7592,7 @@ return {
 			prop = { model = `sf_p_sf_grass_gls_s_01a`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
-			statusCap = 40000,
+			statusCap = 400000,
 			thirst = 300000,
 		},
 	},
@@ -10487,7 +10487,7 @@ return {
 	},
 
 	['wolf_zab'] = {
-		label = 'Ząb wilka',
+		label = 'Kieł',
 		weight = 20,
 	},
 

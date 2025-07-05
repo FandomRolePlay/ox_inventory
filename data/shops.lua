@@ -391,6 +391,7 @@ return {
             { name = "bukiet3",     	price = 500 },
 			{ name = "dice",     		price = 50 },
 			{ name = "cup",     		price = 5 },
+			{ name = 'bottle',   		price = 20},
 		},
 		locations = {
 			vec3(2748.0, 3473.0, 55.67), --SANDY
@@ -2201,7 +2202,6 @@ return {
 			{ name = 'crime_token', price = 500, count = 2, currency = 'black_money' },
 			{ name = 'money', price = 1, count = 2500, currency = 'black_money' },
 			{ name = 'black_money', price = 1, count = 1000, currency = 'money' },
-			{ name = 'bottle', price = 50, count = 10, currency = 'money' },
 			{ name = 'coke_seed', price = 120, count = 30, currency = 'money' },
 			{ name = 'coke_seed', price = 144, count = 45, currency = 'black_money' },
 			{ name = 'poppy_seed', price = 100, count = 30, currency = 'money' },
@@ -2229,8 +2229,6 @@ return {
 			{ name = 'empty_blister', price = 30, count = 20, currency = 'money' },
 			{ name = 'empty_blister', price = 36, count = 20, currency = 'black_money' },
 			{ name = 'pbag_pack', price = 7, count = 35, currency = 'money' },
-			{ name = 'steel_rope', price = 280, count = 5, currency = 'money' },
-			{ name = 'steel_rope', price = 336, count = 10, currency = 'black_money' },
 			{ name = 'bomb', price = 3000, count = 1, currency = 'black_money' },
 			{ name = 'big_drill', price = 1500, count = 1, currency = 'black_money' },
 			{ name = 'lockpick', price = 40, count = 30, currency = 'money' },
@@ -2240,7 +2238,7 @@ return {
 			{ name = 'gasmask', price = 350, count = 5, currency = 'money' },
 			{ name = 'cutter', price = 1000, count = 2, currency = 'money' },
 			{ name = 'hackingchip_2', price = 7, count = 1, currency = 'crime_token' }, --1
-			{ name = 'x_device', price = 5, count = 1, currency = 'crime_token' }, --1
+			{ name = 'hack_device', price = 5, count = 1, currency = 'crime_token' }, --1
 			{ name = 'fleecacard', price = 20, count = 1, currency = 'crime_token' }, --1
 			{ name = 'blueprint_molotov', price = 10, count = 1, currency = 'goldbar' }, --1
 			{ name = 'molotovset', price = 500, count = 2, currency = 'money' },
