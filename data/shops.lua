@@ -2240,7 +2240,6 @@ return {
 			{ name = 'gasmask', price = 350, count = 5, currency = 'money' },
 			{ name = 'cutter', price = 1000, count = 2, currency = 'money' },
 			{ name = 'hackingchip_2', price = 7, count = 1, currency = 'crime_token' }, --1
-			{ name = 'pliers', price = 180, count = 1, currency = 'black_money' },
 			{ name = 'x_device', price = 5, count = 1, currency = 'crime_token' }, --1
 			{ name = 'fleecacard', price = 20, count = 1, currency = 'crime_token' }, --1
 			{ name = 'blueprint_molotov', price = 10, count = 1, currency = 'goldbar' }, --1
