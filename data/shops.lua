@@ -2229,7 +2229,7 @@ return {
 			{ name = 'house_lockpick', price = 300, count = 10, currency = 'money' },
 			{ name = 'hackingchip_1', price = 100, count = 5, currency = 'black_money' },
 			{ name = 'hackingchip_2', price = 7, count = 1, currency = 'crime_token' }, --1
-			{ name = 'hack_device', price = 5, count = 1, currency = 'crime_token' }, --1
+			{ name = 'x_device', price = 5, count = 1, currency = 'crime_token' }, --1
 			{ name = 'fleecacard', price = 20, count = 1, currency = 'crime_token' }, --1
 			{ name = 'ammo-9-box', price = 400, count = 5, currency = 'money' },
 			{ name = 'ammo-9-box', price = 480, count = 10, currency = 'black_money' },
