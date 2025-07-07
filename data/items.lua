@@ -52,11 +52,13 @@ return {
 		consume = 0.3
 	},
 
---[[ 	['pdm10'] = {
+ 	['tpdm10'] = {
 		label = 'Zniżka PDM',
-		description = "Kupon upoważniający do 10% zniżki w salonie PDM do dnia: ",
+		description = "Kupon upoważniający do 10% zniżki w salonie PDM. Ważny 5 dni od dnia nabycia. ",
 		weight = 15,
-	}, ]]
+		degrade = 7200, -- 5 dni
+		decay = true,
+	},
 
 	['weaponrepairkit'] = {
 		label = 'Zestaw naprawczy do Broni',

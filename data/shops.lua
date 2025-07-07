@@ -2345,6 +2345,8 @@ return {
 			{ name = 'fruit_table', price = 50, count = 20},
 			{ name = 'nuts_bowl', price = 50, count = 20},
 			{ name = 'fruit_juice', price = 50, count = 20},
+			{ name = 'speaker', price = 30, count = 5, currency = 'casinoticket', metadata = {typeId = 9, label = 'Mały głośnik estradowy', description = 'SŚwietna głośność, zasięg, jakość i bass.', imageurl = 'https://r2.fivemanage.com/N1c8FmCwCDzhzwArQERHn/speakersmall2.png'} },
+			{ name = 'tpdm10', price = 20, count = 10, currency = 'casinoticket' },
 		},
 		locations = {
 			vec3(1112.1689, 211.5443, -49.4400),
