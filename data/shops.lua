@@ -322,15 +322,15 @@ return {
 			{ name = 'glue',            price = 3 },
 			{ name = 'tape',            price = 5 },
 			{ name = 'foil',            price = 5 },
-			{ name = 'butan',           price = 4,    count = 70 },
-			{ name = 'meth_amoniak',    price = 15,   count = 70 },
-			{ name = 'calcium',         price = 4,   count = 70 }, -- do heroiny
-			{ name = 'etanol',          price = 5,    count = 70 },
-			{ name = 'metanol',         price = 8,    count = 70 },
-			{ name = 'aceton',          price = 10,   count = 70 },
-			{ name = 'chem',            price = 15,   count = 70 },
-			{ name = 'chem2',           price = 7,    count = 70 },
-			{ name = 'meth_emptysacid', price = 20,   count = 20 },
+			{ name = 'butan',           price = 4,    count = 10 },
+			{ name = 'meth_amoniak',    price = 15,   count = 10 },
+			{ name = 'calcium',         price = 4,   count = 10 }, -- do heroiny
+			{ name = 'etanol',          price = 5,    count = 10 },
+			{ name = 'metanol',         price = 8,    count = 10 },
+			{ name = 'aceton',          price = 10,   count = 10 },
+		--	{ name = 'chem',            price = 15,   count = 10 },
+		--	{ name = 'chem2',           price = 7,    count = 10 },
+			{ name = 'meth_emptysacid', price = 20,   count = 10 },
 			{ name = 'scissors',        price = 25 },
 			{ name = 'pliers',          price = 25,   count = 5 },
 			{ name = 'spray_can',       price = 20,   count = 20 },
@@ -413,15 +413,15 @@ return {
 			{ name = 'syringe',      price = 10,  count = 30 },
 			{ name = 'scissors',     price = 20,  count = 30 },
 			{ name = 'pet_medikit',  price = 100, count = 30 },
-			{ name = 'meth_amoniak', price = 15,  count = 70 },
+			{ name = 'meth_amoniak', price = 15,  count = 10 },
 			{ name = 'etanol',       price = 5,   count = 70 },
 			{ name = 'metanol',      price = 8,   count = 70 },
-			{ name = 'anhydride',    price = 8,   count = 70 }, -- heroina bezwodnik octowy
-			{ name = 'eter',  	     price = 5,   count = 70 }, -- heroina
-			{ name = 'hydrochloric_acid', price = 2,   count = 70 }, -- heroina kwas octowy
-			{ name = 'paracetamol',  price = 80, count = 50 },
-			{ name = 'syrup2',  	 price = 25, count = 50 }, -- lean i perc
-			{ name = 'chem',         price = 15,  count = 70 },
+			{ name = 'anhydride',    price = 8,   count = 10 }, -- heroina bezwodnik octowy
+			{ name = 'eter',  	     price = 5,   count = 10 }, -- heroina
+			{ name = 'hydrochloric_acid', price = 2,   count = 10 }, -- heroina kwas octowy
+			{ name = 'paracetamol',  price = 80, count = 10 },
+			{ name = 'syrup2',  	 price = 25, count = 10 }, -- lean i perc
+			{ name = 'chem',         price = 15,  count = 10 },
 			{ name = 'chem_manual',  price = 28,  count = 5 },
 		},
 		locations = {
@@ -2015,10 +2015,10 @@ return {
 	DrugMerchant = {
 		name = 'Sklep z prochami',
 		inventory = {
-			{ name = 'syrup2',            price = 25,  count = 50 },
-			{ name = 'oksykodon',         price = 150, count = 50 },
-			{ name = 'empty_blister',     price = 50, count = 50 },
-			{ name = 'paracetamol',       price = 100, count = 50 },
+			{ name = 'syrup2',            price = 25,  count = 10 },
+			{ name = 'oksykodon',         price = 150, count = 10 },
+			{ name = 'empty_blister',     price = 50, count = 10 },
+			{ name = 'paracetamol',       price = 100, count = 10 },
 		},
 		locations = {
 			vec3(1528.59, 3794.5691, 3794.56) 
