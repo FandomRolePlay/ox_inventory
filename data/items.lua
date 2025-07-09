@@ -2786,7 +2786,13 @@ return {
 		label = 'Brown sugar', -- polprodukt heroiny, uzytkowy i do handlu
 		weight = 1,
 		stack = true,
-		description = "Brudna heroina"
+		description = "Niskolotna hera"
+	},
+	['brown_sugar_bag'] = { 
+		label = 'Woreczek brown sugar', -- polprodukt heroiny, uzytkowy i do handlu
+		weight = 1,
+		stack = true,
+		description = "Niskolotna hera"
 	},
 
 	['eter'] = {
