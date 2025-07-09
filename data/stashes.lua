@@ -1477,14 +1477,14 @@ return {
 
 	-- PITSTOP
 	{
-		coords = vec3(961.75, -1567.37, 30.74),
+		coords = vec3(-622.85, -1147.4, 22.34),
 		target = {
-			loc = vec3(961.75, -1567.37, 30.74),
-			length = 1.6,
-			width = 0.6,
+			loc = vec3(-622.85, -1147.4, 22.34),
+			length = 1.0,
+			width = 1.0,
 			heading = 0,
-			minZ = 29.74,
-			maxZ = 32.54,
+			minZ = 21.34,
+			maxZ = 23.74,
 			label = 'Otwórz szafke'
 		},
 		name = 'dosbroslocker',
@@ -1495,14 +1495,14 @@ return {
 		groups = {['mechanic2'] = 0}
 	},
 	{
-		coords = vec3(928.2, -1571.52, 30.74),
+		coords = vec3(-623.11, -1134.88, 22.34),
 		target = {
-			loc = vec3(928.2, -1571.52, 30.74),
-			length = 1.4,
-			width = 4.0,
-			heading = 32,
-			minZ = 30.59,
-			maxZ = 31.59,
+			loc = vec3(-623.11, -1134.88, 22.34),
+			length = 3.2,
+			width = 2.0,
+			heading = 0,
+			minZ = 21.34,
+			maxZ = 24.54,
 			label = 'Otwórz Magazyn'
 		},
 		name = 'dosbrosmagazyn',
