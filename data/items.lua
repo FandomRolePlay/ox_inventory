@@ -11166,6 +11166,8 @@ return {
 		weight = 5000,
 		stack = false,
 		close = true,
+		decay = true,
+		consume = 0.25,
 		client = {
 			export = "frp_parkings.changeVehiclePlate",
 			usetime = 15000,
@@ -11182,6 +11184,8 @@ return {
 		weight = 5000,
 		stack = false,
 		close = true,
+		decay = true,
+		consume = 0.25,
 		client = {
 			export = "frp_parkings.changeVehiclePlate",
 			usetime = 20000,
@@ -11198,6 +11202,8 @@ return {
 		weight = 5000,
 		stack = false,
 		close = true,
+		decay = true,
+		consume = 0.25,
 		client = {
 			export = "frp_parkings.changeVehiclePlate",
 			usetime = 25000,
