@@ -6942,6 +6942,8 @@ return {
 	['trap_phone'] = {
 		label = 'Telefon JotSon',
 		weight = 150,
+		degrade = 200, -- 10080 tydzien
+		decay = true,
 		stack = false,
 		close = true,
 		description = "Stary telefon"
