@@ -6040,11 +6040,17 @@ return {
 		description = ""
 	},
 
-	["weapon1_table"] = {
+	["weapon1a_table"] = {
 		label = 'Stacja Rusznikarska',
 		weight = 15000,
 		stack = false,
-		description = ""
+		description = "Maszyna typu A umożliwiająca produkcję broni palnej zachodniej produkcji."
+	},
+	["weapon1b_table"] = {
+		label = 'Stacja Rusznikarska',
+		weight = 15000,
+		stack = false,
+		description = "Maszyna typu B umożliwiająca produkcję broni palnej wschodniej produkcji."
 	},
 	["melee_table1"] = {
 		label = 'Skrawarka',
@@ -6063,32 +6069,18 @@ return {
 		description = "Mechanika samochodowa i NOS"
 	},
 	
-	["weapon1_manual"] = {
+	["weapon1a_manual"] = {
 		label = 'Podręcznik rusznikarski',
 		weight = 150,
 		stack = false,
-		description = "Podręcznik Rusznikarski część I"
+		description = "Podręcznik Rusznikarski część Ia."
 	},
 
-	["weapon2_manual"] = {
+	["weapon1b_manual"] = {
 		label = 'Podręcznik rusznikarski',
 		weight = 150,
 		stack = false,
-		description = "Podręcznik Rusznikarski część II"
-	},
-
-	["weapon3_manual"] = {
-		label = 'Podręcznik rusznikarski',
-		weight = 150,
-		stack = false,
-		description = "Podręcznik Rusznikarski część III"
-	},
-
-	["weapon4_manual"] = {
-		label = 'Podręcznik rusznikarski',
-		weight = 150,
-		stack = false,
-		description = "Podręcznik Rusznikarski część IV"
+		description = "Podręcznik Rusznikarski część Ib."
 	},
 
 	["melee1_manual"] = {
@@ -6097,6 +6089,7 @@ return {
 		stack = false,
 		description = "Podręcznik broni białej część I"
 	},
+	
 	["melee2_manual"] = {
 		label = 'Podręcznik broni białej',
 		weight = 150,
