@@ -104,6 +104,7 @@ return {
 			{ name = 'sausage',  price = 10 },
 			{ name = 'bread',  price = 8 },
 			{ name = 'lettuce',  price = 4 },
+			{ name = 'tealeaf',  price = 5},
 			{ name = 'farming_tomato',  price = 6 },
 			{ name = 'farming_cheese',  price = 10 },
 			{name = "burgerbun", price = 5},
@@ -1135,7 +1136,7 @@ return {
 			{ name = 'chipscheese', price = 5,  count = 20 },
 			{ name = 'chipsribs',   price = 5,  count = 20 },
 			{ name = 'candybar',    price = 8,  count = 20 },
-			{ name = 'sandwich',    price = 15, count = 15 },
+			{ name = 'sandwich',    price = 30, count = 15 },
 		},
 		model = {
 			`prop_vend_snak_01_tu`, `prop_vend_snak_01`
