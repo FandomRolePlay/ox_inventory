@@ -1691,7 +1691,7 @@ return {
 			{ name = 'junkp',         price = 12 },
 			{ name = 'cruiser2',    price = 100 },
 			{ name = 'bmx3',        price = 200 },
-			{ name = 'bmx4',        price = 500 },
+			{ name = 'bmxp2',        price = 500 },
 			{ name = 'scorcher2',   price = 350 },
 			{ name = 'tribike4',    price = 500 },
 			{ name = 'skateboard', price = 50 },
