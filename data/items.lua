@@ -2181,13 +2181,14 @@ return {
 	['sandwich'] = {
 		label = 'Kanapka',
 		weight = 180,
+		decay = true,
 		client = {
 			anim = 'eating',
 			prop = 'burger',
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
-			statusCap = 500000,
-			hunger = 120000,
+			statusCap = 300000,
+			hunger = 150000,
 		},
 		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
@@ -7540,15 +7541,7 @@ return {
 		weight = 70,
 		stack = true,
 		close = true,
-		client = {
-			anim = 'eating',
-			prop = 'prop_donut_01',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 350000,
-			stress = -100000,
-		},
+		decay = true,
 		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["weedchoc"] = {
@@ -7557,15 +7550,8 @@ return {
 		weight = 70,
 		stack = true,
 		close = true,
-		client = {
-			anim = 'eating',
-			prop = 'prop_choc_meto',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 250000,
-			stress = -100000,
-		},
+		decay = true,
+		degrade = 7 * 24 * 60, -- day * hour * minute
 	},
 	["weedlollipop"] = {
 		label = "Kolorowy lizak",
@@ -7573,15 +7559,8 @@ return {
 		weight = 70,
 		stack = true,
 		close = true,
-		client = {
-			anim = 'eating',
-			prop = 'prop_choc_meto',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 100000,
-			stress = -100000,
-		},
+		decay = true,
+		degrade = 7 * 24 * 60, -- day * hour * minute
 	},
 	["weedtea"] = {
 		label = "Herbata",
@@ -7589,15 +7568,8 @@ return {
 		weight = 250,
 		stack = true,
 		close = true,
-		client = {
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `prop_drink_whisky`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			thirst = 300000,
-			stress = -100000,
-		},
+		decay = true,
+		degrade = 7 * 24 * 60, -- day * hour * minute
 	},
 	["weedjunk"] = {
 		label = "Energetyk JUNK",
@@ -7724,29 +7696,31 @@ return {
 		label = "Jajecznica z bekonem",
 		weight = 250,
 		stack = false,
+		decay = true,
 		close = true,
 		client = {
 			anim = 'eating',
 			prop = 'prop_taco_01',
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
-			statusCap = 400000,
-			hunger = 160000,
+			statusCap = 650000,
+			hunger = 350000,
 		},
 		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	["beef_soup"] = {
-		label = "Beef Enchilada Soup",
+		label = "Zupa po meksykańsku",
 		weight = 250,
 		stack = false,
+		decay = true,
 		close = true,
 		client = {
 			anim = 'eating',
 			prop = 'prop_taco_01',
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
-			statusCap = 500000,
-			hunger = 500000,
+			statusCap = 650000,
+			hunger = 350000,
 		},
 		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
@@ -7754,14 +7728,15 @@ return {
 		label = "Spaghetti",
 		weight = 350,
 		stack = false,
+		decay = true,
 		close = true,
 		client = {
 			anim = 'eating',
 			prop = 'prop_taco_01',
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
-			statusCap = 500000,
-			hunger = 260000,
+			statusCap = 650000,
+			hunger = 350000,
 		},
 		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
@@ -8114,6 +8089,7 @@ return {
 		weight = 200,
 		stack = true,
 		close = true,
+		decay = true,
 		client = {
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = `prop_tumbler_01b`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
@@ -11492,4 +11468,150 @@ return {
 		}
 	},
 	
+	--crows_misc
+	['clothing_bag'] = {
+        label = 'Torba z ubraniami',
+        description = 'Torba z kilkoma zestawami ubrań, zabezpieczona na kłódkę',
+        weight = 8000,
+        stack = false,
+        close = true,
+        consume = 0,
+        client = {
+            export = 'crows_misc.openClothingBag',
+        }
+    },
+	--- Szklanki alkohholi pickle_consumables
+	['sake_glass'] = {
+		label = 'Kieliszek Sake',
+		description = "Kieliszek japońskiej wódki na bazie ryżu",
+		weight = 400,
+		decay = true,
+		degrade = 1 * 2 * 60, -- day * hour * minute
+	},
+	['vodka_glass'] = {
+		label = 'Kieliszek Wódki',
+		description = "Amerykańska wódka, krystalicznie czysta i gładka",
+		weight = 400,
+		decay = true,
+		degrade = 1 * 2 * 60, -- day * hour * minute
+	},
+	['vodka2_glass'] = {
+		label = 'Kieliszek Wódki',
+		description = "Rosyjska wódka eksportowa, idealna na mroźne wieczory... na syberii.",
+		weight = 400,
+		decay = true,
+		degrade = 1 * 2 * 60, -- day * hour * minute
+	},
+	['hells_vodka_glass'] = {
+		label = 'Kieliszek Wódki',
+		description = "Amerykańska wódka, która tnie lodowatym spokojem. Idealna na długie, mroczne noce",
+		weight = 400,
+		decay = true,
+		degrade = 1 * 2 * 60, -- day * hour * minute
+	},
+	['tequila_glass'] = {
+		label = 'Kieliszek Tequilli',
+		description = "Tequila o intensywnym aromacie i gładkim finiszu",
+		weight = 400,
+		decay = true,
+		degrade = 1 * 2 * 60, -- day * hour * minute
+	},
+	['tequila2_glass'] = {
+		label = 'Kieliszek Tequilli',
+		description = "Ekskluzywna tequila klasy premium, destylowana z wyselekcjonowanej agawy",
+		weight = 400,
+		decay = true,
+		degrade = 1 * 2 * 60, -- day * hour * minute
+	},
+	['whisky_glass'] = {
+		label = 'Szklanka Whisky',
+		description = "Amerykańskie whisky z nutami wanilli i dębu.",
+		weight = 400,
+		decay = true,
+		degrade = 1 * 2 * 60, -- day * hour * minute
+	},
+	['whisky2_glass'] = {
+		label = 'Szklanka Whisky',
+		description = "Torfowy szkocki single malt, mocno dymny i intensywny",
+		weight = 400,
+		decay = true,
+		degrade = 1 * 2 * 60, -- day * hour * minute
+	},
+	['hells_whisky_glass'] = {
+		label = 'Szklanka Whisky',
+		description = "Montana Highland Whisky, dymna i intensywna, dla tych, co idą przez ogień bez zawahania",
+		weight = 200,
+		decay = true,
+		degrade = 1 * 2 * 60, -- day * hour * minute
+	},
+	['rockford_hill_glass'] = {
+		label = 'Lampka Wina',
+		description = "Ekskluzywne, butelkowane ręcznie wino premium",
+		weight = 400,
+		decay = true,
+		degrade = 1 * 2 * 60, -- day * hour * minute
+	},
+	['marlowe_glass'] = {
+		label = 'Lampka Wina',
+		description = "Lokalne wino z Tongva Hills, dające poczucie prowincjonalnego uroku",
+		weight = 400,
+		decay = true,
+		degrade = 1 * 2 * 60, -- day * hour * minute
+	},
+	['costa_del_perro_glass'] = {
+		label = 'Lampka Wina',
+		description = "Wytrawne wino o bogatym bukiecie nadmorskich aromatów",
+		weight = 400,
+		decay = true,
+		degrade = 1 * 2 * 60, -- day * hour * minute
+	},
+	['vinewood_red_glass'] = {
+		label = 'Lampka Wina',
+		description = "Łagodne, miodowe nuty i niska kwaskowość. Świetne na początek wieczoru",
+		weight = 400,
+		decay = true,
+		degrade = 1 * 2 * 60, -- day * hour * minute
+	},
+	['vinewood_blanc_glass'] = {
+		label = 'Lampka Wina',
+		description = "Słodkie białe wino o świeżym aromacie cytrusów i białych kwiatów, z delikatną mineralnością i eleganckim finiszem",
+		weight = 400,
+		decay = true,
+		degrade = 1 * 2 * 60, -- day * hour * minute
+	},
+	['rum_glass'] = {
+		label = 'Szklanka Rumu',
+		description = "Jamajski, ciemny rum o korzennym aromacie imbiru i cynamonu",
+		weight = 400,
+		decay = true,
+		degrade = 1 * 2 * 60, -- day * hour * minute
+	},
+	['bleuterd_glass'] = {
+		label = 'Kieliszek Szampana',
+		description = "Popularny szampan o lekkiej słodyczy, finezyjna piana",
+		weight = 400,
+		decay = true,
+		degrade = 1 * 2 * 60, -- day * hour * minute
+	},
+	['champagne_glass'] = {
+		label = 'Kieliszek Szampana',
+		description = "Kieliszek luksusowego szampana rodem z Diamond Casino",
+		weight = 400,
+		decay = true,
+		degrade = 1 * 2 * 60, -- day * hour * minute
+	},
+	['brandy_glass'] = {
+		label = 'Kieliszek Brandy',
+		description = "Aromatyczna brandy z południa Francji, delikatnie owocowa i słodka",
+		weight = 400,
+		decay = true,
+		degrade = 1 * 2 * 60, -- day * hour * minute
+	},
+	['cognac_glass'] = {
+		label = 'Kieliszek Koniaku',
+		description = "Francuski koniak dojrzewający w dębowych beczkach",
+		weight = 400,
+		decay = true,
+		degrade = 1 * 2 * 60, -- day * hour * minute
+	},
 }
