@@ -808,6 +808,12 @@ return {
 			durability = 0,
 			ammoname = 'ammo-bb'
 		},
+		['WEAPON_PAINTBALL'] = {
+			label = 'Paintball Shotgun',
+			weight = 2300,
+			durability = 1,
+			ammoname = 'ammo-paintball'
+		},
 		['WEAPON_YBBSHOTGUN'] = {
 			label = 'Bean Bag Shotgun',
 			weight = 2300,
@@ -1959,6 +1965,10 @@ return {
 
 		['ammo-laser'] = {
 			label = 'Laser charge',
+			weight = 1,
+		},
+		['ammo-paintball'] = {
+			label = 'Kulki z farbą',
 			weight = 1,
 		},
 
