@@ -6089,7 +6089,7 @@ return {
 		stack = false,
 		description = "Podręcznik broni białej część I"
 	},
-	
+
 	["melee2_manual"] = {
 		label = 'Podręcznik broni białej',
 		weight = 150,
@@ -9792,7 +9792,7 @@ return {
 		close = true,
 	},
 
-	["bmx"] = {
+	["bmxp2"] = {
 		label = "BMX Wyczynowy",
 		weight = 8500,
 		stack = false,
