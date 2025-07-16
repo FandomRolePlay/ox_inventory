@@ -2049,6 +2049,24 @@ return {
 		weight = 25000,
 		groups = nil
 	},
+	{
+		coords = vec3(945.71, 15.46, 116.16),
+		target = {
+			loc = vec3(945.71, 15.46, 116.16),
+			length = 1.0,
+			width = 1.0,
+			heading = 60,
+			minZ = 115.76,
+			maxZ = 116.56,
+			label = 'Tacka'
+		},
+		name = 'casinotacka',
+		label = 'Tacka',
+		owner = false,
+		slots = 30,
+		weight = 40000,
+		groups = nil
+	},
 	--DOJ
 	
 	{
