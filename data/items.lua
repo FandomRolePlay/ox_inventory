@@ -361,6 +361,11 @@ return {
 		weight = 5,
 	},
 
+	['cigarbox'] = {
+		label = 'Pudełko na cygara',
+		weight = 100,
+	},
+
 	['redwcig'] = {
 		label = 'Papieros Redwood',
 		weight = 1,
