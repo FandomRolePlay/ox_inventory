@@ -727,6 +727,19 @@ return {
 		},
 		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
+	['fish_grill'] = {
+		label = 'Grillowana ryba',
+		weight = 200,
+		client = {
+			anim = 'eating',
+			prop = 'prop_cs_hotdog_02',
+			usetime = 3500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 600000,
+			hunger = 50000,
+		},
+		degrade = 1 * 1 * 60, -- day * hour * minute
+	},
 	['bread_slice'] = {
 		label = 'Kromka',
 		weight = 100,
@@ -10545,6 +10558,13 @@ return {
 	['carcass_deer3'] = {
 		label = '★★★ Skóra jelenia',
 		weight = 1100,
+		stack = false,
+		degrade = 5 * 24 * 60,
+
+	},
+	['carcass_deer3_crate'] = {
+		label = 'Skrzynia idealnych skór',
+		weight = 30000,
 		stack = false,
 		degrade = 5 * 24 * 60,
 
