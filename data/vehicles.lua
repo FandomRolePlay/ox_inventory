@@ -73,6 +73,7 @@ return {
 			[`bcsomtlpacker`] = {40, 60000},
 			[`sr650fly`] = {20, 60000},
 			[`streamer216x`] = {40, 200000},
+			[`patrolboat`] = {40, 200000},
 		}
 	},
 
