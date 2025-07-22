@@ -2067,6 +2067,42 @@ return {
 		weight = 40000,
 		groups = nil
 	},
+	{
+		coords = vec3(3309.41, 5168.44, 18.42),
+		target = {
+			loc = vec3(3309.41, 5168.44, 18.42),
+			length = 1.0,
+			width = 2.4,
+			heading = 53,
+			minZ = 17.82,
+			maxZ = 19.42,
+			label = 'Alkohole'
+		},
+		name = 'slubalkohole',
+		label = 'Alkohole',
+		owner = false,
+		slots = 30,
+		weight = 60000,
+		groups = nil
+	},
+	{
+		coords = vec3(3311.4, 5171.15, 18.42),
+		target = {
+			loc = vec3(3311.4, 5171.15, 18.42),
+			length = 1.0,
+			width = 2.4,
+			heading = 53,
+			minZ = 17.82,
+			maxZ = 19.42,
+			label = 'Przystawki'
+		},
+		name = 'slubzarcie',
+		label = 'Przystawki',
+		owner = false,
+		slots = 30,
+		weight = 60000,
+		groups = nil
+	},
 	--DOJ
 	
 	{
