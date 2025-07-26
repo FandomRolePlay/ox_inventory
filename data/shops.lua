@@ -1918,13 +1918,23 @@ return {
 			['zirconium'] = 7,
 		},
 		inventory = {
-			{ name = 'parachute', price = 500, grade = 7 },
+		{ name = 'parachute', price = 200, grade = 7, metadata = { type = 0, label = 'Spadochron', description = 'Tęczowy' } },
+		{ name = 'parachute', price = 200, grade = 7, metadata = { type = 1, label = 'Spadochron', description = 'Czerwony' } },
+		{ name = 'parachute', price = 200, grade = 7, metadata = { type = 2, label = 'Spadochron', description = 'Biało-niebiesko-żółty' } },
+		{ name = 'parachute', price = 200, grade = 7, metadata = { type = 3, label = 'Spadochron', description = 'Czarno-czerwono-bialy' } },
+		{ name = 'parachute', price = 200, grade = 7, metadata = { type = 4, label = 'Spadochron', description = 'Czerwono-bialo-niebieski' } },
+		{ name = 'parachute', price = 200, grade = 7, metadata = { type = 5, label = 'Spadochron', description = 'Niebieski' } },
+		{ name = 'parachute', price = 200, grade = 7, metadata = { type = 6, label = 'Spadochron', description = 'Czarny' } },
+		{ name = 'parachute', price = 200, grade = 7, metadata = { type = 7, label = 'Spadochron', description = 'Czarno-żółty' } },
+		{ name = 'weapon_paintball',  price = 500, count = 5 },
+		{ name = 'ammo-paintball',  price = 1},
+		{ name = 'advancedrepairkit',  price = 3000, count = 5},
 		},
 		locations = {
-			vec3(-732.94, -1501.43, 5.0)
+			vec3(-1621.03, -3153.22, 13.99)
 		},
 		targets = {
-			{ loc = vec3(-732.94, -1501.43, 5.0), length = 2.2, width = 3.6, heading = 25.0, minZ = 4.0, maxZ = 6.6, distance = 1.5 },
+			{ loc = vec3(-1621.03, -3153.22, 13.99), length = 0.4, width = 1.0, heading = 50.0, minZ = 12.99, maxZ = 14.99, distance = 2.0 },
 		}
 	},
 	ChopShopTools = {
