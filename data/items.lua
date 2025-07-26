@@ -973,6 +973,53 @@ return {
 		close = true,
 	},
 
+	-- jednorazowe ślub
+
+		['rassolnik'] = {
+		label = 'Rassolnik',
+		description = "Gęsta, wyrazista zupa na bazie ogórków kiszonych, jęczmienia perłowego i mięsa",
+		weight = 100,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 350000,
+			thirst = 100000,
+		},
+		decay = true,
+		degrade = 1 * 24 * 60, -- day * hour * minute
+	},
+		['tavekosi'] = {
+		label = 'Tave Kosi',
+		description = "Jagnięcina pieczona w jogurcie z ryżem i jajkami",
+		weight = 100,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 650000,
+		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
+	},
+		['kawalektort'] = {
+		label = 'Kawałek tortu',
+		weight = 100,
+		decay = true,
+		client = {
+			anim = 'eating',
+			prop = 'prop_taco_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 300000,
+		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
+	},
+
 	['town_zupa'] = {
 		label = 'Zupa',
 		description = "Lekka zupka warzywna, idealna przystawka do głównego dania",
@@ -1303,7 +1350,7 @@ return {
 	},
 
 	['popsstek'] = {
-		label = 'Tavern Steak',
+		label = 'Stek',
 		description = "Soczysy stek z dodatkami.",
 		weight = 400,
 		client = {
@@ -9194,7 +9241,12 @@ return {
         label = "Brązowy Puchar",
         description = "Nagroda za zajęcie trzeciego miejsca w Triathlonie",
         weight = 250,
-        },		
+        },	
+		["zpradownica"] = {
+        label = "Prądownica",
+        description = "Pozłacana prądownica z grawerunkiem 26.07.25 M. i A.",
+        weight = 250,
+        },	
 
 		["bukiet1"] = {
 		label = "Bukiet kwiatów",
