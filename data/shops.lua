@@ -2049,7 +2049,7 @@ return {
 			{ name = 'melee1_manual', price = 5, count = 1, currency = 'goldbar' },
 			{ name = 'melee2_manual', price = 10, count = 1, currency = 'goldbar' },
 			{ name = 'kevlar', price = 100, count = 15, currency = 'money' },
-			{ name = 'cloth', price = 50, count = 15, currency = 'money' },
+			{ name = 'cloth', price = 50, count = 30, currency = 'money' },
 			{ name = 'armour25set', price = 300, count = 4, currency = 'money' },
 			{ name = 'armour50set', price = 600, count = 4, currency = 'money' },
 		},
