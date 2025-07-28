@@ -2014,39 +2014,57 @@ return {
 		groups = {['zirconium'] = 6}
 	},
 	{
-		coords = vec3(-796.56, 329.17, 187.31),
+		coords = vec3(-783.03, 325.04, 187.31),
 		target = {
-			loc = vec3(-796.56, 329.17, 187.31),
-			length = 1.0,
-			width = 1.6,
+			loc = vec3(-783.03, 325.04, 187.31),
+			length = 0.2,
+			width = 2.8,
 			heading = 0,
-  			minZ = 186.16,
-  			maxZ = 188.56,
-			label = 'Otwórz Magazyn'
+			minZ = 186.31,
+			maxZ = 189.11,
+			label = 'Otwórz schowek'
 		},
-		name = 'zrmagazynsprunk',
-		label = 'Magazyn',
-		owner = false,
-		slots = 200,
-		weight = 100000,
-		groups = {['zirconium'] = 1}
-	},
-		{
-		coords = vec3(-781.09, 329.96, 187.31),
-		target = {
-			loc = vec3(-781.09, 329.96, 187.31),
-			length = 2.0,
-			width = 1.0,
-			heading = 0,
-			minZ = 185.91,
-			maxZ = 188.31,
-			label = 'Tacka'
-		},
-		name = 'limitlestacka',
-		label = 'Tacka',
+		name = 'eclipse18',
+		label = 'Apt 18',
 		owner = false,
 		slots = 20,
-		weight = 25000,
+		weight = 50000,
+		groups = nil
+	},
+	{
+		coords = vec3(-777.89, 332.73, 196.09),
+		target = {
+			loc = vec3(-777.89, 332.73, 196.09),
+			length = 0.2,
+			width = 2.8,
+			heading = 0,
+			minZ = 194.89,
+			maxZ = 198.09,
+			label = 'Otwórz schowek'
+		},
+		name = 'eclipse19',
+		label = 'Apt 19',
+		owner = false,
+		slots = 20,
+		weight = 50000,
+		groups = nil
+	},
+	{
+		coords = vec3(-783.11, 324.99, 217.04),
+		target = {
+			loc = vec3(-783.11, 324.99, 217.04),
+			length = 0.2,
+			width = 2.8,
+			heading = 0,
+			minZ = 216.04,
+			maxZ = 218.84,
+			label = 'Otwórz schowek'
+		},
+		name = 'eclipse21',
+		label = 'Apt 21',
+		owner = false,
+		slots = 20,
+		weight = 50000,
 		groups = nil
 	},
 	{
@@ -2058,46 +2076,28 @@ return {
 			heading = 60,
 			minZ = 115.76,
 			maxZ = 116.56,
-			label = 'Tacka'
+			label = 'Otwórz Bar'
 		},
 		name = 'casinotacka',
-		label = 'Tacka',
+		label = 'Bar VIP',
 		owner = false,
 		slots = 30,
 		weight = 40000,
 		groups = nil
 	},
 	{
-		coords = vec3(3309.41, 5168.44, 18.42),
+		coords = vec3(4906.35, -4944.77, 3.38),
 		target = {
-			loc = vec3(3309.41, 5168.44, 18.42),
-			length = 1.0,
+			loc = vec3(4906.35, -4944.77, 3.38),
+			length = 0.8,
 			width = 2.4,
-			heading = 53,
-			minZ = 17.82,
-			maxZ = 19.42,
-			label = 'Alkohole'
+			heading = 30,
+			minZ = 2.98,
+			maxZ = 4.18,
+			label = 'Otwórz barek'
 		},
-		name = 'slubalkohole',
-		label = 'Alkohole',
-		owner = false,
-		slots = 30,
-		weight = 60000,
-		groups = nil
-	},
-	{
-		coords = vec3(3311.4, 5171.15, 18.42),
-		target = {
-			loc = vec3(3311.4, 5171.15, 18.42),
-			length = 1.0,
-			width = 2.4,
-			heading = 53,
-			minZ = 17.82,
-			maxZ = 19.42,
-			label = 'Przystawki'
-		},
-		name = 'slubzarcie',
-		label = 'Przystawki',
+		name = 'cayominibar',
+		label = 'Cayo Perico Beach Bar',
 		owner = false,
 		slots = 30,
 		weight = 60000,
@@ -3707,5 +3707,42 @@ return {
 		slots = 200,
 		weight = 9000000,
 		groups = {['administracja'] = 0}
+	},
+	------ Taxi
+		{
+		coords = vec3(12-1202.92, -1467.45, 4.37),
+		target = {
+			loc = vec3(12-1202.92, -1467.45, 4.37),
+			length = 1.0,
+			width = 1.0,
+			heading = 35,
+			minZ = 4.17,
+			maxZ = 5.17,
+			label = 'Otwórz szafke'
+		},
+		name = 'taxilocker',
+		label = 'Szafka Prywatna',
+		owner = true,
+		slots = 10,
+		weight = 15000,
+		groups = {['taxi'] = 0}
+	},
+	{
+		coords = vec3(12-1202.92, -1467.45, 4.37),
+		target = {
+			loc = vec3(12-1202.92, -1467.45, 4.37),
+			length = 3.2,
+			width = 2.0,
+			heading = 35,
+			minZ = 4.17,
+			maxZ = 5.17,
+			label = 'Otwórz Magazyn'
+		},
+		name = 'taximagazyn',
+		label = 'Magazyn',
+		owner = false,
+		slots = 100,
+		weight = 100000,
+		groups = {['taxi'] = 1}
 	},
 }
