@@ -9139,6 +9139,12 @@ return {
 		stack = false,
 		close = false,
 	},
+	["bullpuprifleset"] = {
+		label = "Zestaw BPR-95",
+		weight = 900,
+		stack = false,
+		close = false,
+	},
 	["blueprint_an"] = {
 		label = "Plany AmmuNation",
 		weight = 50,
