@@ -1700,14 +1700,14 @@ return {
   
 	-- AUTOKOMIS
 	{
-		coords = vec3(-195.11, -1164.65, 23.67),
+		coords = vec3(-597.71, -1145.04, 22.34),
 		target = {
-			loc = vec3(-195.11, -1164.65, 23.67),
-			length = 1.3,
-			width = 0.8,
+			loc = vec3(-597.71, -1145.04, 22.34),
+			length = 1.0,
+			width = 1,
 			heading = 0,
-			minZ = 22.82,
-			maxZ = 24.62,
+			minZ = 21.94,
+			maxZ = 22.74,
 			label = 'Otwórz szafke'
 		},
 		name = 'ahlocker',
@@ -1718,14 +1718,14 @@ return {
 		groups = {['autohouse'] = 0}
 	},
 	{
-		coords = vec3(-184.51, -1161.89, 23.67),
+		coords = vec3(-597.71, -1145.04, 22.34),
 		target = {
-			loc = vec3(-184.51, -1161.89, 23.67),
-			length = 0.8,
-			width = 2.6,
+			loc = vec3(-597.71, -1145.04, 22.34),
+			length = 1.0,
+			width = 1,
 			heading = 0,
-			minZ = 22.87,
-			maxZ = 24.87,
+			minZ = 21.94,
+			maxZ = 22.74,
 			label = 'Otwórz Magazyn'
 		},
 		name = 'ahmagazyn',
