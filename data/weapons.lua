@@ -834,6 +834,22 @@ return {
 			ammoname = 'ammo-bb',
 		},
 
+		['WEAPON_SSCARBINERIFLE'] = {
+			label = 'CRF-15 Semi Auto',
+			description = "Vom Feuer CRF-15 Semi Auto",
+			weight = 3100,
+			durability = 0.06,
+			ammoname = 'ammo-rifle'
+		},
+
+		['WEAPON_SSCARBINERIFLE2'] = {
+			label = 'CRF-15G2 Semi Auto',
+			description = "Vom Feuer CRF-15G2 Semi Auto",
+			weight = 3000,
+			durability = 0.06,
+			ammoname = 'ammo-rifle'
+		},
+
 	},
 
 	Components = {
