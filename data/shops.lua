@@ -1935,6 +1935,7 @@ return {
 		{ name = 'weapon_paintball',  price = 500, count = 5 },
 		{ name = 'ammo-paintball',  price = 1},
 		{ name = 'advancedrepairkit',  price = 3000, count = 5},
+		{ name = 'radio2', price = 0,   count = 20,  metadata = {description = 'Komercyjne radio dalekiego zasięgu'} },
 		},
 		locations = {
 			vec3(-1621.03, -3153.22, 13.99)
