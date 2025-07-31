@@ -2262,6 +2262,7 @@ return {
 		}, 
 		targets = {
 			{ loc = vec3(4963.10, -5106.35, 2.91), length = 1.5, width = 1.5, heading = 45.0, minZ = 171.72, maxZ = 172.52, distance = 1.5 },
+			{ loc = vec3(-3510.70,-4089.31, 1050.85), length = 1.0, width = 1.0, heading = 45.0, minZ = 1171.72, maxZ = 1172.52, distance = 1.5 },
 		}
 	}, 
 
