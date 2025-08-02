@@ -2411,6 +2411,36 @@ return {
 			{ loc = vec3(1108.62, 250.37, -46.18), length = 2.5, width = 2.5, heading = 270, minZ = -45.18, maxZ = -47.18, distance = 2.5 },
 		}
 	},
+	CayoRestauracja = {
+		name = 'Bar na lotnisku',
+		inventory = {
+			{ name = 'blazetacop', price = 100, count = 10, currency = 'money' },
+			{ name = 'blazequesadillam', price = 100, count = 10, currency = 'money' },
+			{ name = 'blazechurros', price = 100, count = 10, currency = 'money' },
+			{ name = 'kendallemoniada', price = 50, count = 10, currency = 'money' },
+		},
+		locations = {
+			vec3(-3448.0,-4096.34,901.23),
+		},
+		targets = {
+			{ loc = vec3(-3448.0,-4096.34,901.23), length = 0.6, width = 0.8, heading = 180.0,   minZ = -49.64, maxZ = -49.04, distance = 2.0 },
+		}
+	},
+	CayoPamiatki = {
+		name = 'Sklep z pamiątkami',
+		inventory = {
+			{ name = 'cubancigar', price = 100, count = 10, currency = 'money' },
+			{ name = 'cigarbox', price = 1000, count = 10, currency = 'money' },
+			{ name = 'tequila', price = 100, count = 10, currency = 'money' },
+			{ name = 'tequila2', price = 200, count = 10, currency = 'money' },
+		},
+		locations = {
+			vec3(-3457.15,-4100.45,901.22),
+		},
+		targets = {
+			{ loc = vec3(-3457.15,-4100.45,901.22), length = 0.6, width = 0.8, heading = 180.0,   minZ = -49.64, maxZ = -49.04, distance = 2.0 },
+		}
+	},
 
 	--[[ 	PropShop = {
 		name = 'Sklep z różnościami',
