@@ -3120,6 +3120,24 @@ return {
 	weight = 800000,
 	groups = {['supplier'] = 0}
 	},
+	{
+	coords = vec3(-3512.55,-4087.87,1050),
+	target = {
+		loc = vec3(-3512.55,-4087.87,1050),
+		length = 1.2,
+		width = 1.2,
+		heading = 320,
+		minZ = 28.2,
+		maxZ = 30,
+		label = 'Otwórz sejf'
+	},
+	name = 'suppliersejf',
+	label = 'Sejf',
+	owner = false,
+	slots = 20,
+	weight = 50000,
+	groups = {['supplier'] = 0}
+	},
 
 -- Lucky Plucker
 {
