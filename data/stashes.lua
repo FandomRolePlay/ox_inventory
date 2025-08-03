@@ -3103,11 +3103,11 @@ return {
 	},
 	-- Cayo Perico Supplier
 	{
-	coords = vec3(-3507.67, -4097.68, 1050),
+	coords = vec3(-3508, -4103.45, 1050),
 	target = {
-		loc = vec3(3507.67, -4097.68, 1050),
-		length = 1.4,
-		width = 2.0,
+		loc = vec3(-3508, -4103.45, 1050),
+		length = 2.4,
+		width = 1,
 		heading = 320,
 		minZ = 28.2,
 		maxZ = 30,
