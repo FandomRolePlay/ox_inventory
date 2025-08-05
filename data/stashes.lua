@@ -2969,6 +2969,24 @@ return {
 		weight = 1000000,
 		groups = {['vanilla'] = 1}
 	},
+	{
+	coords = vec3(128.81, -1284.59, 29.27),
+	target = {
+		loc = vec3(128.81, -1284.59, 29.27),
+		length = 1.4,
+		width = 1.0,
+		heading = 30,
+		minZ = 29.07,
+		maxZ = 29.67,
+		label = 'Tacka'
+	},
+	name = 'vanillatacka',
+	label = 'Tacka',
+	owner = false,
+	slots = 10,
+	weight = 20000,
+	groups = nil
+},
 
 		--City Hall
 	
