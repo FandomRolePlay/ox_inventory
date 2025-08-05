@@ -2414,10 +2414,18 @@ return {
 	CayoRestauracja = {
 		name = 'Bar na lotnisku',
 		inventory = {
-			{ name = 'blazetacop', price = 100, count = 10, currency = 'money' },
-			{ name = 'blazequesadillam', price = 100, count = 10, currency = 'money' },
-			{ name = 'blazechurros', price = 100, count = 10, currency = 'money' },
-			{ name = 'kendallemoniada', price = 50, count = 10, currency = 'money' },
+			{ name = 'blazetacop', price = 100, count = 2, currency = 'money' },
+			{ name = 'blazetacoc', price = 100, count = 2, currency = 'money' },
+			{ name = 'blazetacosalsa', price = 100, count = 2, currency = 'money' },
+			{ name = 'blazequesadilla', price = 100, count = 2, currency = 'money' },
+			{ name = 'blazequesadillam', price = 100, count = 2, currency = 'money' },
+			{ name = 'blazequesadillar', price = 100, count = 2, currency = 'money' },
+			{ name = 'blazeburrito', price = 100, count = 2, currency = 'money' },
+			{ name = 'blazeburritobbq', price = 100, count = 2, currency = 'money' },
+			{ name = 'blazechurros', price = 100, count = 2, currency = 'money' },
+			{ name = 'blazenachos', price = 100, count = 2, currency = 'money' },
+			{ name = 'blazeagua', price = 50, count = 5, currency = 'money' },
+			{ name = 'blazetascalate', price = 50, count = 5, currency = 'money' },
 		},
 		locations = {
 			vec3(-3448.0,-4096.34,901.23),

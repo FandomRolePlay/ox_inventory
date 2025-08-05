@@ -972,54 +972,7 @@ return {
 		stack = false,
 		close = true,
 	},
-
-	-- jednorazowe ślub
-
-		['rassolnik'] = {
-		label = 'Rassolnik',
-		description = "Gęsta, wyrazista zupa na bazie ogórków kiszonych, jęczmienia perłowego i mięsa",
-		weight = 100,
-		client = {
-			anim = 'eating',
-			prop = 'burger',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 350000,
-			thirst = 100000,
-		},
-		decay = true,
-		degrade = 1 * 24 * 60, -- day * hour * minute
-	},
-		['tavekosi'] = {
-		label = 'Tave Kosi',
-		description = "Jagnięcina pieczona w jogurcie z ryżem i jajkami",
-		weight = 100,
-		client = {
-			anim = 'eating',
-			prop = 'burger',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 650000,
-		},
-		degrade = 1 * 24 * 60, -- day * hour * minute
-	},
-		['kawalektort'] = {
-		label = 'Kawałek tortu',
-		weight = 100,
-		decay = true,
-		client = {
-			anim = 'eating',
-			prop = 'prop_taco_01',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 300000,
-		},
-		degrade = 1 * 24 * 60, -- day * hour * minute
-	},
-
+	---------- The Town Restaurant
 	['town_zupa'] = {
 		label = 'Zupa',
 		description = "Lekka zupka warzywna, idealna przystawka do głównego dania",
@@ -1034,7 +987,7 @@ return {
 			thirst = 100000,
 		},
 		decay = true,
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 	['town_chicken_salad'] = {
 		label = 'Sałatka z kurczkiem',
@@ -1048,7 +1001,7 @@ return {
 			statusCap = 1000000,
 			hunger = 400000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 	['town_tartare'] = {
 		label = 'Tatar wołowy',
@@ -1062,7 +1015,7 @@ return {
 			statusCap = 1000000,
 			hunger = 400000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 	["town_lasagne"] = {
         label = "Lasagne bolognese",
@@ -1078,7 +1031,7 @@ return {
             statusCap = 1000000,
             hunger = 450000,
         },
-        degrade = 2 * 24 * 60, -- day * hour * minute
+        degrade = 1 * 24 * 60, -- day * hour * minute
     },
 	['town_ribs'] = {
 		label = 'Żeberka BBQ',
@@ -1092,7 +1045,7 @@ return {
 			statusCap = 1000000,
 			hunger = 600000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 	['town_salmon'] = {
 		label = 'Grilowany łosoś',
@@ -1106,7 +1059,7 @@ return {
 			statusCap = 1000000,
 			hunger = 600000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 	['town_shrimps_pasta'] = {
 		label = 'Makaron z krewetkami',
@@ -1120,7 +1073,7 @@ return {
 			statusCap = 1000000,
 			hunger = 600000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 	['town_steak'] = {
 		label = 'Stek',
@@ -1135,7 +1088,7 @@ return {
 			statusCap = 1000000,
 			hunger = 800000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 	['town_brownie'] = {
 		label = 'Brownie z mleczną czekoladą',
@@ -1149,7 +1102,7 @@ return {
 			statusCap = 1000000,
 			hunger = 300000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 	['town_sernik'] = {
 		label = 'Serniczek',
@@ -1163,7 +1116,7 @@ return {
 			statusCap = 1000000,
 			hunger = 300000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 	['town_coffee'] = {
 		label = 'Kawa',
@@ -1178,7 +1131,7 @@ return {
 			statusCap = 1000000,
 			thirst = 500000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 	["town_tea"] = {
 		label = "Herbata",
@@ -1194,7 +1147,7 @@ return {
 			statusCap = 1000000,
 			thirst = 400000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute	
+		degrade = 1 * 24 * 60, -- day * hour * minute	
 	},
 	["town_lemonade"] = {
 		label = "Lemoniada",
@@ -1210,7 +1163,7 @@ return {
 			statusCap = 1000000,
 			thirst = 450000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 	['town_koktajl'] = {
 		label = 'Koktajl owocowy',
@@ -1224,149 +1177,102 @@ return {
 			statusCap = 1000000,
 			thirst = 500000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
+    --Hell's Gate Pub (Gastro)
+    ['hellssteak'] = {
+        label = 'Hells Steak',
+        description = "Soczysy stek z dodatkami.",
+        weight = 400,
+        client = {
+            anim = 'eating',
+            prop = 'burger',
+            usetime = 2500,
+            export = 'FandomRP.useStatusItem',
+            statusCap = 1000000,
+            hunger = 800000,
+        },
+        degrade = 1 * 24 * 60, -- day * hour * minute
+    },
 
-	--Pops Diner
-	['popsbekon'] = {
-		label = 'Tavern Bekon',
-		description = "Smażone jajka ze słonym bekonem.",
-		weight = 400,
-		client = {
-			anim = 'eating',
-			prop = 'burger',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 450000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
+    ['hellsburger'] = {
+        label = 'Hot Flaming Burger',
+        description = "Burger napchany mięsem z dodatkiem chilli.",
+        weight = 500,
+        client = {
+            anim = 'eating',
+            prop = 'burger',
+            usetime = 2500,
+            export = 'FandomRP.useStatusItem',
+            statusCap = 1000000,
+            hunger = 600000,
+        },
+        degrade = 1 * 24 * 60, -- day * hour * minute
+    },
+	['hellsfries'] = {
+        label = 'Hells Fries',
+        description = "Karbowane frytki ociekające złocistym olejem.",
+        weight = 400,
+        client = {
+            anim = 'eating',
+            prop = 'burger',
+            usetime = 2500,
+            export = 'FandomRP.useStatusItem',
+            statusCap = 1000000,
+            hunger = 350000,
+        },
+        degrade = 1 * 24 * 60, -- day * hour * minute
+    },
 
-	['popsryba'] = {
-		label = 'Tavern Fish',
-		description = "Świeża ryba z chrupiącymi frytkami.",
-		weight = 500,
-		client = {
-			anim = 'eating',
-			prop = 'burger',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 550000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
+    ['hellsnuggets'] = {
+        label = 'Hells Nuggets',
+        description = "Kawałki kurczaka ociekające złocistym olejem.",
+        weight = 400,
+        client = {
+            anim = 'eating',
+            prop = 'burger',
+            usetime = 2500,
+            export = 'FandomRP.useStatusItem',
+            statusCap = 1000000,
+            hunger = 400000,
+        },
+        degrade = 1 * 24 * 60, -- day * hour * minute
+    },
 
-	['popskielbasa'] = {
-		label = 'Tavern Sausage',
-		description = "Smażone jajka z kiełbaską.",
-		weight = 400,
-		client = {
-			anim = 'eating',
-			prop = 'burger',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 450000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
+    ['hellssausage'] = {
+        label = 'Hells Sausage',
+        description = "Smażone jajka z kiełbaską.",
+        weight = 400,
+        client = {
+            anim = 'eating',
+            prop = 'burger',
+            usetime = 2500,
+            export = 'FandomRP.useStatusItem',
+            statusCap = 1000000,
+            hunger = 600000,
+        },
+        degrade = 1 * 24 * 60, -- day * hour * minute
+    },
 
-	['popsnuggetsy'] = {
-		label = 'Tavern Nuggets',
-		description = "Kawałki kurczaka ze złocistymi frytkami.",
-		weight = 400,
-		client = {
-			anim = 'eating',
-			prop = 'burger',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 400000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
+    ['hellscola'] = {
+        label = 'Hells Cola',
+        description = "Orzeźwiająca eCola z dodatkiem lodu.",
+        weight = 300,
+        client = {
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = `prop_cs_bs_cup`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+            usetime = 2500,
+            export = 'FandomRP.useStatusItem',
+            statusCap = 1000000,
+            thirst = 500000,
+        },
+        degrade = 1 * 24 * 60, -- day * hour * minute
+    },
 
-	['popsser'] = {
-		label = 'Tavern Cheese',
-		description = "Ser w panierce i frytki.",
-		weight = 400,
-		client = {
-			anim = 'eating',
-			prop = 'burger',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 350000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
-
-	['popskurczak'] = {
-		label = 'Tavern Chicken',
-		description = "Kanapka z grillowanym kurczakiem, jajkiem i bekonem.",
-		weight = 400,
-		client = {
-			anim = 'eating',
-			prop = 'burger',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 350000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
-
-	['popswolowina'] = {
-		label = 'Tavern Beef',
-		description = "Kanapka z szarpaną wołowiną.",
-		weight = 400,
-		client = {
-			anim = 'eating',
-			prop = 'burger',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 350000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
-
-	['popswege'] = {
-		label = 'Kanapka Vege',
-		description = "Kanapka wegetariańska.",
-		weight = 400,
-		client = {
-			anim = 'eating',
-			prop = 'burger',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 350000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
-
-	['popsstek'] = {
-		label = 'Stek',
-		description = "Soczysy stek z dodatkami.",
-		weight = 400,
-		client = {
-			anim = 'eating',
-			prop = 'burger',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 650000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
-
-	['popslemoniada'] = {
-		label = 'Tavern Lemonade',
-		description = "Orzeźwiająca klasyczna lemoniada.",
+	['hellsherbata'] = {
+		label = 'Herbata',
+		description = "Herbata czarna, a mocnym smaku.",
 		weight = 300,
 		client = {
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
@@ -1376,26 +1282,11 @@ return {
 			statusCap = 1000000,
 			thirst = 500000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
-	['popsherbata'] = {
-		label = 'Tavern Tea',
-		description = "Herbata czarna.",
-		weight = 300,
-		client = {
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `prop_cs_bs_cup`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			thirst = 500000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
-
-	['popskawa'] = {
-		label = 'Tavern Coffee',
+	['hellskawa'] = {
+		label = 'Kawa',
 		description = "Klasyczna, mocna, czarna kawa.",
 		weight = 300,
 		client = {
@@ -1406,11 +1297,11 @@ return {
 			statusCap = 1000000,
 			thirst = 500000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
-	['popsslushie'] = {
-		label = 'Tavern Slushie',
+	['hellsslushie'] = {
+		label = 'Slushie',
 		description = "Zimne truskawkowe slushie.",
 		weight = 300,
 		client = {
@@ -1421,8 +1312,9 @@ return {
 			statusCap = 1000000,
 			thirst = 500000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
+---- FOOD TRUCK
 	['foodtruckburger1'] = {
 		label = 'Classic Burger',
 		description = "Burger z soczystym kotletem z wołowiny, łagodnym sosem i pomidorkiem.",
@@ -1507,92 +1399,8 @@ return {
 		},
 		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
-	--Blazing Truck
-	['blazeburger'] = {
-		label = 'Blaze Burger',
-		weight = 400,
-		client = {
-			anim = 'eating',
-			prop = 'burger',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 500000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
 
-	},
-
-	['blazevege'] = {
-		label = 'Vege Blazing',
-		weight = 400,
-		client = {
-			anim = 'eating',
-			prop = 'burger',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 350000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
-
-	['blazeinferno'] = {
-		label = 'Kanapka Inferno',
-		weight = 300,
-		client = {
-			anim = 'eating',
-			prop = 'burger',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 400000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
-
-	['blazepopper'] = {
-		label = 'Jalapeno Popper',
-		weight = 500,
-		client = {
-			anim = 'eating',
-			prop = 'burger',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 550000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
-
-	['blazegoldflame'] = {
-		label = 'Goldflame Burger',
-		weight = 400,
-		client = {
-			anim = 'eating',
-			prop = 'burger',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 500000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
-
-	['blazefries'] = {
-		label = 'Frytki',
-		weight = 200,
-		client = {
-			anim = 'eating',
-			prop = 'burger',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 300000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
- --nowe
+ -- Mexicano Food (Cayo Perico)
 	['blazetacop'] = {
 		label = 'Taco Picante Carne',
 		weight = 200,
@@ -1604,7 +1412,7 @@ return {
 			statusCap = 1000000,
 			hunger = 500000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['blazetacoc'] = {
@@ -1618,7 +1426,7 @@ return {
 			statusCap = 1000000,
 			hunger = 400000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['blazetacosalsa'] = {
@@ -1632,7 +1440,7 @@ return {
 			statusCap = 1000000,
 			hunger = 450000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['blazequesadilla'] = {
@@ -1646,7 +1454,7 @@ return {
 			statusCap = 1000000,
 			hunger = 450000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['blazequesadillam'] = {
@@ -1660,7 +1468,7 @@ return {
 			statusCap = 1000000,
 			hunger = 550000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['blazequesadillar'] = {
@@ -1674,7 +1482,7 @@ return {
 			statusCap = 1000000,
 			hunger = 500000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['blazeburrito'] = {
@@ -1688,7 +1496,7 @@ return {
 			statusCap = 1000000,
 			hunger = 400000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['blazeburritobbq'] = {
@@ -1702,7 +1510,7 @@ return {
 			statusCap = 1000000,
 			hunger = 500000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['blazechurros'] = {
@@ -1716,7 +1524,7 @@ return {
 			statusCap = 1000000,
 			hunger = 270000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['blazenachos'] = {
@@ -1730,7 +1538,35 @@ return {
 			statusCap = 1000000,
 			hunger = 270000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
+	},
+	['blazeagua'] = {
+		label = 'Agua Fresca',
+		description = "Orzeźwiający napój na bazie wody i hibiskusa z dodatkiem owoców",
+		weight = 300,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_bs_cup`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 500000,
+		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
+	},
+	['blazetascalate'] = {
+		label = 'Tascalate',
+		description = "Napój z regionu Chiapas, przygotowywany z kukurydzy, kakao, cynamonu i achiote.",
+		weight = 300,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_bs_cup`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 500000,
+		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 -- Itemy hells nowe
 	['hells_whisky'] = {
@@ -7099,114 +6935,6 @@ return {
 		stack = true,
 		close = true,
 	},
-
-	--CRAFTING BIZNESY
-	['ramen'] = {
-		label = 'Ramen',
-		weight = 400,
-		client = {
-			anim = 'eating',
-			prop = 'burger',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 500000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
-	['sushi'] = {
-		label = 'Sushi',
-		weight = 400,
-		client = {
-			anim = 'eating',
-			prop = 'burger',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 200000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
-	['gyoza'] = {
-		label = 'Pierożki Gyoza',
-		weight = 400,
-		client = {
-			anim = 'eating',
-			prop = 'burger',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 200000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
-	['sukiyaki'] = {
-		label = 'Sukiyaki',
-		weight = 400,
-		client = {
-			anim = 'eating',
-			prop = 'burger',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 600000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
-	['krewetki'] = {
-		label = 'Krewetki w cieście',
-		weight = 400,
-		client = {
-			anim = 'eating',
-			prop = 'burger',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 400000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
-	['kitsune_soba'] = {
-		label = 'Kitsune Soba',
-		weight = 400,
-		client = {
-			anim = 'eating',
-			prop = 'burger',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 600000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
-	["ramune"] = {
-		label = "Ramune",
-		weight = 400,
-		stack = true,
-		close = true,
-		client = {
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `prop_tumbler_01b`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			thirst = 650000,
-		},
-	},
-	["sencha"] = {
-		label = "Sencha",
-		weight = 250,
-		stack = true,
-		close = true,
-		client = {
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `prop_tumbler_01b`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			thirst = 450000,
-		},
-	},
 	["umeshu"] = {
 		label = "Umeshu",
 		weight = 500,
@@ -7251,19 +6979,6 @@ return {
 		weight = 220,
 		stack = true,
 		close = true,
-	},
-	['nachos'] = {
-		label = 'Nachosy',
-		weight = 400,
-		client = {
-			anim = 'eating',
-			prop = 'burger',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 700000,
-			hunger = 250000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
 	['fruit_table'] = {
 		label = 'Tacka owoców',
@@ -7660,6 +7375,8 @@ return {
 			stress = -100000,
 		},
 	},
+
+	-------------------- Cool Beans
 	["tiramisu"] = {
 		label = "Tiramisu",
 		weight = 70,
@@ -7673,7 +7390,7 @@ return {
 			statusCap = 1000000,
 			hunger = 350000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 	["mufchocolate"] = {
 		label = "Muffinka Czekoladowa",
@@ -7688,7 +7405,7 @@ return {
 			statusCap = 1000000,
 			hunger = 250000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 	["panutela"] = {
 		label = "Naleśnik",
@@ -7703,7 +7420,7 @@ return {
 			statusCap = 1000000,
 			hunger = 250000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 	["cake"] = {
 		label = "Ciasto Truskawkowe",
@@ -7718,7 +7435,7 @@ return {
 			statusCap = 1000000,
 			hunger = 450000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 	["blueberry_pie"] = {
 		label = "Ciasto z borówkami",
@@ -7733,7 +7450,7 @@ return {
 			statusCap = 1000000,
 			hunger = 350000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 	["croissant"] = {
 		label = "Croissant z czekoladą",
@@ -7748,8 +7465,219 @@ return {
 			statusCap = 1000000,
 			hunger = 250000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
+	["croissant2"] = {
+		label = "Croissant pistacjowy",
+		weight = 200,
+		stack = true,
+		close = true,
+		client = {
+			anim = 'eating',
+			prop = 'prop_donut_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 250000,
+		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
+	},
+	["waffle"] = {
+		label = "Gofr",
+		weight = 100,
+		stack = true,
+		close = true,
+		client = {
+			anim = 'eating',
+			prop = 'prop_donut_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 450000,
+		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
+	},
+	["wanillaice"] = {
+		label = "Puchar lodowy",
+		weight = 200,
+		stack = true,
+		close = true,
+		client = {
+			anim = 'eating',
+			prop = 'prop_donut_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 350000,
+		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
+	},
+	["espresso"] = {
+		label = "Espresso",
+		weight = 100,
+		stack = true,
+		close = true,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `p_ing_coffeecup_02`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 200000,
+		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
+	},
+	["cb_capuccino"] = {
+		label = "Capuccino",
+		weight = 250,
+		stack = true,
+		close = true,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `p_ing_coffeecup_02`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 400000,
+		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
+	},
+	["espresso_macchiato"] = {
+		label = "Podwójne Espresso",
+		weight = 200,
+		stack = true,
+		close = true,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `p_ing_coffeecup_02`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 350000,
+		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
+	},
+	["hot_choc_2"] = {
+		label = "Gorąca czekolada",
+		weight = 250,
+		stack = true,
+		close = true,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `p_ing_coffeecup_02`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 400000,
+		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
+	},
+	["cc-greentea"] = {
+		label = "Egzotyczna herbata",
+		weight = 150,
+		stack = true,
+		close = true,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_tumbler_01b`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 450000,
+		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
+	},
+	["cc-catlemonade"] = {
+		label = "Lemoniada",
+		weight = 300,
+		stack = true,
+		close = true,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `p_w_grass_gls_s`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 450000,
+		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
+	},
+	["iced_caffe_latte"] = {
+		label = "Ice Latte",
+		weight = 250,
+		stack = true,
+		close = true,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `p_ing_coffeecup_02`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 400000,
+		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
+	},
+	["coretto"] = {
+		label = "Caffe Coretto",
+		weight = 200,
+		stack = true,
+		close = true,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `p_ing_coffeecup_02`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 300000,
+		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
+	},
+		["caffelatte"] = {
+		label = "Caffe Latte",
+		weight = 300,
+		stack = true,
+		close = true,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `p_ing_coffeecup_02`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 450000,
+		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
+	},
+	["americana"] = {
+		label = "Americana",
+		weight = 320,
+		stack = true,
+		close = true,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `p_ing_coffeecup_02`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 350000,
+		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
+	},
+	["icecreamcaffe"] = {
+		label = "Kawa z lodami waniliowymi",
+		weight = 320,
+		stack = true,
+		close = true,
+		client = {
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `p_ing_coffeecup_02`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			thirst = 400000,
+		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
+	},
+	-------------- Do własnego craftu
 	["baconeggs"] = {
 		label = "Jajecznica z bekonem",
 		weight = 250,
@@ -7764,7 +7692,7 @@ return {
 			statusCap = 650000,
 			hunger = 350000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 	["beef_soup"] = {
 		label = "Zupa po meksykańsku",
@@ -7780,7 +7708,7 @@ return {
 			statusCap = 650000,
 			hunger = 350000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 	["spaghetti"] = {
 		label = "Spaghetti",
@@ -7796,38 +7724,54 @@ return {
 			statusCap = 650000,
 			hunger = 350000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
-	["croissant2"] = {
-		label = "Croissant pistacjowy",
-		weight = 200,
-		stack = true,
-		close = true,
+
+	--- JEDZENIE NIEPRZYDZIELONE
+		['rassolnik'] = {
+		label = 'Rassolnik',
+		description = "Gęsta, wyrazista zupa na bazie ogórków kiszonych, jęczmienia perłowego i mięsa",
+		weight = 100,
 		client = {
 			anim = 'eating',
-			prop = 'prop_donut_01',
+			prop = 'burger',
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
 			statusCap = 1000000,
-			hunger = 250000,
+			hunger = 350000,
+			thirst = 100000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		decay = true,
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
-	["coretto"] = {
-		label = "Caffe Coretto",
-		weight = 200,
-		stack = true,
-		close = true,
+	['tavekosi'] = {
+		label = 'Tave Kosi',
+		description = "Jagnięcina pieczona w jogurcie z ryżem i jajkami",
+		weight = 100,
 		client = {
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `p_ing_coffeecup_02`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			anim = 'eating',
+			prop = 'burger',
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
 			statusCap = 1000000,
-			thirst = 300000,
+			hunger = 650000,
 		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
-	-- Lespoir
+		['kawalektort'] = {
+		label = 'Kawałek tortu',
+		weight = 100,
+		decay = true,
+		client = {
+			anim = 'eating',
+			prop = 'prop_taco_01',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 300000,
+		},
+		degrade = 1 * 24 * 60, -- day * hour * minute
+	},
 
 	['beef_tartare'] = {
 		label = 'Tatar wołowy',
@@ -7840,7 +7784,7 @@ return {
 			statusCap = 1000000,
 			hunger = 600000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['chicken_salad'] = {
@@ -7854,7 +7798,7 @@ return {
 			statusCap = 1000000,
 			hunger = 650000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['bagel_tofu'] = {
@@ -7868,7 +7812,7 @@ return {
 			statusCap = 1000000,
 			hunger = 400000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['chicken_potato'] = {
@@ -7882,7 +7826,7 @@ return {
 			statusCap = 1000000,
 			hunger = 650000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['salmon_potato'] = {
@@ -7896,7 +7840,7 @@ return {
 			statusCap = 1000000,
 			hunger = 700000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['bbq_ribs'] = {
@@ -7910,7 +7854,7 @@ return {
 			statusCap = 1000000,
 			hunger = 800000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['bbq_wings'] = {
@@ -7924,7 +7868,7 @@ return {
 			statusCap = 1000000,
 			hunger = 700000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['american_roast'] = {
@@ -7938,7 +7882,7 @@ return {
 			statusCap = 1000000,
 			hunger = 600000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['apple_pie_ice'] = {
@@ -7953,7 +7897,7 @@ return {
 			thirst = 100000,
 			hunger = 450000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['american_pudding'] = {
@@ -7968,7 +7912,7 @@ return {
 			thirst = 100000,
 			hunger = 200000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
 	['chocolateice'] = {
@@ -7983,120 +7927,18 @@ return {
 			thirst = 100000,
 			hunger = 300000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
+		degrade = 1 * 24 * 60, -- day * hour * minute
 	},
 
-	["caffelatte"] = {
-		label = "Caffe Latte",
-		weight = 300,
-		stack = true,
-		close = true,
-		client = {
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `p_ing_coffeecup_02`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			thirst = 450000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
-	["americana"] = {
-		label = "Americana",
-		weight = 320,
-		stack = true,
-		close = true,
-		client = {
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `p_ing_coffeecup_02`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			thirst = 350000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
-	["icecreamcaffe"] = {
-		label = "Kawa z lodami waniliowymi",
-		weight = 320,
-		stack = true,
-		close = true,
-		client = {
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `p_ing_coffeecup_02`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			thirst = 400000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
-	["waffle"] = {
-		label = "Gofr",
-		weight = 100,
-		stack = true,
-		close = true,
-		client = {
-			anim = 'eating',
-			prop = 'prop_donut_01',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 450000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
-	["wanillaice"] = {
-		label = "Puchar lodowy",
-		weight = 200,
-		stack = true,
-		close = true,
-		client = {
-			anim = 'eating',
-			prop = 'prop_donut_01',
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			hunger = 350000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
+
+
 	["farming_pistachio"] = {
 		label = "Pistacje",
 		weight = 20,
 		stack = true,
 		close = true,
 	},
-	["cb_capuccino"] = {
-		label = "Capuccino",
-		weight = 250,
-		stack = true,
-		close = true,
-		client = {
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `p_ing_coffeecup_02`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			thirst = 400000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
-	["espresso_macchiato"] = {
-		label = "Podwójne Espresso",
-		weight = 200,
-		stack = true,
-		close = true,
-		client = {
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `p_ing_coffeecup_02`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			thirst = 350000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
+
 	["macchiato"] = {
 		label = "Espresso Macchiato",
 		weight = 200,
@@ -8112,36 +7954,7 @@ return {
 		},
 		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
-	["hot_choc_2"] = {
-		label = "Gorąca czekolada",
-		weight = 250,
-		stack = true,
-		close = true,
-		client = {
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `p_ing_coffeecup_02`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			thirst = 400000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
-	["cc-greentea"] = {
-		label = "Egzotyczna herbata",
-		weight = 150,
-		stack = true,
-		close = true,
-		client = {
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `prop_tumbler_01b`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			thirst = 450000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
+
 	["tea"] = {
 		label = "Herbata",
 		weight = 200,
@@ -8212,51 +8025,114 @@ return {
 		},
 		degrade = 3 * 24 * 60, -- day * hour * minute
 	},
-	["cc-catlemonade"] = {
-		label = "Lemoniada",
-		weight = 300,
+		['ramen'] = {
+		label = 'Ramen',
+		weight = 400,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 500000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
+	['sushi'] = {
+		label = 'Sushi',
+		weight = 400,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 200000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
+	['gyoza'] = {
+		label = 'Pierożki Gyoza',
+		weight = 400,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 200000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
+	['sukiyaki'] = {
+		label = 'Sukiyaki',
+		weight = 400,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 600000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
+	['krewetki'] = {
+		label = 'Krewetki w cieście',
+		weight = 400,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 400000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
+	['kitsune_soba'] = {
+		label = 'Kitsune Soba',
+		weight = 400,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 1000000,
+			hunger = 600000,
+		},
+		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
+	["ramune"] = {
+		label = "Ramune",
+		weight = 400,
 		stack = true,
 		close = true,
 		client = {
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `p_w_grass_gls_s`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			prop = { model = `prop_tumbler_01b`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
 			statusCap = 1000000,
-			thirst = 450000,
+			thirst = 650000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
-	["iced_caffe_latte"] = {
-		label = "Ice Latte",
+	["sencha"] = {
+		label = "Sencha",
 		weight = 250,
 		stack = true,
 		close = true,
 		client = {
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `p_ing_coffeecup_02`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			prop = { model = `prop_tumbler_01b`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
 			usetime = 2500,
 			export = 'FandomRP.useStatusItem',
 			statusCap = 1000000,
-			thirst = 400000,
+			thirst = 450000,
 		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
 	},
-	["espresso"] = {
-		label = "Espresso",
-		weight = 100,
-		stack = true,
-		close = true,
-		client = {
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `p_ing_coffeecup_02`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
-			usetime = 2500,
-			export = 'FandomRP.useStatusItem',
-			statusCap = 1000000,
-			thirst = 200000,
-		},
-		degrade = 2 * 24 * 60, -- day * hour * minute
-	},
+
+	--------------------
 	["larios"] = {
 		label = "Likier",
 		weight = 300,
