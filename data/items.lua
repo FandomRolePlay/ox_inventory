@@ -435,6 +435,15 @@ return {
 		label = 'Używane bongo',
 		weight = 500,
 	},
+	['drugstash1'] = {
+		label = 'Woda Raine',
+		weight = 250,
+		stack = false,
+		close = false,
+		client = {
+			image = "water3.png",
+		}
+	},
 
 	--TRACKER
 	["heist_papers"] = {
@@ -7316,6 +7325,18 @@ return {
 		close = true,
 		decay = true,
 		degrade = 2 * 24 * 60, -- day * hour * minute
+	},
+	['candy'] = {
+		label = 'Żelki CBD',
+		weight = 230,
+		client = {
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2300,
+			export = 'FandomRP.useStatusItem',
+			statusCap = 400000,
+			hunger = 100000,
+		},
 	},
 	["weedchoc"] = {
 		label = "Czekolada",

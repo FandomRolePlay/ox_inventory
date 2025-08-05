@@ -150,4 +150,10 @@ setContainerProperties('cigarbox', {
     whitelist = {'cubancigar', 'davidoffcigar' }
 })
 
+setContainerProperties('drugstash1', {
+    slots = 5,
+    maxWeight = 500,
+    whitelist = {'purple_haze_bag', 'banana_kush_bag','blue_dream_bag','og_kush_bag','red_jack_bag','chem_sister_bag','heroin_bag','crack_bag','coke' }
+})
+
 return containers

@@ -1622,6 +1622,7 @@ return {
 			{ name = 'redwg2', price = 10, count = 20 },
 			{ name = 'cubancigar', price = 20, count = 20 },
 			{ name = 'davidoffcigar', price = 20, count = 20 },
+			{ name = 'drugstash1', 	price = 200, grade = 3, count = 2 },
 		},
 		locations = {
 			vec3(-69.52, 6384.92, 31.49)
