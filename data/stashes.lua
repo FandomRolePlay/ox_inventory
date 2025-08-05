@@ -1642,24 +1642,6 @@ return {
 		weight = 25000,
 		groups = {['ammunation'] = 6}
 	},
-		{
-		coords = vec3(34.21, -1075.85, 27.72),
-		target = {
-			loc = vec3(34.21, -1075.85, 27.72),
-			length = 1.0,
-			width = 2.0,
-			heading = 340,
-			minZ = 26.72,
-			maxZ = 28.52,
-			label = 'Utylizacja'
-		},
-		name = 'anmagazyn5', --szafka biuro
-		label = 'Utylizacja',
-		owner = false,
-		slots = 100,
-		weight = 250000,
-		groups = {['ammunation'] = 6}
-	},
 	{
 		coords = vec3(-81.91, -804.42, 243.4),
 		target = {
