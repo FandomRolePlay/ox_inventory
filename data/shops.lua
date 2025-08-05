@@ -1483,7 +1483,7 @@ return {
 			id = 760, colour = 4, scale = 1.0
 		},
 		groups = {
-			["hunting"] = 6
+			["hunting"] = 6, ['ammunation'] = 6
 		},
 		inventory = {
 			{ name = 'weapon-parts',      price = 50,   grade = 3 },
