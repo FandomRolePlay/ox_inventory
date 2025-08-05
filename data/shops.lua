@@ -1294,7 +1294,7 @@ return {
 				['hellsgate'] = 0,
 				['pops'] = 0,
 				['vanilla'] = 0,
-				['kendal'] = 0,
+				['bahama'] = 0,
 				['taco'] = 0,
 			},
 		inventory = {
@@ -1327,7 +1327,7 @@ return {
 		} 
 	}, 
 		HurtowniaB3 = {
-		name = 'Big Goods',
+		name = 'Organic',
 		blip = {
 			id = 760, colour = 4, scale = 1.0},
 			groups = {
@@ -1377,10 +1377,10 @@ return {
 			{ name = 'fishs',              price = 3 },
 		},
 		locations = {
-			vec3(-272.71, -2495.97, 7.3),
+			vec3(-1215.32, -1432.45, 4.37),
 		},
 		targets = {
-			{ loc = vec3(-272.71, -2495.97, 6.8), length = 1.2, width = 0.6, heading = 319.0, minZ = 6.3, maxZ = 8.7, distance = 1.5 },
+			{ loc = vec3(-1215.32, -1432.45, 4.37), length = 0.6, width = 0.6, heading = 35.0, minZ = 4.12, maxZ = 4.72, distance = 1.5 },
 		} 
 	}, 
 
@@ -1669,30 +1669,30 @@ return {
 
 		},
 		inventory = {
-			{ name = 'pisswasser',      price = 30 },
-			{ name = 'logger',          price = 30 },
-			{ name = 'barracho',        price = 30 },
-			{ name = 'vinewood_blanc',  price = 125 },
-			{ name = 'rockford_hill',   price = 125 },
-			{ name = 'vinewood_red',    price = 130 },
-			{ name = 'costa_del_perro', price = 140 },
+			{ name = 'pisswasser',      price = 50 },
+			{ name = 'logger',          price = 50 },
+			{ name = 'barracho',        price = 50 },
+			{ name = 'vinewood_blanc',  price = 150 },
+			{ name = 'rockford_hill',   price = 150 },
+			{ name = 'vinewood_red',    price = 150 },
+			{ name = 'costa_del_perro', price = 150 },
 			{ name = 'marlowe',         price = 150 },
-			{ name = 'vodka',           price = 90 },
-			{ name = 'vodka2',           price = 90 },
-			{ name = 'rum',             price = 150 },
-			{ name = 'whisky',          price = 150 },
-			{ name = 'whisky2',          price = 150 },
+			{ name = 'vodka',           price = 100 },
+			{ name = 'vodka2',           price = 100 },
+			{ name = 'rum',             price = 200 },
+			{ name = 'whisky',          price = 200 },
+			{ name = 'whisky2',          price = 200 },
 			{ name = 'tequila',         price = 200 },
 			{ name = 'tequila2',         price = 200 },
-			{ name = 'cognac',          price = 280 },
-			{ name = 'brandy',          price = 280 },
+			{ name = 'cognac',          price = 300 },
+			{ name = 'brandy',          price = 300 },
 			{ name = 'bleuterd',        price = 350 },
 		},
 		locations = {
-			vec3(830.01, -1916.64, 29.34)
+			vec3(-1199.89, -1457.16, 4.37)
 		},
 		targets = {
-			{ loc = vec3(830.01, -1916.64, 29.34), length = 4.6, width = 1, heading = 355.0, minZ = 28.34, maxZ = 31.34, distance = 2.5 }, 
+			{ loc = vec3(-1199.89, -1457.16, 4.37), length = 0.6, width = 0.6, heading = 35.0, minZ = 3.97, maxZ = 4.77, distance = 2.5 }, 
 		}
 	},
 	Hurtownia10 = {
