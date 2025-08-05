@@ -30,7 +30,10 @@ AddEventHandler('esx:setPlayerData', function(key, value)
  		local ESXPlayerData = ESX.GetPlayerData()
 		local org = ESXPlayerData.metadata?.organisation
 
-		if org and org.name ~= '' then
+		if org 
+			and org.name ~= nil and org.name ~= ''
+			and org.grade ~= nil and org.grade ~= '' 
+		then
 			key = 'groups'
 			value = {
 				[value.name] = value.grade,
@@ -46,7 +49,10 @@ AddEventHandler('esx:setPlayerData', function(key, value)
 		local ESXPlayerData = ESX.GetPlayerData()
 		local org = value.organisation
 
-		if org and org.name ~= '' then
+		if org 
+			and org.name ~= nil and org.name ~= ''
+			and org.grade ~= nil and org.grade ~= '' 
+		then
 			key = 'groups'
 			value = {
 				[ESXPlayerData.job.name] = ESXPlayerData.job.grade,
