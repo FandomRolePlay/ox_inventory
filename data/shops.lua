@@ -591,7 +591,7 @@ return {
 			{ loc = vec3(836.04, -1287.98, 28.31), length = 1.0, width = 1.0, heading = 340.0, minZ = 87.4, maxZ = 88.6, distance = 6 } --La Mesa
 		},
 	},
-
+	--- ZBROJOWNIA LSSD DAVIS
 	LSSDArmoury = {
 		name = 'Zbrojownia',
 		groups = {
@@ -670,6 +670,88 @@ return {
 		},
 		targets = {
 			{ loc = vec3(377.93, -1590.47, 25.47), length = 1.0, width = 1.0, heading = 340.0, minZ = 25.0, maxZ = 26.0, distance = 6 }
+		},
+	},
+
+	---ZBROJOWNIA LSSD SANDY
+	LSSDArmoury2 = {
+		name = 'Zbrojownia',
+		groups = {
+			['lssd'] = 0 },
+		inventory = {
+			{ name = 'WEAPON_COMBATPISTOL', price = 900,   metadata = { registered = true, serial = 'LSS' }, license = 'weapon', grade = 1 },
+			{ name = 'WEAPON_PISTOL_MK2',   price = 1300,  metadata = { registered = true, serial = 'LSS' }, license = 'weapon', grade = 1 },
+			{ name = 'WEAPON_HEAVYPISTOL',  price = 1400,  metadata = { registered = true, serial = 'LSS' }, license = 'weapon', grade = 2 },
+			{ name = 'WEAPON_SMG',          price = 3750,  metadata = { registered = true, serial = 'LSS' }, license = 'weapon', grade = 6 },
+			{ name = 'WEAPON_COMBATPDW',    price = 4250,  metadata = { registered = true, serial = 'LSS' }, license = 'weapon', grade = 6 },
+			{ name = 'WEAPON_PUMPSHOTGUN',  price = 3000,  metadata = { registered = true, serial = 'LSS' }, license = 'weapon', grade = 6 },
+			{ name = 'WEAPON_SNIPERRIFLE',  price = 15000, metadata = { registered = true, serial = 'LSS' }, license = 'weapon', grade = 6 },
+			{ name = 'WEAPON_CARBINERIFLE_MK2', price = 6750, metadata = { registered = true, serial = 'LSS' }, license = 'weapon', grade = 6 },
+			{ name = 'WEAPON_SSCARBINERIFLE', price = 5000, metadata = { registered = true, serial = 'LSS' }, license = 'weapon', grade = 6 },
+			{ name = 'WEAPON_SSCARBINERIFLE2', price = 6000, metadata = { registered = true, serial = 'LSS' }, license = 'weapon', grade = 6 },
+			{ name = 'WEAPON_STUNGUN',      price = 250,   metadata = { registered = true, serial = 'LSS' }, license = 'weapon', grade = 1 },
+			{ name = 'WEAPON_YBBSHOTGUN',   price = 1500,  metadata = { registered = true, serial = 'LSS' }, license = 'weapon', grade = 1 },
+			{ name = 'WEAPON_NIGHTSTICK',   price = 100,   grade = 1 },
+			{ name = 'WEAPON_COLBATON',     price = 100,   grade = 2 },
+			{ name = 'cuffs',               price = 25,    grade = 1 },
+			{ name = 'handcuffkey',         price = 1,     grade = 1 },
+			{ name = 'zipties',             price = 15,    grade = 1 },
+			{ name = 'WEAPON_FLASHLIGHT',   price = 35,    grade = 1 },
+			{ name = 'WEAPON_KNIFE',        price = 30,    grade = 1 },
+			{ name = 'radio',               price = 250,   grade = 1 },
+			{ name = 'gps',                 price = 150,   grade = 1 },
+			{ name = 'bodycam',             price = 100,   grade = 1 },
+			{ name = 'e_bracelet',          price = 150,   grade = 1 },
+			{ name = 'WEAPON_FLAREGUN',     price = 450,   metadata = { registered = true, serial = 'LSS' }, grade = 1 },
+			{ name = 'WEAPON_FLARE',        price = 150,   grade = 1 },
+			{ name = 'gasmask',				price = 350,   metadata = { registered = true, serial = 'LAW ENFORCEMENT' }, grade = 2 },
+			{ name = 'shield',              price = 2500,  grade = 5 },
+			{ name = 'shield2',             price = 500,   grade = 5 },
+			{ name = 'at_flashlight',       price = 250,   grade = 2 },
+			{ name = 'evidence-bag',        price = 10,    grade = 1 },
+			{ name = 'ammo-flare',          price = 4,     grade = 1 },
+			{ name = 'ammo-9-box',          price = 19,    grade = 1 },
+			{ name = 'ammo-rifle-box',      price = 50,    grade = 6 },
+			{ name = 'ammo-shotgun-box',    price = 10,    grade = 6 },
+			{ name = 'ammo-45-box',         price = 25,    grade = 2 },
+			{ name = 'ammo-sniper-box',     price = 105,   grade = 6 },
+			{ name = 'ammo-bb-box',         price = 12,    grade = 1 },
+			{ name = 'ammo-cart',           price = 3,     grade = 1 },
+			{ name = 'armour',            	price = 300,   grade = 1,  metadata = {durability = 25, description = "Prosta kamizelka kuloodporna", weight = 750}},
+			{ name = 'armour',            	price = 600,   grade = 5,  metadata = {durability = 50, description = "Dobra kamizelka kuloodporna", weight = 1500}},
+			{ name = 'armour',           	price = 1200,  grade = 6, metadata = {durability = 100, description = "Doskonała kamizelka kuloodporna", weight = 3000}},
+			{ name = 'WEAPON_FLASHBANG',    price = 375,   grade = 5 },
+			{ name = 'WEAPON_BZGAS',    	price = 450,   grade = 5 },
+			{ name = 'spikestrip',          price = 1500,  grade = 2 },
+			{ name = 'alcotester',    		price = 500,   grade = 5 },
+			{ name = 'roadcone',            price = 10,    grade = 1 },
+			{ name = 'medbag',              price = 20,    grade = 1 },
+			{ name = 'medikit',          	price = 100,    grade = 1 },
+			{ name = 'trafficlight',        price = 30,    grade = 1 },
+			{ name = 'worklight',           price = 50,    grade = 1 },
+			{ name = 'worklight2',          price = 50,    grade = 1 },
+			{ name = 'worklight3',          price = 50,    grade = 1 },
+			{ name = 'accidentsign',        price = 50,    grade = 1 },
+			{ name = 'accidentsign2',       price = 50,    grade = 1 },
+			{ name = 'parawan',             price = 100,   grade = 1 },
+			{ name = 'stopsign',            price = 50,    grade = 1 },
+			{ name = 'noparksign',          price = 50,    grade = 1 },
+			{ name = 'arrowsign',           price = 50,    grade = 1 },
+			{ name = 'arrowsign2',          price = 50,    grade = 1 },
+			{ name = 'csutent',             price = 200,   grade = 1 },
+			{ name = 'csutable',            price = 100,   grade = 1 },
+			{ name = 'csuchair',            price = 100,   grade = 1 },
+			{ name = 'camera',           	price = 500,   grade = 2 },
+			{ name = 'lornetka',          	price = 100,    grade = 1 },
+			{ name = 'criminal_kit',        price = 200,    grade = 2 },
+			{ name = 'gsr_kit',          	price = 50,    grade = 2 },
+			{ name = 'clothing_bag',        price = 500,    grade = 1 },
+		},
+		locations = {
+			vec3(1836.4060, 3686.0205, 34)
+		},
+		targets = {
+			{ loc = vec3(1836.4060, 3686.0205, 34), length = 1.0, width = 1.0, heading = 120, minZ = 33, maxZ = 34, distance = 6 }
 		},
 	},
 
