@@ -5741,7 +5741,7 @@ return {
 		description = ""
 	},
 	["taco_table"] = {
-		label = 'Stół Taco',
+		label = 'Stół Foodtruck',
 		weight = 10000,
 		stack = false,
 		description = ""
