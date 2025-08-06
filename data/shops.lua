@@ -1234,14 +1234,11 @@ return {
 				['foodtruck'] = 0,
 				['coolbeans'] = 0,
 				['townrest'] = 0,
-				['tequilala'] = 0,
 				['weedshop'] = 0,
-				['townclub'] = 0,
 				['hellsgate'] = 0,
-				['pops'] = 0,
 				['vanilla'] = 0,
 				['bahama'] = 0,
-				['taco'] = 0,
+				['kendal'] = 0,
 			},
 		inventory = {
 			{ name = 'farming_pistachio',  price = 1 },
@@ -1288,14 +1285,11 @@ return {
 				['foodtruck'] = 0,
 				['coolbeans'] = 0,
 				['townrest'] = 0,
-				['tequilala'] = 0,
 				['weedshop'] = 0,
-				['townclub'] = 0,
 				['hellsgate'] = 0,
-				['pops'] = 0,
 				['vanilla'] = 0,
 				['bahama'] = 0,
-				['taco'] = 0,
+				['kendal'] = 0,
 			},
 		inventory = {
 			{ name = 'farming_egg',        price = 1 },
@@ -1334,14 +1328,11 @@ return {
 				['foodtruck'] = 0,
 				['coolbeans'] = 0,
 				['townrest'] = 0,
-				['tequilala'] = 0,
 				['weedshop'] = 0,
-				['townclub'] = 0,
 				['hellsgate'] = 0,
-				['pops'] = 0,
 				['vanilla'] = 0,
 				['bahama'] = 0,
-				['taco'] = 0,
+				['kendal'] = 0,
 			},
 		inventory = {
 		
@@ -1622,7 +1613,7 @@ return {
 			{ name = 'redwg2', price = 10, count = 20 },
 			{ name = 'cubancigar', price = 20, count = 20 },
 			{ name = 'davidoffcigar', price = 20, count = 20 },
-			{ name = 'drugstash1', 	price = 200, grade = 3, count = 2 },
+			{ name = 'drugstash1', 	price = 200, grade = 3, count = 2},
 		},
 		locations = {
 			vec3(-69.52, 6384.92, 31.49)
@@ -1658,16 +1649,10 @@ return {
 			id = 760, colour = 4, scale = 1.0
 		},
 		groups = {
-			
-			['coolbeans'] = 0,
-			['bahama'] = 0,
-			['tequilala'] = 0,
-			['townclub'] = 0,
-			['hellsgate'] = 0,
+				['townrest'] = 0,
+				['weedshop'] = 0,
 			['vanilla'] = 0,
-			['taco'] = 0,
-				
-
+				['bahama'] = 0,
 		},
 		inventory = {
 			{ name = 'pisswasser',      price = 50 },

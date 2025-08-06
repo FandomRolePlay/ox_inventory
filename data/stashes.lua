@@ -1158,9 +1158,9 @@ return {
 
 	-- BLAZINGTRUCK
 	{
-		coords = vec3(-1257.5, -1425.7, 4.37),
+		coords = vec3(-1208.48, -1470.18, 4.37),
 		target = {
-			loc = vec3(-1257.5, -1425.7, 4.37),
+			loc = vec3(-1208.48, -1470.18, 4.37),
 			length = 0.6,
 			width = 0.6,
 			heading = 35,
@@ -1176,9 +1176,9 @@ return {
 		groups = {['foodtruck'] = 0}
 	},
 	{
-		coords = vec3(-1258.57, -1426.3, 4.37),
+		coords = vec3(-1208.48, -1470.18, 4.37),
 		target = {
-			loc = vec3(-1258.57, -1426.3, 4.37),
+			loc = vec3(-1208.48, -1470.18, 4.37),
 			length = 0.6,
 			width = 1.0,
 			heading = 35,
@@ -3212,16 +3212,16 @@ return {
 	weight = 250000,
 	groups = {['lucky'] = 6}
 },
--- Kendall
+-- Sweet&Spicy
 {
-    coords = vec3(1586.72, 6457.13, 26.01),
+    coords = vec3(-1231.65, -1442.51, 4.37),
     target = {
-        loc = vec3(1586.72, 6457.13, 26.01),
-        length = 0.75,
+        loc = vec3(-1231.65, -1442.51, 4.37),
+        length = 1.0,
         width = 0.8,
         heading = 35,
-        minZ = 4.27,
-        maxZ = 4.57,
+		minZ = 4.17,
+		maxZ = 4.77,
         label = 'Tacka'
     },
     name = 'kendal_tacka',
@@ -3231,14 +3231,14 @@ return {
     weight = 10000,
 },
 {
-    coords = vec3(1595.34, 6455.46, 26.01),
+    coords = vec3(-1232.97, -1437.15, 4.37),
     target = {
-        loc = vec3(1595.34, 6455.46, 26.01),
+        loc = vec3(-1232.97, -1437.15, 4.37),
         length = 1.0,
-        width = 0.6,
+        width = 1.0,
         heading = 35,
-        minZ = 3.57,
-        maxZ = 4.97,
+		minZ = 3.37,
+		maxZ = 5.37,
         label = 'Otwórz szafke'
     },
     name = 'kendal_priv',
@@ -3249,11 +3249,11 @@ return {
     groups = {['kendal'] = 0}
 },
 {
-    coords = vec3(1586.0, 6459.83, 26.01),
+    coords = vec3(-1229.63, -1441.85, 4.37),
     target = {
-        loc = vec3(1586.0, 6459.83, 26.01),
-        length = 0.6,
-        width = 1.0,
+        loc = vec3(-1229.63, -1441.85, 4.37),
+        length = 1.0,
+        width = 0.6,
         heading = 35,
         minZ = 4.17,
         maxZ = 4.97,
@@ -3266,7 +3266,7 @@ return {
     weight = 1000000,
     groups = {['kendal'] = 0}
 },
-
+----------- Atom
 {
     coords = vec3(-1026.37, -422.84, 67.66),
     target = {
@@ -3728,9 +3728,9 @@ return {
 	},
 	------ Taxi
 		{
-		coords = vec3(12-1202.92, -1467.45, 4.37),
+		coords = vec3(-1202.92, -1467.45, 4.37),
 		target = {
-			loc = vec3(12-1202.92, -1467.45, 4.37),
+			loc = vec3(-1202.92, -1467.45, 4.37),
 			length = 1.0,
 			width = 1.0,
 			heading = 35,
@@ -3746,9 +3746,9 @@ return {
 		groups = {['taxi'] = 0}
 	},
 	{
-		coords = vec3(12-1202.92, -1467.45, 4.37),
+		coords = vec3(-1202.92, -1467.45, 4.37),
 		target = {
-			loc = vec3(12-1202.92, -1467.45, 4.37),
+			loc = vec3(-1202.92, -1467.45, 4.37),
 			length = 3.2,
 			width = 2.0,
 			heading = 35,
