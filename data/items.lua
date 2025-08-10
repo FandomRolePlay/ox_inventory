@@ -10184,7 +10184,7 @@ return {
 	['crate_9'] = {
 		label = 'Skrzynia 9mm',
 		description = "Skrzynia z 20 paczkami 9mm",
-		weight = 12500,
+		weight = 9000,
 		stack = false,
 		client = {
 		}
@@ -10211,7 +10211,7 @@ return {
 	['crate_44'] = {
 		label = 'Skrzynia .44 Magnum',
 		description = "Skrzynia z 20 paczkami .44 Magnum",
-		weight = 8400,
+		weight = 11200,
 		stack = false,
 		client = {
 		}
@@ -10223,6 +10223,25 @@ return {
 		weight = 11600,
 		stack = false,
 		client = {
+		}
+	},
+	['crate_rifle'] = {
+		label = 'Skrzynia  5.56x45',
+		description = "Skrzynia z 20 paczkami 5.56x45",
+		weight = 9200,
+		stack = false,
+		client = {
+			image = "crate_9.png",
+		}
+	},
+
+	['crate_rifle2'] = {
+		label = 'Skrzynia 7.62x39',
+		description = "Skrzynia z 20 paczkami 7.62x39",
+		weight = 12800,
+		stack = false,
+		client = {
+			image = "crate_9.png",
 		}
 	},
 
