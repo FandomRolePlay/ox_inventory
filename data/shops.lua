@@ -278,27 +278,6 @@ return {
 			{ loc = vec3(-1207.67, -1508.45, 4.37), length = 0.4, width = 0.4, heading = 35.0,   minZ = 4.17,  maxZ = 4.57,  distance = 1.5 } --PLAŻA
 		}
 	},
---[[ 	BurgerShot = {
-		name = 'BurgerShot',
-		blip = {
-			id = 103, colour = 47, scale = 0.9
-		},
-		inventory = {
-			{ name = 'waniliashake',  price = 10, count = 20 },
-			{ name = 'morelshake',    price = 10, count = 20 },
-			{ name = 'bsfries',       price = 15, count = 20 },
-			{ name = 'chickenburger', price = 20, count = 20 },
-			{ name = 'cheeseburger',  price = 18, count = 20 },
-			{ name = 'bswrap',        price = 15, count = 20 },
-			{ name = 'bsnuggets',     price = 17, count = 20 },
-		},
-		locations = {
-			vec3(-1189.06, -894.62, 13.8)
-		},
-		targets = {
-			{ loc = vec3(-1189.06, -894.62, 13.8), length = 1.0, width = 0.6, heading = 305.00, minZ = 13.30, maxZ = 14.30, distance = 1.5 },
-		}
-	}, ]]
 	YouTool = {
 		name = 'Mega Mall',
 		blip = {
@@ -489,24 +468,41 @@ return {
 		},
 	},
 
---[[ 	PROBikes = {
+	PROBikes = {
 		name = 'PRO Bikes',
 		blip = {
-			id = 559, colour = 18, scale = 0.8 },
+			id = 746, colour = 4, scale = 0.8},
 		inventory = {
-			{ name = 'cruiser2',    price = 200,  count = 7 },
-			{ name = 'bmx3',        price = 400,  count = 7 },
-			{ name = 'scorcher2',   price = 850,  count = 7 },
-			{ name = 'tribike4',    price = 1000, count = 7 },
-			{ name = 'skateboard', price = 200,  count = 11 },
+			{ name = 'cruiser2',    price = 500,  count = 2 },
+			{ name = 'bmx3',        price = 500,  count = 2 },
+			{ name = 'scorcher2',   price = 800,  count = 2 },
+			{ name = 'tribike4',    price = 1500, count = 1 },
+			{ name = 'bmxp2',       price = 1500, count = 1 },
+			{ name = 'skateboard', price = 350,  count = 2 },
 		},
 		locations = {
 			vec3(-1228.06, -1437.67, 4.37)
 		},
 		targets = {
-			{ loc = vec3(-1228.06, -1437.67, 4.37), length = 0.6, width = 0.8, heading = 305.0, minZ = 3.97, maxZ = 4.77, distance = 1.5 },
+			{ loc = vec3(-1198.83, -1516.92, 4.37), length = 0.8, width = 0.8, heading = 35.0,   minZ = 3.97,  maxZ = 4.97, distance = 1.5 },
 		},
-	}, ]]
+	}, 
+	sandgym = {
+		name = 'Sand Gym',
+		inventory = {
+			{ name = 'proteinshake',  price = 50 },
+			{ name = 'proteinshakes', price = 50 }, 
+			{ name = 'junko',         price = 50 },
+			{ name = 'junkb',         price = 50 },
+			{ name = 'junkp',         price = 50 },
+		},
+		locations = {
+			vec3(-1196.67, -1579.85, 4.61)
+		},
+		targets = {
+			{ loc = vec3(-1196.67, -1579.85, 4.61), length = 1.0, width = 1.0, heading = 35.0,     minZ = 3.61,  maxZ = 5.61, distance = 2.0 },
+		},
+	}, 
 
 
 	--FRAKCJE
@@ -1222,9 +1218,9 @@ return {
 	VendingMachineDrinks5 = {
 		name = 'Automat JUNK',
 		inventory = {
-			{ name = 'junko', price = 19, count = 20 },
-			{ name = 'junkb', price = 19, count = 20 },
-			{ name = 'junkp', price = 19, count = 20 },
+			{ name = 'junko', price = 19, count = 50 },
+			{ name = 'junkb', price = 19, count = 50 },
+			{ name = 'junkp', price = 19, count = 50 },
 		},
 		model = {
 			`sf_prop_sf_vend_drink_01a`, `m23_2_prop_m32_vend_drink_01a`
@@ -1764,25 +1760,41 @@ return {
 		}
 	},
 	Hurtownia10 = {
-		name = 'Hurtownia Siłownia',
+		name = 'Hurtownia Pawnshop',
 		blip = {
 			id = 760, colour = 4, scale = 1.0
 		},
 		groups = {
-			['sandgym'] = 6
+			['pawnshop'] = 6
 		},
 		inventory = {
-			{ name = 'proteinshake',  price = 10 },
-			{ name = 'proteinshakes', price = 10 },
-			{ name = 'junko',         price = 12 },
-			{ name = 'junkb',         price = 12 },
-			{ name = 'junkp',         price = 12 },
-			{ name = 'cruiser2',    price = 100 },
-			{ name = 'bmx3',        price = 200 },
-			{ name = 'bmxp2',        price = 500 },
-			{ name = 'scorcher2',   price = 350 },
-			{ name = 'tribike4',    price = 500 },
-			{ name = 'skateboard', price = 50 },
+			{ name = 'cruiser2',    price = 100, count = 1 },
+			{ name = 'bmx3',        price = 200, count = 3 },
+			{ name = 'bmxp2',        price = 500, count = 3 },
+			{ name = 'scorcher2',   price = 350, count = 1 },
+			{ name = 'tribike4',    price = 500, count = 1 },
+			{ name = 'skateboard', price = 50, count = 1 },
+			{ name = 'spray_can', price = 10, count = 30 },
+			{ name = 'at_skin_ballas',  price = 500,   grade = 6  },
+			{ name = 'at_skin_diamond',  price = 500,   grade = 6  },
+			{ name = 'at_skin_dollar',  price = 500,   grade = 6  },
+			{ name = 'at_skin_hate',  price = 500,   grade = 6  },
+			{ name = 'at_skin_king',  price = 500,   grade = 6  },
+			{ name = 'at_skin_love',  price = 500,   grade = 6  },
+			{ name = 'at_skin_pimp',  price = 500,   grade = 6  },
+			{ name = 'at_skin_player',  price = 500,   grade = 6  },
+			{ name = 'at_skin_vagos',  price = 500,   grade = 6  },
+			{ name = 'at_skin_blagueurs',  price = 500,   grade = 6  },
+			{ name = 'at_skin_splatter',  price = 500,   grade = 6  },
+			{ name = 'at_skin_bulletholes',  price = 500,   grade = 6  },
+			{ name = 'at_skin_burgershot',  price = 500,   grade = 6  },
+			{ name = 'at_skin_cluckinbell',  price = 500,   grade = 6  },
+			{ name = 'at_skin_fatalincursion',  price = 500,   grade = 6  },
+			{ name = 'at_skin_luchalibre',  price = 500,   grade = 6  },
+			{ name = 'at_skin_trippy',  price = 500,   grade = 6  },
+			{ name = 'at_skin_tiedye',  price = 500,   grade = 6  },
+			{ name = 'at_skin_wall',  price = 500,   grade = 6  },
+			
 		},
 		locations = {
 			vec3(869.08, -1629.27, 30.2)

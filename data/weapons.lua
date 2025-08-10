@@ -281,6 +281,13 @@ return {
 			ammoname = 'ammo-flare'
 		},
 
+		['WEAPON_FLAREGUN2'] = {
+			label = 'Pukawka domowej roboty',
+			weight = 1000,
+			durability = 0.5,
+			ammoname = 'ammo-shotgun'
+		},
+
 		['WEAPON_FLASHLIGHT'] = {
 			label = 'Latarka',
 			weight = 125,
@@ -613,9 +620,10 @@ return {
 		},
 
 		['WEAPON_RAYCARBINE'] = {
-			label = 'Unholy Hellbringer',
+			label = 'Karabin Laser Tag',
 			weight = 3620,
-			durability = 0.2,
+			durability = 0.4,
+			decay = true,
 			ammoname = 'ammo-laser'
 		},
 
@@ -741,6 +749,12 @@ return {
 			ammoname = 'ammo-cart'
 		},
 
+		['WEAPON_YSTUNGUN'] = {
+			label = 'Paralizator',
+			weight = 227,
+			durability = 0.1,
+			ammoname = 'ammo-cart'
+		},
 
 		['WEAPON_AUTOSHOTGUN'] = {
 			label = 'Strzelba Automatyczna',
@@ -1396,10 +1410,11 @@ return {
 		},
 
 		['at_skin_ballas'] = {
-			label = 'Ballas Weapon Kit',
+			label = 'Zdobienie Kolce',
 			type = 'skin',
 			weight = 50,
 			client = {
+				image = "weapon_knuckle.png",
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_BALLAS`
 				},
@@ -1408,10 +1423,11 @@ return {
 		},
 
 		['at_skin_diamond'] = {
-			label = 'Diamond Weapon Kit',
+			label = 'Zdobienie Srebrne',
 			type = 'skin',
 			weight = 50,
 			client = {
+				image = "weapon_knuckle.png",
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_DIAMOND`
 				},
@@ -1420,10 +1436,11 @@ return {
 		},
 
 		['at_skin_dollar'] = {
-			label = 'Dollar Weapon Kit',
+			label = 'Zdobienie Dolary',
 			type = 'skin',
 			weight = 50,
 			client = {
+				image = "weapon_knuckle.png",
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_DOLLAR`
 				},
@@ -1432,10 +1449,11 @@ return {
 		},
 
 		['at_skin_hate'] = {
-			label = 'Hate Weapon Kit',
+			label = 'Zdobienie HATE',
 			type = 'skin',
 			weight = 50,
 			client = {
+				image = "weapon_knuckle.png",
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_HATE`
 				},
@@ -1444,10 +1462,11 @@ return {
 		},
 
 		['at_skin_king'] = {
-			label = 'King Weapon Kit',
+			label = 'Zdobienie Korona',
 			type = 'skin',
 			weight = 50,
 			client = {
+				image = "weapon_knuckle.png",
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_KING`
 				},
@@ -1456,10 +1475,11 @@ return {
 		},
 
 		['at_skin_love'] = {
-			label = 'Love Weapon Kit',
+			label = 'Zdobienie LOVE',
 			type = 'skin',
 			weight = 50,
 			client = {
+				image = "weapon_knuckle.png",
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_LOVE`
 				},
@@ -1468,10 +1488,11 @@ return {
 		},
 
 		['at_skin_pimp'] = {
-			label = 'Pimp Weapon Kit',
+			label = 'Zdobienie Pimp',
 			type = 'skin',
 			weight = 50,
 			client = {
+				image = "weapon_knuckle.png",
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_PIMP`
 				},
@@ -1480,10 +1501,11 @@ return {
 		},
 
 		['at_skin_player'] = {
-			label = 'Player Weapon Kit',
+			label = 'Zdobienie Casino',
 			type = 'skin',
 			weight = 50,
 			client = {
+				image = "weapon_knuckle.png",
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_PLAYER`
 				},
@@ -1492,10 +1514,11 @@ return {
 		},
 
 		['at_skin_vagos'] = {
-			label = 'Vagos Weapon Kit',
+			label = 'Zdobienie Vagos',
 			type = 'skin',
 			weight = 50,
 			client = {
+				image = "weapon_knuckle.png",
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_VAGOS`
 				},
@@ -1504,10 +1527,11 @@ return {
 		},
 
 		['at_skin_blagueurs'] = {
-			label = 'Blagueurs Weapon Kit',
+			label = 'Zdobienie Blagueurs',
 			type = 'skin',
 			weight = 50,
 			client = {
+				image = "weapon_bat.png",
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3`
 				},
@@ -1516,10 +1540,11 @@ return {
 		},
 
 		['at_skin_splatter'] = {
-			label = 'Splatter Weapon Kit',
+			label = 'Zdobienie Splatter',
 			type = 'skin',
 			weight = 50,
 			client = {
+				image = "weapon_bat.png",
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_01`
 				},
@@ -1528,10 +1553,11 @@ return {
 		},
 
 		['at_skin_bulletholes'] = {
-			label = 'Bullet Holes Weapon Kit',
+			label = 'Zdobienie Bullet Holes',
 			type = 'skin',
 			weight = 50,
 			client = {
+				image = "weapon_bat.png",
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_02`
 				},
@@ -1540,10 +1566,11 @@ return {
 		},
 
 		['at_skin_burgershot'] = {
-			label = 'Burger Shot Weapon Kit',
+			label = 'Zdobienie Burger Shot',
 			type = 'skin',
 			weight = 50,
 			client = {
+				image = "weapon_bat.png",
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_03`
 				},
@@ -1552,10 +1579,11 @@ return {
 		},
 
 		['at_skin_cluckinbell'] = {
-			label = 'Cluckin Bell Weapon Kit',
+			label = 'Zdobienie Cluckin Bell',
 			type = 'skin',
 			weight = 50,
 			client = {
+				image = "weapon_bat.png",
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_04`
 				},
@@ -1564,10 +1592,11 @@ return {
 		},
 
 		['at_skin_fatalincursion'] = {
-			label = 'Fatal Incursion Weapon Kit',
+			label = 'Zdobienie Fatal Incursion',
 			type = 'skin',
 			weight = 50,
 			client = {
+				image = "weapon_bat.png",
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_05`
 				},
@@ -1576,10 +1605,11 @@ return {
 		},
 
 		['at_skin_luchalibre'] = {
-			label = 'Lucha Libre Weapon Kit',
+			label = 'Zdobienie Lucha Libre',
 			type = 'skin',
 			weight = 50,
 			client = {
+				image = "weapon_bat.png",
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_06`
 				},
@@ -1588,10 +1618,11 @@ return {
 		},
 
 		['at_skin_trippy'] = {
-			label = 'Trippy Weapon Kit',
+			label = 'Zdobienie Trippy',
 			type = 'skin',
 			weight = 50,
 			client = {
+				image = "weapon_bat.png",
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_07`
 				},
@@ -1600,10 +1631,11 @@ return {
 		},
 
 		['at_skin_tiedye'] = {
-			label = 'Tie-Dye Weapon Kit',
+			label = 'Zdobienie Tie-Dye',
 			type = 'skin',
 			weight = 50,
 			client = {
+				image = "weapon_bat.png",
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_08`
 				},
@@ -1612,10 +1644,11 @@ return {
 		},
 
 		['at_skin_wall'] = {
-			label = 'Wall Weapon Kit',
+			label = 'Zdobienie Wall',
 			type = 'skin',
 			weight = 50,
 			client = {
+				image = "weapon_bat.png",
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_09`
 				},
