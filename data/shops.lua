@@ -313,7 +313,7 @@ return {
 			{ name = 'meth_emptysacid', price = 20,   count = 10 },
 			{ name = 'scissors',        price = 25 },
 			{ name = 'pliers',          price = 25,   count = 5 },
-			{ name = 'spray_can',       price = 20,   count = 30 },
+			{ name = 'spray_can',       price = 20,   count = 23 },
 			{ name = 'spray_cloth',     price = 5 },
 			--{ name = 'drill',           price = 50 },
 			--{ name = 'driller',         price = 120 },
