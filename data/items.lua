@@ -9845,7 +9845,7 @@ return {
 		stack = false,
 	},
 	['racingchip'] = {
-		label = 'Chip',
+		label = 'Chip wyścigowy',
 		description = "Może warto to pod coś podpiąć...",
 		weight = 300,
 		stack = true
@@ -11054,7 +11054,7 @@ return {
 
 	['chop_lockpick'] = {
 		label = 'Wytrych specjalistyczny',
-		weight = 150,
+		weight = 200,
 	},
 
 	['chop_torch'] = {
@@ -11685,7 +11685,7 @@ return {
 	--rahe_boosting
 	['boostingtablet'] = {
 		label = 'Nietypowy tablet',
-		weight = 0,
+		weight = 500,
         description = "Obok ikonki Sparka zauważasz nietypową aplikacje.",
 		degrade = 20160, -- 10080 tydzien
 		decay = true,
@@ -11695,7 +11695,7 @@ return {
 	},
 	['hackingdevice'] = {
 		label = 'Urządzenie hakujące',
-		weight = 0,
+		weight = 150,
 		description = 'Urządzenie umożliwiające złamanie systemu zabezpieczeń pojazdu.',
 		degrade = 20160, -- 10080 tydzien
 		decay = true,
@@ -11705,7 +11705,7 @@ return {
 	},
 	['gpshackingdevice'] = {
 		label = 'Urządzenie hakujące GPS',
-		weight = 0,
+		weight = 150,
 		description = 'Narzędzie umożliwiające wyłączenie systemu GPS w aucie.',
 		degrade = 20160, -- 10080 tydzien
 		decay = true,
