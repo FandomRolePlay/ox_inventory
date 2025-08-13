@@ -487,7 +487,7 @@ return {
 			{ loc = vec3(-1198.83, -1516.92, 4.37), length = 0.8, width = 0.8, heading = 35.0,   minZ = 3.97,  maxZ = 4.97, distance = 1.5 },
 		},
 	}, 
-	sandgym = {
+	sandgymshop = {
 		name = 'Sand Gym',
 		inventory = {
 			{ name = 'proteinshake',  price = 50 },
@@ -2054,19 +2054,6 @@ return {
 		},
 		targets = {
 			{ loc = vec3(995.205139, -2209.236084, 31.545210), length = 2.1, width = 2.3, heading = 126.6940, minZ = 29.2148, maxZ = 29.9148, distance = 1.5 },
-		}
-	},
-	HouseRobberyShop = {
-		name = 'Sprzedawczyk',
-		inventory = {
-			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
-			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money'},
-		},
-		locations = {
-			vec3(-1375.61, -336.372, 38.8921)
-		},
-		targets = {
-			{ loc = vec3(-1375.61, -336.372, 38.8921), length = 2.1, width = 2.3, heading = 126.6940, minZ = 29.2148, maxZ = 29.9148, distance = 1.5 },
 		}
 	},
 	HouseRobberyShop2 = {
