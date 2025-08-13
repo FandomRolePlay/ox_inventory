@@ -2039,25 +2039,27 @@ return {
 		}
 	},
 	ChopShopTools = {
-		name = 'Sklep specjalistyczny',
+		name = 'Śliskoręki',
 		inventory = {
-			{ name = 'chop_lockpick',  price = 100, count = 5 },
-			{ name = 'chop_torch',     price = 150, count = 5 },
-			{ name = 'chop_lugwrench', price = 150, count = 5 },
-			{ name = 'boostingtablet', price = 1000, count = 10 },
+			{ name = 'lockpick',  	   price = 100,  count = 30, currency = 'black_money' },
+			{ name = 'chop_lockpick',  price = 150,  count = 30, currency = 'black_money' },
+			{ name = 'chop_torch',     price = 150,  count = 30, currency = 'black_money' },
+			{ name = 'chop_lugwrench', price = 150,  count = 30, currency = 'black_money' },
+			{ name = 'boostingtablet', price = 1500, currency = 'black_money' },
+			{ name = 'racingtablet',   price = 2000, currency = 'black_money' },
+			{ name = 'hack_laptop',    price = 1000, count = 10, currency = 'black_money' },
 		},
 		locations = {
-			vec3(-1150.54, -2034.855, 13.1607)
+			vec3(995.205139, -2209.236084, 31.545210)
 		},
 		targets = {
-			{ loc = vec3(-1150.54, -2034.855, 13.1607), length = 2.1, width = 2.3, heading = 126.6940, minZ = 29.2148, maxZ = 29.9148, distance = 1.5 },
+			{ loc = vec3(995.205139, -2209.236084, 31.545210), length = 2.1, width = 2.3, heading = 126.6940, minZ = 29.2148, maxZ = 29.9148, distance = 1.5 },
 		}
 	},
 	HouseRobberyShop = {
 		name = 'Sprzedawczyk',
 		inventory = {
 			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
-			{ name = 'hack_laptop',   price = 200, count = 10, currency = 'black_money' },
 			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money'},
 		},
 		locations = {
@@ -2071,7 +2073,6 @@ return {
 		name = 'Sprzedawczyk',
 		inventory = {
 			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
-			{ name = 'hack_laptop',   price = 200, count = 10, currency = 'black_money' },
 			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money' },
 		},
 		locations = {
@@ -2085,7 +2086,6 @@ return {
 		name = 'Sprzedawczyk',
 		inventory = {
 			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
-			{ name = 'hack_laptop',   price = 200, count = 10, currency = 'black_money' },
 			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money' },
 		},
 		locations = {
@@ -2099,7 +2099,6 @@ return {
 		name = 'Sprzedawczyk',
 		inventory = {
 			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
-			{ name = 'hack_laptop',   price = 200, count = 10, currency = 'black_money' },
 			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money' },
 		},
 		locations = {
@@ -2113,7 +2112,6 @@ return {
 		name = 'Sprzedawczyk',
 		inventory = {
 			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
-			{ name = 'hack_laptop',   price = 200, count = 10, currency = 'black_money' },
 			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money'},
 		},
 		locations = {

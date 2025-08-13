@@ -5267,7 +5267,7 @@ return {
 		weight = 500,
 		stack = false,
 		close = true,
-		description = "Siostra go zawsze wypluwa bez zacięcia"
+		description = "Siostra zawsze go wypluwa bez zacięcia"
 	},
 
 	["scale"] = {
@@ -9625,9 +9625,9 @@ return {
 		stack = false,
 		close = true,
 	},
-	["keyg3"] = {
-		label = "Klucz G3", -- Cartel de Barranquilla
-		description = "F4N-D03",
+	["remote_pilot"] = {
+		label = "Pilot", -- Brama do podziemia ścigantów
+		description = "Pilot do bramy garażowej",
 		weight = 5,
 		stack = false,
 		close = true,
@@ -11692,6 +11692,13 @@ return {
 		client = {
 			export = 'rahe-boosting.boostingtablet',
 		}
+	},
+	['boostingtablet_box'] = {
+		label = 'Pudełko z tabletem',
+		weight = 500,
+		description = '',
+		decay = true,
+		stack = false,
 	},
 	['hackingdevice'] = {
 		label = 'Urządzenie hakujące',
