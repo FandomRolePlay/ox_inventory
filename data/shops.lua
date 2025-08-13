@@ -2060,7 +2060,7 @@ return {
 		name = 'Sprzedawczyk',
 		inventory = {
 			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
-			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money' },
+			{ name = 'lockpick',      price = 200, count = 20, currency = 'black_money' },
 		},
 		locations = {
 			vec3(-539.40, -1638.21, 20.21)
@@ -2073,7 +2073,7 @@ return {
 		name = 'Sprzedawczyk',
 		inventory = {
 			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
-			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money' },
+			{ name = 'lockpick',      price = 200, count = 20, currency = 'black_money' },
 		},
 		locations = {
 			vec3(466.13, -709.56, 27.60)
@@ -2086,7 +2086,7 @@ return {
 		name = 'Sprzedawczyk',
 		inventory = {
 			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
-			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money' },
+			{ name = 'lockpick',      price = 200, count = 20, currency = 'black_money' },
 		},
 		locations = {
 			vec3(1597.70, 3573.28, 38.94)
@@ -2099,7 +2099,7 @@ return {
 		name = 'Sprzedawczyk',
 		inventory = {
 			{ name = 'powder',        price = 250,  count = 10, currency = 'black_money' },
-			{ name = 'lockpick',      price = 100, count = 20, currency = 'black_money'},
+			{ name = 'lockpick',      price = 200, count = 20, currency = 'black_money'},
 		},
 		locations = {
 			vec3(281.11, 6789.36, 16.33)
