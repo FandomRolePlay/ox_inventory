@@ -30,7 +30,7 @@ AddEventHandler('esx:setPlayerData', function(key, value)
  		local ESXPlayerData = ESX.GetPlayerData()
 		local org = ESXPlayerData.metadata?.organisation
 
-		if org 
+		if org and org.name
 			and org.name ~= nil and org.name ~= ''
 			and org.grade ~= nil and org.grade ~= '' 
 		then
@@ -49,7 +49,7 @@ AddEventHandler('esx:setPlayerData', function(key, value)
 		local ESXPlayerData = ESX.GetPlayerData()
 		local org = value.organisation
 
-		if org 
+		if org and org.name
 			and org.name ~= nil and org.name ~= ''
 			and org.grade ~= nil and org.grade ~= '' 
 		then
